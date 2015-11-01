@@ -1,1 +1,1 @@
-module.exports = require('actor.js')
+module.exports = require('./actor.js')
