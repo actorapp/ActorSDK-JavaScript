@@ -1,0 +1,23 @@
+{
+  "name": "actor-js",
+  "version": "1.0.0",
+  "description": "Actor SDK for building messaging on top of Actor Messenger platform",
+  "main": "module.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/actorapp/ActorSDK-JavaScript.git"
+  },
+  "keywords": [
+    "actor",
+    "messenger"
+  ],
+  "author": "Actor Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/actorapp/ActorSDK-JavaScript/issues"
+  },
+  "homepage": "https://github.com/actorapp/ActorSDK-JavaScript#readme"
+}
