@@ -249,26 +249,26 @@ function actor(){
   processMetas();
   try {
     var strongName;
-    unflattenKeylistIntoAnswers(['cn', 'gecko1_8'], '90FF6E472D21E5C7E48A5D029C6DD1A5');
-    unflattenKeylistIntoAnswers(['cn', 'ie10'], '90FF6E472D21E5C7E48A5D029C6DD1A5' + ':1');
-    unflattenKeylistIntoAnswers(['en', 'gecko1_8'], '90FF6E472D21E5C7E48A5D029C6DD1A5' + ':10');
-    unflattenKeylistIntoAnswers(['en', 'ie10'], '90FF6E472D21E5C7E48A5D029C6DD1A5' + ':11');
-    unflattenKeylistIntoAnswers(['en', 'ie8'], '90FF6E472D21E5C7E48A5D029C6DD1A5' + ':12');
-    unflattenKeylistIntoAnswers(['en', 'ie9'], '90FF6E472D21E5C7E48A5D029C6DD1A5' + ':13');
-    unflattenKeylistIntoAnswers(['en', 'safari'], '90FF6E472D21E5C7E48A5D029C6DD1A5' + ':14');
-    unflattenKeylistIntoAnswers(['ru', 'gecko1_8'], '90FF6E472D21E5C7E48A5D029C6DD1A5' + ':15');
-    unflattenKeylistIntoAnswers(['ru', 'ie10'], '90FF6E472D21E5C7E48A5D029C6DD1A5' + ':16');
-    unflattenKeylistIntoAnswers(['ru', 'ie8'], '90FF6E472D21E5C7E48A5D029C6DD1A5' + ':17');
-    unflattenKeylistIntoAnswers(['ru', 'ie9'], '90FF6E472D21E5C7E48A5D029C6DD1A5' + ':18');
-    unflattenKeylistIntoAnswers(['ru', 'safari'], '90FF6E472D21E5C7E48A5D029C6DD1A5' + ':19');
-    unflattenKeylistIntoAnswers(['cn', 'ie8'], '90FF6E472D21E5C7E48A5D029C6DD1A5' + ':2');
-    unflattenKeylistIntoAnswers(['cn', 'ie9'], '90FF6E472D21E5C7E48A5D029C6DD1A5' + ':3');
-    unflattenKeylistIntoAnswers(['cn', 'safari'], '90FF6E472D21E5C7E48A5D029C6DD1A5' + ':4');
-    unflattenKeylistIntoAnswers(['default', 'gecko1_8'], '90FF6E472D21E5C7E48A5D029C6DD1A5' + ':5');
-    unflattenKeylistIntoAnswers(['default', 'ie10'], '90FF6E472D21E5C7E48A5D029C6DD1A5' + ':6');
-    unflattenKeylistIntoAnswers(['default', 'ie8'], '90FF6E472D21E5C7E48A5D029C6DD1A5' + ':7');
-    unflattenKeylistIntoAnswers(['default', 'ie9'], '90FF6E472D21E5C7E48A5D029C6DD1A5' + ':8');
-    unflattenKeylistIntoAnswers(['default', 'safari'], '90FF6E472D21E5C7E48A5D029C6DD1A5' + ':9');
+    unflattenKeylistIntoAnswers(['cn', 'gecko1_8'], '05E2358B3AF950108AB080CA2271346F');
+    unflattenKeylistIntoAnswers(['cn', 'ie10'], '05E2358B3AF950108AB080CA2271346F' + ':1');
+    unflattenKeylistIntoAnswers(['en', 'gecko1_8'], '05E2358B3AF950108AB080CA2271346F' + ':10');
+    unflattenKeylistIntoAnswers(['en', 'ie10'], '05E2358B3AF950108AB080CA2271346F' + ':11');
+    unflattenKeylistIntoAnswers(['en', 'ie8'], '05E2358B3AF950108AB080CA2271346F' + ':12');
+    unflattenKeylistIntoAnswers(['en', 'ie9'], '05E2358B3AF950108AB080CA2271346F' + ':13');
+    unflattenKeylistIntoAnswers(['en', 'safari'], '05E2358B3AF950108AB080CA2271346F' + ':14');
+    unflattenKeylistIntoAnswers(['ru', 'gecko1_8'], '05E2358B3AF950108AB080CA2271346F' + ':15');
+    unflattenKeylistIntoAnswers(['ru', 'ie10'], '05E2358B3AF950108AB080CA2271346F' + ':16');
+    unflattenKeylistIntoAnswers(['ru', 'ie8'], '05E2358B3AF950108AB080CA2271346F' + ':17');
+    unflattenKeylistIntoAnswers(['ru', 'ie9'], '05E2358B3AF950108AB080CA2271346F' + ':18');
+    unflattenKeylistIntoAnswers(['ru', 'safari'], '05E2358B3AF950108AB080CA2271346F' + ':19');
+    unflattenKeylistIntoAnswers(['cn', 'ie8'], '05E2358B3AF950108AB080CA2271346F' + ':2');
+    unflattenKeylistIntoAnswers(['cn', 'ie9'], '05E2358B3AF950108AB080CA2271346F' + ':3');
+    unflattenKeylistIntoAnswers(['cn', 'safari'], '05E2358B3AF950108AB080CA2271346F' + ':4');
+    unflattenKeylistIntoAnswers(['default', 'gecko1_8'], '05E2358B3AF950108AB080CA2271346F' + ':5');
+    unflattenKeylistIntoAnswers(['default', 'ie10'], '05E2358B3AF950108AB080CA2271346F' + ':6');
+    unflattenKeylistIntoAnswers(['default', 'ie8'], '05E2358B3AF950108AB080CA2271346F' + ':7');
+    unflattenKeylistIntoAnswers(['default', 'ie9'], '05E2358B3AF950108AB080CA2271346F' + ':8');
+    unflattenKeylistIntoAnswers(['default', 'safari'], '05E2358B3AF950108AB080CA2271346F' + ':9');
     strongName = answers[computePropValue('locale')][computePropValue('user.agent')];
     var idx = strongName.indexOf(':');
     if (idx != -1) {
@@ -307,7 +307,7 @@ function actor(){
 }
 
 actor();
-(function () {var $gwt_version = "2.7.0";var $wnd = window;var $doc = $wnd.document;var $moduleName, $moduleBase;var $stats = $wnd.__gwtStatsEvent ? function(a) {$wnd.__gwtStatsEvent(a)} : null;var $strongName = '90FF6E472D21E5C7E48A5D029C6DD1A5';var $intern_0 = 2147483647, $intern_1 = {3:1, 15:1}, $intern_2 = {3:1, 11:1, 15:1}, $intern_3 = {3:1}, $intern_4 = 1000, $intern_5 = 65535, $intern_6 = 4194303, $intern_7 = 1048575, $intern_8 = 524288, $intern_9 = 4194304, $intern_10 = 17592186044416, $intern_11 = -9223372036854775808, $intern_12 = {397:1}, $intern_13 = 65536, $intern_14 = 131072, $intern_15 = 1048576, $intern_16 = 16777216, $intern_17 = 67108864, $intern_18 = {5:1}, $intern_19 = 1286, $intern_20 = 1266, $intern_21 = 1288, $intern_22 = 1289, $intern_23 = 1023, $intern_24 = 1250, $intern_25 = {9:1}, $intern_26 = {64:1}, $intern_27 = 1253, $intern_28 = {41:1, 3:1}, $intern_29 = {25:1}, $intern_30 = 5.9604644775390625E-8, $intern_31 = {3:1, 46:1, 81:1}, $intern_32 = {4:1, 3:1, 11:1, 15:1}, $intern_33 = 1.52587890625E-5, $intern_34 = 9.5367431640625E-7, $intern_35 = 2.220446049250313E-16, $intern_36 = {172:1}, $intern_37 = {92:1}, $intern_38 = {96:1, 59:1}, $intern_39 = {3:1, 172:1}, $intern_40 = 15525485, $intern_41 = {3:1, 26:1, 16:1, 66:1}, $intern_42 = 1247;
+(function () {var $gwt_version = "2.7.0";var $wnd = window;var $doc = $wnd.document;var $moduleName, $moduleBase;var $stats = $wnd.__gwtStatsEvent ? function(a) {$wnd.__gwtStatsEvent(a)} : null;var $strongName = '05E2358B3AF950108AB080CA2271346F';var $intern_0 = 2147483647, $intern_1 = {3:1, 15:1}, $intern_2 = {3:1, 11:1, 15:1}, $intern_3 = {3:1}, $intern_4 = 1000, $intern_5 = 65535, $intern_6 = 4194303, $intern_7 = 1048575, $intern_8 = 524288, $intern_9 = 4194304, $intern_10 = 17592186044416, $intern_11 = -9223372036854775808, $intern_12 = {397:1}, $intern_13 = 65536, $intern_14 = 131072, $intern_15 = 1048576, $intern_16 = 16777216, $intern_17 = 67108864, $intern_18 = {5:1}, $intern_19 = 1286, $intern_20 = 1266, $intern_21 = 1288, $intern_22 = 1289, $intern_23 = 1023, $intern_24 = 1250, $intern_25 = {9:1}, $intern_26 = {64:1}, $intern_27 = 1253, $intern_28 = {41:1, 3:1}, $intern_29 = {25:1}, $intern_30 = 5.9604644775390625E-8, $intern_31 = {3:1, 46:1, 81:1}, $intern_32 = {4:1, 3:1, 11:1, 15:1}, $intern_33 = 1.52587890625E-5, $intern_34 = 9.5367431640625E-7, $intern_35 = 2.220446049250313E-16, $intern_36 = {172:1}, $intern_37 = {92:1}, $intern_38 = {96:1, 59:1}, $intern_39 = {3:1, 172:1}, $intern_40 = 15525485, $intern_41 = {3:1, 26:1, 16:1, 66:1}, $intern_42 = 1247;
 var _, initFnList_0, prototypesByTypeId_0 = {}, permutationId = -1;
 function im_actor_core_js_providers_Assets(){
   switch (permutationId) {
@@ -34655,6 +34655,26 @@ function JsListEngine(storage, creator){
 
 defineClass(1026, 1, {}, JsListEngine);
 var Lim_actor_runtime_js_storage_JsListEngine_2_classLit = createForClass('im.actor.runtime.js.storage', 'JsListEngine', 1026, Ljava_lang_Object_2_classLit);
+function $addToIndex(this$static, id_0, sortKey){
+  var found, i_0, i0, ind;
+  for (i0 = 0; i0 < this$static.index_0.size_1(); i0++) {
+    ind = this$static.index_0.get_0(i0);
+    if (eq(ind.id_0, id_0)) {
+      this$static.index_0.remove_0(i0);
+      break;
+    }
+  }
+  found = false;
+  for (i_0 = 0; i_0 < this$static.index_0.size_1(); i_0++) {
+    ind = this$static.index_0.get_0(i_0);
+    if (lt(ind.sortKey_0, sortKey)) {
+      found = true;
+      $add(this$static.index_0, i_0, new JsListStorage$Index(id_0, sortKey));
+    }
+  }
+  found || $add_0(this$static.index_0, new JsListStorage$Index(id_0, sortKey));
+}
+
 function $clear_4(this$static){
   var i_0, i$iterator;
   for (i$iterator = new AbstractList$IteratorImpl(this$static.index_0); i$iterator.i < i$iterator.this$01.size_1();) {
@@ -34662,7 +34682,7 @@ function $clear_4(this$static){
     $removeItem(this$static.storage, $getId(this$static, i_0.id_0));
   }
   this$static.index_0.array = initDim(Ljava_lang_Object_2_classLit, $intern_3, 1, 0, 3, 1);
-  $updateIndex(this$static);
+  $saveIndex_0(this$static);
 }
 
 function $delete(this$static, key){
@@ -34672,7 +34692,7 @@ function $delete(this$static, key){
     if (eq(i_0.id_0, key)) {
       $remove_0(this$static.index_0, i_0);
       $removeItem(this$static.storage, 'list_' + this$static.prefix + '_' + toString_4(key));
-      $updateIndex(this$static);
+      $saveIndex_0(this$static);
       break;
     }
   }
@@ -34687,7 +34707,7 @@ function $delete_0(this$static, keys_0){
       if (eq(i_0.id_0, key)) {
         $remove_0(this$static.index_0, i_0);
         $removeItem(this$static.storage, 'list_' + this$static.prefix + '_' + toString_4(key));
-        $updateIndex(this$static);
+        $saveIndex_0(this$static);
         break;
       }
     }
@@ -34732,9 +34752,8 @@ function $loadItem_0(this$static, key){
   return null;
 }
 
-function $updateIndex(this$static){
+function $saveIndex_0(this$static){
   var dataOutput, i_0, i$iterator;
-  sort_1(this$static.index_0, this$static.comparator);
   dataOutput = new DataOutput;
   $writeInt_0(dataOutput, this$static.index_0.size_1());
   for (i$iterator = new AbstractList$IteratorImpl(this$static.index_0); i$iterator.i < i$iterator.this$01.size_1();) {
@@ -34746,33 +34765,18 @@ function $updateIndex(this$static){
 }
 
 function $updateOrAdd(this$static, record){
-  var i_0, i$iterator;
-  for (i$iterator = new AbstractList$IteratorImpl(this$static.index_0); i$iterator.i < i$iterator.this$01.size_1();) {
-    i_0 = (checkCriticalElement(i$iterator.i < i$iterator.this$01.size_1()) , i$iterator.this$01.get_0(i$iterator.last = i$iterator.i++));
-    if (eq(i_0.id_0, record.key)) {
-      $remove_0(this$static.index_0, i_0);
-      break;
-    }
-  }
-  $add_0(this$static.index_0, new JsListStorage$Index(record.key, record.order));
-  $updateIndex(this$static);
+  $addToIndex(this$static, record.key, record.order);
+  $saveIndex_0(this$static);
   $setItem(this$static.storage, $getId(this$static, record.key), toBase64(record.data_0));
 }
 
 function $updateOrAdd_0(this$static, items){
-  var i_0, i$iterator, record, record$iterator, record$iterator0;
+  var record, record$iterator, record$iterator0;
   for (record$iterator0 = new AbstractList$IteratorImpl(items); record$iterator0.i < record$iterator0.this$01.size_1();) {
     record = (checkCriticalElement(record$iterator0.i < record$iterator0.this$01.size_1()) , record$iterator0.this$01.get_0(record$iterator0.last = record$iterator0.i++));
-    for (i$iterator = new AbstractList$IteratorImpl(this$static.index_0); i$iterator.i < i$iterator.this$01.size_1();) {
-      i_0 = (checkCriticalElement(i$iterator.i < i$iterator.this$01.size_1()) , i$iterator.this$01.get_0(i$iterator.last = i$iterator.i++));
-      if (eq(i_0.id_0, record.key)) {
-        $remove_0(this$static.index_0, i_0);
-        break;
-      }
-    }
-    $add_0(this$static.index_0, new JsListStorage$Index(record.key, record.order));
+    $addToIndex(this$static, record.key, record.order);
   }
-  $updateIndex(this$static);
+  $saveIndex_0(this$static);
   for (record$iterator = new AbstractList$IteratorImpl(items); record$iterator.i < record$iterator.this$01.size_1();) {
     record = (checkCriticalElement(record$iterator.i < record$iterator.this$01.size_1()) , record$iterator.this$01.get_0(record$iterator.last = record$iterator.i++));
     $setItem(this$static.storage, $getId(this$static, record.key), toBase64(record.data_0));
@@ -34796,6 +34800,7 @@ function JsListStorage(prefix, storage){
         order = $readLong(dataInput);
         $add_0(this.index_0, new JsListStorage$Index(id_0, order));
       }
+      sort_1(this.index_0, this.comparator);
     }
      catch ($e0) {
       $e0 = wrap($e0);
@@ -34807,7 +34812,6 @@ function JsListStorage(prefix, storage){
         throw unwrap($e0);
     }
   }
-  $updateIndex(this);
 }
 
 defineClass(1070, 1, {}, JsListStorage);
