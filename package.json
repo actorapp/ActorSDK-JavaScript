@@ -15,7 +15,10 @@
     "messenger"
   ],
   "author": "Actor Team",
-  "license": "MIT",
+  "license": {
+    "type": "Apache-2.0",
+    "url": "http://www.apache.org/licenses/LICENSE-2.0"
+  },
   "bugs": {
     "url": "https://github.com/actorapp/ActorSDK-JavaScript/issues"
   },
