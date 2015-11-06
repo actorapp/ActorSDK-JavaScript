@@ -249,26 +249,26 @@ function actor(){
   processMetas();
   try {
     var strongName;
-    unflattenKeylistIntoAnswers(['cn', 'gecko1_8'], '05E2358B3AF950108AB080CA2271346F');
-    unflattenKeylistIntoAnswers(['cn', 'ie10'], '05E2358B3AF950108AB080CA2271346F' + ':1');
-    unflattenKeylistIntoAnswers(['en', 'gecko1_8'], '05E2358B3AF950108AB080CA2271346F' + ':10');
-    unflattenKeylistIntoAnswers(['en', 'ie10'], '05E2358B3AF950108AB080CA2271346F' + ':11');
-    unflattenKeylistIntoAnswers(['en', 'ie8'], '05E2358B3AF950108AB080CA2271346F' + ':12');
-    unflattenKeylistIntoAnswers(['en', 'ie9'], '05E2358B3AF950108AB080CA2271346F' + ':13');
-    unflattenKeylistIntoAnswers(['en', 'safari'], '05E2358B3AF950108AB080CA2271346F' + ':14');
-    unflattenKeylistIntoAnswers(['ru', 'gecko1_8'], '05E2358B3AF950108AB080CA2271346F' + ':15');
-    unflattenKeylistIntoAnswers(['ru', 'ie10'], '05E2358B3AF950108AB080CA2271346F' + ':16');
-    unflattenKeylistIntoAnswers(['ru', 'ie8'], '05E2358B3AF950108AB080CA2271346F' + ':17');
-    unflattenKeylistIntoAnswers(['ru', 'ie9'], '05E2358B3AF950108AB080CA2271346F' + ':18');
-    unflattenKeylistIntoAnswers(['ru', 'safari'], '05E2358B3AF950108AB080CA2271346F' + ':19');
-    unflattenKeylistIntoAnswers(['cn', 'ie8'], '05E2358B3AF950108AB080CA2271346F' + ':2');
-    unflattenKeylistIntoAnswers(['cn', 'ie9'], '05E2358B3AF950108AB080CA2271346F' + ':3');
-    unflattenKeylistIntoAnswers(['cn', 'safari'], '05E2358B3AF950108AB080CA2271346F' + ':4');
-    unflattenKeylistIntoAnswers(['default', 'gecko1_8'], '05E2358B3AF950108AB080CA2271346F' + ':5');
-    unflattenKeylistIntoAnswers(['default', 'ie10'], '05E2358B3AF950108AB080CA2271346F' + ':6');
-    unflattenKeylistIntoAnswers(['default', 'ie8'], '05E2358B3AF950108AB080CA2271346F' + ':7');
-    unflattenKeylistIntoAnswers(['default', 'ie9'], '05E2358B3AF950108AB080CA2271346F' + ':8');
-    unflattenKeylistIntoAnswers(['default', 'safari'], '05E2358B3AF950108AB080CA2271346F' + ':9');
+    unflattenKeylistIntoAnswers(['cn', 'gecko1_8'], '360D76070A02E3AF18E031AFA133E137');
+    unflattenKeylistIntoAnswers(['cn', 'ie10'], '360D76070A02E3AF18E031AFA133E137' + ':1');
+    unflattenKeylistIntoAnswers(['en', 'gecko1_8'], '360D76070A02E3AF18E031AFA133E137' + ':10');
+    unflattenKeylistIntoAnswers(['en', 'ie10'], '360D76070A02E3AF18E031AFA133E137' + ':11');
+    unflattenKeylistIntoAnswers(['en', 'ie8'], '360D76070A02E3AF18E031AFA133E137' + ':12');
+    unflattenKeylistIntoAnswers(['en', 'ie9'], '360D76070A02E3AF18E031AFA133E137' + ':13');
+    unflattenKeylistIntoAnswers(['en', 'safari'], '360D76070A02E3AF18E031AFA133E137' + ':14');
+    unflattenKeylistIntoAnswers(['ru', 'gecko1_8'], '360D76070A02E3AF18E031AFA133E137' + ':15');
+    unflattenKeylistIntoAnswers(['ru', 'ie10'], '360D76070A02E3AF18E031AFA133E137' + ':16');
+    unflattenKeylistIntoAnswers(['ru', 'ie8'], '360D76070A02E3AF18E031AFA133E137' + ':17');
+    unflattenKeylistIntoAnswers(['ru', 'ie9'], '360D76070A02E3AF18E031AFA133E137' + ':18');
+    unflattenKeylistIntoAnswers(['ru', 'safari'], '360D76070A02E3AF18E031AFA133E137' + ':19');
+    unflattenKeylistIntoAnswers(['cn', 'ie8'], '360D76070A02E3AF18E031AFA133E137' + ':2');
+    unflattenKeylistIntoAnswers(['cn', 'ie9'], '360D76070A02E3AF18E031AFA133E137' + ':3');
+    unflattenKeylistIntoAnswers(['cn', 'safari'], '360D76070A02E3AF18E031AFA133E137' + ':4');
+    unflattenKeylistIntoAnswers(['default', 'gecko1_8'], '360D76070A02E3AF18E031AFA133E137' + ':5');
+    unflattenKeylistIntoAnswers(['default', 'ie10'], '360D76070A02E3AF18E031AFA133E137' + ':6');
+    unflattenKeylistIntoAnswers(['default', 'ie8'], '360D76070A02E3AF18E031AFA133E137' + ':7');
+    unflattenKeylistIntoAnswers(['default', 'ie9'], '360D76070A02E3AF18E031AFA133E137' + ':8');
+    unflattenKeylistIntoAnswers(['default', 'safari'], '360D76070A02E3AF18E031AFA133E137' + ':9');
     strongName = answers[computePropValue('locale')][computePropValue('user.agent')];
     var idx = strongName.indexOf(':');
     if (idx != -1) {
@@ -307,7 +307,7 @@ function actor(){
 }
 
 actor();
-(function () {var $gwt_version = "2.7.0";var $wnd = window;var $doc = $wnd.document;var $moduleName, $moduleBase;var $stats = $wnd.__gwtStatsEvent ? function(a) {$wnd.__gwtStatsEvent(a)} : null;var $strongName = '05E2358B3AF950108AB080CA2271346F';var $intern_0 = 2147483647, $intern_1 = {3:1, 15:1}, $intern_2 = {3:1, 11:1, 15:1}, $intern_3 = {3:1}, $intern_4 = 1000, $intern_5 = 65535, $intern_6 = 4194303, $intern_7 = 1048575, $intern_8 = 524288, $intern_9 = 4194304, $intern_10 = 17592186044416, $intern_11 = -9223372036854775808, $intern_12 = {397:1}, $intern_13 = 65536, $intern_14 = 131072, $intern_15 = 1048576, $intern_16 = 16777216, $intern_17 = 67108864, $intern_18 = {5:1}, $intern_19 = 1286, $intern_20 = 1266, $intern_21 = 1288, $intern_22 = 1289, $intern_23 = 1023, $intern_24 = 1250, $intern_25 = {9:1}, $intern_26 = {64:1}, $intern_27 = 1253, $intern_28 = {41:1, 3:1}, $intern_29 = {25:1}, $intern_30 = 5.9604644775390625E-8, $intern_31 = {3:1, 46:1, 81:1}, $intern_32 = {4:1, 3:1, 11:1, 15:1}, $intern_33 = 1.52587890625E-5, $intern_34 = 9.5367431640625E-7, $intern_35 = 2.220446049250313E-16, $intern_36 = {172:1}, $intern_37 = {92:1}, $intern_38 = {96:1, 59:1}, $intern_39 = {3:1, 172:1}, $intern_40 = 15525485, $intern_41 = {3:1, 26:1, 16:1, 66:1}, $intern_42 = 1247;
+(function () {var $gwt_version = "2.7.0";var $wnd = window;var $doc = $wnd.document;var $moduleName, $moduleBase;var $stats = $wnd.__gwtStatsEvent ? function(a) {$wnd.__gwtStatsEvent(a)} : null;var $strongName = '360D76070A02E3AF18E031AFA133E137';var $intern_0 = 2147483647, $intern_1 = {3:1, 15:1}, $intern_2 = {3:1, 11:1, 15:1}, $intern_3 = {3:1}, $intern_4 = 1000, $intern_5 = 65535, $intern_6 = 4194303, $intern_7 = 1048575, $intern_8 = 524288, $intern_9 = 4194304, $intern_10 = 17592186044416, $intern_11 = -9223372036854775808, $intern_12 = {397:1}, $intern_13 = 65536, $intern_14 = 131072, $intern_15 = 1048576, $intern_16 = 16777216, $intern_17 = 67108864, $intern_18 = {5:1}, $intern_19 = 1286, $intern_20 = 1266, $intern_21 = 1288, $intern_22 = 1289, $intern_23 = 1023, $intern_24 = 1250, $intern_25 = {9:1}, $intern_26 = {64:1}, $intern_27 = 1253, $intern_28 = {41:1, 3:1}, $intern_29 = {25:1}, $intern_30 = 5.9604644775390625E-8, $intern_31 = {3:1, 46:1, 81:1}, $intern_32 = {4:1, 3:1, 11:1, 15:1}, $intern_33 = 1.52587890625E-5, $intern_34 = 9.5367431640625E-7, $intern_35 = 2.220446049250313E-16, $intern_36 = {172:1}, $intern_37 = {92:1}, $intern_38 = {96:1, 59:1}, $intern_39 = {3:1, 172:1}, $intern_40 = 15525485, $intern_41 = {3:1, 26:1, 16:1, 66:1}, $intern_42 = 1247;
 var _, initFnList_0, prototypesByTypeId_0 = {}, permutationId = -1;
 function im_actor_core_js_providers_Assets(){
   switch (permutationId) {
@@ -1982,8 +1982,8 @@ function $zeroPaddingNumber(buf, value_0, minWidth){
   buf.string += value_0;
 }
 
-defineClass(959, 1, {});
-var Lcom_google_gwt_i18n_shared_DateTimeFormat_2_classLit = createForClass('com.google.gwt.i18n.shared', 'DateTimeFormat', 959, Ljava_lang_Object_2_classLit);
+defineClass(960, 1, {});
+var Lcom_google_gwt_i18n_shared_DateTimeFormat_2_classLit = createForClass('com.google.gwt.i18n.shared', 'DateTimeFormat', 960, Ljava_lang_Object_2_classLit);
 function $clinit_DateTimeFormat_0(){
   $clinit_DateTimeFormat_0 = emptyMethod;
   $clinit_DateTimeFormat();
@@ -2011,9 +2011,9 @@ function getFormat(dtfi){
   return dtf;
 }
 
-defineClass(960, 959, {}, DateTimeFormat);
+defineClass(961, 960, {}, DateTimeFormat);
 var cache;
-var Lcom_google_gwt_i18n_client_DateTimeFormat_2_classLit = createForClass('com.google.gwt.i18n.client', 'DateTimeFormat', 960, Lcom_google_gwt_i18n_shared_DateTimeFormat_2_classLit);
+var Lcom_google_gwt_i18n_client_DateTimeFormat_2_classLit = createForClass('com.google.gwt.i18n.client', 'DateTimeFormat', 961, Lcom_google_gwt_i18n_shared_DateTimeFormat_2_classLit);
 defineClass(1275, 1, {});
 _.erasFull = function erasFull(){
   return initValues(getClassLiteralForArray(Ljava_lang_String_2_classLit, 1), $intern_3, 2, 4, ['Before Christ', 'Anno Domini']);
@@ -2341,10 +2341,10 @@ function DateTimeFormat$PatternPart(txt, cnt){
   this.abutStart = false;
 }
 
-defineClass(961, 1, {}, DateTimeFormat$PatternPart);
+defineClass(962, 1, {}, DateTimeFormat$PatternPart);
 _.abutStart = false;
 _.count = 0;
-var Lcom_google_gwt_i18n_shared_DateTimeFormat$PatternPart_2_classLit = createForClass('com.google.gwt.i18n.shared', 'DateTimeFormat/PatternPart', 961, Ljava_lang_Object_2_classLit);
+var Lcom_google_gwt_i18n_shared_DateTimeFormat$PatternPart_2_classLit = createForClass('com.google.gwt.i18n.shared', 'DateTimeFormat/PatternPart', 962, Ljava_lang_Object_2_classLit);
 function cloneSubrange(array, toIndex){
   var result;
   result = array.slice(0, toIndex);
@@ -4342,8 +4342,8 @@ function $sendDocument(this$static, peer, fileName, mimeType, descriptor){
   $sendDocument_0(this$static.modules_0.messages, peer, fileName, mimeType, descriptor);
 }
 
-function $sendMessage(this$static, peer, text_0, markDownText){
-  $sendMessage_0(this$static.modules_0.messages, peer, text_0, markDownText);
+function $sendMessage(this$static, peer, text_0, markDownText, autoDetect){
+  $sendMessage_0(this$static.modules_0.messages, peer, text_0, markDownText, autoDetect);
 }
 
 function $sendPhoto(this$static, peer, fileName, w, h, fastThumb, descriptor){
@@ -15497,13 +15497,22 @@ _.getUserPeer_0 = function getUserPeer(uid){
 }
 ;
 _.handleLinkClick_0 = function handleLinkClick(event_0){
-  var href_0, target, shell;
+  var href_0, msg, target, shell;
+  target = ($clinit_DOMImpl() , impl_0).eventGetTarget(event_0);
+  href_0 = impl_0.getAttribute_0(target, 'href');
   if (isElectron_0()) {
-    target = ($clinit_DOMImpl() , impl_0).eventGetTarget(event_0);
-    href_0 = impl_0.getAttribute_0(target, 'href');
     shell = $wnd.require('shell');
     shell.openExternal(href_0);
     impl_0.eventPreventDefault(event_0);
+  }
+   else {
+    if ($equals_5(href_0.substr(0, 5), 'send:')) {
+      msg = __substr(href_0, 5, href_0.length - 5);
+      if (this.lastVisiblePeer) {
+        $sendMessage(this.messenger, this.lastVisiblePeer, msg, null, false);
+        impl_0.eventPreventDefault(event_0);
+      }
+    }
   }
 }
 ;
@@ -15586,11 +15595,13 @@ _.onChatEnd_0 = function onChatEnd(peer){
 }
 ;
 _.onConversationClosed_0 = function onConversationClosed(peer){
+  this.lastVisiblePeer == ($equals_5(peer.type, 'user')?user_0(peer.id):group_0(peer.id)) && (this.lastVisiblePeer = null);
   $onConversationClosed(this.messenger, $equals_5(peer.type, 'user')?user_0(peer.id):group_0(peer.id));
 }
 ;
 _.onConversationOpen_0 = function onConversationOpen(peer){
-  $onConversationOpen(this.messenger, $equals_5(peer.type, 'user')?user_0(peer.id):group_0(peer.id));
+  this.lastVisiblePeer = $equals_5(peer.type, 'user')?user_0(peer.id):group_0(peer.id);
+  $onConversationOpen(this.messenger, this.lastVisiblePeer);
 }
 ;
 _.onDialogsClosed_0 = function onDialogsClosed(){
@@ -15714,11 +15725,11 @@ _.sendFile_0 = function sendFile(peer, file){
 }
 ;
 _.sendMarkdownMessage_0 = function sendMarkdownMessage(peer, text_0, markdownText){
-  $sendMessage(this.messenger, $equals_5(peer.type, 'user')?user_0(peer.id):group_0(peer.id), text_0, markdownText);
+  $sendMessage(this.messenger, $equals_5(peer.type, 'user')?user_0(peer.id):group_0(peer.id), text_0, markdownText, true);
 }
 ;
 _.sendMessage_0 = function sendMessage_0(peer, text_0){
-  $sendMessage(this.messenger, $equals_5(peer.type, 'user')?user_0(peer.id):group_0(peer.id), text_0, null);
+  $sendMessage(this.messenger, $equals_5(peer.type, 'user')?user_0(peer.id):group_0(peer.id), text_0, null, true);
 }
 ;
 _.sendPhoto_0 = function sendPhoto_0(peer, file){
@@ -18951,15 +18962,15 @@ function renderText(texts){
   builder = new StringBuilder;
   for (text$index = 0 , text$max = texts.length; text$index < text$max; ++text$index) {
     text_0 = texts[text$index];
-    if (instanceOf(text_0, 278)) {
+    if (instanceOf(text_0, 281)) {
       rawText = text_0;
       $append_1(builder, $replace_0(htmlEscape(rawText.rawText), '\n', '<br/>'));
     }
-     else if (instanceOf(text_0, 279)) {
+     else if (instanceOf(text_0, 282)) {
       span_0 = text_0;
       $append_1(builder, spanElement_0(span_0.spanType, renderText(span_0.child)));
     }
-     else if (instanceOf(text_0, 193)) {
+     else if (instanceOf(text_0, 195)) {
       url_0 = text_0;
       $append_1(builder, (href_0 = sanitizeUri(url_0.url_0) , href_0 != '#' && href_0.indexOf('://') == -1 && (href_0 = 'http://' + href_0) , '<a target="_blank" onClick="window.messenger.handleLinkClick(event)" href="' + href_0 + '">' + htmlEscape(url_0.urlTitle) + '<\/a>'));
     }
@@ -21298,9 +21309,9 @@ function $sendDocument_0(this$static, peer, fileName, mimeType, descriptor){
   $send(this$static.sendMessageActor, new SenderActor$SendDocument(peer, fileName, mimeType, reference.file.size, reference.key));
 }
 
-function $sendMessage_0(this$static, peer, message, markDownText){
+function $sendMessage_0(this$static, peer, message, markDownText, autoDetect){
   $onMessageSent(this$static.context.typing, peer);
-  $send(this$static.sendMessageActor, new SenderActor$SendText(peer, message, markDownText));
+  $send(this$static.sendMessageActor, new SenderActor$SendText(peer, message, markDownText, autoDetect));
 }
 
 function $sendPhoto_2(this$static, peer, fileName, w, h, fastThumb, descriptor){
@@ -22002,8 +22013,8 @@ function SecurityModule(context){
   AbsModule.call(this, context);
 }
 
-defineClass(946, 22, {}, SecurityModule);
-var Lim_actor_core_modules_internal_SecurityModule_2_classLit = createForClass('im.actor.core.modules.internal', 'SecurityModule', 946, Lim_actor_core_modules_AbsModule_2_classLit);
+defineClass(947, 22, {}, SecurityModule);
+var Lim_actor_core_modules_internal_SecurityModule_2_classLit = createForClass('im.actor.core.modules.internal', 'SecurityModule', 947, Lim_actor_core_modules_AbsModule_2_classLit);
 function $start_21(this$static, callback){
   $request_0(this$static.this$01, new RequestGetAuthSessions, new SecurityModule$1$1(callback));
 }
@@ -22012,13 +22023,13 @@ function SecurityModule$1(this$0){
   this.this$01 = this$0;
 }
 
-defineClass(947, 1, {}, SecurityModule$1);
-var Lim_actor_core_modules_internal_SecurityModule$1_2_classLit = createForClass('im.actor.core.modules.internal', 'SecurityModule/1', 947, Ljava_lang_Object_2_classLit);
+defineClass(948, 1, {}, SecurityModule$1);
+var Lim_actor_core_modules_internal_SecurityModule$1_2_classLit = createForClass('im.actor.core.modules.internal', 'SecurityModule/1', 948, Ljava_lang_Object_2_classLit);
 function SecurityModule$1$1(val$callback){
   this.val$callback2 = val$callback;
 }
 
-defineClass(948, 1, {}, SecurityModule$1$1);
+defineClass(949, 1, {}, SecurityModule$1$1);
 _.onError_1 = function onError_26(e){
   $runOnUiThread(new SecurityModule$1$1$2(this.val$callback2, e));
 }
@@ -22027,29 +22038,29 @@ _.onResult_2 = function onResult_55(response){
   $runOnUiThread(new SecurityModule$1$1$1(this.val$callback2, response));
 }
 ;
-var Lim_actor_core_modules_internal_SecurityModule$1$1_2_classLit = createForClass('im.actor.core.modules.internal', 'SecurityModule/1/1', 948, Ljava_lang_Object_2_classLit);
+var Lim_actor_core_modules_internal_SecurityModule$1$1_2_classLit = createForClass('im.actor.core.modules.internal', 'SecurityModule/1/1', 949, Ljava_lang_Object_2_classLit);
 function SecurityModule$1$1$1(val$callback, val$response){
   this.val$callback2 = val$callback;
   this.val$response3 = val$response;
 }
 
-defineClass(949, 1, $intern_25, SecurityModule$1$1$1);
+defineClass(950, 1, $intern_25, SecurityModule$1$1$1);
 _.run = function run_79(){
   $onResult_25(this.val$callback2, this.val$response3.userAuths);
 }
 ;
-var Lim_actor_core_modules_internal_SecurityModule$1$1$1_2_classLit = createForClass('im.actor.core.modules.internal', 'SecurityModule/1/1/1', 949, Ljava_lang_Object_2_classLit);
+var Lim_actor_core_modules_internal_SecurityModule$1$1$1_2_classLit = createForClass('im.actor.core.modules.internal', 'SecurityModule/1/1/1', 950, Ljava_lang_Object_2_classLit);
 function SecurityModule$1$1$2(val$callback, val$e){
   this.val$callback2 = val$callback;
   this.val$e3 = val$e;
 }
 
-defineClass(950, 1, $intern_25, SecurityModule$1$1$2);
+defineClass(951, 1, $intern_25, SecurityModule$1$1$2);
 _.run = function run_80(){
   $onError_25(this.val$callback2, this.val$e3);
 }
 ;
-var Lim_actor_core_modules_internal_SecurityModule$1$1$2_2_classLit = createForClass('im.actor.core.modules.internal', 'SecurityModule/1/1/2', 950, Ljava_lang_Object_2_classLit);
+var Lim_actor_core_modules_internal_SecurityModule$1$1$2_2_classLit = createForClass('im.actor.core.modules.internal', 'SecurityModule/1/1/2', 951, Ljava_lang_Object_2_classLit);
 function $start_22(this$static, callback){
   $request_0(this$static.this$01, new RequestTerminateAllSessions, new SecurityModule$2$1(callback));
 }
@@ -22058,8 +22069,8 @@ function SecurityModule$2(this$0){
   this.this$01 = this$0;
 }
 
-defineClass(951, 1, {}, SecurityModule$2);
-var Lim_actor_core_modules_internal_SecurityModule$2_2_classLit = createForClass('im.actor.core.modules.internal', 'SecurityModule/2', 951, Ljava_lang_Object_2_classLit);
+defineClass(952, 1, {}, SecurityModule$2);
+var Lim_actor_core_modules_internal_SecurityModule$2_2_classLit = createForClass('im.actor.core.modules.internal', 'SecurityModule/2', 952, Ljava_lang_Object_2_classLit);
 function $onResult_31(this$static){
   $runOnUiThread(new SecurityModule$2$1$1(this$static.val$callback2));
 }
@@ -22068,7 +22079,7 @@ function SecurityModule$2$1(val$callback){
   this.val$callback2 = val$callback;
 }
 
-defineClass(952, 1, {}, SecurityModule$2$1);
+defineClass(953, 1, {}, SecurityModule$2$1);
 _.onError_1 = function onError_27(e){
   $runOnUiThread(new SecurityModule$2$1$2(this.val$callback2, e));
 }
@@ -22077,28 +22088,28 @@ _.onResult_2 = function onResult_56(response){
   $onResult_31(this, response);
 }
 ;
-var Lim_actor_core_modules_internal_SecurityModule$2$1_2_classLit = createForClass('im.actor.core.modules.internal', 'SecurityModule/2/1', 952, Ljava_lang_Object_2_classLit);
+var Lim_actor_core_modules_internal_SecurityModule$2$1_2_classLit = createForClass('im.actor.core.modules.internal', 'SecurityModule/2/1', 953, Ljava_lang_Object_2_classLit);
 function SecurityModule$2$1$1(val$callback){
   this.val$callback2 = val$callback;
 }
 
-defineClass(953, 1, $intern_25, SecurityModule$2$1$1);
+defineClass(954, 1, $intern_25, SecurityModule$2$1$1);
 _.run = function run_81(){
   $onResult(this.val$callback2, ($clinit_Boolean() , $clinit_Boolean() , TRUE));
 }
 ;
-var Lim_actor_core_modules_internal_SecurityModule$2$1$1_2_classLit = createForClass('im.actor.core.modules.internal', 'SecurityModule/2/1/1', 953, Ljava_lang_Object_2_classLit);
+var Lim_actor_core_modules_internal_SecurityModule$2$1$1_2_classLit = createForClass('im.actor.core.modules.internal', 'SecurityModule/2/1/1', 954, Ljava_lang_Object_2_classLit);
 function SecurityModule$2$1$2(val$callback, val$e){
   this.val$callback2 = val$callback;
   this.val$e3 = val$e;
 }
 
-defineClass(954, 1, $intern_25, SecurityModule$2$1$2);
+defineClass(955, 1, $intern_25, SecurityModule$2$1$2);
 _.run = function run_82(){
   $onError(this.val$callback2, this.val$e3);
 }
 ;
-var Lim_actor_core_modules_internal_SecurityModule$2$1$2_2_classLit = createForClass('im.actor.core.modules.internal', 'SecurityModule/2/1/2', 954, Ljava_lang_Object_2_classLit);
+var Lim_actor_core_modules_internal_SecurityModule$2$1$2_2_classLit = createForClass('im.actor.core.modules.internal', 'SecurityModule/2/1/2', 955, Ljava_lang_Object_2_classLit);
 function $start_23(this$static, callback){
   $request_0(this$static.this$01, new RequestTerminateSession_0(this$static.val$id2), new SecurityModule$3$1(callback));
 }
@@ -22108,9 +22119,9 @@ function SecurityModule$3(this$0, val$id){
   this.val$id2 = val$id;
 }
 
-defineClass(955, 1, {}, SecurityModule$3);
+defineClass(956, 1, {}, SecurityModule$3);
 _.val$id2 = 0;
-var Lim_actor_core_modules_internal_SecurityModule$3_2_classLit = createForClass('im.actor.core.modules.internal', 'SecurityModule/3', 955, Ljava_lang_Object_2_classLit);
+var Lim_actor_core_modules_internal_SecurityModule$3_2_classLit = createForClass('im.actor.core.modules.internal', 'SecurityModule/3', 956, Ljava_lang_Object_2_classLit);
 function $onResult_32(this$static){
   $runOnUiThread(new SecurityModule$3$1$1(this$static.val$callback2));
 }
@@ -22119,7 +22130,7 @@ function SecurityModule$3$1(val$callback){
   this.val$callback2 = val$callback;
 }
 
-defineClass(956, 1, {}, SecurityModule$3$1);
+defineClass(957, 1, {}, SecurityModule$3$1);
 _.onError_1 = function onError_28(e){
   $runOnUiThread(new SecurityModule$3$1$2(this.val$callback2, e));
 }
@@ -22128,28 +22139,28 @@ _.onResult_2 = function onResult_57(response){
   $onResult_32(this, response);
 }
 ;
-var Lim_actor_core_modules_internal_SecurityModule$3$1_2_classLit = createForClass('im.actor.core.modules.internal', 'SecurityModule/3/1', 956, Ljava_lang_Object_2_classLit);
+var Lim_actor_core_modules_internal_SecurityModule$3$1_2_classLit = createForClass('im.actor.core.modules.internal', 'SecurityModule/3/1', 957, Ljava_lang_Object_2_classLit);
 function SecurityModule$3$1$1(val$callback){
   this.val$callback2 = val$callback;
 }
 
-defineClass(957, 1, $intern_25, SecurityModule$3$1$1);
+defineClass(958, 1, $intern_25, SecurityModule$3$1$1);
 _.run = function run_83(){
   $onResult_26(this.val$callback2, ($clinit_Boolean() , $clinit_Boolean() , TRUE));
 }
 ;
-var Lim_actor_core_modules_internal_SecurityModule$3$1$1_2_classLit = createForClass('im.actor.core.modules.internal', 'SecurityModule/3/1/1', 957, Ljava_lang_Object_2_classLit);
+var Lim_actor_core_modules_internal_SecurityModule$3$1$1_2_classLit = createForClass('im.actor.core.modules.internal', 'SecurityModule/3/1/1', 958, Ljava_lang_Object_2_classLit);
 function SecurityModule$3$1$2(val$callback, val$e){
   this.val$callback2 = val$callback;
   this.val$e3 = val$e;
 }
 
-defineClass(958, 1, $intern_25, SecurityModule$3$1$2);
+defineClass(959, 1, $intern_25, SecurityModule$3$1$2);
 _.run = function run_84(){
   $onError_26(this.val$callback2, this.val$e3);
 }
 ;
-var Lim_actor_core_modules_internal_SecurityModule$3$1$2_2_classLit = createForClass('im.actor.core.modules.internal', 'SecurityModule/3/1/2', 958, Ljava_lang_Object_2_classLit);
+var Lim_actor_core_modules_internal_SecurityModule$3$1$2_2_classLit = createForClass('im.actor.core.modules.internal', 'SecurityModule/3/1/2', 959, Ljava_lang_Object_2_classLit);
 function $changeConversationTonesEnabled_0(this$static, val){
   $setBooleanValue(this$static, this$static.KEY_SOUND_EFFECTS, val);
 }
@@ -25578,19 +25589,19 @@ function SenderActor(context){
 defineClass(758, 23, {}, SenderActor);
 _.onReceive = function onReceive_20(message){
   var messageError, messageSent, sendDocument, sendPhoto, sendText, uploadCompleted, uploadError;
-  if (instanceOf(message, 282)) {
+  if (instanceOf(message, 280)) {
     sendText = message;
     $doSendText(this, sendText.peer, sendText.text_0, sendText.mentions, sendText.markDownText, sendText.autoDetect);
   }
-   else if (instanceOf(message, 194)) {
+   else if (instanceOf(message, 193)) {
     messageSent = message;
     $onSent(this, messageSent.peer, messageSent.rid);
   }
-   else if (instanceOf(message, 195)) {
+   else if (instanceOf(message, 194)) {
     messageError = message;
     $onError_28(this, messageError.peer, messageError.rid);
   }
-   else if (instanceOf(message, 280)) {
+   else if (instanceOf(message, 278)) {
     sendDocument = message;
     $doSendDocument(this, sendDocument.peer, sendDocument.fileName, sendDocument.mimeType, sendDocument.fileSize, sendDocument.descriptor);
   }
@@ -25602,7 +25613,7 @@ _.onReceive = function onReceive_20(message){
     uploadError = message;
     $onFileUploadError(this, uploadError.rid);
   }
-   else if (instanceOf(message, 281)) {
+   else if (instanceOf(message, 279)) {
     sendPhoto = message;
     $doSendPhoto(this, sendPhoto.peer, sendPhoto.fastThumb, sendPhoto.descriptor, sendPhoto.fileName, sendPhoto.fileSize, sendPhoto.w, sendPhoto.h_0);
   }
@@ -25664,7 +25675,7 @@ function SenderActor$1(this$0, val$peer, val$rid, val$apiPeer){
   this.val$apiPeer5 = val$apiPeer;
 }
 
-defineClass(962, 1, {}, SenderActor$1);
+defineClass(946, 1, {}, SenderActor$1);
 _.onError_1 = function onError_48(e){
   $send(this.this$01.context_0.actorScope.actorRef, new SenderActor$MessageError(this.val$peer2, this.val$rid3));
 }
@@ -25675,23 +25686,23 @@ _.onResult_2 = function onResult_77(response){
 }
 ;
 _.val$rid3 = {l:0, m:0, h:0};
-var Lim_actor_core_modules_internal_messages_SenderActor$1_2_classLit = createForClass('im.actor.core.modules.internal.messages', 'SenderActor/1', 962, Ljava_lang_Object_2_classLit);
+var Lim_actor_core_modules_internal_messages_SenderActor$1_2_classLit = createForClass('im.actor.core.modules.internal.messages', 'SenderActor/1', 946, Ljava_lang_Object_2_classLit);
 function SenderActor$MessageError(peer, rid){
   this.peer = peer;
   this.rid = rid;
 }
 
-defineClass(195, 1, {195:1}, SenderActor$MessageError);
+defineClass(194, 1, {194:1}, SenderActor$MessageError);
 _.rid = {l:0, m:0, h:0};
-var Lim_actor_core_modules_internal_messages_SenderActor$MessageError_2_classLit = createForClass('im.actor.core.modules.internal.messages', 'SenderActor/MessageError', 195, Ljava_lang_Object_2_classLit);
+var Lim_actor_core_modules_internal_messages_SenderActor$MessageError_2_classLit = createForClass('im.actor.core.modules.internal.messages', 'SenderActor/MessageError', 194, Ljava_lang_Object_2_classLit);
 function SenderActor$MessageSent(peer, rid){
   this.peer = peer;
   this.rid = rid;
 }
 
-defineClass(194, 1, {194:1}, SenderActor$MessageSent);
+defineClass(193, 1, {193:1}, SenderActor$MessageSent);
 _.rid = {l:0, m:0, h:0};
-var Lim_actor_core_modules_internal_messages_SenderActor$MessageSent_2_classLit = createForClass('im.actor.core.modules.internal.messages', 'SenderActor/MessageSent', 194, Ljava_lang_Object_2_classLit);
+var Lim_actor_core_modules_internal_messages_SenderActor$MessageSent_2_classLit = createForClass('im.actor.core.modules.internal.messages', 'SenderActor/MessageSent', 193, Ljava_lang_Object_2_classLit);
 function SenderActor$SendDocument(peer, fileName, mimeType, fileSize, descriptor){
   this.peer = peer;
   this.descriptor = descriptor;
@@ -25700,9 +25711,9 @@ function SenderActor$SendDocument(peer, fileName, mimeType, fileSize, descriptor
   this.fileSize = fileSize;
 }
 
-defineClass(280, 1, {280:1}, SenderActor$SendDocument);
+defineClass(278, 1, {278:1}, SenderActor$SendDocument);
 _.fileSize = 0;
-var Lim_actor_core_modules_internal_messages_SenderActor$SendDocument_2_classLit = createForClass('im.actor.core.modules.internal.messages', 'SenderActor/SendDocument', 280, Ljava_lang_Object_2_classLit);
+var Lim_actor_core_modules_internal_messages_SenderActor$SendDocument_2_classLit = createForClass('im.actor.core.modules.internal.messages', 'SenderActor/SendDocument', 278, Ljava_lang_Object_2_classLit);
 function SenderActor$SendPhoto(peer, fastThumb, descriptor, fileName, fileSize, w, h){
   this.peer = peer;
   this.fastThumb = fastThumb;
@@ -25713,22 +25724,22 @@ function SenderActor$SendPhoto(peer, fastThumb, descriptor, fileName, fileSize, 
   this.h_0 = h;
 }
 
-defineClass(281, 1, {281:1}, SenderActor$SendPhoto);
+defineClass(279, 1, {279:1}, SenderActor$SendPhoto);
 _.fileSize = 0;
 _.h_0 = 0;
 _.w = 0;
-var Lim_actor_core_modules_internal_messages_SenderActor$SendPhoto_2_classLit = createForClass('im.actor.core.modules.internal.messages', 'SenderActor/SendPhoto', 281, Ljava_lang_Object_2_classLit);
-function SenderActor$SendText(peer, text_0, markDownText){
+var Lim_actor_core_modules_internal_messages_SenderActor$SendPhoto_2_classLit = createForClass('im.actor.core.modules.internal.messages', 'SenderActor/SendPhoto', 279, Ljava_lang_Object_2_classLit);
+function SenderActor$SendText(peer, text_0, markDownText, autoDetect){
   this.peer = peer;
   this.text_0 = text_0;
   this.markDownText = markDownText;
   this.mentions = null;
-  this.autoDetect = true;
+  this.autoDetect = autoDetect;
 }
 
-defineClass(282, 1, {282:1}, SenderActor$SendText);
+defineClass(280, 1, {280:1}, SenderActor$SendText);
 _.autoDetect = false;
-var Lim_actor_core_modules_internal_messages_SenderActor$SendText_2_classLit = createForClass('im.actor.core.modules.internal.messages', 'SenderActor/SendText', 282, Ljava_lang_Object_2_classLit);
+var Lim_actor_core_modules_internal_messages_SenderActor$SendText_2_classLit = createForClass('im.actor.core.modules.internal.messages', 'SenderActor/SendText', 280, Ljava_lang_Object_2_classLit);
 function Delete(){
 }
 
@@ -34655,26 +34666,6 @@ function JsListEngine(storage, creator){
 
 defineClass(1026, 1, {}, JsListEngine);
 var Lim_actor_runtime_js_storage_JsListEngine_2_classLit = createForClass('im.actor.runtime.js.storage', 'JsListEngine', 1026, Ljava_lang_Object_2_classLit);
-function $addToIndex(this$static, id_0, sortKey){
-  var found, i_0, i0, ind;
-  for (i0 = 0; i0 < this$static.index_0.size_1(); i0++) {
-    ind = this$static.index_0.get_0(i0);
-    if (eq(ind.id_0, id_0)) {
-      this$static.index_0.remove_0(i0);
-      break;
-    }
-  }
-  found = false;
-  for (i_0 = 0; i_0 < this$static.index_0.size_1(); i_0++) {
-    ind = this$static.index_0.get_0(i_0);
-    if (lt(ind.sortKey_0, sortKey)) {
-      found = true;
-      $add(this$static.index_0, i_0, new JsListStorage$Index(id_0, sortKey));
-    }
-  }
-  found || $add_0(this$static.index_0, new JsListStorage$Index(id_0, sortKey));
-}
-
 function $clear_4(this$static){
   var i_0, i$iterator;
   for (i$iterator = new AbstractList$IteratorImpl(this$static.index_0); i$iterator.i < i$iterator.this$01.size_1();) {
@@ -34682,7 +34673,7 @@ function $clear_4(this$static){
     $removeItem(this$static.storage, $getId(this$static, i_0.id_0));
   }
   this$static.index_0.array = initDim(Ljava_lang_Object_2_classLit, $intern_3, 1, 0, 3, 1);
-  $saveIndex_0(this$static);
+  $updateIndex(this$static);
 }
 
 function $delete(this$static, key){
@@ -34692,7 +34683,7 @@ function $delete(this$static, key){
     if (eq(i_0.id_0, key)) {
       $remove_0(this$static.index_0, i_0);
       $removeItem(this$static.storage, 'list_' + this$static.prefix + '_' + toString_4(key));
-      $saveIndex_0(this$static);
+      $updateIndex(this$static);
       break;
     }
   }
@@ -34707,7 +34698,7 @@ function $delete_0(this$static, keys_0){
       if (eq(i_0.id_0, key)) {
         $remove_0(this$static.index_0, i_0);
         $removeItem(this$static.storage, 'list_' + this$static.prefix + '_' + toString_4(key));
-        $saveIndex_0(this$static);
+        $updateIndex(this$static);
         break;
       }
     }
@@ -34752,8 +34743,9 @@ function $loadItem_0(this$static, key){
   return null;
 }
 
-function $saveIndex_0(this$static){
+function $updateIndex(this$static){
   var dataOutput, i_0, i$iterator;
+  sort_1(this$static.index_0, this$static.comparator);
   dataOutput = new DataOutput;
   $writeInt_0(dataOutput, this$static.index_0.size_1());
   for (i$iterator = new AbstractList$IteratorImpl(this$static.index_0); i$iterator.i < i$iterator.this$01.size_1();) {
@@ -34765,18 +34757,33 @@ function $saveIndex_0(this$static){
 }
 
 function $updateOrAdd(this$static, record){
-  $addToIndex(this$static, record.key, record.order);
-  $saveIndex_0(this$static);
+  var i_0, i$iterator;
+  for (i$iterator = new AbstractList$IteratorImpl(this$static.index_0); i$iterator.i < i$iterator.this$01.size_1();) {
+    i_0 = (checkCriticalElement(i$iterator.i < i$iterator.this$01.size_1()) , i$iterator.this$01.get_0(i$iterator.last = i$iterator.i++));
+    if (eq(i_0.id_0, record.key)) {
+      $remove_0(this$static.index_0, i_0);
+      break;
+    }
+  }
+  $add_0(this$static.index_0, new JsListStorage$Index(record.key, record.order));
+  $updateIndex(this$static);
   $setItem(this$static.storage, $getId(this$static, record.key), toBase64(record.data_0));
 }
 
 function $updateOrAdd_0(this$static, items){
-  var record, record$iterator, record$iterator0;
+  var i_0, i$iterator, record, record$iterator, record$iterator0;
   for (record$iterator0 = new AbstractList$IteratorImpl(items); record$iterator0.i < record$iterator0.this$01.size_1();) {
     record = (checkCriticalElement(record$iterator0.i < record$iterator0.this$01.size_1()) , record$iterator0.this$01.get_0(record$iterator0.last = record$iterator0.i++));
-    $addToIndex(this$static, record.key, record.order);
+    for (i$iterator = new AbstractList$IteratorImpl(this$static.index_0); i$iterator.i < i$iterator.this$01.size_1();) {
+      i_0 = (checkCriticalElement(i$iterator.i < i$iterator.this$01.size_1()) , i$iterator.this$01.get_0(i$iterator.last = i$iterator.i++));
+      if (eq(i_0.id_0, record.key)) {
+        $remove_0(this$static.index_0, i_0);
+        break;
+      }
+    }
+    $add_0(this$static.index_0, new JsListStorage$Index(record.key, record.order));
   }
-  $saveIndex_0(this$static);
+  $updateIndex(this$static);
   for (record$iterator = new AbstractList$IteratorImpl(items); record$iterator.i < record$iterator.this$01.size_1();) {
     record = (checkCriticalElement(record$iterator.i < record$iterator.this$01.size_1()) , record$iterator.this$01.get_0(record$iterator.last = record$iterator.i++));
     $setItem(this$static.storage, $getId(this$static, record.key), toBase64(record.data_0));
@@ -34800,7 +34807,6 @@ function JsListStorage(prefix, storage){
         order = $readLong(dataInput);
         $add_0(this.index_0, new JsListStorage$Index(id_0, order));
       }
-      sort_1(this.index_0, this.comparator);
     }
      catch ($e0) {
       $e0 = wrap($e0);
@@ -34812,6 +34818,7 @@ function JsListStorage(prefix, storage){
         throw unwrap($e0);
     }
   }
+  $updateIndex(this);
 }
 
 defineClass(1070, 1, {}, JsListStorage);
@@ -35614,8 +35621,8 @@ function MDRawText(rawText){
   this.rawText = rawText;
 }
 
-defineClass(278, 129, {278:1, 129:1}, MDRawText);
-var Lim_actor_runtime_markdown_MDRawText_2_classLit = createForClass('im.actor.runtime.markdown', 'MDRawText', 278, Lim_actor_runtime_markdown_MDText_2_classLit);
+defineClass(281, 129, {281:1, 129:1}, MDRawText);
+var Lim_actor_runtime_markdown_MDRawText_2_classLit = createForClass('im.actor.runtime.markdown', 'MDRawText', 281, Lim_actor_runtime_markdown_MDText_2_classLit);
 function MDSection(code_0){
   this.code_0 = code_0;
   this.type_0 = 1;
@@ -35634,16 +35641,16 @@ function MDSpan(spanType, child){
   this.child = child;
 }
 
-defineClass(279, 129, {279:1, 129:1}, MDSpan);
+defineClass(282, 129, {282:1, 129:1}, MDSpan);
 _.spanType = 0;
-var Lim_actor_runtime_markdown_MDSpan_2_classLit = createForClass('im.actor.runtime.markdown', 'MDSpan', 279, Lim_actor_runtime_markdown_MDText_2_classLit);
+var Lim_actor_runtime_markdown_MDSpan_2_classLit = createForClass('im.actor.runtime.markdown', 'MDSpan', 282, Lim_actor_runtime_markdown_MDText_2_classLit);
 function MDUrl(urlTitle, url_0){
   this.urlTitle = urlTitle;
   this.url_0 = url_0;
 }
 
-defineClass(193, 129, {129:1, 193:1}, MDUrl);
-var Lim_actor_runtime_markdown_MDUrl_2_classLit = createForClass('im.actor.runtime.markdown', 'MDUrl', 193, Lim_actor_runtime_markdown_MDText_2_classLit);
+defineClass(195, 129, {129:1, 195:1}, MDUrl);
+var Lim_actor_runtime_markdown_MDUrl_2_classLit = createForClass('im.actor.runtime.markdown', 'MDUrl', 195, Lim_actor_runtime_markdown_MDText_2_classLit);
 function $addText(cursor, limit, elements){
   if (cursor.currentOffset < limit) {
     $add_0(elements, new MDRawText($substring_0(cursor.text_0, cursor.currentOffset, limit)));
