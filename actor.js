@@ -249,26 +249,26 @@ function actor(){
   processMetas();
   try {
     var strongName;
-    unflattenKeylistIntoAnswers(['cn', 'gecko1_8'], '860BADC62D70549B4F9D893A72D30ECF');
-    unflattenKeylistIntoAnswers(['cn', 'ie10'], '860BADC62D70549B4F9D893A72D30ECF' + ':1');
-    unflattenKeylistIntoAnswers(['en', 'gecko1_8'], '860BADC62D70549B4F9D893A72D30ECF' + ':10');
-    unflattenKeylistIntoAnswers(['en', 'ie10'], '860BADC62D70549B4F9D893A72D30ECF' + ':11');
-    unflattenKeylistIntoAnswers(['en', 'ie8'], '860BADC62D70549B4F9D893A72D30ECF' + ':12');
-    unflattenKeylistIntoAnswers(['en', 'ie9'], '860BADC62D70549B4F9D893A72D30ECF' + ':13');
-    unflattenKeylistIntoAnswers(['en', 'safari'], '860BADC62D70549B4F9D893A72D30ECF' + ':14');
-    unflattenKeylistIntoAnswers(['ru', 'gecko1_8'], '860BADC62D70549B4F9D893A72D30ECF' + ':15');
-    unflattenKeylistIntoAnswers(['ru', 'ie10'], '860BADC62D70549B4F9D893A72D30ECF' + ':16');
-    unflattenKeylistIntoAnswers(['ru', 'ie8'], '860BADC62D70549B4F9D893A72D30ECF' + ':17');
-    unflattenKeylistIntoAnswers(['ru', 'ie9'], '860BADC62D70549B4F9D893A72D30ECF' + ':18');
-    unflattenKeylistIntoAnswers(['ru', 'safari'], '860BADC62D70549B4F9D893A72D30ECF' + ':19');
-    unflattenKeylistIntoAnswers(['cn', 'ie8'], '860BADC62D70549B4F9D893A72D30ECF' + ':2');
-    unflattenKeylistIntoAnswers(['cn', 'ie9'], '860BADC62D70549B4F9D893A72D30ECF' + ':3');
-    unflattenKeylistIntoAnswers(['cn', 'safari'], '860BADC62D70549B4F9D893A72D30ECF' + ':4');
-    unflattenKeylistIntoAnswers(['default', 'gecko1_8'], '860BADC62D70549B4F9D893A72D30ECF' + ':5');
-    unflattenKeylistIntoAnswers(['default', 'ie10'], '860BADC62D70549B4F9D893A72D30ECF' + ':6');
-    unflattenKeylistIntoAnswers(['default', 'ie8'], '860BADC62D70549B4F9D893A72D30ECF' + ':7');
-    unflattenKeylistIntoAnswers(['default', 'ie9'], '860BADC62D70549B4F9D893A72D30ECF' + ':8');
-    unflattenKeylistIntoAnswers(['default', 'safari'], '860BADC62D70549B4F9D893A72D30ECF' + ':9');
+    unflattenKeylistIntoAnswers(['cn', 'gecko1_8'], '131D7D93EF8C24037039E6E4EBCEEAE4');
+    unflattenKeylistIntoAnswers(['cn', 'ie10'], '131D7D93EF8C24037039E6E4EBCEEAE4' + ':1');
+    unflattenKeylistIntoAnswers(['en', 'gecko1_8'], '131D7D93EF8C24037039E6E4EBCEEAE4' + ':10');
+    unflattenKeylistIntoAnswers(['en', 'ie10'], '131D7D93EF8C24037039E6E4EBCEEAE4' + ':11');
+    unflattenKeylistIntoAnswers(['en', 'ie8'], '131D7D93EF8C24037039E6E4EBCEEAE4' + ':12');
+    unflattenKeylistIntoAnswers(['en', 'ie9'], '131D7D93EF8C24037039E6E4EBCEEAE4' + ':13');
+    unflattenKeylistIntoAnswers(['en', 'safari'], '131D7D93EF8C24037039E6E4EBCEEAE4' + ':14');
+    unflattenKeylistIntoAnswers(['ru', 'gecko1_8'], '131D7D93EF8C24037039E6E4EBCEEAE4' + ':15');
+    unflattenKeylistIntoAnswers(['ru', 'ie10'], '131D7D93EF8C24037039E6E4EBCEEAE4' + ':16');
+    unflattenKeylistIntoAnswers(['ru', 'ie8'], '131D7D93EF8C24037039E6E4EBCEEAE4' + ':17');
+    unflattenKeylistIntoAnswers(['ru', 'ie9'], '131D7D93EF8C24037039E6E4EBCEEAE4' + ':18');
+    unflattenKeylistIntoAnswers(['ru', 'safari'], '131D7D93EF8C24037039E6E4EBCEEAE4' + ':19');
+    unflattenKeylistIntoAnswers(['cn', 'ie8'], '131D7D93EF8C24037039E6E4EBCEEAE4' + ':2');
+    unflattenKeylistIntoAnswers(['cn', 'ie9'], '131D7D93EF8C24037039E6E4EBCEEAE4' + ':3');
+    unflattenKeylistIntoAnswers(['cn', 'safari'], '131D7D93EF8C24037039E6E4EBCEEAE4' + ':4');
+    unflattenKeylistIntoAnswers(['default', 'gecko1_8'], '131D7D93EF8C24037039E6E4EBCEEAE4' + ':5');
+    unflattenKeylistIntoAnswers(['default', 'ie10'], '131D7D93EF8C24037039E6E4EBCEEAE4' + ':6');
+    unflattenKeylistIntoAnswers(['default', 'ie8'], '131D7D93EF8C24037039E6E4EBCEEAE4' + ':7');
+    unflattenKeylistIntoAnswers(['default', 'ie9'], '131D7D93EF8C24037039E6E4EBCEEAE4' + ':8');
+    unflattenKeylistIntoAnswers(['default', 'safari'], '131D7D93EF8C24037039E6E4EBCEEAE4' + ':9');
     strongName = answers[computePropValue('locale')][computePropValue('user.agent')];
     var idx = strongName.indexOf(':');
     if (idx != -1) {
@@ -307,7 +307,7 @@ function actor(){
 }
 
 actor();
-(function () {var $gwt_version = "2.7.0";var $wnd = window;var $doc = $wnd.document;var $moduleName, $moduleBase;var $stats = $wnd.__gwtStatsEvent ? function(a) {$wnd.__gwtStatsEvent(a)} : null;var $strongName = '860BADC62D70549B4F9D893A72D30ECF';var $intern_0 = 2147483647, $intern_1 = {3:1, 15:1}, $intern_2 = {3:1, 11:1, 15:1}, $intern_3 = {3:1}, $intern_4 = 1000, $intern_5 = 65535, $intern_6 = 4194303, $intern_7 = 1048575, $intern_8 = 524288, $intern_9 = 4194304, $intern_10 = 17592186044416, $intern_11 = -9223372036854775808, $intern_12 = {397:1}, $intern_13 = 65536, $intern_14 = 131072, $intern_15 = 1048576, $intern_16 = 16777216, $intern_17 = 67108864, $intern_18 = {5:1}, $intern_19 = 1286, $intern_20 = 1266, $intern_21 = 1288, $intern_22 = 1289, $intern_23 = 1023, $intern_24 = 1250, $intern_25 = {9:1}, $intern_26 = {64:1}, $intern_27 = 1253, $intern_28 = {41:1, 3:1}, $intern_29 = {25:1}, $intern_30 = 5.9604644775390625E-8, $intern_31 = {3:1, 46:1, 81:1}, $intern_32 = {4:1, 3:1, 11:1, 15:1}, $intern_33 = 1.52587890625E-5, $intern_34 = 9.5367431640625E-7, $intern_35 = 2.220446049250313E-16, $intern_36 = {172:1}, $intern_37 = {92:1}, $intern_38 = {96:1, 59:1}, $intern_39 = {3:1, 172:1}, $intern_40 = 15525485, $intern_41 = {3:1, 26:1, 16:1, 66:1}, $intern_42 = 1247;
+(function () {var $gwt_version = "2.7.0";var $wnd = window;var $doc = $wnd.document;var $moduleName, $moduleBase;var $stats = $wnd.__gwtStatsEvent ? function(a) {$wnd.__gwtStatsEvent(a)} : null;var $strongName = '131D7D93EF8C24037039E6E4EBCEEAE4';var $intern_0 = 2147483647, $intern_1 = {3:1, 15:1}, $intern_2 = {3:1, 11:1, 15:1}, $intern_3 = {3:1}, $intern_4 = 1000, $intern_5 = 65535, $intern_6 = 4194303, $intern_7 = 1048575, $intern_8 = 524288, $intern_9 = 4194304, $intern_10 = 17592186044416, $intern_11 = -9223372036854775808, $intern_12 = {397:1}, $intern_13 = 65536, $intern_14 = 131072, $intern_15 = 1048576, $intern_16 = 16777216, $intern_17 = 67108864, $intern_18 = {5:1}, $intern_19 = 1286, $intern_20 = 1266, $intern_21 = 1288, $intern_22 = 1289, $intern_23 = 1023, $intern_24 = 1250, $intern_25 = {9:1}, $intern_26 = {64:1}, $intern_27 = 1253, $intern_28 = {41:1, 3:1}, $intern_29 = {25:1}, $intern_30 = 5.9604644775390625E-8, $intern_31 = {3:1, 46:1, 81:1}, $intern_32 = {4:1, 3:1, 11:1, 15:1}, $intern_33 = 1.52587890625E-5, $intern_34 = 9.5367431640625E-7, $intern_35 = 2.220446049250313E-16, $intern_36 = {172:1}, $intern_37 = {92:1}, $intern_38 = {96:1, 59:1}, $intern_39 = {3:1, 172:1}, $intern_40 = 15525485, $intern_41 = {3:1, 26:1, 16:1, 66:1}, $intern_42 = 1247;
 var _, initFnList_0, prototypesByTypeId_0 = {}, permutationId = -1;
 function im_actor_core_js_providers_Assets(){
   switch (permutationId) {
@@ -3391,6 +3391,7 @@ function encode(uri_0){
 }
 
 function encodeAllowEscapes(uri_0){
+  $clinit_UriUtils();
   var escaped, firstSegment, segment, segment$array, segment$index, segment$max;
   escaped = new StringBuilder;
   firstSegment = true;
@@ -18991,7 +18992,7 @@ function renderText(texts){
     }
      else if (instanceOf(text_0, 195)) {
       url_0 = text_0;
-      $append_1(builder, (href_0 = sanitizeUri(url_0.url_0) , href_0 != '#' && href_0.indexOf('://') == -1 && (href_0 = 'http://' + href_0) , '<a target="_blank" onClick="window.messenger.handleLinkClick(event)" href="' + href_0 + '">' + htmlEscape(url_0.urlTitle) + '<\/a>'));
+      $append_1(builder, (href_0 = sanitizeUri(url_0.url_0) , $equals_5(url_0.url_0.substr(0, 5), 'send:')?(href_0 = encodeAllowEscapes(url_0.url_0)):!$equals_5(href_0, '#') && href_0.indexOf('://') == -1 && (href_0 = 'http://' + href_0) , '<a target="_blank" onClick="window.messenger.handleLinkClick(event)" href="' + href_0 + '">' + htmlEscape(url_0.urlTitle) + '<\/a>'));
     }
   }
   return builder.string;
