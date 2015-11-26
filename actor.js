@@ -249,26 +249,26 @@ function actor(){
   processMetas();
   try {
     var strongName;
-    unflattenKeylistIntoAnswers(['cn', 'gecko1_8'], '348700C944A1FD386B84F8A139CE225D');
-    unflattenKeylistIntoAnswers(['cn', 'ie10'], '348700C944A1FD386B84F8A139CE225D' + ':1');
-    unflattenKeylistIntoAnswers(['en', 'gecko1_8'], '348700C944A1FD386B84F8A139CE225D' + ':10');
-    unflattenKeylistIntoAnswers(['en', 'ie10'], '348700C944A1FD386B84F8A139CE225D' + ':11');
-    unflattenKeylistIntoAnswers(['en', 'ie8'], '348700C944A1FD386B84F8A139CE225D' + ':12');
-    unflattenKeylistIntoAnswers(['en', 'ie9'], '348700C944A1FD386B84F8A139CE225D' + ':13');
-    unflattenKeylistIntoAnswers(['en', 'safari'], '348700C944A1FD386B84F8A139CE225D' + ':14');
-    unflattenKeylistIntoAnswers(['ru', 'gecko1_8'], '348700C944A1FD386B84F8A139CE225D' + ':15');
-    unflattenKeylistIntoAnswers(['ru', 'ie10'], '348700C944A1FD386B84F8A139CE225D' + ':16');
-    unflattenKeylistIntoAnswers(['ru', 'ie8'], '348700C944A1FD386B84F8A139CE225D' + ':17');
-    unflattenKeylistIntoAnswers(['ru', 'ie9'], '348700C944A1FD386B84F8A139CE225D' + ':18');
-    unflattenKeylistIntoAnswers(['ru', 'safari'], '348700C944A1FD386B84F8A139CE225D' + ':19');
-    unflattenKeylistIntoAnswers(['cn', 'ie8'], '348700C944A1FD386B84F8A139CE225D' + ':2');
-    unflattenKeylistIntoAnswers(['cn', 'ie9'], '348700C944A1FD386B84F8A139CE225D' + ':3');
-    unflattenKeylistIntoAnswers(['cn', 'safari'], '348700C944A1FD386B84F8A139CE225D' + ':4');
-    unflattenKeylistIntoAnswers(['default', 'gecko1_8'], '348700C944A1FD386B84F8A139CE225D' + ':5');
-    unflattenKeylistIntoAnswers(['default', 'ie10'], '348700C944A1FD386B84F8A139CE225D' + ':6');
-    unflattenKeylistIntoAnswers(['default', 'ie8'], '348700C944A1FD386B84F8A139CE225D' + ':7');
-    unflattenKeylistIntoAnswers(['default', 'ie9'], '348700C944A1FD386B84F8A139CE225D' + ':8');
-    unflattenKeylistIntoAnswers(['default', 'safari'], '348700C944A1FD386B84F8A139CE225D' + ':9');
+    unflattenKeylistIntoAnswers(['cn', 'gecko1_8'], 'CFE4EDC036F3FBD76814C8E6B8D1A214');
+    unflattenKeylistIntoAnswers(['cn', 'ie10'], 'CFE4EDC036F3FBD76814C8E6B8D1A214' + ':1');
+    unflattenKeylistIntoAnswers(['en', 'gecko1_8'], 'CFE4EDC036F3FBD76814C8E6B8D1A214' + ':10');
+    unflattenKeylistIntoAnswers(['en', 'ie10'], 'CFE4EDC036F3FBD76814C8E6B8D1A214' + ':11');
+    unflattenKeylistIntoAnswers(['en', 'ie8'], 'CFE4EDC036F3FBD76814C8E6B8D1A214' + ':12');
+    unflattenKeylistIntoAnswers(['en', 'ie9'], 'CFE4EDC036F3FBD76814C8E6B8D1A214' + ':13');
+    unflattenKeylistIntoAnswers(['en', 'safari'], 'CFE4EDC036F3FBD76814C8E6B8D1A214' + ':14');
+    unflattenKeylistIntoAnswers(['ru', 'gecko1_8'], 'CFE4EDC036F3FBD76814C8E6B8D1A214' + ':15');
+    unflattenKeylistIntoAnswers(['ru', 'ie10'], 'CFE4EDC036F3FBD76814C8E6B8D1A214' + ':16');
+    unflattenKeylistIntoAnswers(['ru', 'ie8'], 'CFE4EDC036F3FBD76814C8E6B8D1A214' + ':17');
+    unflattenKeylistIntoAnswers(['ru', 'ie9'], 'CFE4EDC036F3FBD76814C8E6B8D1A214' + ':18');
+    unflattenKeylistIntoAnswers(['ru', 'safari'], 'CFE4EDC036F3FBD76814C8E6B8D1A214' + ':19');
+    unflattenKeylistIntoAnswers(['cn', 'ie8'], 'CFE4EDC036F3FBD76814C8E6B8D1A214' + ':2');
+    unflattenKeylistIntoAnswers(['cn', 'ie9'], 'CFE4EDC036F3FBD76814C8E6B8D1A214' + ':3');
+    unflattenKeylistIntoAnswers(['cn', 'safari'], 'CFE4EDC036F3FBD76814C8E6B8D1A214' + ':4');
+    unflattenKeylistIntoAnswers(['default', 'gecko1_8'], 'CFE4EDC036F3FBD76814C8E6B8D1A214' + ':5');
+    unflattenKeylistIntoAnswers(['default', 'ie10'], 'CFE4EDC036F3FBD76814C8E6B8D1A214' + ':6');
+    unflattenKeylistIntoAnswers(['default', 'ie8'], 'CFE4EDC036F3FBD76814C8E6B8D1A214' + ':7');
+    unflattenKeylistIntoAnswers(['default', 'ie9'], 'CFE4EDC036F3FBD76814C8E6B8D1A214' + ':8');
+    unflattenKeylistIntoAnswers(['default', 'safari'], 'CFE4EDC036F3FBD76814C8E6B8D1A214' + ':9');
     strongName = answers[computePropValue('locale')][computePropValue('user.agent')];
     var idx = strongName.indexOf(':');
     if (idx != -1) {
@@ -307,7 +307,7 @@ function actor(){
 }
 
 actor();
-(function () {var $gwt_version = "2.7.0";var $wnd = window;var $doc = $wnd.document;var $moduleName, $moduleBase;var $stats = $wnd.__gwtStatsEvent ? function(a) {$wnd.__gwtStatsEvent(a)} : null;var $strongName = '348700C944A1FD386B84F8A139CE225D';var $intern_0 = 2147483647, $intern_1 = {3:1, 16:1}, $intern_2 = {3:1, 11:1, 16:1}, $intern_3 = {3:1}, $intern_4 = 1000, $intern_5 = 65535, $intern_6 = 4194303, $intern_7 = 1048575, $intern_8 = 524288, $intern_9 = 4194304, $intern_10 = 17592186044416, $intern_11 = -9223372036854775808, $intern_12 = {411:1}, $intern_13 = 65536, $intern_14 = 131072, $intern_15 = 1048576, $intern_16 = 16777216, $intern_17 = 67108864, $intern_18 = {5:1}, $intern_19 = 1331, $intern_20 = 1353, $intern_21 = 1334, $intern_22 = 1355, $intern_23 = 1356, $intern_24 = 1023, $intern_25 = 1317, $intern_26 = {9:1}, $intern_27 = {67:1}, $intern_28 = 1320, $intern_29 = {42:1, 3:1}, $intern_30 = {30:1}, $intern_31 = 5.9604644775390625E-8, $intern_32 = {3:1, 48:1, 90:1}, $intern_33 = {4:1, 3:1, 11:1, 16:1}, $intern_34 = 1.52587890625E-5, $intern_35 = 9.5367431640625E-7, $intern_36 = 2.220446049250313E-16, $intern_37 = {132:1}, $intern_38 = {89:1}, $intern_39 = {92:1, 54:1}, $intern_40 = {92:1, 101:1, 54:1}, $intern_41 = {3:1, 132:1}, $intern_42 = 15525485, $intern_43 = {3:1, 28:1, 13:1, 70:1}, $intern_44 = 1314;
+(function () {var $gwt_version = "2.7.0";var $wnd = window;var $doc = $wnd.document;var $moduleName, $moduleBase;var $stats = $wnd.__gwtStatsEvent ? function(a) {$wnd.__gwtStatsEvent(a)} : null;var $strongName = 'CFE4EDC036F3FBD76814C8E6B8D1A214';var $intern_0 = 2147483647, $intern_1 = {3:1, 16:1}, $intern_2 = {3:1, 11:1, 16:1}, $intern_3 = {3:1}, $intern_4 = 1000, $intern_5 = 65535, $intern_6 = 4194303, $intern_7 = 1048575, $intern_8 = 524288, $intern_9 = 4194304, $intern_10 = 17592186044416, $intern_11 = -9223372036854775808, $intern_12 = {411:1}, $intern_13 = 65536, $intern_14 = 131072, $intern_15 = 1048576, $intern_16 = 16777216, $intern_17 = 67108864, $intern_18 = {5:1}, $intern_19 = 1331, $intern_20 = 1353, $intern_21 = 1334, $intern_22 = 1355, $intern_23 = 1356, $intern_24 = 1023, $intern_25 = 1317, $intern_26 = {9:1}, $intern_27 = {67:1}, $intern_28 = 1320, $intern_29 = {42:1, 3:1}, $intern_30 = {30:1}, $intern_31 = 5.9604644775390625E-8, $intern_32 = {3:1, 48:1, 90:1}, $intern_33 = {4:1, 3:1, 11:1, 16:1}, $intern_34 = 1.52587890625E-5, $intern_35 = 9.5367431640625E-7, $intern_36 = 2.220446049250313E-16, $intern_37 = {132:1}, $intern_38 = {89:1}, $intern_39 = {92:1, 54:1}, $intern_40 = {92:1, 101:1, 54:1}, $intern_41 = {3:1, 132:1}, $intern_42 = 15525485, $intern_43 = {3:1, 28:1, 13:1, 70:1}, $intern_44 = 1314;
 var _, initFnList_0, prototypesByTypeId_0 = {}, permutationId = -1;
 function im_actor_core_js_providers_Assets(){
   switch (permutationId) {
@@ -1980,8 +1980,8 @@ function $zeroPaddingNumber(buf, value_0, minWidth){
   buf.string += value_0;
 }
 
-defineClass(1001, 1, {});
-var Lcom_google_gwt_i18n_shared_DateTimeFormat_2_classLit = createForClass('com.google.gwt.i18n.shared', 'DateTimeFormat', 1001, Ljava_lang_Object_2_classLit);
+defineClass(1015, 1, {});
+var Lcom_google_gwt_i18n_shared_DateTimeFormat_2_classLit = createForClass('com.google.gwt.i18n.shared', 'DateTimeFormat', 1015, Ljava_lang_Object_2_classLit);
 function $clinit_DateTimeFormat_0(){
   $clinit_DateTimeFormat_0 = emptyMethod;
   $clinit_DateTimeFormat();
@@ -2009,9 +2009,9 @@ function getFormat(dtfi){
   return dtf;
 }
 
-defineClass(1002, 1001, {}, DateTimeFormat);
+defineClass(1016, 1015, {}, DateTimeFormat);
 var cache;
-var Lcom_google_gwt_i18n_client_DateTimeFormat_2_classLit = createForClass('com.google.gwt.i18n.client', 'DateTimeFormat', 1002, Lcom_google_gwt_i18n_shared_DateTimeFormat_2_classLit);
+var Lcom_google_gwt_i18n_client_DateTimeFormat_2_classLit = createForClass('com.google.gwt.i18n.client', 'DateTimeFormat', 1016, Lcom_google_gwt_i18n_shared_DateTimeFormat_2_classLit);
 defineClass(1342, 1, {});
 _.erasFull = function erasFull(){
   return initValues(getClassLiteralForArray(Ljava_lang_String_2_classLit, 1), $intern_3, 2, 4, ['Before Christ', 'Anno Domini']);
@@ -2339,10 +2339,10 @@ function DateTimeFormat$PatternPart(txt, cnt){
   this.abutStart = false;
 }
 
-defineClass(1003, 1, {}, DateTimeFormat$PatternPart);
+defineClass(1017, 1, {}, DateTimeFormat$PatternPart);
 _.abutStart = false;
 _.count = 0;
-var Lcom_google_gwt_i18n_shared_DateTimeFormat$PatternPart_2_classLit = createForClass('com.google.gwt.i18n.shared', 'DateTimeFormat/PatternPart', 1003, Ljava_lang_Object_2_classLit);
+var Lcom_google_gwt_i18n_shared_DateTimeFormat$PatternPart_2_classLit = createForClass('com.google.gwt.i18n.shared', 'DateTimeFormat/PatternPart', 1017, Ljava_lang_Object_2_classLit);
 function cloneSubrange(array, toIndex){
   var result;
   result = array.slice(0, toIndex);
@@ -16484,33 +16484,21 @@ _.getUserPeer_0 = function getUserPeer(uid){
 ;
 _.handleLinkClick_0 = function handleLinkClick(event_0){
   var href_0, msg, target, shell;
-  $clinit_Log();
-  log_1($format(($clinit_JsLogProvider() , dateTimeFormat), new Date_0, null) + '[D] ' + 'JsMessenger' + ':' + ('handleLinkClick ' + event_0));
   target = ($clinit_DOMImpl() , impl_0).eventGetTarget(event_0);
   href_0 = impl_0.getAttribute_0(target, 'href');
-  log_1($format(dateTimeFormat, new Date_0, null) + '[D] ' + 'JsMessenger' + ':' + ('handleLinkClick | ' + href_0));
-  if (isElectron_0()) {
-    log_1($format(dateTimeFormat, new Date_0, null) + '[D] ' + 'JsMessenger' + ':' + 'handleLinkClick | Open In Electron');
-    shell = $wnd.require('shell');
-    shell.openExternal(href_0);
-    impl_0.eventPreventDefault(event_0);
+  if ($equals_6(href_0.substr(0, 5), 'send:')) {
+    msg = __substr(href_0, 5, href_0.length - 5);
+    msg = (throwIfNull('encodedURL', msg) , decodeURI(msg));
+    if (this.lastVisiblePeer) {
+      $sendMessage(this.messenger, this.lastVisiblePeer, msg, false);
+      impl_0.eventPreventDefault(event_0);
+    }
   }
    else {
-    if ($equals_6(href_0.substr(0, 5), 'send:')) {
-      msg = __substr(href_0, 5, href_0.length - 5);
-      msg = (throwIfNull('encodedURL', msg) , decodeURI(msg));
-      log_1($format(dateTimeFormat, new Date_0, null) + '[D] ' + 'JsMessenger' + ':' + ('handleLinkClick | Sending message ' + msg));
-      if (this.lastVisiblePeer) {
-        $d('handleLinkClick | To peer ' + this.lastVisiblePeer);
-        $sendMessage(this.messenger, this.lastVisiblePeer, msg, false);
-        impl_0.eventPreventDefault(event_0);
-      }
-       else {
-        log_1($format(dateTimeFormat, new Date_0, null) + '[D] ' + 'JsMessenger' + ':' + 'handleLinkClick | No peer visible');
-      }
-    }
-     else {
-      log_1($format(dateTimeFormat, new Date_0, null) + '[D] ' + 'JsMessenger' + ':' + 'handleLinkClick | No send prefix');
+    if (isElectron_0()) {
+      shell = $wnd.require('shell');
+      shell.openExternal(href_0);
+      impl_0.eventPreventDefault(event_0);
     }
   }
 }
@@ -19959,7 +19947,7 @@ function Assets_cn_InlineClientBundleGenerator$1(){
 
 defineClass(570, 1, {}, Assets_cn_InlineClientBundleGenerator$1);
 _.getText = function getText(){
-  return 'TimeShortYesterday=\u6628\u5929\nTimeShortNow=\u73B0\u5728\nTimeShortMinutes={minutes} \u5206\nTimeShortHours={hours} \u5C0F\u65F6\n\nOnlineOn=\u5728\u7EBF\nOnlineOff=\u79BB\u7EBF\n\nOnlineNow=\u521A\u521A\u6700\u540E\u4E00\u6B21\u4E0A\u7EBF\nOnlineLastSeenToday=\u4ECA\u5929{time}\u6700\u540E\u4E00\u6B21\u4E0A\u7EBF\nOnlineLastSeenYesterday=\u6628\u5929{time}\u6700\u540E\u4E00\u6B21\u4E0A\u7EBF\nOnlineLastSeenDate={date}\u6700\u540E\u4E00\u6B21\u4E0A\u7EBF\nOnlineLastSeenDateTime={date} {time}\u6700\u540E\u4E00\u6B21\u4E0A\u7EBF\n\nGroupOnline={count}\u4EBA\u5728\u7EBF\nGroupMembers={count}\u4E2A\u6210\u5458\n\nTyping=\u6B63\u5728\u8F93\u5165...\nTypingUser={user} \u6B63\u5728\u8F93\u5165...\nTypingMultiple = {count}\u4E2A\u4EBA\u6B63\u5728\u8F93\u5165...\n\nFileB={bytes} B\nFileKb={kbytes} KB\nFileMb={mbytes} MB\nFileGb={gbytes} GB\n\nYou=\u4F60\nThee=\u4F60\n\nContentUnsupported=\u4E0D\u652F\u6301\u7684\u5185\u5BB9\nContentDocument=\u6587\u6863\nContentPhoto=\u7167\u7247\nContentVideo=\u56FE\u7247\nContentAudio=Audio\nContact=Contact\nLocation=Location\n\nServiceRegistered=\u5DF2\u52A0\u5165Actor\nServiceRegisteredFull={name}\u5DF2\u52A0\u5165Actor\u7F51\nServiceNewDevice=\u5DF2\u52A0\u5165\u4E00\u4E2A\u65B0\u8BBE\u5907\nServiceNewDeviceFull={name}\u5DF2\u6DFB\u52A0\u4E00\u4E2A\u65B0\u8BBE\u5907\u5230\u8D26\u53F7\u4E2D\nServiceGroupCreated={name}\u521B\u5EFA\u4E86\u8FD9\u4E2A\u7FA4\nServiceGroupCreatedFull={name}\u521B\u5EFA\u4E86\u8FD9\u4E2A\u7FA4\nServiceGroupLeaved={name}\u9000\u51FA\u7FA4\nServiceGroupJoined={name}\u52A0\u5165\u7FA4\nServiceGroupAdded={name}\u9080\u8BF7{name_added}\nServiceGroupKicked={name}\u8E22\u51FA{name_kicked}\nServiceGroupTitle={name}\u4FEE\u6539\u4E86\u7FA4\u540D\u79F0\nServiceGroupTitleFull={name}\u4FEE\u6539\u4E3A\u540D\u79F0\u4E3A\uFF1A"{title}"\nServiceGroupAvatarChanged={name}\u4FEE\u6539\u4E86\u7FA4\u5934\u50CF\nServiceGroupAvatarRemoved={name}\u5220\u9664\u4E86\u7FA4\u5934\u50CF\n\nErrorInternal=Internal server error. Please, try again later.\n\nErrorEmptyPhone=Please, enter your phone number\nErrorIncorrectPhone=Entered phone number is invalid. Please, try again.\n\nErrorCodeExpired=Code expired. Please, start authentication again.\nErrorCodeIncorrect=Entered code is incorrect. Please, try again.\nErrorCodeEmpty=Code is invalid. Please try again.\n\nErrorAlreadyJoined="You are already member of group."\nErrorUnableToJoin="Unable to join to group"';
+  return 'TimeShortYesterday=Yest\nTimeShortNow=Now\nTimeShortMinutes={minutes} min\nTimeShortHours={hours} hrs\n\nOnlineOn=online\nOnlineOff=offline\n\nOnlineNow=last seen just now\nOnlineLastSeenToday=last seen today at {time}\nOnlineLastSeenYesterday=last seen yesterday at {time}\nOnlineLastSeenDate=last seen {date}\nOnlineLastSeenDateTime=last seen {date} at {time}\n\nGroupOnline={count} online\nGroupMembers={count} members\n\nTyping=typing...\nTypingUser={user} is typing...\nTypingMultiple={count} people are typing...\n\nFileB={bytes} B\nFileKb={kbytes} KB\nFileMb={mbytes} MB\nFileGb={gbytes} GB\n\nYou=You\nThee=You\n\nContentUnsupported=Unsupported content\nContentDocument=Document\nContentPhoto=Photo\nContentVideo=Video\nContentAudio=Audio\nContact=Contact\nLocation=Location\n\nServiceRegistered=Joined Actor\nServiceRegisteredFull={name} joined Actor Network\nServiceNewDevice=Added new device\nServiceNewDeviceFull={name} added new device to it\'s account\nServiceGroupCreated={name} created the group\nServiceGroupCreatedFull={name} created the group\nServiceGroupLeaved={name} left group\nServiceGroupJoined={name} joined group\nServiceGroupAdded={name} invited {name_added}\nServiceGroupKicked={name} kicked {name_kicked}\nServiceGroupTitle={name} changed the group name\nServiceGroupTitleFull={name} changed the group name to "{title}"\nServiceGroupAvatarChanged={name} changed the group photo\nServiceGroupAvatarRemoved={name} removed the group photo\n\nErrorInternal=Internal server error. Please, try again later.\n\nErrorEmptyPhone=Please, enter your phone number\nErrorIncorrectPhone=Entered phone number is invalid. Please, try again.\n\nErrorCodeExpired=Code expired. Please, start authentication again.\nErrorCodeIncorrect=Entered code is incorrect. Please, try again.\nErrorCodeEmpty=Code is invalid. Please try again.\n\nErrorAlreadyJoined="You are already member of group."\nErrorUnableToJoin="Unable to join to group"';
 }
 ;
 var Lim_actor_core_js_providers_Assets_1cn_1InlineClientBundleGenerator$1_2_classLit = createForClass('im.actor.core.js.providers', 'Assets_cn_InlineClientBundleGenerator/1', 570, Ljava_lang_Object_2_classLit);
@@ -19968,7 +19956,7 @@ function Assets_cn_InlineClientBundleGenerator$2(){
 
 defineClass(571, 1, {}, Assets_cn_InlineClientBundleGenerator$2);
 _.getText = function getText_0(){
-  return 'JanShort=\u4E00\u6708\nFebShort=\u4E8C\u6708\nMarShort=\u4E09\u6708\nAprShort=\u56DB\u6708\nMayShort=\u4E94\u6708\nJunShort=\u516D\u6708\nJulShort=\u4E03\u6708\nAugShort=\u516B\u6708\nSepShort=\u4E5D\u6708\nOctShort=\u5341\u6708\nNovShort=\u5341\u4E00\u6708\nDecShort=\u5341\u4E8C\u6708\n\nJanFull=\u4E00\u6708\nFebFull=\u4E8C\u6708\nMarFull=\u4E09\u6708\nAprFull=\u56DB\u6708\nMayFull=\u4E94\u6708\nJunFull=\u516D\u6708\nJulFull=\u4E03\u6708\nAugFull=\u516B\u6708\nSepFull=\u4E5D\u6708\nOctFull=\u5341\u6708\nNovFull=\u5341\u4E00\u6708\nDecFull=\u5341\u4E8C\u6708';
+  return 'JanShort=Jan\nFebShort=Feb\nMarShort=Mar\nAprShort=Apr\nMayShort=May\nJunShort=Jun\nJulShort=Jul\nAugShort=Aug\nSepShort=Sep\nOctShort=Oct\nNovShort=Nov\nDecShort=Dec\n\nJanFull=January\nFebFull=February\nMarFull=March\nAprFull=April\nMayFull=May\nJunFull=June\nJulFull=July\nAugFull=August\nSepFull=September\nOctFull=October\nNovFull=November\nDecFull=December';
 }
 ;
 var Lim_actor_core_js_providers_Assets_1cn_1InlineClientBundleGenerator$2_2_classLit = createForClass('im.actor.core.js.providers', 'Assets_cn_InlineClientBundleGenerator/2', 571, Ljava_lang_Object_2_classLit);
@@ -20127,7 +20115,7 @@ function Assets_ru_InlineClientBundleGenerator$1(){
 
 defineClass(573, 1, {}, Assets_ru_InlineClientBundleGenerator$1);
 _.getText = function getText_5(){
-  return 'TimeShortYesterday=\u0412\u0447\u0435\u0440\u0430\nTimeShortNow=\u0421\u0435\u0439\u0447\u0430\u0441\nTimeShortMinutes={minutes} \u043C\u0438\u043D\nTimeShortHours={hours} \u0447\n\nOnlineOn=\u0432 \u0441\u0435\u0442\u0438\nOnlineOff=\u043D\u0435 \u0432 \u0441\u0435\u0442\u0438\n\nOnlineNow=\u0431\u044B\u043B(-\u0430) \u0442\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u043E\nOnlineNowMale=\u0431\u044B\u043B \u0442\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u043E\nOnlineNowFemale=\u0431\u044B\u043B\u0430 \u0442\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u043E\nOnlineLastSeenToday=\u0431\u044B\u043B(-\u0430) \u0441\u0435\u0433\u043E\u0434\u043D\u044F \u0432 {time}\nOnlineLastSeenTodayMale=\u0431\u044B\u043B \u0441\u0435\u0433\u043E\u0434\u043D\u044F \u0432 {time}\nOnlineLastSeenTodayFemale=\u0431\u044B\u043B\u0430 \u0441\u0435\u0433\u043E\u0434\u043D\u044F \u0432 {time}\nOnlineLastSeenYesterday=\u0431\u044B\u043B(-\u0430) \u0432\u0447\u0435\u0440\u0430 \u0432 {time}\nOnlineLastSeenYesterdayMale=\u0431\u044B\u043B \u0432\u0447\u0435\u0440\u0430 \u0432 {time}\nOnlineLastSeenYesterdayFemale=\u0431\u044B\u043B\u0430 \u0432\u0447\u0435\u0440\u0430 \u0432 {time}\nOnlineLastSeenDate=\u0431\u044B\u043B(-\u0430) {date}\nOnlineLastSeenDateMale=\u0431\u044B\u043B {date}\nOnlineLastSeenDateFemale=\u0431\u044B\u043B\u0430 {date}\nOnlineLastSeenDateTime=\u0431\u044B\u043B(-\u0430) {date} \u0432 {time}\nOnlineLastSeenDateTimeMale=\u0431\u044B\u043B {date} \u0432 {time}\nOnlineLastSeenDateTimeFemale=\u0431\u044B\u043B\u0430 {date} \u0432 {time}\n\nGroupOnline={count} \u0432 \u0441\u0435\u0442\u0438\nGroupMembers={count} \u0443\u0447\u0430\u0441\u0442\u043D\u0438\u043A\u043E\u0432\n\nTyping=\u043F\u0435\u0447\u0430\u0442\u0430\u0435\u0442...\nTypingUser={user} \u043F\u0435\u0447\u0430\u0442\u0430\u0435\u0442...\nTypingMultiple={count} \u0447\u0435\u043B\u043E\u0432\u0435\u043A \u043F\u0435\u0447\u0430\u0442\u0430\u044E\u0442\u2026\n\nFileB={bytes} B\nFileKb={kbytes} KB\nFileMb={mbytes} MB\nFileGb={gbytes} GB\n\nYou=\u0412\u044B\nThee=\u0412\u0430\u0441\n\nContentUnsupported=\u041D\u0435\u043F\u043E\u0434\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u0435\u043C\u043E\u0435 \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u0435\nContentDocument=\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\nContentPhoto=\u0424\u043E\u0442\u043E\nContentVideo=\u0412\u0438\u0434\u0435\u043E\nContentAudio=\u0410\u0443\u0434\u0438\u043E\nContact=\u041A\u043E\u043D\u0442\u0430\u043A\u0442\nLocation=\u041C\u0435\u0441\u0442\u043E\n\nServiceRegistered=\u0417\u0430\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0438\u0440\u043E\u0432\u0430\u043B\u0441\u044F(-\u0430) \u0432 \u0410\u043A\u0442\u043E\u0440\u0435\nServiceRegisteredMale=\u0417\u0430\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0438\u0440\u043E\u0432\u0430\u043B\u0441\u044F \u0432 \u0410\u043A\u0442\u043E\u0440\u0435\nServiceRegisteredFemale=\u0417\u0430\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0438\u0440\u043E\u0432\u0430\u043B\u0430\u0441\u044C \u0432 \u0410\u043A\u0442\u043E\u0440\u0435\n\nServiceRegisteredFull={name} \u0437\u0430\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0438\u0440\u043E\u0432\u0430\u043B\u0441\u044F(-\u0430) \u0432 \u0410\u043A\u0442\u043E\u0440\u0435\nServiceRegisteredFullMale={name} \u0437\u0430\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0438\u0440\u043E\u0432\u0430\u043B\u0441\u044F \u0432 \u0410\u043A\u0442\u043E\u0440\u0435\nServiceRegisteredFullFemale={name} \u0437\u0430\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0438\u0440\u043E\u0432\u0430\u043B\u0430\u0441\u044C \u0432 \u0410\u043A\u0442\u043E\u0440\u0435\n\nServiceNewDevice=\u0414\u043E\u0431\u0430\u0432\u0438\u043B(-\u0430) \u043D\u043E\u0432\u043E\u0435 \u0443\u0441\u0442\u0440\u043E\u0439\u0441\u0442\u0432\u043E\nServiceNewDeviceMale=\u0414\u043E\u0431\u0430\u0432\u0438\u043B \u043D\u043E\u0432\u043E\u0435 \u0443\u0441\u0442\u0440\u043E\u0439\u0441\u0442\u0432\u043E\nServiceNewDeviceFemale=\u0414\u043E\u0431\u0430\u0432\u0438\u043B\u0430 \u043D\u043E\u0432\u043E\u0435 \u0443\u0441\u0442\u0440\u043E\u0439\u0441\u0442\u0432\u043E\n\nServiceNewDeviceFull={name} \u0434\u043E\u0431\u0430\u0432\u0438\u043B(-\u0430) \u043D\u043E\u0432\u043E\u0435 \u0443\u0441\u0442\u0440\u043E\u0439\u0441\u0442\u0432\u043E\nServiceNewDeviceFullMale={name} \u0434\u043E\u0431\u0430\u0432\u0438\u043B \u043D\u043E\u0432\u043E\u0435 \u0443\u0441\u0442\u0440\u043E\u0439\u0441\u0442\u0432\u043E\nServiceNewDeviceFullFemale={name} \u0434\u043E\u0431\u0430\u0432\u0438\u043B\u0430 \u043D\u043E\u0432\u043E\u0435 \u0443\u0441\u0442\u0440\u043E\u0439\u0441\u0442\u0432\u043E\n\nServiceGroupCreated={name} \u0441\u043E\u0437\u0434\u0430\u043B(-\u0430) \u0433\u0440\u0443\u043F\u043F\u0443\nServiceGroupCreatedYou={name} \u0441\u043E\u0437\u0434\u0430\u043B\u0438 \u0433\u0440\u0443\u043F\u043F\u0443\nServiceGroupCreatedMale={name} \u0441\u043E\u0437\u0434\u0430\u043B \u0433\u0440\u0443\u043F\u043F\u0443\nServiceGroupCreatedFemale={name} \u0441\u043E\u0437\u0434\u0430\u043B\u0430 \u0433\u0440\u0443\u043F\u043F\u0443\n\nServiceGroupCreatedFull={name} \u0441\u043E\u0437\u0434\u0430\u043B(-\u0430) \u0433\u0440\u0443\u043F\u043F\u0443\nServiceGroupCreatedFullYou={name} \u0441\u043E\u0437\u0434\u0430\u043B\u0438 \u0433\u0440\u0443\u043F\u043F\u0443\nServiceGroupCreatedFullMale={name} \u0441\u043E\u0437\u0434\u0430\u043B \u0433\u0440\u0443\u043F\u043F\u0443\nServiceGroupCreatedFullFemale={name} \u0441\u043E\u0437\u0434\u0430\u043B\u0430 \u0433\u0440\u0443\u043F\u043F\u0443\n\nServiceGroupLeaved={name} \u043F\u043E\u043A\u0438\u043D\u0443\u043B(-\u0430) \u0433\u0440\u0443\u043F\u043F\u0443\nServiceGroupLeavedYou={name} \u043F\u043E\u043A\u0438\u043D\u0443\u043B\u0438 \u0433\u0440\u0443\u043F\u043F\u0443\nServiceGroupLeavedMale={name} \u043F\u043E\u043A\u0438\u043D\u0443\u043B \u0433\u0440\u0443\u043F\u043F\u0443\nServiceGroupLeavedFemale={name} \u043F\u043E\u043A\u0438\u043D\u0443\u043B\u0430 \u0433\u0440\u0443\u043F\u043F\u0443\n\nServiceGroupJoined={name} \u0432\u043E\u0448\u0435\u043B(-\u0448\u043B\u0430) \u0432 \u0433\u0440\u0443\u043F\u043F\u0443\nServiceGroupJoinedYou={name} \u0432\u043E\u0448\u043B\u0438 \u0432 \u0433\u0440\u0443\u043F\u043F\u0443\nServiceGroupJoinedMale={name} \u0432\u043E\u0448\u0435\u043B \u0432 \u0433\u0440\u0443\u043F\u043F\u0443\nServiceGroupJoinedFemale={name} \u0432\u043E\u0448\u043B\u0430 \u0432 \u0433\u0440\u0443\u043F\u043F\u0443\n\nServiceGroupAdded={name} \u043F\u0440\u0438\u0433\u043B\u0430\u0441\u0438\u043B(-\u0430) {name_added}\nServiceGroupAddedYou={name} \u043F\u0440\u0438\u0433\u043B\u0430\u0441\u0438\u043B\u0438 {name_added}\nServiceGroupAddedMale={name} \u043F\u0440\u0438\u0433\u043B\u0430\u0441\u0438\u043B {name_added}\nServiceGroupAddedFemale={name} \u043F\u0440\u0438\u0433\u043B\u0430\u0441\u0438\u043B\u0430 {name_added}\n\nServiceGroupKicked={name} \u0438\u0441\u043A\u043B\u044E\u0447\u0438\u043B(-\u0430) {name_kicked}\nServiceGroupKickedYou={name} \u0438\u0441\u043A\u043B\u044E\u0447\u0438\u043B\u0438 {name_kicked}\nServiceGroupKickedMale={name} \u0438\u0441\u043A\u043B\u044E\u0447\u0438\u043B {name_kicked}\nServiceGroupKickedFemale={name} \u0438\u0441\u043A\u043B\u044E\u0447\u0438\u043B\u0430 {name_kicked}\n\nServiceGroupTitle={name} \u0438\u0437\u043C\u0435\u043D\u0438\u043B(-\u0430) \u0442\u0435\u043C\u0443 \u0433\u0440\u0443\u043F\u043F\u044B\nServiceGroupTitleYou={name} \u0438\u0437\u043C\u0435\u043D\u0438\u043B\u0438 \u0442\u0435\u043C\u0443 \u0433\u0440\u0443\u043F\u043F\u044B\nServiceGroupTitleMale={name} \u0438\u0437\u043C\u0435\u043D\u0438\u043B \u0442\u0435\u043C\u0443 \u0433\u0440\u0443\u043F\u043F\u044B\nServiceGroupTitleFemale={name} \u0438\u0437\u043C\u0435\u043D\u0438\u043B\u0430 \u0442\u0435\u043C\u0443 \u0433\u0440\u0443\u043F\u043F\u044B\n\nServiceGroupTitleFull={name} \u0438\u0437\u043C\u0435\u043D\u0438\u043B(-\u0430) \u0442\u0435\u043C\u0443 \u0433\u0440\u0443\u043F\u043F\u044B \u043D\u0430 "{title}"\nServiceGroupTitleFullYou={name} \u0438\u0437\u043C\u0435\u043D\u0438\u043B\u0438 \u0442\u0435\u043C\u0443 \u0433\u0440\u0443\u043F\u043F\u044B \u043D\u0430 "{title}"\nServiceGroupTitleFullMale={name} \u0438\u0437\u043C\u0435\u043D\u0438\u043B \u0442\u0435\u043C\u0443 \u0433\u0440\u0443\u043F\u043F\u044B \u043D\u0430 "{title}"\nServiceGroupTitleFullFemale={name} \u0438\u0437\u043C\u0435\u043D\u0438\u043B\u0430 \u0442\u0435\u043C\u0443 \u0433\u0440\u0443\u043F\u043F\u044B \u043D\u0430 "{title}"\n\nServiceGroupAvatarChanged={name} \u0438\u0437\u043C\u0435\u043D\u0438\u043B(-\u0430) \u0444\u043E\u0442\u043E \u0433\u0440\u0443\u043F\u043F\u044B\nServiceGroupAvatarChangedYou={name} \u0438\u0437\u043C\u0435\u043D\u0438\u043B\u0438 \u0444\u043E\u0442\u043E \u0433\u0440\u0443\u043F\u043F\u044B\nServiceGroupAvatarChangedMale={name} \u0438\u0437\u043C\u0435\u043D\u0438\u043B \u0444\u043E\u0442\u043E \u0433\u0440\u0443\u043F\u043F\u044B\nServiceGroupAvatarChangedFemale={name} \u0438\u0437\u043C\u0435\u043D\u0438\u043B\u0430 \u0444\u043E\u0442\u043E \u0433\u0440\u0443\u043F\u043F\u044B\n\nServiceGroupAvatarRemoved={name} \u0443\u0434\u0430\u043B\u0438\u043B \u0444\u043E\u0442\u043E \u0433\u0440\u0443\u043F\u043F\u044B\nServiceGroupAvatarRemovedYou={name} \u0443\u0434\u0430\u043B\u0438\u043B\u0438 \u0444\u043E\u0442\u043E \u0433\u0440\u0443\u043F\u043F\u044B\nServiceGroupAvatarRemovedMale={name} \u0443\u0434\u0430\u043B\u0438\u043B \u0444\u043E\u0442\u043E \u0433\u0440\u0443\u043F\u043F\u044B\nServiceGroupAvatarRemovedFemale={name} \u0443\u0434\u0430\u043B\u0438\u043B\u0430 \u0444\u043E\u0442\u043E \u0433\u0440\u0443\u043F\u043F\u044B\n\nErrorInternal=Internal server error. Please, try again later.\n\nErrorEmptyPhone=Please, enter your phone number\nErrorIncorrectPhone=Entered phone number is invalid. Please, try again.\n\nErrorCodeExpired=Code expired. Please, start authentication again.\nErrorCodeIncorrect=Entered code is incorrect. Please, try again.\nErrorCodeEmpty=Code is invalid. Please try again.\n\nErrorAlreadyJoined="You are already member of group."\nErrorUnableToJoin="Unable to join to group"';
+  return 'TimeShortYesterday=Yest\nTimeShortNow=Now\nTimeShortMinutes={minutes} min\nTimeShortHours={hours} hrs\n\nOnlineOn=online\nOnlineOff=offline\n\nOnlineNow=last seen just now\nOnlineLastSeenToday=last seen today at {time}\nOnlineLastSeenYesterday=last seen yesterday at {time}\nOnlineLastSeenDate=last seen {date}\nOnlineLastSeenDateTime=last seen {date} at {time}\n\nGroupOnline={count} online\nGroupMembers={count} members\n\nTyping=typing...\nTypingUser={user} is typing...\nTypingMultiple={count} people are typing...\n\nFileB={bytes} B\nFileKb={kbytes} KB\nFileMb={mbytes} MB\nFileGb={gbytes} GB\n\nYou=You\nThee=You\n\nContentUnsupported=Unsupported content\nContentDocument=Document\nContentPhoto=Photo\nContentVideo=Video\nContentAudio=Audio\nContact=Contact\nLocation=Location\n\nServiceRegistered=Joined Actor\nServiceRegisteredFull={name} joined Actor Network\nServiceNewDevice=Added new device\nServiceNewDeviceFull={name} added new device to it\'s account\nServiceGroupCreated={name} created the group\nServiceGroupCreatedFull={name} created the group\nServiceGroupLeaved={name} left group\nServiceGroupJoined={name} joined group\nServiceGroupAdded={name} invited {name_added}\nServiceGroupKicked={name} kicked {name_kicked}\nServiceGroupTitle={name} changed the group name\nServiceGroupTitleFull={name} changed the group name to "{title}"\nServiceGroupAvatarChanged={name} changed the group photo\nServiceGroupAvatarRemoved={name} removed the group photo\n\nErrorInternal=Internal server error. Please, try again later.\n\nErrorEmptyPhone=Please, enter your phone number\nErrorIncorrectPhone=Entered phone number is invalid. Please, try again.\n\nErrorCodeExpired=Code expired. Please, start authentication again.\nErrorCodeIncorrect=Entered code is incorrect. Please, try again.\nErrorCodeEmpty=Code is invalid. Please try again.\n\nErrorAlreadyJoined="You are already member of group."\nErrorUnableToJoin="Unable to join to group"';
 }
 ;
 var Lim_actor_core_js_providers_Assets_1ru_1InlineClientBundleGenerator$1_2_classLit = createForClass('im.actor.core.js.providers', 'Assets_ru_InlineClientBundleGenerator/1', 573, Ljava_lang_Object_2_classLit);
@@ -20136,7 +20124,7 @@ function Assets_ru_InlineClientBundleGenerator$2(){
 
 defineClass(574, 1, {}, Assets_ru_InlineClientBundleGenerator$2);
 _.getText = function getText_6(){
-  return 'JanShort=\u042F\u043D\u0432\nFebShort=\u0424\u0435\u0432\nMarShort=\u041C\u0430\u0440\nAprShort=\u0410\u043F\u0440\nMayShort=\u041C\u0430\u0439\nJunShort=\u0418\u044E\u043D\nJulShort=\u0418\u044E\u043B\nAugShort=\u0410\u0432\u0433\nSepShort=\u0421\u0435\u043D\nOctShort=\u041E\u043A\u0442\nNovShort=\u041D\u043E\u044F\nDecShort=\u0414\u0435\u043A\n\nJanFull=\u042F\u043D\u0432\u0430\u0440\u044C\nFebFull=\u0424\u0435\u0432\u0440\u0430\u043B\u044C\nMarFull=\u041C\u0430\u0440\u0442\nAprFull=\u0410\u043F\u0440\u0435\u043B\u044C\nMayFull=\u041C\u0430\u0439\nJunFull=\u0418\u044E\u043D\u044C\nJulFull=\u0418\u044E\u043B\u044C\nAugFull=\u0410\u0432\u0433\u0443\u0441\u0442\nSepFull=\u0421\u0435\u043D\u0442\u044F\u0431\u0440\u044C\nOctFull=\u041E\u043A\u0442\u044F\u0431\u0440\u044C\nNovFull=\u041D\u043E\u044F\u0431\u0432\u044C\nDecFull=\u0414\u0435\u043A\u0430\u0431\u0440\u044C';
+  return 'JanShort=Jan\nFebShort=Feb\nMarShort=Mar\nAprShort=Apr\nMayShort=May\nJunShort=Jun\nJulShort=Jul\nAugShort=Aug\nSepShort=Sep\nOctShort=Oct\nNovShort=Nov\nDecShort=Dec\n\nJanFull=January\nFebFull=February\nMarFull=March\nAprFull=April\nMayFull=May\nJunFull=June\nJulFull=July\nAugFull=August\nSepFull=September\nOctFull=October\nNovFull=November\nDecFull=December';
 }
 ;
 var Lim_actor_core_js_providers_Assets_1ru_1InlineClientBundleGenerator$2_2_classLit = createForClass('im.actor.core.js.providers', 'Assets_ru_InlineClientBundleGenerator/2', 574, Ljava_lang_Object_2_classLit);
@@ -23764,8 +23752,8 @@ function SecurityModule(context){
   AbsModule.call(this, context);
 }
 
-defineClass(1005, 24, {}, SecurityModule);
-var Lim_actor_core_modules_internal_SecurityModule_2_classLit = createForClass('im.actor.core.modules.internal', 'SecurityModule', 1005, Lim_actor_core_modules_AbsModule_2_classLit);
+defineClass(1002, 24, {}, SecurityModule);
+var Lim_actor_core_modules_internal_SecurityModule_2_classLit = createForClass('im.actor.core.modules.internal', 'SecurityModule', 1002, Lim_actor_core_modules_AbsModule_2_classLit);
 function $start_24(this$static, callback){
   $request_0(this$static.this$01, new RequestGetAuthSessions, new SecurityModule$1$1(callback));
 }
@@ -23774,13 +23762,13 @@ function SecurityModule$1(this$0){
   this.this$01 = this$0;
 }
 
-defineClass(1006, 1, {}, SecurityModule$1);
-var Lim_actor_core_modules_internal_SecurityModule$1_2_classLit = createForClass('im.actor.core.modules.internal', 'SecurityModule/1', 1006, Ljava_lang_Object_2_classLit);
+defineClass(1003, 1, {}, SecurityModule$1);
+var Lim_actor_core_modules_internal_SecurityModule$1_2_classLit = createForClass('im.actor.core.modules.internal', 'SecurityModule/1', 1003, Ljava_lang_Object_2_classLit);
 function SecurityModule$1$1(val$callback){
   this.val$callback2 = val$callback;
 }
 
-defineClass(1007, 1, {}, SecurityModule$1$1);
+defineClass(1004, 1, {}, SecurityModule$1$1);
 _.onError_2 = function onError_64(e){
   $runOnUiThread(new SecurityModule$1$1$2(this.val$callback2, e));
 }
@@ -23789,29 +23777,29 @@ _.onResult_2 = function onResult_64(response){
   $runOnUiThread(new SecurityModule$1$1$1(this.val$callback2, response));
 }
 ;
-var Lim_actor_core_modules_internal_SecurityModule$1$1_2_classLit = createForClass('im.actor.core.modules.internal', 'SecurityModule/1/1', 1007, Ljava_lang_Object_2_classLit);
+var Lim_actor_core_modules_internal_SecurityModule$1$1_2_classLit = createForClass('im.actor.core.modules.internal', 'SecurityModule/1/1', 1004, Ljava_lang_Object_2_classLit);
 function SecurityModule$1$1$1(val$callback, val$response){
   this.val$callback2 = val$callback;
   this.val$response3 = val$response;
 }
 
-defineClass(1008, 1, $intern_26, SecurityModule$1$1$1);
+defineClass(1005, 1, $intern_26, SecurityModule$1$1$1);
 _.run = function run_94(){
   $onResult_27(this.val$callback2, this.val$response3.userAuths);
 }
 ;
-var Lim_actor_core_modules_internal_SecurityModule$1$1$1_2_classLit = createForClass('im.actor.core.modules.internal', 'SecurityModule/1/1/1', 1008, Ljava_lang_Object_2_classLit);
+var Lim_actor_core_modules_internal_SecurityModule$1$1$1_2_classLit = createForClass('im.actor.core.modules.internal', 'SecurityModule/1/1/1', 1005, Ljava_lang_Object_2_classLit);
 function SecurityModule$1$1$2(val$callback, val$e){
   this.val$callback2 = val$callback;
   this.val$e3 = val$e;
 }
 
-defineClass(1009, 1, $intern_26, SecurityModule$1$1$2);
+defineClass(1006, 1, $intern_26, SecurityModule$1$1$2);
 _.run = function run_95(){
   $onError_27(this.val$callback2, this.val$e3);
 }
 ;
-var Lim_actor_core_modules_internal_SecurityModule$1$1$2_2_classLit = createForClass('im.actor.core.modules.internal', 'SecurityModule/1/1/2', 1009, Ljava_lang_Object_2_classLit);
+var Lim_actor_core_modules_internal_SecurityModule$1$1$2_2_classLit = createForClass('im.actor.core.modules.internal', 'SecurityModule/1/1/2', 1006, Ljava_lang_Object_2_classLit);
 function $start_25(this$static, callback){
   $request_0(this$static.this$01, new RequestTerminateAllSessions, new SecurityModule$2$1(callback));
 }
@@ -23820,8 +23808,8 @@ function SecurityModule$2(this$0){
   this.this$01 = this$0;
 }
 
-defineClass(1010, 1, {}, SecurityModule$2);
-var Lim_actor_core_modules_internal_SecurityModule$2_2_classLit = createForClass('im.actor.core.modules.internal', 'SecurityModule/2', 1010, Ljava_lang_Object_2_classLit);
+defineClass(1007, 1, {}, SecurityModule$2);
+var Lim_actor_core_modules_internal_SecurityModule$2_2_classLit = createForClass('im.actor.core.modules.internal', 'SecurityModule/2', 1007, Ljava_lang_Object_2_classLit);
 function $onResult_33(this$static){
   $runOnUiThread(new SecurityModule$2$1$1(this$static.val$callback2));
 }
@@ -23830,7 +23818,7 @@ function SecurityModule$2$1(val$callback){
   this.val$callback2 = val$callback;
 }
 
-defineClass(1011, 1, {}, SecurityModule$2$1);
+defineClass(1008, 1, {}, SecurityModule$2$1);
 _.onError_2 = function onError_65(e){
   $runOnUiThread(new SecurityModule$2$1$2(this.val$callback2, e));
 }
@@ -23839,28 +23827,28 @@ _.onResult_2 = function onResult_65(response){
   $onResult_33(this, response);
 }
 ;
-var Lim_actor_core_modules_internal_SecurityModule$2$1_2_classLit = createForClass('im.actor.core.modules.internal', 'SecurityModule/2/1', 1011, Ljava_lang_Object_2_classLit);
+var Lim_actor_core_modules_internal_SecurityModule$2$1_2_classLit = createForClass('im.actor.core.modules.internal', 'SecurityModule/2/1', 1008, Ljava_lang_Object_2_classLit);
 function SecurityModule$2$1$1(val$callback){
   this.val$callback2 = val$callback;
 }
 
-defineClass(1012, 1, $intern_26, SecurityModule$2$1$1);
+defineClass(1009, 1, $intern_26, SecurityModule$2$1$1);
 _.run = function run_96(){
   $onResult(this.val$callback2, ($clinit_Boolean() , $clinit_Boolean() , TRUE));
 }
 ;
-var Lim_actor_core_modules_internal_SecurityModule$2$1$1_2_classLit = createForClass('im.actor.core.modules.internal', 'SecurityModule/2/1/1', 1012, Ljava_lang_Object_2_classLit);
+var Lim_actor_core_modules_internal_SecurityModule$2$1$1_2_classLit = createForClass('im.actor.core.modules.internal', 'SecurityModule/2/1/1', 1009, Ljava_lang_Object_2_classLit);
 function SecurityModule$2$1$2(val$callback, val$e){
   this.val$callback2 = val$callback;
   this.val$e3 = val$e;
 }
 
-defineClass(1013, 1, $intern_26, SecurityModule$2$1$2);
+defineClass(1010, 1, $intern_26, SecurityModule$2$1$2);
 _.run = function run_97(){
   $onError(this.val$callback2, this.val$e3);
 }
 ;
-var Lim_actor_core_modules_internal_SecurityModule$2$1$2_2_classLit = createForClass('im.actor.core.modules.internal', 'SecurityModule/2/1/2', 1013, Ljava_lang_Object_2_classLit);
+var Lim_actor_core_modules_internal_SecurityModule$2$1$2_2_classLit = createForClass('im.actor.core.modules.internal', 'SecurityModule/2/1/2', 1010, Ljava_lang_Object_2_classLit);
 function $start_26(this$static, callback){
   $request_0(this$static.this$01, new RequestTerminateSession_0(this$static.val$id2), new SecurityModule$3$1(callback));
 }
@@ -23870,9 +23858,9 @@ function SecurityModule$3(this$0, val$id){
   this.val$id2 = val$id;
 }
 
-defineClass(1014, 1, {}, SecurityModule$3);
+defineClass(1011, 1, {}, SecurityModule$3);
 _.val$id2 = 0;
-var Lim_actor_core_modules_internal_SecurityModule$3_2_classLit = createForClass('im.actor.core.modules.internal', 'SecurityModule/3', 1014, Ljava_lang_Object_2_classLit);
+var Lim_actor_core_modules_internal_SecurityModule$3_2_classLit = createForClass('im.actor.core.modules.internal', 'SecurityModule/3', 1011, Ljava_lang_Object_2_classLit);
 function $onResult_34(this$static){
   $runOnUiThread(new SecurityModule$3$1$1(this$static.val$callback2));
 }
@@ -23881,7 +23869,7 @@ function SecurityModule$3$1(val$callback){
   this.val$callback2 = val$callback;
 }
 
-defineClass(1015, 1, {}, SecurityModule$3$1);
+defineClass(1012, 1, {}, SecurityModule$3$1);
 _.onError_2 = function onError_66(e){
   $runOnUiThread(new SecurityModule$3$1$2(this.val$callback2, e));
 }
@@ -23890,28 +23878,28 @@ _.onResult_2 = function onResult_66(response){
   $onResult_34(this, response);
 }
 ;
-var Lim_actor_core_modules_internal_SecurityModule$3$1_2_classLit = createForClass('im.actor.core.modules.internal', 'SecurityModule/3/1', 1015, Ljava_lang_Object_2_classLit);
+var Lim_actor_core_modules_internal_SecurityModule$3$1_2_classLit = createForClass('im.actor.core.modules.internal', 'SecurityModule/3/1', 1012, Ljava_lang_Object_2_classLit);
 function SecurityModule$3$1$1(val$callback){
   this.val$callback2 = val$callback;
 }
 
-defineClass(1016, 1, $intern_26, SecurityModule$3$1$1);
+defineClass(1013, 1, $intern_26, SecurityModule$3$1$1);
 _.run = function run_98(){
   $onResult_28(this.val$callback2, ($clinit_Boolean() , $clinit_Boolean() , TRUE));
 }
 ;
-var Lim_actor_core_modules_internal_SecurityModule$3$1$1_2_classLit = createForClass('im.actor.core.modules.internal', 'SecurityModule/3/1/1', 1016, Ljava_lang_Object_2_classLit);
+var Lim_actor_core_modules_internal_SecurityModule$3$1$1_2_classLit = createForClass('im.actor.core.modules.internal', 'SecurityModule/3/1/1', 1013, Ljava_lang_Object_2_classLit);
 function SecurityModule$3$1$2(val$callback, val$e){
   this.val$callback2 = val$callback;
   this.val$e3 = val$e;
 }
 
-defineClass(1017, 1, $intern_26, SecurityModule$3$1$2);
+defineClass(1014, 1, $intern_26, SecurityModule$3$1$2);
 _.run = function run_99(){
   $onError_28(this.val$callback2, this.val$e3);
 }
 ;
-var Lim_actor_core_modules_internal_SecurityModule$3$1$2_2_classLit = createForClass('im.actor.core.modules.internal', 'SecurityModule/3/1/2', 1017, Ljava_lang_Object_2_classLit);
+var Lim_actor_core_modules_internal_SecurityModule$3$1$2_2_classLit = createForClass('im.actor.core.modules.internal', 'SecurityModule/3/1/2', 1014, Ljava_lang_Object_2_classLit);
 function $changeConversationTonesEnabled_0(this$static, val){
   $setBooleanValue(this$static, this$static.KEY_SOUND_EFFECTS, val);
 }
@@ -27459,7 +27447,7 @@ function SenderActor$1(this$0, val$peer, val$rid, val$apiPeer){
   this.val$apiPeer5 = val$apiPeer;
 }
 
-defineClass(1004, 1, {}, SenderActor$1);
+defineClass(1001, 1, {}, SenderActor$1);
 _.onError_2 = function onError_86(e){
   $send(this.this$01.context_0.actorScope.actorRef, new SenderActor$MessageError(this.val$peer2, this.val$rid3));
 }
@@ -27470,7 +27458,7 @@ _.onResult_2 = function onResult_86(response){
 }
 ;
 _.val$rid3 = {l:0, m:0, h:0};
-var Lim_actor_core_modules_internal_messages_SenderActor$1_2_classLit = createForClass('im.actor.core.modules.internal.messages', 'SenderActor/1', 1004, Ljava_lang_Object_2_classLit);
+var Lim_actor_core_modules_internal_messages_SenderActor$1_2_classLit = createForClass('im.actor.core.modules.internal.messages', 'SenderActor/1', 1001, Ljava_lang_Object_2_classLit);
 function SenderActor$MessageError(peer, rid){
   this.peer = peer;
   this.rid = rid;
@@ -35810,10 +35798,6 @@ function $formatTimeNative(dateVal){
 function $clinit_JsLogProvider(){
   $clinit_JsLogProvider = emptyMethod;
   dateTimeFormat = ($clinit_DateTimeFormat_0() , getFormat($getDateTimeFormatInfo(($clinit_LocaleInfo() , $clinit_LocaleInfo() , instance_0))));
-}
-
-function $d(message){
-  log_1($format(dateTimeFormat, new Date_0, null) + '[D] ' + 'JsMessenger' + ':' + message);
 }
 
 function error_0(message){
