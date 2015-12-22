@@ -171,6 +171,16 @@ function actor(){
         locale = __gwt_getMetaProperty('locale');
       }
       if (!locale) {
+        var language = navigator.browserLanguage?navigator.browserLanguage:navigator.language;
+        if (language) {
+          var parts = language.split(/[-_]/);
+          if (parts.length > 1) {
+            parts[1] = parts[1].toUpperCase();
+          }
+          locale = parts.join('_');
+        }
+      }
+      if (!locale) {
         locale = $wnd_0['__gwt_Locale'];
       }
       if (locale) {
