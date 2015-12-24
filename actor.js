@@ -249,36 +249,36 @@ function actor(){
   processMetas();
   try {
     var strongName;
-    unflattenKeylistIntoAnswers(['ar', 'gecko1_8'], '3EEF6456DEFD182A6CCCA21C553A47D4');
-    unflattenKeylistIntoAnswers(['ar', 'ie10'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':1');
-    unflattenKeylistIntoAnswers(['default', 'gecko1_8'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':10');
-    unflattenKeylistIntoAnswers(['default', 'ie10'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':11');
-    unflattenKeylistIntoAnswers(['default', 'ie8'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':12');
-    unflattenKeylistIntoAnswers(['default', 'ie9'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':13');
-    unflattenKeylistIntoAnswers(['default', 'safari'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':14');
-    unflattenKeylistIntoAnswers(['en', 'gecko1_8'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':15');
-    unflattenKeylistIntoAnswers(['en', 'ie10'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':16');
-    unflattenKeylistIntoAnswers(['en', 'ie8'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':17');
-    unflattenKeylistIntoAnswers(['en', 'ie9'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':18');
-    unflattenKeylistIntoAnswers(['en', 'safari'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':19');
-    unflattenKeylistIntoAnswers(['ar', 'ie8'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':2');
-    unflattenKeylistIntoAnswers(['pt', 'gecko1_8'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':20');
-    unflattenKeylistIntoAnswers(['pt', 'ie10'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':21');
-    unflattenKeylistIntoAnswers(['pt', 'ie8'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':22');
-    unflattenKeylistIntoAnswers(['pt', 'ie9'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':23');
-    unflattenKeylistIntoAnswers(['pt', 'safari'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':24');
-    unflattenKeylistIntoAnswers(['ru', 'gecko1_8'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':25');
-    unflattenKeylistIntoAnswers(['ru', 'ie10'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':26');
-    unflattenKeylistIntoAnswers(['ru', 'ie8'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':27');
-    unflattenKeylistIntoAnswers(['ru', 'ie9'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':28');
-    unflattenKeylistIntoAnswers(['ru', 'safari'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':29');
-    unflattenKeylistIntoAnswers(['ar', 'ie9'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':3');
-    unflattenKeylistIntoAnswers(['ar', 'safari'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':4');
-    unflattenKeylistIntoAnswers(['cn', 'gecko1_8'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':5');
-    unflattenKeylistIntoAnswers(['cn', 'ie10'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':6');
-    unflattenKeylistIntoAnswers(['cn', 'ie8'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':7');
-    unflattenKeylistIntoAnswers(['cn', 'ie9'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':8');
-    unflattenKeylistIntoAnswers(['cn', 'safari'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':9');
+    unflattenKeylistIntoAnswers(['ar', 'gecko1_8'], '43CE48899A567270545BCC3F01411DD9');
+    unflattenKeylistIntoAnswers(['ar', 'ie10'], '43CE48899A567270545BCC3F01411DD9' + ':1');
+    unflattenKeylistIntoAnswers(['default', 'gecko1_8'], '43CE48899A567270545BCC3F01411DD9' + ':10');
+    unflattenKeylistIntoAnswers(['default', 'ie10'], '43CE48899A567270545BCC3F01411DD9' + ':11');
+    unflattenKeylistIntoAnswers(['default', 'ie8'], '43CE48899A567270545BCC3F01411DD9' + ':12');
+    unflattenKeylistIntoAnswers(['default', 'ie9'], '43CE48899A567270545BCC3F01411DD9' + ':13');
+    unflattenKeylistIntoAnswers(['default', 'safari'], '43CE48899A567270545BCC3F01411DD9' + ':14');
+    unflattenKeylistIntoAnswers(['en', 'gecko1_8'], '43CE48899A567270545BCC3F01411DD9' + ':15');
+    unflattenKeylistIntoAnswers(['en', 'ie10'], '43CE48899A567270545BCC3F01411DD9' + ':16');
+    unflattenKeylistIntoAnswers(['en', 'ie8'], '43CE48899A567270545BCC3F01411DD9' + ':17');
+    unflattenKeylistIntoAnswers(['en', 'ie9'], '43CE48899A567270545BCC3F01411DD9' + ':18');
+    unflattenKeylistIntoAnswers(['en', 'safari'], '43CE48899A567270545BCC3F01411DD9' + ':19');
+    unflattenKeylistIntoAnswers(['ar', 'ie8'], '43CE48899A567270545BCC3F01411DD9' + ':2');
+    unflattenKeylistIntoAnswers(['pt', 'gecko1_8'], '43CE48899A567270545BCC3F01411DD9' + ':20');
+    unflattenKeylistIntoAnswers(['pt', 'ie10'], '43CE48899A567270545BCC3F01411DD9' + ':21');
+    unflattenKeylistIntoAnswers(['pt', 'ie8'], '43CE48899A567270545BCC3F01411DD9' + ':22');
+    unflattenKeylistIntoAnswers(['pt', 'ie9'], '43CE48899A567270545BCC3F01411DD9' + ':23');
+    unflattenKeylistIntoAnswers(['pt', 'safari'], '43CE48899A567270545BCC3F01411DD9' + ':24');
+    unflattenKeylistIntoAnswers(['ru', 'gecko1_8'], '43CE48899A567270545BCC3F01411DD9' + ':25');
+    unflattenKeylistIntoAnswers(['ru', 'ie10'], '43CE48899A567270545BCC3F01411DD9' + ':26');
+    unflattenKeylistIntoAnswers(['ru', 'ie8'], '43CE48899A567270545BCC3F01411DD9' + ':27');
+    unflattenKeylistIntoAnswers(['ru', 'ie9'], '43CE48899A567270545BCC3F01411DD9' + ':28');
+    unflattenKeylistIntoAnswers(['ru', 'safari'], '43CE48899A567270545BCC3F01411DD9' + ':29');
+    unflattenKeylistIntoAnswers(['ar', 'ie9'], '43CE48899A567270545BCC3F01411DD9' + ':3');
+    unflattenKeylistIntoAnswers(['ar', 'safari'], '43CE48899A567270545BCC3F01411DD9' + ':4');
+    unflattenKeylistIntoAnswers(['cn', 'gecko1_8'], '43CE48899A567270545BCC3F01411DD9' + ':5');
+    unflattenKeylistIntoAnswers(['cn', 'ie10'], '43CE48899A567270545BCC3F01411DD9' + ':6');
+    unflattenKeylistIntoAnswers(['cn', 'ie8'], '43CE48899A567270545BCC3F01411DD9' + ':7');
+    unflattenKeylistIntoAnswers(['cn', 'ie9'], '43CE48899A567270545BCC3F01411DD9' + ':8');
+    unflattenKeylistIntoAnswers(['cn', 'safari'], '43CE48899A567270545BCC3F01411DD9' + ':9');
     strongName = answers[computePropValue('locale')][computePropValue('user.agent')];
     var idx = strongName.indexOf(':');
     if (idx != -1) {
@@ -317,7 +317,7 @@ function actor(){
 }
 
 actor();
-(function () {var $gwt_version = "2.7.0";var $wnd = window;var $doc = $wnd.document;var $moduleName, $moduleBase;var $stats = $wnd.__gwtStatsEvent ? function(a) {$wnd.__gwtStatsEvent(a)} : null;var $strongName = '3EEF6456DEFD182A6CCCA21C553A47D4';var $intern_0 = 2147483647, $intern_1 = {3:1, 17:1}, $intern_2 = {3:1, 11:1, 17:1}, $intern_3 = {3:1}, $intern_4 = 1000, $intern_5 = 65535, $intern_6 = 4194303, $intern_7 = 1048575, $intern_8 = 524288, $intern_9 = 4194304, $intern_10 = 17592186044416, $intern_11 = -9223372036854775808, $intern_12 = {422:1}, $intern_13 = 65536, $intern_14 = 131072, $intern_15 = 1048576, $intern_16 = 16777216, $intern_17 = 67108864, $intern_18 = {4:1}, $intern_19 = 1449, $intern_20 = 1473, $intern_21 = 1452, $intern_22 = 1475, $intern_23 = 1463, $intern_24 = 1023, $intern_25 = 1435, $intern_26 = {9:1}, $intern_27 = {68:1}, $intern_28 = 1438, $intern_29 = {43:1, 3:1}, $intern_30 = {30:1}, $intern_31 = 5.9604644775390625E-8, $intern_32 = {146:1}, $intern_33 = {3:1, 48:1, 91:1}, $intern_34 = {5:1, 3:1, 11:1, 17:1}, $intern_35 = 1.52587890625E-5, $intern_36 = 9.5367431640625E-7, $intern_37 = 2.220446049250313E-16, $intern_38 = {137:1}, $intern_39 = {90:1}, $intern_40 = {93:1, 55:1}, $intern_41 = {93:1, 103:1, 55:1}, $intern_42 = {3:1, 137:1}, $intern_43 = 15525485, $intern_44 = {3:1, 27:1, 12:1, 72:1}, $intern_45 = 1432;
+(function () {var $gwt_version = "2.7.0";var $wnd = window;var $doc = $wnd.document;var $moduleName, $moduleBase;var $stats = $wnd.__gwtStatsEvent ? function(a) {$wnd.__gwtStatsEvent(a)} : null;var $strongName = '43CE48899A567270545BCC3F01411DD9';var $intern_0 = 2147483647, $intern_1 = {3:1, 17:1}, $intern_2 = {3:1, 11:1, 17:1}, $intern_3 = {3:1}, $intern_4 = 1000, $intern_5 = 65535, $intern_6 = 4194303, $intern_7 = 1048575, $intern_8 = 524288, $intern_9 = 4194304, $intern_10 = 17592186044416, $intern_11 = -9223372036854775808, $intern_12 = {422:1}, $intern_13 = 65536, $intern_14 = 131072, $intern_15 = 1048576, $intern_16 = 16777216, $intern_17 = 67108864, $intern_18 = {4:1}, $intern_19 = 1449, $intern_20 = 1473, $intern_21 = 1452, $intern_22 = 1475, $intern_23 = 1463, $intern_24 = 1023, $intern_25 = 1435, $intern_26 = {9:1}, $intern_27 = {68:1}, $intern_28 = 1438, $intern_29 = {43:1, 3:1}, $intern_30 = {30:1}, $intern_31 = 5.9604644775390625E-8, $intern_32 = {146:1}, $intern_33 = {3:1, 48:1, 91:1}, $intern_34 = {5:1, 3:1, 11:1, 17:1}, $intern_35 = 1.52587890625E-5, $intern_36 = 9.5367431640625E-7, $intern_37 = 2.220446049250313E-16, $intern_38 = {137:1}, $intern_39 = {90:1}, $intern_40 = {93:1, 55:1}, $intern_41 = {93:1, 103:1, 55:1}, $intern_42 = {3:1, 137:1}, $intern_43 = 15525485, $intern_44 = {3:1, 27:1, 12:1, 72:1}, $intern_45 = 1432;
 var _, initFnList_0, prototypesByTypeId_0 = {}, permutationId = -1;
 function im_actor_core_js_providers_Assets(){
   switch (permutationId) {
@@ -6459,7 +6459,7 @@ var Lim_actor_core_api_ApiOutTeam_2_classLit = createForClass('im.actor.core.api
 function ApiParagraphStyle(){
 }
 
-defineClass(497, 4, $intern_18, ApiParagraphStyle);
+defineClass(498, 4, $intern_18, ApiParagraphStyle);
 _.parse_0 = function parse_46(values){
   this.showParagraph = ($clinit_Boolean() , neq($getLong_0(values, 1), {l:0, m:0, h:0})?TRUE:FALSE);
   $getBytes_0(values, 2) != null && (this.paragraphColor = fromBytes_1($getBytes(values, 2)));
@@ -6482,7 +6482,7 @@ _.toString$ = function toString_45(){
   return res;
 }
 ;
-var Lim_actor_core_api_ApiParagraphStyle_2_classLit = createForClass('im.actor.core.api', 'ApiParagraphStyle', 497, Lim_actor_runtime_bser_BserObject_2_classLit);
+var Lim_actor_core_api_ApiParagraphStyle_2_classLit = createForClass('im.actor.core.api', 'ApiParagraphStyle', 498, Lim_actor_runtime_bser_BserObject_2_classLit);
 function ApiParameter(){
 }
 
@@ -17070,13 +17070,13 @@ defineClass(275, 1, {}, FastThumb, FastThumb_0, FastThumb_1);
 _.h_0 = 0;
 _.w = 0;
 var Lim_actor_core_entity_content_FastThumb_2_classLit = createForClass('im.actor.core.entity.content', 'FastThumb', 275, Ljava_lang_Object_2_classLit);
-defineClass(1465, 1, {});
-var Lim_actor_core_entity_content_FileSource_2_classLit = createForClass('im.actor.core.entity.content', 'FileSource', 1465, Ljava_lang_Object_2_classLit);
+defineClass(1466, 1, {});
+var Lim_actor_core_entity_content_FileSource_2_classLit = createForClass('im.actor.core.entity.content', 'FileSource', 1466, Ljava_lang_Object_2_classLit);
 function FileLocalSource(size_0){
   this.size_0 = size_0;
 }
 
-defineClass(228, 1465, {228:1}, FileLocalSource);
+defineClass(228, 1466, {228:1}, FileLocalSource);
 _.getSize = function getSize(){
   return this.size_0;
 }
@@ -17087,7 +17087,7 @@ function FileRemoteSource(fileReference){
   this.fileReference = fileReference;
 }
 
-defineClass(227, 1465, {227:1}, FileRemoteSource);
+defineClass(227, 1466, {227:1}, FileRemoteSource);
 _.getSize = function getSize_0(){
   return this.fileReference.fileSize;
 }
@@ -17364,8 +17364,8 @@ function loadContainer_0(data_0){
   }
 }
 
-defineClass(1466, 4, $intern_18);
-var Lim_actor_core_entity_content_internal_AbsLocalContent_2_classLit = createForClass('im.actor.core.entity.content.internal', 'AbsLocalContent', 1466, Lim_actor_runtime_bser_BserObject_2_classLit);
+defineClass(1465, 4, $intern_18);
+var Lim_actor_core_entity_content_internal_AbsLocalContent_2_classLit = createForClass('im.actor.core.entity.content.internal', 'AbsLocalContent', 1465, Lim_actor_runtime_bser_BserObject_2_classLit);
 function ContentLocalContainer(content_0){
   this.content_0 = content_0;
 }
@@ -17408,7 +17408,7 @@ function LocalDocument_0(data_0){
   $load(this, data_0);
 }
 
-defineClass(166, 1466, $intern_18, LocalDocument, LocalDocument_0);
+defineClass(166, 1465, $intern_18, LocalDocument, LocalDocument_0);
 _.parse_0 = function parse_307(values){
   $parse_3(this, values);
 }
@@ -17519,7 +17519,7 @@ function Sticker_0(msg){
   this.apiImageLocation512 = msg.image512;
 }
 
-defineClass(498, 1466, $intern_18, Sticker, Sticker_0);
+defineClass(497, 1465, $intern_18, Sticker, Sticker_0);
 _.parse_0 = function parse_311(values){
   this.apiImageLocation128 = $getObj(values, 1, new ApiImageLocation);
   this.apiImageLocation256 = $getObj(values, 2, new ApiImageLocation);
@@ -17543,7 +17543,7 @@ _.serialize = function serialize_300(writer){
 _.collectionAccessHash = {l:0, m:0, h:0};
 _.stickerCollectionId = 0;
 _.stickerId = 0;
-var Lim_actor_core_entity_content_internal_Sticker_2_classLit = createForClass('im.actor.core.entity.content.internal', 'Sticker', 498, Lim_actor_core_entity_content_internal_AbsLocalContent_2_classLit);
+var Lim_actor_core_entity_content_internal_Sticker_2_classLit = createForClass('im.actor.core.entity.content.internal', 'Sticker', 497, Lim_actor_core_entity_content_internal_AbsLocalContent_2_classLit);
 function $applyWrapped_1(this$static, wrapped){
   var m, m$iterator;
   this$static.id_0 = wrapped.id_0;
@@ -17866,7 +17866,7 @@ function $convertSearchRes(this$static, res){
 }
 
 function $createGroup_0(this$static, title_0, file, uids){
-  return create_52(new JsFacade$26(this$static, file, title_0, uids));
+  return create_53(new JsFacade$26(this$static, file, title_0, uids));
 }
 
 function JsFacade(){
@@ -17913,11 +17913,11 @@ function JsFacade_0(endpoints){
 
 defineClass(141, 1, {192:1}, JsFacade, JsFacade_0);
 _.addContact_0 = function addContact(uid){
-  return create_52(new JsFacade$34(this, uid));
+  return create_53(new JsFacade$34(this, uid));
 }
 ;
 _.addLike_0 = function addLike(peer, rid){
-  return create_52(new JsFacade$35(this, peer, rid));
+  return create_53(new JsFacade$35(this, peer, rid));
 }
 ;
 _.bindChat_0 = function bindChat(peer, callback){
@@ -18022,11 +18022,11 @@ _.changeSoundEffectsEnabled_0 = function changeSoundEffectsEnabled(enabled){
 }
 ;
 _.clearChat_0 = function clearChat(peer){
-  return create_52(new JsFacade$12(this, peer));
+  return create_53(new JsFacade$12(this, peer));
 }
 ;
 _.deleteChat_0 = function deleteChat(peer){
-  return create_52(new JsFacade$11(this, peer));
+  return create_53(new JsFacade$11(this, peer));
 }
 ;
 _.deleteMessage_0 = function deleteMessage_0(peer, id_0){
@@ -18034,47 +18034,47 @@ _.deleteMessage_0 = function deleteMessage_0(peer, id_0){
 }
 ;
 _.editGroupAbout_0 = function editGroupAbout(gid, newAbout){
-  return create_52(new JsFacade$25(this, gid, newAbout));
+  return create_53(new JsFacade$25(this, gid, newAbout));
 }
 ;
 _.editGroupTitle_0 = function editGroupTitle(gid, newTitle){
-  return create_52(new JsFacade$24(this, gid, newTitle));
+  return create_53(new JsFacade$24(this, gid, newTitle));
 }
 ;
 _.editMyAbout_0 = function editMyAbout(newAbout){
-  return create_52(new JsFacade$16(this, newAbout));
+  return create_53(new JsFacade$16(this, newAbout));
 }
 ;
 _.editMyName_0 = function editMyName(newName){
-  return create_52(new JsFacade$14(this, newName));
+  return create_53(new JsFacade$14(this, newName));
 }
 ;
 _.editMyNick_0 = function editMyNick(newNick){
-  return create_52(new JsFacade$15(this, newNick));
+  return create_53(new JsFacade$15(this, newNick));
 }
 ;
 _.editName_0 = function editName(uid, newName){
-  return create_52(new JsFacade$22(this, uid, newName));
+  return create_53(new JsFacade$22(this, uid, newName));
 }
 ;
 _.findAllDocs_0 = function findAllDocs(peer){
-  return create_52(new JsFacade$19(this, peer));
+  return create_53(new JsFacade$19(this, peer));
 }
 ;
 _.findAllLinks_0 = function findAllLinks(peer){
-  return create_52(new JsFacade$20(this, peer));
+  return create_53(new JsFacade$20(this, peer));
 }
 ;
 _.findAllPhotos_0 = function findAllPhotos(peer){
-  return create_52(new JsFacade$18(this, peer));
+  return create_53(new JsFacade$18(this, peer));
 }
 ;
 _.findAllText_0 = function findAllText(peer, query){
-  return create_52(new JsFacade$17(this, peer, query));
+  return create_53(new JsFacade$17(this, peer, query));
 }
 ;
 _.findGroups_0 = function findGroups(){
-  return create_52(new JsFacade$21(this));
+  return create_53(new JsFacade$21(this));
 }
 ;
 _.findMentions_0 = function findMentions(gid, query){
@@ -18083,13 +18083,13 @@ _.findMentions_0 = function findMentions(gid, query){
   mentions = [];
   for (m$iterator = new AbstractList$IteratorImpl(res); m$iterator.i < m$iterator.this$01.size_1();) {
     m = (checkCriticalElement(m$iterator.i < m$iterator.this$01.size_1()) , m$iterator.this$01.get_0(m$iterator.last = m$iterator.i++));
-    $push(mentions, create_8(m));
+    $push(mentions, create_9(m));
   }
   return mentions;
 }
 ;
 _.findUsers_0 = function findUsers(query){
-  return create_52(new JsFacade$37(this, query));
+  return create_53(new JsFacade$37(this, query));
 }
 ;
 _.getAuthPhone_0 = function getAuthPhone(){
@@ -18105,15 +18105,15 @@ _.getGroup_0 = function getGroup(gid){
 }
 ;
 _.getGroupPeer_0 = function getGroupPeer(gid){
-  return create_11(new Peer_0(($clinit_PeerType() , GROUP_0), gid));
+  return create_12(new Peer_0(($clinit_PeerType() , GROUP_0), gid));
 }
 ;
 _.getIntegrationToken_0 = function getIntegrationToken(gid){
-  return create_52(new JsFacade$30(this, gid));
+  return create_53(new JsFacade$30(this, gid));
 }
 ;
 _.getInviteLink_0 = function getInviteLink(gid){
-  return create_52(new JsFacade$32(this, gid));
+  return create_53(new JsFacade$32(this, gid));
 }
 ;
 _.getTyping_0 = function getTyping(peer){
@@ -18129,7 +18129,7 @@ _.getUser_0 = function getUser(uid){
 }
 ;
 _.getUserPeer_0 = function getUserPeer(uid){
-  return create_11(new Peer_0(($clinit_PeerType() , PRIVATE_0), uid));
+  return create_12(new Peer_0(($clinit_PeerType() , PRIVATE_0), uid));
 }
 ;
 _.handleLinkClick_0 = function handleLinkClick(event_0){
@@ -18154,11 +18154,11 @@ _.handleLinkClick_0 = function handleLinkClick(event_0){
 }
 ;
 _.hideChat_0 = function hideChat(peer){
-  return create_52(new JsFacade$13(this, peer));
+  return create_53(new JsFacade$13(this, peer));
 }
 ;
 _.inviteMember_0 = function inviteMember(gid, uid){
-  return create_52(new JsFacade$27(this, gid, uid));
+  return create_53(new JsFacade$27(this, gid, uid));
 }
 ;
 _.isElectron_1 = function isElectron(){
@@ -18194,15 +18194,15 @@ _.isSoundEffectsEnabled_0 = function isSoundEffectsEnabled(){
 }
 ;
 _.joinGroupViaLink_0 = function joinGroupViaLink(url_0){
-  return create_52(new JsFacade$23(this, url_0));
+  return create_53(new JsFacade$23(this, url_0));
 }
 ;
 _.kickMember_0 = function kickMember(gid, uid){
-  return create_52(new JsFacade$28(this, gid, uid));
+  return create_53(new JsFacade$28(this, gid, uid));
 }
 ;
 _.leaveGroup_0 = function leaveGroup(gid){
-  return create_52(new JsFacade$29(this, gid));
+  return create_53(new JsFacade$29(this, gid));
 }
 ;
 _.loadDraft_0 = function loadDraft(peer){
@@ -18210,7 +18210,7 @@ _.loadDraft_0 = function loadDraft(peer){
 }
 ;
 _.loadSessions_0 = function loadSessions(){
-  return create_52(new JsFacade$8(this));
+  return create_53(new JsFacade$8(this));
 }
 ;
 _.onAppHidden_0 = function onAppHidden(){
@@ -18277,7 +18277,7 @@ _.onTyping_0 = function onTyping(peer){
 }
 ;
 _.removeContact_0 = function removeContact(uid){
-  return create_52(new JsFacade$38(this, uid));
+  return create_53(new JsFacade$38(this, uid));
 }
 ;
 _.removeGroupAvatar_0 = function removeGroupAvatar(gid){
@@ -18285,7 +18285,7 @@ _.removeGroupAvatar_0 = function removeGroupAvatar(gid){
 }
 ;
 _.removeLike_0 = function removeLike(peer, rid){
-  return create_52(new JsFacade$36(this, peer, rid));
+  return create_53(new JsFacade$36(this, peer, rid));
 }
 ;
 _.removeMyAvatar_0 = function removeMyAvatar(){
@@ -18334,11 +18334,11 @@ _.requestSms_0 = function requestSms(phone, success, error){
 }
 ;
 _.revokeIntegrationToken_0 = function revokeIntegrationToken(gid){
-  return create_52(new JsFacade$31(this, gid));
+  return create_53(new JsFacade$31(this, gid));
 }
 ;
 _.revokeInviteLink_0 = function revokeInviteLink(gid){
-  return create_52(new JsFacade$33(this, gid));
+  return create_53(new JsFacade$33(this, gid));
 }
 ;
 _.saveDraft_0 = function saveDraft(peer, text_0){
@@ -18389,11 +18389,11 @@ _.signUp_0 = function signUp(name_0, success, error){
 }
 ;
 _.terminateAllSessions_0 = function terminateAllSessions(){
-  return create_52(new JsFacade$10(this));
+  return create_53(new JsFacade$10(this));
 }
 ;
 _.terminateSession_0 = function terminateSession(id_0){
-  return create_52(new JsFacade$9(this, id_0));
+  return create_53(new JsFacade$9(this, id_0));
 }
 ;
 _.unbindChat_0 = function unbindChat(peer, callback){
@@ -18988,7 +18988,7 @@ function $onError_9(this$static, e){
 function $onResult_9(this$static, res){
   $clinit_Log();
   log_1($format(($clinit_JsLogProvider() , dateTimeFormat), new Date_0, null) + '[D] ' + 'JsMessenger' + ':' + 'joinGroupViaLink:result');
-  $resolve(this$static.this$11, create_11(group_0(res.value_0)));
+  $resolve(this$static.this$11, create_12(group_0(res.value_0)));
 }
 
 function JsFacade$23$1(this$1){
@@ -19105,7 +19105,7 @@ function $onError_12(this$static, e){
 function $onResult_12(this$static, res){
   $clinit_Log();
   log_1($format(($clinit_JsLogProvider() , dateTimeFormat), new Date_0, null) + '[D] ' + 'JsMessenger' + ':' + 'createGroup:result');
-  $resolve(this$static.this$11, create_11(group_0(res.value_0)));
+  $resolve(this$static.this$11, create_12(group_0(res.value_0)));
 }
 
 function JsFacade$26$1(this$1){
@@ -20244,11 +20244,11 @@ function $buildPeerInfo(this$static, peer){
   var groupVM, userVM;
   if (peer.peerType == ($clinit_PeerType() , PRIVATE_0)) {
     userVM = $get_2($getUsers(this$static), fromInt(peer.peerId));
-    return {peer:create_11(peer), title:userVM.name_0.value_0, avatar:$getSmallAvatarUrl(this$static, userVM.avatar.value_0), placeholder:getPlaceholder(peer.peerId)};
+    return {peer:create_12(peer), title:userVM.name_0.value_0, avatar:$getSmallAvatarUrl(this$static, userVM.avatar.value_0), placeholder:getPlaceholder(peer.peerId)};
   }
    else if (peer.peerType == GROUP_0) {
     groupVM = $get_2($getGroups(this$static), fromInt(peer.peerId));
-    return {peer:create_11(peer), title:groupVM.name_0.value_0, avatar:$getSmallAvatarUrl(this$static, groupVM.avatar.value_0), placeholder:getPlaceholder(peer.peerId)};
+    return {peer:create_12(peer), title:groupVM.name_0.value_0, avatar:$getSmallAvatarUrl(this$static, groupVM.avatar.value_0), placeholder:getPlaceholder(peer.peerId)};
   }
    else {
     throw new RuntimeException;
@@ -20644,14 +20644,14 @@ _.convert = function convert_1(value_0){
 ;
 var Lim_actor_core_js_entity_JsContact$1_2_classLit = createForClass('im.actor.core.js.entity', 'JsContact/1', 565, Ljava_lang_Object_2_classLit);
 function createContent(src_0, sender){
-  var attaches, contactContent, content_0, doc, emails, f, f$iterator, fields, fileExtension, fileName, fileReference512, fileSize, fileUrl, imageLocation512, isShort, isUploading, locationContent, messenger, modernMessage, paragraphStyle, phones, photoContent, s, s$iterator, s$iterator0, srcAttach, srcAttach$iterator, text_0, textContent, thumb, thumbBase64, thumbRaw, voiceContent, ext, dotIndex;
+  var attaches, contactContent, content_0, doc, emails, f, f$iterator, fields, fileExtension, fileName, fileReference512, fileSize, fileUrl, imageLocation512, isShort, isUploading, locationContent, messenger, modernMessage, paragraphStyle, phones, photoContent, s, s$iterator, s$iterator0, srcAttach, srcAttach$iterator, sticker, text_0, textContent, thumb, thumbBase64, thumbRaw, voiceContent, ext, dotIndex;
   messenger = instance_1;
   if (instanceOf(src_0, 75)) {
     textContent = src_0;
     if (instanceOf(textContent.textMessageEx, 370)) {
       modernMessage = textContent.textMessageEx;
       text_0 = modernMessage.text_0;
-      paragraphStyle = create_10(modernMessage.style_0);
+      paragraphStyle = create_11(modernMessage.style_0);
       attaches = [];
       for (srcAttach$iterator = new AbstractList$IteratorImpl(modernMessage.attaches); srcAttach$iterator.i < srcAttach$iterator.this$01.size_1();) {
         srcAttach = (checkCriticalElement(srcAttach$iterator.i < srcAttach$iterator.this$01.size_1()) , srcAttach$iterator.this$01.get_0(srcAttach$iterator.last = srcAttach$iterator.i++));
@@ -20661,7 +20661,7 @@ function createContent(src_0, sender){
           isShort = !f.isShort || f.isShort.value_0;
           $push(fields, {title:f.title_0, value:f.value_0, isShort:isShort});
         }
-        $push(attaches, {title:srcAttach.title_0, titleUrl:srcAttach.titleUrl, text:srcAttach.text_0, paragraphStyle:create_10(srcAttach.style_0), fields:fields});
+        $push(attaches, {title:srcAttach.title_0, titleUrl:srcAttach.titleUrl, text:srcAttach.text_0, paragraphStyle:create_11(srcAttach.style_0), fields:fields});
       }
       content_0 = {content:'text_modern', text:text_0, paragraphStyle:paragraphStyle, attaches:attaches};
     }
@@ -20698,17 +20698,18 @@ function createContent(src_0, sender){
     }
   }
    else if (instanceOf(src_0, 120)) {
-    fileReference512 = $getFileReference512(src_0.sticker);
-    imageLocation512 = src_0.sticker.apiImageLocation512;
+    sticker = src_0.sticker;
+    fileReference512 = $getFileReference512(sticker);
+    imageLocation512 = sticker.apiImageLocation512;
     fileUrl = $getFileUrl_0(messenger.filesModule, fileReference512.wrapped.fileId, fileReference512.wrapped.accessHash);
     fileSize = $formatFileSize(messenger.modules_0.i18nEngine, fileReference512.fileSize);
     thumb = null;
-    thumbRaw = src_0.sticker.thumb;
+    thumbRaw = sticker.thumb;
     if (thumbRaw != null) {
       thumbBase64 = toBase64(thumbRaw);
       thumb = 'data:image/jpg;base64,' + thumbBase64;
     }
-    content_0 = create_6(fileReference512.fileName, '.webp', fileSize, imageLocation512.width_0, imageLocation512.height_0, thumb, fileUrl, false);
+    content_0 = create_7(fileReference512.fileName, '.webp', fileSize, imageLocation512.width_0, imageLocation512.height_0, thumb, fileUrl, false);
   }
    else if (instanceOf(src_0, 118)) {
     contactContent = src_0;
@@ -20738,12 +20739,16 @@ function create_6(fileName, fileExtension, fileSize, w, h, preview, fileUrl, isU
   return {content:'photo', fileName:fileName, fileExtension:fileExtension, w:w, h:h, preview:preview, fileSize:fileSize, fileUrl:fileUrl, isUploading:isUploading};
 }
 
+function create_7(fileName, fileExtension, fileSize, w, h, preview, fileUrl, isUploading){
+  return {content:'sticker', fileName:fileName, fileExtension:fileExtension, w:w, h:h, preview:preview, fileSize:fileSize, fileUrl:fileUrl, isUploading:isUploading};
+}
+
 function $clinit_JsDialog(){
   $clinit_JsDialog = emptyMethod;
   CONVERTER_0 = new JsDialog$1;
 }
 
-function create_7(peer, date, sender, showSender, text_0, isHighlighted, state, counter){
+function create_8(peer, date, sender, showSender, text_0, isHighlighted, state, counter){
   $clinit_JsDialog();
   return {peer:peer, text:text_0, date:date, sender:sender, showSender:showSender, isHighlighted:isHighlighted, state:state, counter:counter};
 }
@@ -20755,7 +20760,7 @@ function JsDialog$1(){
 defineClass(566, 1, {}, JsDialog$1);
 _.convert = function convert_2(src_0){
   var messenger, showSender, senderName, date, fileUrl, highlightContent, messageText, peerInfo;
-  return messenger = instance_1 , showSender = false , src_0.peer.peerType == ($clinit_PeerType() , GROUP_0) && src_0.messageType != ($clinit_ContentType() , SERVICE) && src_0.messageType != ($clinit_ContentType() , NONE) && (showSender = src_0.senderId != 0) , senderName = null , showSender && (senderName = $get_2($getUsers(messenger), fromInt(src_0.senderId)).name_0.value_0) , date = $formatShortDate(messenger.modules_0.i18nEngine, src_0.date) , fileUrl = null , !!src_0.dialogAvatar && !!src_0.dialogAvatar.smallImage && (fileUrl = $getFileUrl(messenger, src_0.dialogAvatar.smallImage.fileReference)) , highlightContent = src_0.messageType != ($clinit_ContentType() , TEXT_1) , messageText = $formatContentText(messenger.modules_0.i18nEngine, src_0.senderId, src_0.messageType, src_0.text_0, src_0.relatedUid) , peerInfo = {peer:create_11(src_0.peer), title:src_0.dialogTitle, avatar:fileUrl, placeholder:getPlaceholder(src_0.peer.peerId)} , create_7(peerInfo, date, senderName, showSender, messageText, highlightContent, convert_0(src_0.status_0), src_0.unreadCount);
+  return messenger = instance_1 , showSender = false , src_0.peer.peerType == ($clinit_PeerType() , GROUP_0) && src_0.messageType != ($clinit_ContentType() , SERVICE) && src_0.messageType != ($clinit_ContentType() , NONE) && (showSender = src_0.senderId != 0) , senderName = null , showSender && (senderName = $get_2($getUsers(messenger), fromInt(src_0.senderId)).name_0.value_0) , date = $formatShortDate(messenger.modules_0.i18nEngine, src_0.date) , fileUrl = null , !!src_0.dialogAvatar && !!src_0.dialogAvatar.smallImage && (fileUrl = $getFileUrl(messenger, src_0.dialogAvatar.smallImage.fileReference)) , highlightContent = src_0.messageType != ($clinit_ContentType() , TEXT_1) , messageText = $formatContentText(messenger.modules_0.i18nEngine, src_0.senderId, src_0.messageType, src_0.text_0, src_0.relatedUid) , peerInfo = {peer:create_12(src_0.peer), title:src_0.dialogTitle, avatar:fileUrl, placeholder:getPlaceholder(src_0.peer.peerId)} , create_8(peerInfo, date, senderName, showSender, messageText, highlightContent, convert_0(src_0.status_0), src_0.unreadCount);
 }
 ;
 var Lim_actor_core_js_entity_JsDialog$1_2_classLit = createForClass('im.actor.core.js.entity', 'JsDialog/1', 566, Ljava_lang_Object_2_classLit);
@@ -20799,7 +20804,7 @@ _.compare = function compare_1(o1, o2){
 }
 ;
 var Lim_actor_core_js_entity_JsGroup$1_2_classLit = createForClass('im.actor.core.js.entity', 'JsGroup/1', 760, Ljava_lang_Object_2_classLit);
-function create_8(res){
+function create_9(res){
   var match_0, match$iterator, mentionMatches, messenger, peerInfo, secondMatches;
   messenger = instance_1;
   peerInfo = $buildPeerInfo(messenger, user_0(res.uid));
@@ -20825,7 +20830,7 @@ function $clinit_JsMessage(){
   CONVERTER_1 = new JsMessage$1;
 }
 
-function create_9(rid, sortKey, sender, isOut, date, fullDate, state, isOnServer, content_0, reactions){
+function create_10(rid, sortKey, sender, isOut, date, fullDate, state, isOnServer, content_0, reactions){
   $clinit_JsMessage();
   return {rid:rid, sortKey:sortKey, sender:sender, isOut:isOut, date:date, fullDate:fullDate, state:state, isOnServer:isOnServer, content:content_0, reactions:reactions};
 }
@@ -20854,7 +20859,7 @@ function $convert(value_0){
     }
     $push(reactions, {reaction:r.code_0, uids:uids, isOwnSet:isOwnSet});
   }
-  return create_9(rid, sortKey, sender, isOut, date, fullDate, convert_0(value_0.messageState), isOnServer, content_0, reactions);
+  return create_10(rid, sortKey, sender, isOut, date, fullDate, convert_0(value_0.messageState), isOnServer, content_0, reactions);
 }
 
 function JsMessage$1(){
@@ -20866,7 +20871,7 @@ _.convert = function convert_3(value_0){
 }
 ;
 var Lim_actor_core_js_entity_JsMessage$1_2_classLit = createForClass('im.actor.core.js.entity', 'JsMessage/1', 567, Ljava_lang_Object_2_classLit);
-function create_10(style){
+function create_11(style){
   var show;
   if (!style) {
     return {showParagraph:false, color:null, bgColor:null};
@@ -20879,16 +20884,16 @@ function $convert_0(this$static){
   return $equals_6(this$static.type, 'user')?user_0(this$static.id):group_0(this$static.id);
 }
 
-function create_11(peer){
+function create_12(peer){
   switch (peer.peerType.ordinal) {
     default:case 0:
-      return create_12('user', peer.peerId, 'u' + peer.peerId);
+      return create_13('user', peer.peerId, 'u' + peer.peerId);
     case 1:
-      return create_12('group', peer.peerId, 'g' + peer.peerId);
+      return create_13('group', peer.peerId, 'g' + peer.peerId);
   }
 }
 
-function create_12(peerType, peerId, peerKey){
+function create_13(peerType, peerId, peerKey){
   return {type:peerType, id:peerId, key:peerKey};
 }
 
@@ -20897,7 +20902,7 @@ function $clinit_JsSearchEntity(){
   CONVERTER_2 = new JsSearchEntity$1;
 }
 
-function create_13(peerInfo){
+function create_14(peerInfo){
   $clinit_JsSearchEntity();
   return {peerInfo:peerInfo};
 }
@@ -20909,7 +20914,7 @@ function JsSearchEntity$1(){
 defineClass(568, 1, {}, JsSearchEntity$1);
 _.convert = function convert_4(value_0){
   var messenger;
-  return messenger = instance_1 , create_13($buildPeerInfo(messenger, value_0.peer));
+  return messenger = instance_1 , create_14($buildPeerInfo(messenger, value_0.peer));
 }
 ;
 var Lim_actor_core_js_entity_JsSearchEntity$1_2_classLit = createForClass('im.actor.core.js.entity', 'JsSearchEntity/1', 568, Ljava_lang_Object_2_classLit);
@@ -23480,7 +23485,7 @@ function ApiModule$1(this$0){
 }
 
 defineClass(1102, 1, {}, ApiModule$1);
-_.create_0 = function create_14(){
+_.create_0 = function create_15(){
   return new PersistentRequestsActor(this.this$01.context);
 }
 ;
@@ -23971,7 +23976,7 @@ function Updates$1(this$0){
 }
 
 defineClass(1150, 1, {}, Updates$1);
-_.create_0 = function create_15(){
+_.create_0 = function create_16(){
   return new SequenceActor(this.this$01.context);
 }
 ;
@@ -24406,7 +24411,7 @@ function AppStateModule$1(this$0){
 }
 
 defineClass(985, 1, {}, AppStateModule$1);
-_.create_0 = function create_16(){
+_.create_0 = function create_17(){
   return new ListsStatesActor(this.this$01.context);
 }
 ;
@@ -24440,7 +24445,7 @@ function ContactsModule$1(this$0){
 }
 
 defineClass(1045, 1, {}, ContactsModule$1);
-_.create_0 = function create_17(){
+_.create_0 = function create_18(){
   return new BookImportActor(this.this$01.context);
 }
 ;
@@ -24450,7 +24455,7 @@ function ContactsModule$2(this$0){
 }
 
 defineClass(1046, 1, {}, ContactsModule$2);
-_.create_0 = function create_18(){
+_.create_0 = function create_19(){
   return new ContactsSyncActor(this.this$01.context);
 }
 ;
@@ -24738,7 +24743,7 @@ function FilesModule$2(this$0){
 }
 
 defineClass(1159, 1, {}, FilesModule$2);
-_.create_0 = function create_19(){
+_.create_0 = function create_20(){
   return new DownloadManager(this.this$01.context);
 }
 ;
@@ -24748,7 +24753,7 @@ function FilesModule$3(this$0){
 }
 
 defineClass(1160, 1, {}, FilesModule$3);
-_.create_0 = function create_20(){
+_.create_0 = function create_21(){
   return new UploadManager(this.this$01.context);
 }
 ;
@@ -24785,7 +24790,7 @@ function GroupsModule$1(val$context){
 }
 
 defineClass(796, 1, {}, GroupsModule$1);
-_.create_0 = function create_21(){
+_.create_0 = function create_22(){
   return new GroupAvatarChangeActor(this.val$context2);
 }
 ;
@@ -25803,7 +25808,7 @@ function MessagesModule$1(this$0){
 }
 
 defineClass(877, 1, {}, MessagesModule$1);
-_.create_0 = function create_22(){
+_.create_0 = function create_23(){
   return new DialogsActor(this.this$01.context);
 }
 ;
@@ -25814,7 +25819,7 @@ function MessagesModule$10(this$0, val$peer){
 }
 
 defineClass(886, 1, {}, MessagesModule$10);
-_.create_0 = function create_23(){
+_.create_0 = function create_24(){
   return new ConversationActor(this.val$peer2, this.this$01.context);
 }
 ;
@@ -25825,7 +25830,7 @@ function MessagesModule$11(this$0, val$peer){
 }
 
 defineClass(887, 1, {}, MessagesModule$11);
-_.create_0 = function create_24(){
+_.create_0 = function create_25(){
   return new ConversationHistoryActor(this.val$peer2, this.this$01.context);
 }
 ;
@@ -25873,7 +25878,7 @@ function MessagesModule$14$1(){
 }
 
 defineClass(893, 1, {}, MessagesModule$14$1);
-_.create_0 = function create_25(){
+_.create_0 = function create_26(){
   return new MessageShownFilter;
 }
 ;
@@ -26429,7 +26434,7 @@ function MessagesModule$2(this$0){
 }
 
 defineClass(878, 1, {}, MessagesModule$2);
-_.create_0 = function create_26(){
+_.create_0 = function create_27(){
   return new DialogsHistoryActor(this.this$01.context);
 }
 ;
@@ -26439,7 +26444,7 @@ function MessagesModule$3(this$0){
 }
 
 defineClass(879, 1, {}, MessagesModule$3);
-_.create_0 = function create_27(){
+_.create_0 = function create_28(){
   return new GroupedDialogsActor(this.this$01.context);
 }
 ;
@@ -26449,7 +26454,7 @@ function MessagesModule$4(this$0){
 }
 
 defineClass(880, 1, {}, MessagesModule$4);
-_.create_0 = function create_28(){
+_.create_0 = function create_29(){
   return new OwnReadActor(this.this$01.context);
 }
 ;
@@ -26459,7 +26464,7 @@ function MessagesModule$5(this$0){
 }
 
 defineClass(881, 1, {}, MessagesModule$5);
-_.create_0 = function create_29(){
+_.create_0 = function create_30(){
   return new CursorReaderActor(this.this$01.context);
 }
 ;
@@ -26469,7 +26474,7 @@ function MessagesModule$6(this$0){
 }
 
 defineClass(882, 1, {}, MessagesModule$6);
-_.create_0 = function create_30(){
+_.create_0 = function create_31(){
   return new CursorReceiverActor(this.this$01.context);
 }
 ;
@@ -26479,7 +26484,7 @@ function MessagesModule$7(this$0){
 }
 
 defineClass(883, 1, {}, MessagesModule$7);
-_.create_0 = function create_31(){
+_.create_0 = function create_32(){
   return new SenderActor(this.this$01.context);
 }
 ;
@@ -26489,7 +26494,7 @@ function MessagesModule$8(this$0){
 }
 
 defineClass(884, 1, {}, MessagesModule$8);
-_.create_0 = function create_32(){
+_.create_0 = function create_33(){
   return new MessageDeleteActor(this.this$01.context);
 }
 ;
@@ -26499,7 +26504,7 @@ function MessagesModule$9(this$0){
 }
 
 defineClass(885, 1, {}, MessagesModule$9);
-_.create_0 = function create_33(){
+_.create_0 = function create_34(){
   return new MessageShownActor(this.this$01.context);
 }
 ;
@@ -26527,7 +26532,7 @@ function NotificationsModule$1(this$0){
 }
 
 defineClass(1163, 1, {}, NotificationsModule$1);
-_.create_0 = function create_34(){
+_.create_0 = function create_35(){
   return new NotificationsActor(this.this$01.context);
 }
 ;
@@ -26545,7 +26550,7 @@ function PresenceModule$1(val$modules){
 }
 
 defineClass(1154, 1, {}, PresenceModule$1);
-_.create_0 = function create_35(){
+_.create_0 = function create_36(){
   return new OwnPresenceActor(this.val$modules2);
 }
 ;
@@ -26567,7 +26572,7 @@ function ProfileModule$1(val$modules){
 }
 
 defineClass(864, 1, {}, ProfileModule$1);
-_.create_0 = function create_36(){
+_.create_0 = function create_37(){
   return new OwnAvatarChangeActor(this.val$modules2);
 }
 ;
@@ -26588,7 +26593,7 @@ function PushesModule$1(this$0){
 }
 
 defineClass(1108, 1, {}, PushesModule$1);
-_.create_0 = function create_37(){
+_.create_0 = function create_38(){
   return new PushRegisterActor(this.this$01.context);
 }
 ;
@@ -26644,7 +26649,7 @@ function SearchModule$1(this$0){
 }
 
 defineClass(1064, 1, {}, SearchModule$1);
-_.create_0 = function create_38(){
+_.create_0 = function create_39(){
   return new SearchActor(this.this$01.context);
 }
 ;
@@ -27091,7 +27096,7 @@ function SettingsModule$1(this$0){
 }
 
 defineClass(861, 1, {}, SettingsModule$1);
-_.create_0 = function create_39(){
+_.create_0 = function create_40(){
   return new SettingsSyncActor(this.this$01.context);
 }
 ;
@@ -28431,7 +28436,7 @@ function UploadManager$13(this$0, val$finalPendingQueue){
 }
 
 defineClass(1199, 1, {}, UploadManager$13);
-_.create_0 = function create_40(){
+_.create_0 = function create_41(){
   return new UploadTask(this.val$finalPendingQueue2.rid, this.val$finalPendingQueue2.fileDescriptor, this.val$finalPendingQueue2.fileName, this.this$01.context_0.actorScope.actorRef, this.this$01.context);
 }
 ;
@@ -31512,7 +31517,7 @@ function PresenceActor$1(val$messenger){
 }
 
 defineClass(484, 1, {}, PresenceActor$1);
-_.create_0 = function create_41(){
+_.create_0 = function create_42(){
   return new PresenceActor(this.val$messenger1);
 }
 ;
@@ -32056,7 +32061,7 @@ function OwnTypingActor$1(val$context){
 }
 
 defineClass(1039, 1, {}, OwnTypingActor$1);
-_.create_0 = function create_42(){
+_.create_0 = function create_43(){
   return new OwnTypingActor(this.val$context1);
 }
 ;
@@ -32186,7 +32191,7 @@ function TypingActor$1(val$messenger){
 }
 
 defineClass(486, 1, {}, TypingActor$1);
-_.create_0 = function create_43(){
+_.create_0 = function create_44(){
   return new TypingActor(this.val$messenger1);
 }
 ;
@@ -34171,7 +34176,7 @@ function ApiBroker$1(val$endpoints, val$keyStorage, val$callback, val$isEnableLo
 }
 
 defineClass(1142, 1, {}, ApiBroker$1);
-_.create_0 = function create_44(){
+_.create_0 = function create_45(){
   return new ApiBroker(this.val$endpoints1, this.val$keyStorage2, this.val$callback3, this.val$isEnableLog4, this.val$minDelay5, this.val$maxDelay6, this.val$maxFailureCount7, this.val$parserConfig8);
 }
 ;
@@ -34669,7 +34674,7 @@ function ManagerActor$1(val$mtProto){
 }
 
 defineClass(538, 1, {}, ManagerActor$1);
-_.create_0 = function create_45(){
+_.create_0 = function create_46(){
   return new ManagerActor(this.val$mtProto1);
 }
 ;
@@ -34921,7 +34926,7 @@ function PusherActor$1(val$proto){
 }
 
 defineClass(539, 1, {}, PusherActor$1);
-_.create_0 = function create_46(){
+_.create_0 = function create_47(){
   return new PusherActor(this.val$proto1);
 }
 ;
@@ -35095,7 +35100,7 @@ function ReceiverActor$1(val$proto){
 }
 
 defineClass(540, 1, {}, ReceiverActor$1);
-_.create_0 = function create_47(){
+_.create_0 = function create_48(){
   return new ReceiverActor(this.val$proto1);
 }
 ;
@@ -36052,7 +36057,7 @@ function DialogSpecVM$1(){
 }
 
 defineClass(1183, 1, {}, DialogSpecVM$1);
-_.create_1 = function create_48(baseValue){
+_.create_1 = function create_49(baseValue){
   return new DialogSpecVM(baseValue);
 }
 ;
@@ -36122,7 +36127,7 @@ function GroupVM$1(val$myUid){
 }
 
 defineClass(987, 1, {}, GroupVM$1);
-_.create_1 = function create_49(baseValue){
+_.create_1 = function create_50(baseValue){
   return new GroupVM(baseValue, this.val$myUid1);
 }
 ;
@@ -36355,7 +36360,7 @@ function UserVM$1(val$modules){
 }
 
 defineClass(994, 1, {}, UserVM$1);
-_.create_1 = function create_50(baseValue){
+_.create_1 = function create_51(baseValue){
   return new UserVM(baseValue, this.val$modules1);
 }
 ;
@@ -40050,7 +40055,7 @@ function $schedule_1(this$static, msec){
   }
 }
 
-function create_51(runnable){
+function create_52(runnable){
   console.warn('Create jsSecureInverval');
   try {
     if (typeof Worker !== 'undefined') {
@@ -40108,7 +40113,7 @@ function JsThreads(queue, dispatch){
   this.dispatch = dispatch;
   $setListener(this.queue, new AbstractDispatcher$1(this));
   this.isDoingIteration = false;
-  this.secureInterval = create_51(new JsThreads$1(this));
+  this.secureInterval = create_52(new JsThreads$1(this));
 }
 
 defineClass(1178, 1169, {}, JsThreads);
@@ -40162,7 +40167,7 @@ function convertBytes(buffer){
   return res;
 }
 
-function create_52(executor){
+function create_53(executor){
   var _executor = executor;
   return new Promise(function(resolve, reject){
     _executor.performExecute(resolve, reject);
