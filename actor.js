@@ -249,36 +249,36 @@ function actor(){
   processMetas();
   try {
     var strongName;
-    unflattenKeylistIntoAnswers(['ar', 'gecko1_8'], '509A3E06E9AF25AF7B05DA7BD66D331B');
-    unflattenKeylistIntoAnswers(['ar', 'ie10'], '509A3E06E9AF25AF7B05DA7BD66D331B' + ':1');
-    unflattenKeylistIntoAnswers(['default', 'gecko1_8'], '509A3E06E9AF25AF7B05DA7BD66D331B' + ':10');
-    unflattenKeylistIntoAnswers(['default', 'ie10'], '509A3E06E9AF25AF7B05DA7BD66D331B' + ':11');
-    unflattenKeylistIntoAnswers(['default', 'ie8'], '509A3E06E9AF25AF7B05DA7BD66D331B' + ':12');
-    unflattenKeylistIntoAnswers(['default', 'ie9'], '509A3E06E9AF25AF7B05DA7BD66D331B' + ':13');
-    unflattenKeylistIntoAnswers(['default', 'safari'], '509A3E06E9AF25AF7B05DA7BD66D331B' + ':14');
-    unflattenKeylistIntoAnswers(['en', 'gecko1_8'], '509A3E06E9AF25AF7B05DA7BD66D331B' + ':15');
-    unflattenKeylistIntoAnswers(['en', 'ie10'], '509A3E06E9AF25AF7B05DA7BD66D331B' + ':16');
-    unflattenKeylistIntoAnswers(['en', 'ie8'], '509A3E06E9AF25AF7B05DA7BD66D331B' + ':17');
-    unflattenKeylistIntoAnswers(['en', 'ie9'], '509A3E06E9AF25AF7B05DA7BD66D331B' + ':18');
-    unflattenKeylistIntoAnswers(['en', 'safari'], '509A3E06E9AF25AF7B05DA7BD66D331B' + ':19');
-    unflattenKeylistIntoAnswers(['ar', 'ie8'], '509A3E06E9AF25AF7B05DA7BD66D331B' + ':2');
-    unflattenKeylistIntoAnswers(['pt', 'gecko1_8'], '509A3E06E9AF25AF7B05DA7BD66D331B' + ':20');
-    unflattenKeylistIntoAnswers(['pt', 'ie10'], '509A3E06E9AF25AF7B05DA7BD66D331B' + ':21');
-    unflattenKeylistIntoAnswers(['pt', 'ie8'], '509A3E06E9AF25AF7B05DA7BD66D331B' + ':22');
-    unflattenKeylistIntoAnswers(['pt', 'ie9'], '509A3E06E9AF25AF7B05DA7BD66D331B' + ':23');
-    unflattenKeylistIntoAnswers(['pt', 'safari'], '509A3E06E9AF25AF7B05DA7BD66D331B' + ':24');
-    unflattenKeylistIntoAnswers(['ru', 'gecko1_8'], '509A3E06E9AF25AF7B05DA7BD66D331B' + ':25');
-    unflattenKeylistIntoAnswers(['ru', 'ie10'], '509A3E06E9AF25AF7B05DA7BD66D331B' + ':26');
-    unflattenKeylistIntoAnswers(['ru', 'ie8'], '509A3E06E9AF25AF7B05DA7BD66D331B' + ':27');
-    unflattenKeylistIntoAnswers(['ru', 'ie9'], '509A3E06E9AF25AF7B05DA7BD66D331B' + ':28');
-    unflattenKeylistIntoAnswers(['ru', 'safari'], '509A3E06E9AF25AF7B05DA7BD66D331B' + ':29');
-    unflattenKeylistIntoAnswers(['ar', 'ie9'], '509A3E06E9AF25AF7B05DA7BD66D331B' + ':3');
-    unflattenKeylistIntoAnswers(['ar', 'safari'], '509A3E06E9AF25AF7B05DA7BD66D331B' + ':4');
-    unflattenKeylistIntoAnswers(['cn', 'gecko1_8'], '509A3E06E9AF25AF7B05DA7BD66D331B' + ':5');
-    unflattenKeylistIntoAnswers(['cn', 'ie10'], '509A3E06E9AF25AF7B05DA7BD66D331B' + ':6');
-    unflattenKeylistIntoAnswers(['cn', 'ie8'], '509A3E06E9AF25AF7B05DA7BD66D331B' + ':7');
-    unflattenKeylistIntoAnswers(['cn', 'ie9'], '509A3E06E9AF25AF7B05DA7BD66D331B' + ':8');
-    unflattenKeylistIntoAnswers(['cn', 'safari'], '509A3E06E9AF25AF7B05DA7BD66D331B' + ':9');
+    unflattenKeylistIntoAnswers(['ar', 'gecko1_8'], '3EEF6456DEFD182A6CCCA21C553A47D4');
+    unflattenKeylistIntoAnswers(['ar', 'ie10'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':1');
+    unflattenKeylistIntoAnswers(['default', 'gecko1_8'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':10');
+    unflattenKeylistIntoAnswers(['default', 'ie10'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':11');
+    unflattenKeylistIntoAnswers(['default', 'ie8'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':12');
+    unflattenKeylistIntoAnswers(['default', 'ie9'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':13');
+    unflattenKeylistIntoAnswers(['default', 'safari'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':14');
+    unflattenKeylistIntoAnswers(['en', 'gecko1_8'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':15');
+    unflattenKeylistIntoAnswers(['en', 'ie10'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':16');
+    unflattenKeylistIntoAnswers(['en', 'ie8'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':17');
+    unflattenKeylistIntoAnswers(['en', 'ie9'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':18');
+    unflattenKeylistIntoAnswers(['en', 'safari'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':19');
+    unflattenKeylistIntoAnswers(['ar', 'ie8'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':2');
+    unflattenKeylistIntoAnswers(['pt', 'gecko1_8'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':20');
+    unflattenKeylistIntoAnswers(['pt', 'ie10'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':21');
+    unflattenKeylistIntoAnswers(['pt', 'ie8'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':22');
+    unflattenKeylistIntoAnswers(['pt', 'ie9'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':23');
+    unflattenKeylistIntoAnswers(['pt', 'safari'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':24');
+    unflattenKeylistIntoAnswers(['ru', 'gecko1_8'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':25');
+    unflattenKeylistIntoAnswers(['ru', 'ie10'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':26');
+    unflattenKeylistIntoAnswers(['ru', 'ie8'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':27');
+    unflattenKeylistIntoAnswers(['ru', 'ie9'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':28');
+    unflattenKeylistIntoAnswers(['ru', 'safari'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':29');
+    unflattenKeylistIntoAnswers(['ar', 'ie9'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':3');
+    unflattenKeylistIntoAnswers(['ar', 'safari'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':4');
+    unflattenKeylistIntoAnswers(['cn', 'gecko1_8'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':5');
+    unflattenKeylistIntoAnswers(['cn', 'ie10'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':6');
+    unflattenKeylistIntoAnswers(['cn', 'ie8'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':7');
+    unflattenKeylistIntoAnswers(['cn', 'ie9'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':8');
+    unflattenKeylistIntoAnswers(['cn', 'safari'], '3EEF6456DEFD182A6CCCA21C553A47D4' + ':9');
     strongName = answers[computePropValue('locale')][computePropValue('user.agent')];
     var idx = strongName.indexOf(':');
     if (idx != -1) {
@@ -317,7 +317,7 @@ function actor(){
 }
 
 actor();
-(function () {var $gwt_version = "2.7.0";var $wnd = window;var $doc = $wnd.document;var $moduleName, $moduleBase;var $stats = $wnd.__gwtStatsEvent ? function(a) {$wnd.__gwtStatsEvent(a)} : null;var $strongName = '509A3E06E9AF25AF7B05DA7BD66D331B';var $intern_0 = 2147483647, $intern_1 = {3:1, 17:1}, $intern_2 = {3:1, 11:1, 17:1}, $intern_3 = {3:1}, $intern_4 = 1000, $intern_5 = 65535, $intern_6 = 4194303, $intern_7 = 1048575, $intern_8 = 524288, $intern_9 = 4194304, $intern_10 = 17592186044416, $intern_11 = -9223372036854775808, $intern_12 = {422:1}, $intern_13 = 65536, $intern_14 = 131072, $intern_15 = 1048576, $intern_16 = 16777216, $intern_17 = 67108864, $intern_18 = {4:1}, $intern_19 = 1449, $intern_20 = 1473, $intern_21 = 1452, $intern_22 = 1475, $intern_23 = 1463, $intern_24 = 1023, $intern_25 = 1435, $intern_26 = {9:1}, $intern_27 = {68:1}, $intern_28 = 1438, $intern_29 = {43:1, 3:1}, $intern_30 = {30:1}, $intern_31 = 5.9604644775390625E-8, $intern_32 = {145:1}, $intern_33 = {3:1, 48:1, 91:1}, $intern_34 = {5:1, 3:1, 11:1, 17:1}, $intern_35 = 1.52587890625E-5, $intern_36 = 9.5367431640625E-7, $intern_37 = 2.220446049250313E-16, $intern_38 = {136:1}, $intern_39 = {90:1}, $intern_40 = {93:1, 55:1}, $intern_41 = {93:1, 103:1, 55:1}, $intern_42 = {3:1, 136:1}, $intern_43 = 15525485, $intern_44 = {3:1, 27:1, 12:1, 72:1}, $intern_45 = 1432;
+(function () {var $gwt_version = "2.7.0";var $wnd = window;var $doc = $wnd.document;var $moduleName, $moduleBase;var $stats = $wnd.__gwtStatsEvent ? function(a) {$wnd.__gwtStatsEvent(a)} : null;var $strongName = '3EEF6456DEFD182A6CCCA21C553A47D4';var $intern_0 = 2147483647, $intern_1 = {3:1, 17:1}, $intern_2 = {3:1, 11:1, 17:1}, $intern_3 = {3:1}, $intern_4 = 1000, $intern_5 = 65535, $intern_6 = 4194303, $intern_7 = 1048575, $intern_8 = 524288, $intern_9 = 4194304, $intern_10 = 17592186044416, $intern_11 = -9223372036854775808, $intern_12 = {422:1}, $intern_13 = 65536, $intern_14 = 131072, $intern_15 = 1048576, $intern_16 = 16777216, $intern_17 = 67108864, $intern_18 = {4:1}, $intern_19 = 1449, $intern_20 = 1473, $intern_21 = 1452, $intern_22 = 1475, $intern_23 = 1463, $intern_24 = 1023, $intern_25 = 1435, $intern_26 = {9:1}, $intern_27 = {68:1}, $intern_28 = 1438, $intern_29 = {43:1, 3:1}, $intern_30 = {30:1}, $intern_31 = 5.9604644775390625E-8, $intern_32 = {146:1}, $intern_33 = {3:1, 48:1, 91:1}, $intern_34 = {5:1, 3:1, 11:1, 17:1}, $intern_35 = 1.52587890625E-5, $intern_36 = 9.5367431640625E-7, $intern_37 = 2.220446049250313E-16, $intern_38 = {137:1}, $intern_39 = {90:1}, $intern_40 = {93:1, 55:1}, $intern_41 = {93:1, 103:1, 55:1}, $intern_42 = {3:1, 137:1}, $intern_43 = 15525485, $intern_44 = {3:1, 27:1, 12:1, 72:1}, $intern_45 = 1432;
 var _, initFnList_0, prototypesByTypeId_0 = {}, permutationId = -1;
 function im_actor_core_js_providers_Assets(){
   switch (permutationId) {
@@ -3191,14 +3191,14 @@ function $setLevel(this$static, newLevel){
   this$static.level = newLevel;
 }
 
-defineClass(139, 1, {139:1});
-var Ljava_util_logging_Handler_2_classLit = createForClass('java.util.logging', 'Handler', 139, Ljava_lang_Object_2_classLit);
+defineClass(140, 1, {140:1});
+var Ljava_util_logging_Handler_2_classLit = createForClass('java.util.logging', 'Handler', 140, Ljava_lang_Object_2_classLit);
 function ConsoleLogHandler(){
   $setFormatter(this, new TextLogFormatter(true));
   $setLevel(this, ($clinit_Level() , ALL));
 }
 
-defineClass(687, 139, {139:1}, ConsoleLogHandler);
+defineClass(687, 140, {140:1}, ConsoleLogHandler);
 _.publish = function publish(record){
   var msg;
   if (!window.console || ($getLevel(this) , false)) {
@@ -3215,7 +3215,7 @@ function DevelopmentModeLogHandler(){
   $setLevel(this, ($clinit_Level() , ALL));
 }
 
-defineClass(688, 139, {139:1}, DevelopmentModeLogHandler);
+defineClass(688, 140, {140:1}, DevelopmentModeLogHandler);
 _.publish = function publish_0(record){
   return;
 }
@@ -3343,7 +3343,7 @@ function $getEffectiveLevel(this$static){
 }
 
 function $getHandlers(this$static){
-  return $toArray_0(this$static.handlers, initDim(Ljava_util_logging_Handler_2_classLit, $intern_3, 139, this$static.handlers.size_1(), 0, 1));
+  return $toArray_0(this$static.handlers, initDim(Ljava_util_logging_Handler_2_classLit, $intern_3, 140, this$static.handlers.size_1(), 0, 1));
 }
 
 function $log(this$static, msg, thrown){
@@ -3359,7 +3359,7 @@ function $log(this$static, msg, thrown){
 function $log_0(this$static, record){
   var handler, handler$array, handler$array0, handler$index, handler$index0, handler$max, handler$max0, logger;
   if ($getEffectiveLevel(this$static).intValue() <= $intern_4) {
-    for (handler$array0 = $toArray_0(this$static.handlers, initDim(Ljava_util_logging_Handler_2_classLit, $intern_3, 139, this$static.handlers.size_1(), 0, 1)) , handler$index0 = 0 , handler$max0 = handler$array0.length; handler$index0 < handler$max0; ++handler$index0) {
+    for (handler$array0 = $toArray_0(this$static.handlers, initDim(Ljava_util_logging_Handler_2_classLit, $intern_3, 140, this$static.handlers.size_1(), 0, 1)) , handler$index0 = 0 , handler$max0 = handler$array0.length; handler$index0 < handler$max0; ++handler$index0) {
       handler = handler$array0[handler$index0];
       handler.publish(record);
     }
@@ -4806,13 +4806,13 @@ function parse_3(value_0){
 
 function values_3(){
   $clinit_ApiAuthHolder();
-  return initValues(getClassLiteralForArray(Lim_actor_core_api_ApiAuthHolder_2_classLit, 1), $intern_3, 189, 0, [THISDEVICE, OTHERDEVICE, UNSUPPORTED_VALUE]);
+  return initValues(getClassLiteralForArray(Lim_actor_core_api_ApiAuthHolder_2_classLit, 1), $intern_3, 190, 0, [THISDEVICE, OTHERDEVICE, UNSUPPORTED_VALUE]);
 }
 
-defineClass(189, 12, {189:1, 3:1, 27:1, 12:1}, ApiAuthHolder);
+defineClass(190, 12, {190:1, 3:1, 27:1, 12:1}, ApiAuthHolder);
 _.value_0 = 0;
 var OTHERDEVICE, THISDEVICE, UNSUPPORTED_VALUE;
-var Lim_actor_core_api_ApiAuthHolder_2_classLit = createForEnum('im.actor.core.api', 'ApiAuthHolder', 189, Ljava_lang_Enum_2_classLit, values_3);
+var Lim_actor_core_api_ApiAuthHolder_2_classLit = createForEnum('im.actor.core.api', 'ApiAuthHolder', 190, Ljava_lang_Enum_2_classLit, values_3);
 function ApiAuthSession(){
 }
 
@@ -4974,14 +4974,14 @@ function fromBytes_1(src_0){
   }
 }
 
-defineClass(1467, 4, $intern_18);
-var Lim_actor_core_api_ApiColor_2_classLit = createForClass('im.actor.core.api', 'ApiColor', 1467, Lim_actor_runtime_bser_BserObject_2_classLit);
+defineClass(1468, 4, $intern_18);
+var Lim_actor_core_api_ApiColor_2_classLit = createForClass('im.actor.core.api', 'ApiColor', 1468, Lim_actor_runtime_bser_BserObject_2_classLit);
 function ApiColorUnsupported(key, content_0){
   this.key = key;
   this.content_0 = content_0;
 }
 
-defineClass(1385, 1467, $intern_18, ApiColorUnsupported);
+defineClass(1385, 1468, $intern_18, ApiColorUnsupported);
 _.getHeader = function getHeader_1(){
   return this.key;
 }
@@ -5024,13 +5024,13 @@ function parse_8(value_0){
 
 function values_4(){
   $clinit_ApiColors();
-  return initValues(getClassLiteralForArray(Lim_actor_core_api_ApiColors_2_classLit, 1), $intern_3, 126, 0, [RED, YELLOW, GREEN, UNSUPPORTED_VALUE_0]);
+  return initValues(getClassLiteralForArray(Lim_actor_core_api_ApiColors_2_classLit, 1), $intern_3, 127, 0, [RED, YELLOW, GREEN, UNSUPPORTED_VALUE_0]);
 }
 
-defineClass(126, 12, {126:1, 3:1, 27:1, 12:1}, ApiColors);
+defineClass(127, 12, {127:1, 3:1, 27:1, 12:1}, ApiColors);
 _.value_0 = 0;
 var GREEN, RED, UNSUPPORTED_VALUE_0, YELLOW;
-var Lim_actor_core_api_ApiColors_2_classLit = createForEnum('im.actor.core.api', 'ApiColors', 126, Ljava_lang_Enum_2_classLit, values_4);
+var Lim_actor_core_api_ApiColors_2_classLit = createForEnum('im.actor.core.api', 'ApiColors', 127, Ljava_lang_Enum_2_classLit, values_4);
 function ApiConfig(){
 }
 
@@ -5373,7 +5373,7 @@ function ApiDocumentExPhoto_0(w, h){
   this.h_0 = h;
 }
 
-defineClass(167, 1474, {167:1, 4:1}, ApiDocumentExPhoto, ApiDocumentExPhoto_0);
+defineClass(168, 1474, {168:1, 4:1}, ApiDocumentExPhoto, ApiDocumentExPhoto_0);
 _.getHeader = function getHeader_3(){
   return 1;
 }
@@ -5408,7 +5408,7 @@ _.toString$ = function toString_21(){
 ;
 _.h_0 = 0;
 _.w = 0;
-var Lim_actor_core_api_ApiDocumentExPhoto_2_classLit = createForClass('im.actor.core.api', 'ApiDocumentExPhoto', 167, Lim_actor_core_api_ApiDocumentEx_2_classLit);
+var Lim_actor_core_api_ApiDocumentExPhoto_2_classLit = createForClass('im.actor.core.api', 'ApiDocumentExPhoto', 168, Lim_actor_core_api_ApiDocumentEx_2_classLit);
 function ApiDocumentExUnsupported(key, content_0){
   this.key = key;
   this.content_0 = content_0;
@@ -5438,7 +5438,7 @@ function ApiDocumentExVideo_0(w, h, duration){
   this.duration = duration;
 }
 
-defineClass(168, 1474, {168:1, 4:1}, ApiDocumentExVideo, ApiDocumentExVideo_0);
+defineClass(169, 1474, {169:1, 4:1}, ApiDocumentExVideo, ApiDocumentExVideo_0);
 _.getHeader = function getHeader_5(){
   return 2;
 }
@@ -5477,7 +5477,7 @@ _.toString$ = function toString_22(){
 _.duration = 0;
 _.h_0 = 0;
 _.w = 0;
-var Lim_actor_core_api_ApiDocumentExVideo_2_classLit = createForClass('im.actor.core.api', 'ApiDocumentExVideo', 168, Lim_actor_core_api_ApiDocumentEx_2_classLit);
+var Lim_actor_core_api_ApiDocumentExVideo_2_classLit = createForClass('im.actor.core.api', 'ApiDocumentExVideo', 169, Lim_actor_core_api_ApiDocumentEx_2_classLit);
 function ApiDocumentExVoice(){
 }
 
@@ -5485,7 +5485,7 @@ function ApiDocumentExVoice_0(duration){
   this.duration = duration;
 }
 
-defineClass(169, 1474, {169:1, 4:1}, ApiDocumentExVoice, ApiDocumentExVoice_0);
+defineClass(170, 1474, {170:1, 4:1}, ApiDocumentExVoice, ApiDocumentExVoice_0);
 _.getHeader = function getHeader_6(){
   return 3;
 }
@@ -5516,7 +5516,7 @@ _.toString$ = function toString_23(){
 }
 ;
 _.duration = 0;
-var Lim_actor_core_api_ApiDocumentExVoice_2_classLit = createForClass('im.actor.core.api', 'ApiDocumentExVoice', 169, Lim_actor_core_api_ApiDocumentEx_2_classLit);
+var Lim_actor_core_api_ApiDocumentExVoice_2_classLit = createForClass('im.actor.core.api', 'ApiDocumentExVoice', 170, Lim_actor_core_api_ApiDocumentEx_2_classLit);
 function $buildContainer_2(this$static){
   var res, writer;
   res = new DataOutput;
@@ -5670,13 +5670,13 @@ function parse_23(value_0){
 
 function values_6(){
   $clinit_ApiEmailActivationType();
-  return initValues(getClassLiteralForArray(Lim_actor_core_api_ApiEmailActivationType_2_classLit, 1), $intern_3, 188, 0, [CODE, OAUTH2, UNSUPPORTED_VALUE_2]);
+  return initValues(getClassLiteralForArray(Lim_actor_core_api_ApiEmailActivationType_2_classLit, 1), $intern_3, 189, 0, [CODE, OAUTH2, UNSUPPORTED_VALUE_2]);
 }
 
-defineClass(188, 12, {188:1, 3:1, 27:1, 12:1}, ApiEmailActivationType);
+defineClass(189, 12, {189:1, 3:1, 27:1, 12:1}, ApiEmailActivationType);
 _.value_0 = 0;
 var CODE, OAUTH2, UNSUPPORTED_VALUE_2;
-var Lim_actor_core_api_ApiEmailActivationType_2_classLit = createForEnum('im.actor.core.api', 'ApiEmailActivationType', 188, Ljava_lang_Enum_2_classLit, values_6);
+var Lim_actor_core_api_ApiEmailActivationType_2_classLit = createForEnum('im.actor.core.api', 'ApiEmailActivationType', 189, Ljava_lang_Enum_2_classLit, values_6);
 function ApiEmailToImport(){
 }
 
@@ -5738,7 +5738,7 @@ function ApiFastThumb_0(w, h, thumb){
   this.thumb = thumb;
 }
 
-defineClass(130, 4, $intern_18, ApiFastThumb, ApiFastThumb_0);
+defineClass(131, 4, $intern_18, ApiFastThumb, ApiFastThumb_0);
 _.parse_0 = function parse_26(values){
   this.w = convertInt($getLong(values, 1));
   this.h_0 = convertInt($getLong(values, 2));
@@ -5775,7 +5775,7 @@ _.toString$ = function toString_27(){
 ;
 _.h_0 = 0;
 _.w = 0;
-var Lim_actor_core_api_ApiFastThumb_2_classLit = createForClass('im.actor.core.api', 'ApiFastThumb', 130, Lim_actor_runtime_bser_BserObject_2_classLit);
+var Lim_actor_core_api_ApiFastThumb_2_classLit = createForClass('im.actor.core.api', 'ApiFastThumb', 131, Lim_actor_runtime_bser_BserObject_2_classLit);
 function ApiFileLocation(){
 }
 
@@ -6111,7 +6111,7 @@ function ApiJsonMessage_0(rawJson){
   this.rawJson = rawJson;
 }
 
-defineClass(163, 1472, {163:1, 4:1}, ApiJsonMessage, ApiJsonMessage_0);
+defineClass(165, 1472, {165:1, 4:1}, ApiJsonMessage, ApiJsonMessage_0);
 _.getHeader = function getHeader_12(){
   return 4;
 }
@@ -6143,7 +6143,7 @@ _.toString$ = function toString_36(){
   return res;
 }
 ;
-var Lim_actor_core_api_ApiJsonMessage_2_classLit = createForClass('im.actor.core.api', 'ApiJsonMessage', 163, Lim_actor_core_api_ApiMessage_2_classLit);
+var Lim_actor_core_api_ApiJsonMessage_2_classLit = createForClass('im.actor.core.api', 'ApiJsonMessage', 165, Lim_actor_core_api_ApiMessage_2_classLit);
 function ApiMapValue(){
 }
 
@@ -6207,7 +6207,7 @@ function ApiMember_0(uid, inviterUid, date, isAdmin){
   this.isAdmin = isAdmin;
 }
 
-defineClass(172, 4, $intern_18, ApiMember, ApiMember_0);
+defineClass(173, 4, $intern_18, ApiMember, ApiMember_0);
 _.parse_0 = function parse_38(values){
   this.uid = convertInt($getLong(values, 1));
   this.inviterUid = convertInt($getLong(values, 2));
@@ -6245,7 +6245,7 @@ _.toString$ = function toString_39(){
 _.date = {l:0, m:0, h:0};
 _.inviterUid = 0;
 _.uid = 0;
-var Lim_actor_core_api_ApiMember_2_classLit = createForClass('im.actor.core.api', 'ApiMember', 172, Lim_actor_runtime_bser_BserObject_2_classLit);
+var Lim_actor_core_api_ApiMember_2_classLit = createForClass('im.actor.core.api', 'ApiMember', 173, Lim_actor_runtime_bser_BserObject_2_classLit);
 function ApiMessageReaction(){
 }
 
@@ -6366,13 +6366,13 @@ function parse_42(value_0){
 
 function values_7(){
   $clinit_ApiMessageState();
-  return initValues(getClassLiteralForArray(Lim_actor_core_api_ApiMessageState_2_classLit, 1), $intern_3, 135, 0, [SENT, RECEIVED, READ, UNSUPPORTED_VALUE_3]);
+  return initValues(getClassLiteralForArray(Lim_actor_core_api_ApiMessageState_2_classLit, 1), $intern_3, 136, 0, [SENT, RECEIVED, READ, UNSUPPORTED_VALUE_3]);
 }
 
-defineClass(135, 12, {135:1, 3:1, 27:1, 12:1}, ApiMessageState);
+defineClass(136, 12, {136:1, 3:1, 27:1, 12:1}, ApiMessageState);
 _.value_0 = 0;
 var READ, RECEIVED, SENT, UNSUPPORTED_VALUE_3;
-var Lim_actor_core_api_ApiMessageState_2_classLit = createForEnum('im.actor.core.api', 'ApiMessageState', 135, Ljava_lang_Enum_2_classLit, values_7);
+var Lim_actor_core_api_ApiMessageState_2_classLit = createForEnum('im.actor.core.api', 'ApiMessageState', 136, Ljava_lang_Enum_2_classLit, values_7);
 function ApiMessageUnsupported(key, content_0){
   this.key = key;
   this.content_0 = content_0;
@@ -6618,13 +6618,13 @@ function parse_50(value_0){
 
 function values_8(){
   $clinit_ApiPeerType();
-  return initValues(getClassLiteralForArray(Lim_actor_core_api_ApiPeerType_2_classLit, 1), $intern_3, 151, 0, [PRIVATE, GROUP, UNSUPPORTED_VALUE_4]);
+  return initValues(getClassLiteralForArray(Lim_actor_core_api_ApiPeerType_2_classLit, 1), $intern_3, 153, 0, [PRIVATE, GROUP, UNSUPPORTED_VALUE_4]);
 }
 
-defineClass(151, 12, {151:1, 3:1, 27:1, 12:1}, ApiPeerType);
+defineClass(153, 12, {153:1, 3:1, 27:1, 12:1}, ApiPeerType);
 _.value_0 = 0;
 var GROUP, PRIVATE, UNSUPPORTED_VALUE_4;
-var Lim_actor_core_api_ApiPeerType_2_classLit = createForEnum('im.actor.core.api', 'ApiPeerType', 151, Ljava_lang_Enum_2_classLit, values_8);
+var Lim_actor_core_api_ApiPeerType_2_classLit = createForEnum('im.actor.core.api', 'ApiPeerType', 153, Ljava_lang_Enum_2_classLit, values_8);
 function ApiPhoneToImport(){
 }
 
@@ -6658,7 +6658,7 @@ var Lim_actor_core_api_ApiPhoneToImport_2_classLit = createForClass('im.actor.co
 function ApiPredefinedColor(){
 }
 
-defineClass(371, 1467, {371:1, 4:1}, ApiPredefinedColor);
+defineClass(371, 1468, {371:1, 4:1}, ApiPredefinedColor);
 _.getHeader = function getHeader_14(){
   return 2;
 }
@@ -6762,7 +6762,7 @@ var Lim_actor_core_api_ApiRawValueUnsupported_2_classLit = createForClass('im.ac
 function ApiRgbColor(){
 }
 
-defineClass(372, 1467, {372:1, 4:1}, ApiRgbColor);
+defineClass(372, 1468, {372:1, 4:1}, ApiRgbColor);
 _.getHeader = function getHeader_16(){
   return 1;
 }
@@ -7501,7 +7501,7 @@ function ApiServiceExUserInvited_0(invitedUid){
   this.invitedUid = invitedUid;
 }
 
-defineClass(171, $intern_20, {171:1, 4:1}, ApiServiceExUserInvited, ApiServiceExUserInvited_0);
+defineClass(172, $intern_20, {172:1, 4:1}, ApiServiceExUserInvited, ApiServiceExUserInvited_0);
 _.getHeader = function getHeader_34(){
   return 1;
 }
@@ -7532,7 +7532,7 @@ _.toString$ = function toString_68(){
 }
 ;
 _.invitedUid = 0;
-var Lim_actor_core_api_ApiServiceExUserInvited_2_classLit = createForClass('im.actor.core.api', 'ApiServiceExUserInvited', 171, Lim_actor_core_api_ApiServiceEx_2_classLit);
+var Lim_actor_core_api_ApiServiceExUserInvited_2_classLit = createForClass('im.actor.core.api', 'ApiServiceExUserInvited', 172, Lim_actor_core_api_ApiServiceEx_2_classLit);
 function ApiServiceExUserJoined(){
 }
 
@@ -7990,7 +7990,7 @@ function ApiTextMessage_0(text_0, mentions, ext){
   this.ext = ext;
 }
 
-defineClass(170, 1472, {170:1, 4:1}, ApiTextMessage, ApiTextMessage_0);
+defineClass(171, 1472, {171:1, 4:1}, ApiTextMessage, ApiTextMessage_0);
 _.getHeader = function getHeader_42(){
   return 1;
 }
@@ -8028,7 +8028,7 @@ _.toString$ = function toString_79(){
   return res;
 }
 ;
-var Lim_actor_core_api_ApiTextMessage_2_classLit = createForClass('im.actor.core.api', 'ApiTextMessage', 170, Lim_actor_core_api_ApiMessage_2_classLit);
+var Lim_actor_core_api_ApiTextMessage_2_classLit = createForClass('im.actor.core.api', 'ApiTextMessage', 171, Lim_actor_core_api_ApiMessage_2_classLit);
 function ApiTextMessageExUnsupported(key, content_0){
   this.key = key;
   this.content_0 = content_0;
@@ -14161,7 +14161,7 @@ function UpdateContactsAdded_0(uids){
   this.uids = uids;
 }
 
-defineClass(132, $intern_23, {132:1, 4:1}, UpdateContactsAdded, UpdateContactsAdded_0);
+defineClass(133, $intern_23, {133:1, 4:1}, UpdateContactsAdded, UpdateContactsAdded_0);
 _.getHeaderKey = function getHeaderKey_153(){
   return 40;
 }
@@ -14182,7 +14182,7 @@ _.toString$ = function toString_242(){
   return res;
 }
 ;
-var Lim_actor_core_api_updates_UpdateContactsAdded_2_classLit = createForClass('im.actor.core.api.updates', 'UpdateContactsAdded', 132, Lim_actor_core_network_parser_Update_2_classLit);
+var Lim_actor_core_api_updates_UpdateContactsAdded_2_classLit = createForClass('im.actor.core.api.updates', 'UpdateContactsAdded', 133, Lim_actor_core_network_parser_Update_2_classLit);
 function UpdateContactsRemoved(){
 }
 
@@ -14190,7 +14190,7 @@ function UpdateContactsRemoved_0(uids){
   this.uids = uids;
 }
 
-defineClass(181, $intern_23, {181:1, 4:1}, UpdateContactsRemoved, UpdateContactsRemoved_0);
+defineClass(182, $intern_23, {182:1, 4:1}, UpdateContactsRemoved, UpdateContactsRemoved_0);
 _.getHeaderKey = function getHeaderKey_154(){
   return 41;
 }
@@ -14211,7 +14211,7 @@ _.toString$ = function toString_243(){
   return res;
 }
 ;
-var Lim_actor_core_api_updates_UpdateContactsRemoved_2_classLit = createForClass('im.actor.core.api.updates', 'UpdateContactsRemoved', 181, Lim_actor_core_network_parser_Update_2_classLit);
+var Lim_actor_core_api_updates_UpdateContactsRemoved_2_classLit = createForClass('im.actor.core.api.updates', 'UpdateContactsRemoved', 182, Lim_actor_core_network_parser_Update_2_classLit);
 function UpdateCountersChanged(){
 }
 
@@ -14285,7 +14285,7 @@ function UpdateGroupAvatarChanged_0(groupId, rid, uid, avatar, date){
   this.date = date;
 }
 
-defineClass(187, $intern_23, {187:1, 4:1}, UpdateGroupAvatarChanged, UpdateGroupAvatarChanged_0);
+defineClass(188, $intern_23, {188:1, 4:1}, UpdateGroupAvatarChanged, UpdateGroupAvatarChanged_0);
 _.getHeaderKey = function getHeaderKey_157(){
   return 39;
 }
@@ -14322,7 +14322,7 @@ _.date = {l:0, m:0, h:0};
 _.groupId = 0;
 _.rid = {l:0, m:0, h:0};
 _.uid = 0;
-var Lim_actor_core_api_updates_UpdateGroupAvatarChanged_2_classLit = createForClass('im.actor.core.api.updates', 'UpdateGroupAvatarChanged', 187, Lim_actor_core_network_parser_Update_2_classLit);
+var Lim_actor_core_api_updates_UpdateGroupAvatarChanged_2_classLit = createForClass('im.actor.core.api.updates', 'UpdateGroupAvatarChanged', 188, Lim_actor_core_network_parser_Update_2_classLit);
 function UpdateGroupInvite(){
 }
 
@@ -14333,7 +14333,7 @@ function UpdateGroupInvite_0(groupId, rid, inviteUid, date){
   this.date = date;
 }
 
-defineClass(183, $intern_23, {183:1, 4:1}, UpdateGroupInvite, UpdateGroupInvite_0);
+defineClass(184, $intern_23, {184:1, 4:1}, UpdateGroupInvite, UpdateGroupInvite_0);
 _.getHeaderKey = function getHeaderKey_158(){
   return 36;
 }
@@ -14367,7 +14367,7 @@ _.date = {l:0, m:0, h:0};
 _.groupId = 0;
 _.inviteUid = 0;
 _.rid = {l:0, m:0, h:0};
-var Lim_actor_core_api_updates_UpdateGroupInvite_2_classLit = createForClass('im.actor.core.api.updates', 'UpdateGroupInvite', 183, Lim_actor_core_network_parser_Update_2_classLit);
+var Lim_actor_core_api_updates_UpdateGroupInvite_2_classLit = createForClass('im.actor.core.api.updates', 'UpdateGroupInvite', 184, Lim_actor_core_network_parser_Update_2_classLit);
 function UpdateGroupMembersUpdate(){
 }
 
@@ -14536,7 +14536,7 @@ function UpdateGroupUserInvited_0(groupId, rid, uid, inviterUid, date){
   this.date = date;
 }
 
-defineClass(184, $intern_23, {184:1, 4:1}, UpdateGroupUserInvited, UpdateGroupUserInvited_0);
+defineClass(185, $intern_23, {185:1, 4:1}, UpdateGroupUserInvited, UpdateGroupUserInvited_0);
 _.getHeaderKey = function getHeaderKey_163(){
   return 21;
 }
@@ -14574,7 +14574,7 @@ _.groupId = 0;
 _.inviterUid = 0;
 _.rid = {l:0, m:0, h:0};
 _.uid = 0;
-var Lim_actor_core_api_updates_UpdateGroupUserInvited_2_classLit = createForClass('im.actor.core.api.updates', 'UpdateGroupUserInvited', 184, Lim_actor_core_network_parser_Update_2_classLit);
+var Lim_actor_core_api_updates_UpdateGroupUserInvited_2_classLit = createForClass('im.actor.core.api.updates', 'UpdateGroupUserInvited', 185, Lim_actor_core_network_parser_Update_2_classLit);
 function UpdateGroupUserKick(){
 }
 
@@ -14586,7 +14586,7 @@ function UpdateGroupUserKick_0(groupId, rid, uid, kickerUid, date){
   this.date = date;
 }
 
-defineClass(186, $intern_23, {186:1, 4:1}, UpdateGroupUserKick, UpdateGroupUserKick_0);
+defineClass(187, $intern_23, {187:1, 4:1}, UpdateGroupUserKick, UpdateGroupUserKick_0);
 _.getHeaderKey = function getHeaderKey_164(){
   return 24;
 }
@@ -14624,7 +14624,7 @@ _.groupId = 0;
 _.kickerUid = 0;
 _.rid = {l:0, m:0, h:0};
 _.uid = 0;
-var Lim_actor_core_api_updates_UpdateGroupUserKick_2_classLit = createForClass('im.actor.core.api.updates', 'UpdateGroupUserKick', 186, Lim_actor_core_network_parser_Update_2_classLit);
+var Lim_actor_core_api_updates_UpdateGroupUserKick_2_classLit = createForClass('im.actor.core.api.updates', 'UpdateGroupUserKick', 187, Lim_actor_core_network_parser_Update_2_classLit);
 function UpdateGroupUserLeave(){
 }
 
@@ -14635,7 +14635,7 @@ function UpdateGroupUserLeave_0(groupId, rid, uid, date){
   this.date = date;
 }
 
-defineClass(185, $intern_23, {185:1, 4:1}, UpdateGroupUserLeave, UpdateGroupUserLeave_0);
+defineClass(186, $intern_23, {186:1, 4:1}, UpdateGroupUserLeave, UpdateGroupUserLeave_0);
 _.getHeaderKey = function getHeaderKey_165(){
   return 23;
 }
@@ -14669,7 +14669,7 @@ _.date = {l:0, m:0, h:0};
 _.groupId = 0;
 _.rid = {l:0, m:0, h:0};
 _.uid = 0;
-var Lim_actor_core_api_updates_UpdateGroupUserLeave_2_classLit = createForClass('im.actor.core.api.updates', 'UpdateGroupUserLeave', 185, Lim_actor_core_network_parser_Update_2_classLit);
+var Lim_actor_core_api_updates_UpdateGroupUserLeave_2_classLit = createForClass('im.actor.core.api.updates', 'UpdateGroupUserLeave', 186, Lim_actor_core_network_parser_Update_2_classLit);
 function UpdateMessage(){
 }
 
@@ -14681,7 +14681,7 @@ function UpdateMessage_0(peer, senderUid, date, rid, message){
   this.message_0 = message;
 }
 
-defineClass(133, $intern_23, {133:1, 4:1}, UpdateMessage, UpdateMessage_0);
+defineClass(134, $intern_23, {134:1, 4:1}, UpdateMessage, UpdateMessage_0);
 _.getHeaderKey = function getHeaderKey_166(){
   return 55;
 }
@@ -14723,7 +14723,7 @@ _.toString$ = function toString_255(){
 _.date = {l:0, m:0, h:0};
 _.rid = {l:0, m:0, h:0};
 _.senderUid = 0;
-var Lim_actor_core_api_updates_UpdateMessage_2_classLit = createForClass('im.actor.core.api.updates', 'UpdateMessage', 133, Lim_actor_core_network_parser_Update_2_classLit);
+var Lim_actor_core_api_updates_UpdateMessage_2_classLit = createForClass('im.actor.core.api.updates', 'UpdateMessage', 134, Lim_actor_core_network_parser_Update_2_classLit);
 function UpdateMessageContentChanged(){
 }
 
@@ -15120,7 +15120,7 @@ function UpdateReactionsUpdate_0(peer, rid, reactions){
   this.reactions = reactions;
 }
 
-defineClass(182, $intern_23, {182:1, 4:1}, UpdateReactionsUpdate, UpdateReactionsUpdate_0);
+defineClass(183, $intern_23, {183:1, 4:1}, UpdateReactionsUpdate, UpdateReactionsUpdate_0);
 _.getHeaderKey = function getHeaderKey_178(){
   return 222;
 }
@@ -15156,7 +15156,7 @@ _.toString$ = function toString_267(){
 }
 ;
 _.rid = {l:0, m:0, h:0};
-var Lim_actor_core_api_updates_UpdateReactionsUpdate_2_classLit = createForClass('im.actor.core.api.updates', 'UpdateReactionsUpdate', 182, Lim_actor_core_network_parser_Update_2_classLit);
+var Lim_actor_core_api_updates_UpdateReactionsUpdate_2_classLit = createForClass('im.actor.core.api.updates', 'UpdateReactionsUpdate', 183, Lim_actor_core_network_parser_Update_2_classLit);
 function UpdateStickerCollectionsChanged(){
 }
 
@@ -15270,7 +15270,7 @@ function UpdateUserAboutChanged_0(uid, about){
   this.about = about;
 }
 
-defineClass(180, $intern_23, {180:1, 4:1}, UpdateUserAboutChanged, UpdateUserAboutChanged_0);
+defineClass(181, $intern_23, {181:1, 4:1}, UpdateUserAboutChanged, UpdateUserAboutChanged_0);
 _.getHeaderKey = function getHeaderKey_182(){
   return 210;
 }
@@ -15295,7 +15295,7 @@ _.toString$ = function toString_271(){
 }
 ;
 _.uid = 0;
-var Lim_actor_core_api_updates_UpdateUserAboutChanged_2_classLit = createForClass('im.actor.core.api.updates', 'UpdateUserAboutChanged', 180, Lim_actor_core_network_parser_Update_2_classLit);
+var Lim_actor_core_api_updates_UpdateUserAboutChanged_2_classLit = createForClass('im.actor.core.api.updates', 'UpdateUserAboutChanged', 181, Lim_actor_core_network_parser_Update_2_classLit);
 function UpdateUserAvatarChanged(){
 }
 
@@ -15304,7 +15304,7 @@ function UpdateUserAvatarChanged_0(uid, avatar){
   this.avatar = avatar;
 }
 
-defineClass(177, $intern_23, {177:1, 4:1}, UpdateUserAvatarChanged, UpdateUserAvatarChanged_0);
+defineClass(178, $intern_23, {178:1, 4:1}, UpdateUserAvatarChanged, UpdateUserAvatarChanged_0);
 _.getHeaderKey = function getHeaderKey_183(){
   return 16;
 }
@@ -15329,7 +15329,7 @@ _.toString$ = function toString_272(){
 }
 ;
 _.uid = 0;
-var Lim_actor_core_api_updates_UpdateUserAvatarChanged_2_classLit = createForClass('im.actor.core.api.updates', 'UpdateUserAvatarChanged', 177, Lim_actor_core_network_parser_Update_2_classLit);
+var Lim_actor_core_api_updates_UpdateUserAvatarChanged_2_classLit = createForClass('im.actor.core.api.updates', 'UpdateUserAvatarChanged', 178, Lim_actor_core_network_parser_Update_2_classLit);
 function UpdateUserContactsChanged(){
 }
 
@@ -15402,7 +15402,7 @@ function UpdateUserLocalNameChanged_0(uid, localName){
   this.localName = localName;
 }
 
-defineClass(131, $intern_23, {131:1, 4:1}, UpdateUserLocalNameChanged, UpdateUserLocalNameChanged_0);
+defineClass(132, $intern_23, {132:1, 4:1}, UpdateUserLocalNameChanged, UpdateUserLocalNameChanged_0);
 _.getHeaderKey = function getHeaderKey_186(){
   return 51;
 }
@@ -15427,7 +15427,7 @@ _.toString$ = function toString_275(){
 }
 ;
 _.uid = 0;
-var Lim_actor_core_api_updates_UpdateUserLocalNameChanged_2_classLit = createForClass('im.actor.core.api.updates', 'UpdateUserLocalNameChanged', 131, Lim_actor_core_network_parser_Update_2_classLit);
+var Lim_actor_core_api_updates_UpdateUserLocalNameChanged_2_classLit = createForClass('im.actor.core.api.updates', 'UpdateUserLocalNameChanged', 132, Lim_actor_core_network_parser_Update_2_classLit);
 function UpdateUserNameChanged(){
 }
 
@@ -15436,7 +15436,7 @@ function UpdateUserNameChanged_0(uid, name_0){
   this.name_0 = name_0;
 }
 
-defineClass(178, $intern_23, {178:1, 4:1}, UpdateUserNameChanged, UpdateUserNameChanged_0);
+defineClass(179, $intern_23, {179:1, 4:1}, UpdateUserNameChanged, UpdateUserNameChanged_0);
 _.getHeaderKey = function getHeaderKey_187(){
   return 32;
 }
@@ -15464,7 +15464,7 @@ _.toString$ = function toString_276(){
 }
 ;
 _.uid = 0;
-var Lim_actor_core_api_updates_UpdateUserNameChanged_2_classLit = createForClass('im.actor.core.api.updates', 'UpdateUserNameChanged', 178, Lim_actor_core_network_parser_Update_2_classLit);
+var Lim_actor_core_api_updates_UpdateUserNameChanged_2_classLit = createForClass('im.actor.core.api.updates', 'UpdateUserNameChanged', 179, Lim_actor_core_network_parser_Update_2_classLit);
 function UpdateUserNickChanged(){
 }
 
@@ -15473,7 +15473,7 @@ function UpdateUserNickChanged_0(uid, nickname){
   this.nickname = nickname;
 }
 
-defineClass(179, $intern_23, {179:1, 4:1}, UpdateUserNickChanged, UpdateUserNickChanged_0);
+defineClass(180, $intern_23, {180:1, 4:1}, UpdateUserNickChanged, UpdateUserNickChanged_0);
 _.getHeaderKey = function getHeaderKey_188(){
   return 209;
 }
@@ -15498,7 +15498,7 @@ _.toString$ = function toString_277(){
 }
 ;
 _.uid = 0;
-var Lim_actor_core_api_updates_UpdateUserNickChanged_2_classLit = createForClass('im.actor.core.api.updates', 'UpdateUserNickChanged', 179, Lim_actor_core_network_parser_Update_2_classLit);
+var Lim_actor_core_api_updates_UpdateUserNickChanged_2_classLit = createForClass('im.actor.core.api.updates', 'UpdateUserNickChanged', 180, Lim_actor_core_network_parser_Update_2_classLit);
 function UpdateUserOffline(){
 }
 
@@ -15867,7 +15867,7 @@ function fromBytes_7(data_0){
 }
 
 function fromContent(msg){
-  return instanceOf(msg, 75)?new ContentDescription_1(($clinit_ContentType() , TEXT_1), msg.text_0):instanceOf(msg, 65)?new ContentDescription_0(($clinit_ContentType() , DOCUMENT_PHOTO)):instanceOf(msg, 88)?new ContentDescription_0(($clinit_ContentType() , DOCUMENT_VIDEO)):instanceOf(msg, 86)?new ContentDescription_0(($clinit_ContentType() , DOCUMENT_AUDIO)):instanceOf(msg, 28)?new ContentDescription_0(($clinit_ContentType() , DOCUMENT)):instanceOf(msg, 119)?new ContentDescription_0(($clinit_ContentType() , LOCATION)):instanceOf(msg, 118)?new ContentDescription_0(($clinit_ContentType() , CONTACT)):instanceOf(msg, 166)?new ContentDescription_0(($clinit_ContentType() , STICKER)):instanceOf(msg, 120)?new ContentDescription_0(($clinit_ContentType() , SERVICE_REGISTERED)):instanceOf(msg, 125)?!msg.newAvatar?new ContentDescription_0(($clinit_ContentType() , SERVICE_AVATAR_REMOVED)):new ContentDescription_0(($clinit_ContentType() , SERVICE_AVATAR)):instanceOf(msg, 124)?new ContentDescription_1(($clinit_ContentType() , SERVICE_TITLE), msg.newTitle):instanceOf(msg, 121)?new ContentDescription_0(($clinit_ContentType() , SERVICE_CREATED)):instanceOf(msg, 99)?new ContentDescription_2(($clinit_ContentType() , SERVICE_ADD), '', msg.addedUid, false):instanceOf(msg, 122)?new ContentDescription_2(($clinit_ContentType() , SERVICE_KICK), '', msg.kickedUid, false):instanceOf(msg, 123)?new ContentDescription_2(($clinit_ContentType() , SERVICE_LEAVE), '', 0, true):instanceOf(msg, 162)?new ContentDescription_2(($clinit_ContentType() , SERVICE_JOINED), '', 0, false):instanceOf(msg, 37)?new ContentDescription_2(($clinit_ContentType() , SERVICE), msg.compatText, 0, false):new ContentDescription_0(($clinit_ContentType() , UNKNOWN_CONTENT));
+  return instanceOf(msg, 75)?new ContentDescription_1(($clinit_ContentType() , TEXT_1), msg.text_0):instanceOf(msg, 65)?new ContentDescription_0(($clinit_ContentType() , DOCUMENT_PHOTO)):instanceOf(msg, 88)?new ContentDescription_0(($clinit_ContentType() , DOCUMENT_VIDEO)):instanceOf(msg, 86)?new ContentDescription_0(($clinit_ContentType() , DOCUMENT_AUDIO)):instanceOf(msg, 28)?new ContentDescription_0(($clinit_ContentType() , DOCUMENT)):instanceOf(msg, 119)?new ContentDescription_0(($clinit_ContentType() , LOCATION)):instanceOf(msg, 118)?new ContentDescription_0(($clinit_ContentType() , CONTACT)):instanceOf(msg, 120)?new ContentDescription_0(($clinit_ContentType() , STICKER)):instanceOf(msg, 121)?new ContentDescription_0(($clinit_ContentType() , SERVICE_REGISTERED)):instanceOf(msg, 126)?!msg.newAvatar?new ContentDescription_0(($clinit_ContentType() , SERVICE_AVATAR_REMOVED)):new ContentDescription_0(($clinit_ContentType() , SERVICE_AVATAR)):instanceOf(msg, 125)?new ContentDescription_1(($clinit_ContentType() , SERVICE_TITLE), msg.newTitle):instanceOf(msg, 122)?new ContentDescription_0(($clinit_ContentType() , SERVICE_CREATED)):instanceOf(msg, 99)?new ContentDescription_2(($clinit_ContentType() , SERVICE_ADD), '', msg.addedUid, false):instanceOf(msg, 123)?new ContentDescription_2(($clinit_ContentType() , SERVICE_KICK), '', msg.kickedUid, false):instanceOf(msg, 124)?new ContentDescription_2(($clinit_ContentType() , SERVICE_LEAVE), '', 0, true):instanceOf(msg, 164)?new ContentDescription_2(($clinit_ContentType() , SERVICE_JOINED), '', 0, false):instanceOf(msg, 37)?new ContentDescription_2(($clinit_ContentType() , SERVICE), msg.compatText, 0, false):new ContentDescription_0(($clinit_ContentType() , UNKNOWN_CONTENT));
 }
 
 defineClass(14, 4, $intern_18, ContentDescription, ContentDescription_0, ContentDescription_1, ContentDescription_2);
@@ -15999,7 +15999,7 @@ function Dialog_0(peer, sortKey, dialogTitle, dialogAvatar, unreadCount, rid, me
   this.relatedUid = relatedUid;
 }
 
-defineClass(153, 4, $intern_18, Dialog, Dialog_0);
+defineClass(155, 4, $intern_18, Dialog, Dialog_0);
 _.getEngineId = function getEngineId_0(){
   return $getUnuqueId(this.peer);
 }
@@ -16051,7 +16051,7 @@ _.senderId = 0;
 _.sortDate = {l:0, m:0, h:0};
 _.unreadCount = 0;
 var CREATOR_0;
-var Lim_actor_core_entity_Dialog_2_classLit = createForClass('im.actor.core.entity', 'Dialog', 153, Lim_actor_runtime_bser_BserObject_2_classLit);
+var Lim_actor_core_entity_Dialog_2_classLit = createForClass('im.actor.core.entity', 'Dialog', 155, Lim_actor_runtime_bser_BserObject_2_classLit);
 function Dialog$1(){
 }
 
@@ -16148,14 +16148,14 @@ function DialogBuilder_0(dialog){
   this.relatedUid = dialog.relatedUid;
 }
 
-defineClass(174, 1, {}, DialogBuilder, DialogBuilder_0);
+defineClass(175, 1, {}, DialogBuilder, DialogBuilder_0);
 _.relatedUid = 0;
 _.rid = {l:0, m:0, h:0};
 _.senderId = 0;
 _.sortKey_0 = {l:0, m:0, h:0};
 _.time = {l:0, m:0, h:0};
 _.unreadCount = 0;
-var Lim_actor_core_entity_DialogBuilder_2_classLit = createForClass('im.actor.core.entity', 'DialogBuilder', 174, Ljava_lang_Object_2_classLit);
+var Lim_actor_core_entity_DialogBuilder_2_classLit = createForClass('im.actor.core.entity', 'DialogBuilder', 175, Ljava_lang_Object_2_classLit);
 function $clinit_DialogSpec(){
   $clinit_DialogSpec = emptyMethod;
   CREATOR_1 = new DialogSpec$1;
@@ -16224,7 +16224,7 @@ function FileReference(fileLocation, fileName, fileSize){
   this.fileName = fileName;
 }
 
-defineClass(205, 71, $intern_18, FileReference);
+defineClass(150, 71, $intern_18, FileReference);
 _.createInstance = function createInstance_4(){
   return new ApiFileLocation;
 }
@@ -16258,7 +16258,7 @@ _.serialize = function serialize_288(writer){
 }
 ;
 _.fileSize = 0;
-var Lim_actor_core_entity_FileReference_2_classLit = createForClass('im.actor.core.entity', 'FileReference', 205, Lim_actor_core_entity_WrapperEntity_2_classLit);
+var Lim_actor_core_entity_FileReference_2_classLit = createForClass('im.actor.core.entity', 'FileReference', 150, Lim_actor_core_entity_WrapperEntity_2_classLit);
 function $clinit_Group(){
   $clinit_Group = emptyMethod;
   CREATOR_2 = new Group$1;
@@ -16375,11 +16375,11 @@ function GroupMember(uid, inviterUid, isAdministrator){
   this.isAdministrator = isAdministrator;
 }
 
-defineClass(196, 1, {196:1}, GroupMember);
+defineClass(197, 1, {197:1}, GroupMember);
 _.inviterUid = 0;
 _.isAdministrator = false;
 _.uid = 0;
-var Lim_actor_core_entity_GroupMember_2_classLit = createForClass('im.actor.core.entity', 'GroupMember', 196, Ljava_lang_Object_2_classLit);
+var Lim_actor_core_entity_GroupMember_2_classLit = createForClass('im.actor.core.entity', 'GroupMember', 197, Ljava_lang_Object_2_classLit);
 function MentionFilterResult(uid, mentionString, mentionMatches, originalString, originalMatches, isNickname){
   this.uid = uid;
   this.mentionString = mentionString;
@@ -16661,12 +16661,12 @@ function PeerType(enum$name, enum$ordinal){
 
 function values_15(){
   $clinit_PeerType();
-  return initValues(getClassLiteralForArray(Lim_actor_core_entity_PeerType_2_classLit, 1), $intern_3, 197, 0, [PRIVATE_0, GROUP_0]);
+  return initValues(getClassLiteralForArray(Lim_actor_core_entity_PeerType_2_classLit, 1), $intern_3, 198, 0, [PRIVATE_0, GROUP_0]);
 }
 
-defineClass(197, 12, {197:1, 3:1, 27:1, 12:1}, PeerType);
+defineClass(198, 12, {198:1, 3:1, 27:1, 12:1}, PeerType);
 var GROUP_0, PRIVATE_0;
-var Lim_actor_core_entity_PeerType_2_classLit = createForEnum('im.actor.core.entity', 'PeerType', 197, Ljava_lang_Enum_2_classLit, values_15);
+var Lim_actor_core_entity_PeerType_2_classLit = createForEnum('im.actor.core.entity', 'PeerType', 198, Ljava_lang_Enum_2_classLit, values_15);
 function $$init_0(this$static){
   this$static.uids = new ArrayList;
 }
@@ -16763,12 +16763,12 @@ function Sex(enum$name, enum$ordinal){
 
 function values_16(){
   $clinit_Sex();
-  return initValues(getClassLiteralForArray(Lim_actor_core_entity_Sex_2_classLit, 1), $intern_3, 141, 0, [UNKNOWN_2, MALE_0, FEMALE_0]);
+  return initValues(getClassLiteralForArray(Lim_actor_core_entity_Sex_2_classLit, 1), $intern_3, 142, 0, [UNKNOWN_2, MALE_0, FEMALE_0]);
 }
 
-defineClass(141, 12, {141:1, 3:1, 27:1, 12:1}, Sex);
+defineClass(142, 12, {142:1, 3:1, 27:1, 12:1}, Sex);
 var FEMALE_0, MALE_0, UNKNOWN_2;
-var Lim_actor_core_entity_Sex_2_classLit = createForEnum('im.actor.core.entity', 'Sex', 141, Ljava_lang_Enum_2_classLit, values_16);
+var Lim_actor_core_entity_Sex_2_classLit = createForEnum('im.actor.core.entity', 'Sex', 142, Ljava_lang_Enum_2_classLit, values_16);
 function $clinit_User(){
   $clinit_User = emptyMethod;
   CREATOR_5 = new User$1;
@@ -16884,10 +16884,10 @@ function convertData(container){
         throw unwrap($e0);
     }
   }
-  if (instanceOf(container, 128)) {
+  if (instanceOf(container, 129)) {
     localContainer = container;
     content_0 = container.content_0;
-    if (instanceOf(content_0, 165)) {
+    if (instanceOf(content_0, 167)) {
       return new PhotoContent(localContainer);
     }
      else if (instanceOf(content_0, 229)) {
@@ -16906,16 +16906,16 @@ function convertData(container){
     try {
       if (instanceOf(content_0, 87)) {
         d = content_0;
-        return instanceOf(d.ext, 167)?new PhotoContent_0(remoteContainer):instanceOf(d.ext, 168)?new VideoContent_0(remoteContainer):instanceOf(d.ext, 169)?new VoiceContent(remoteContainer):new DocumentContent_0(remoteContainer);
+        return instanceOf(d.ext, 168)?new PhotoContent_0(remoteContainer):instanceOf(d.ext, 169)?new VideoContent_0(remoteContainer):instanceOf(d.ext, 170)?new VoiceContent(remoteContainer):new DocumentContent_0(remoteContainer);
       }
-       else if (instanceOf(content_0, 170)) {
+       else if (instanceOf(content_0, 171)) {
         return new TextContent(remoteContainer);
       }
        else if (instanceOf(content_0, 58)) {
         ext = content_0.ext;
-        return instanceOf(ext, 230)?new ServiceUserRegistered(remoteContainer):instanceOf(ext, 231)?new ServiceGroupTitleChanged(remoteContainer):instanceOf(ext, 232)?new ServiceGroupAvatarChanged(remoteContainer):instanceOf(ext, 233)?new ServiceGroupCreated(remoteContainer):instanceOf(ext, 171)?new ServiceGroupUserInvited(remoteContainer):instanceOf(ext, 234)?new ServiceGroupUserKicked(remoteContainer):instanceOf(ext, 235)?new ServiceGroupUserLeave(remoteContainer):instanceOf(ext, 236)?new ServiceGroupUserJoined(remoteContainer):new ServiceContent(remoteContainer);
+        return instanceOf(ext, 230)?new ServiceUserRegistered(remoteContainer):instanceOf(ext, 231)?new ServiceGroupTitleChanged(remoteContainer):instanceOf(ext, 232)?new ServiceGroupAvatarChanged(remoteContainer):instanceOf(ext, 233)?new ServiceGroupCreated(remoteContainer):instanceOf(ext, 172)?new ServiceGroupUserInvited(remoteContainer):instanceOf(ext, 234)?new ServiceGroupUserKicked(remoteContainer):instanceOf(ext, 235)?new ServiceGroupUserLeave(remoteContainer):instanceOf(ext, 236)?new ServiceGroupUserJoined(remoteContainer):new ServiceContent(remoteContainer);
       }
-       else if (instanceOf(content_0, 163)) {
+       else if (instanceOf(content_0, 165)) {
         json = content_0;
         object = new JSONObject_1(json.rawJson);
         if ($equals_6($getString_2(object, 'dataType'), 'banner')) {
@@ -17154,15 +17154,15 @@ function ServiceGroupAvatarChanged(remoteContainer){
   this.newAvatar = changedAvatar.avatar?new Avatar(changedAvatar.avatar):null;
 }
 
-defineClass(125, 37, {37:1, 125:1}, ServiceGroupAvatarChanged);
-var Lim_actor_core_entity_content_ServiceGroupAvatarChanged_2_classLit = createForClass('im.actor.core.entity.content', 'ServiceGroupAvatarChanged', 125, Lim_actor_core_entity_content_ServiceContent_2_classLit);
+defineClass(126, 37, {37:1, 126:1}, ServiceGroupAvatarChanged);
+var Lim_actor_core_entity_content_ServiceGroupAvatarChanged_2_classLit = createForClass('im.actor.core.entity.content', 'ServiceGroupAvatarChanged', 126, Lim_actor_core_entity_content_ServiceContent_2_classLit);
 function ServiceGroupCreated(contentContainer){
   $clinit_AbsContent();
   ServiceContent.call(this, contentContainer);
 }
 
-defineClass(121, 37, {37:1, 121:1}, ServiceGroupCreated);
-var Lim_actor_core_entity_content_ServiceGroupCreated_2_classLit = createForClass('im.actor.core.entity.content', 'ServiceGroupCreated', 121, Lim_actor_core_entity_content_ServiceContent_2_classLit);
+defineClass(122, 37, {37:1, 122:1}, ServiceGroupCreated);
+var Lim_actor_core_entity_content_ServiceGroupCreated_2_classLit = createForClass('im.actor.core.entity.content', 'ServiceGroupCreated', 122, Lim_actor_core_entity_content_ServiceContent_2_classLit);
 function ServiceGroupTitleChanged(remoteContainer){
   $clinit_AbsContent();
   var serviceMessage;
@@ -17171,8 +17171,8 @@ function ServiceGroupTitleChanged(remoteContainer){
   this.newTitle = serviceMessage.ext.title_0;
 }
 
-defineClass(124, 37, {37:1, 124:1}, ServiceGroupTitleChanged);
-var Lim_actor_core_entity_content_ServiceGroupTitleChanged_2_classLit = createForClass('im.actor.core.entity.content', 'ServiceGroupTitleChanged', 124, Lim_actor_core_entity_content_ServiceContent_2_classLit);
+defineClass(125, 37, {37:1, 125:1}, ServiceGroupTitleChanged);
+var Lim_actor_core_entity_content_ServiceGroupTitleChanged_2_classLit = createForClass('im.actor.core.entity.content', 'ServiceGroupTitleChanged', 125, Lim_actor_core_entity_content_ServiceContent_2_classLit);
 function ServiceGroupUserInvited(contentContainer){
   $clinit_AbsContent();
   var serviceMessage;
@@ -17188,8 +17188,8 @@ function ServiceGroupUserJoined(contentContainer){
   ServiceContent.call(this, contentContainer);
 }
 
-defineClass(162, 37, {37:1, 162:1}, ServiceGroupUserJoined);
-var Lim_actor_core_entity_content_ServiceGroupUserJoined_2_classLit = createForClass('im.actor.core.entity.content', 'ServiceGroupUserJoined', 162, Lim_actor_core_entity_content_ServiceContent_2_classLit);
+defineClass(164, 37, {37:1, 164:1}, ServiceGroupUserJoined);
+var Lim_actor_core_entity_content_ServiceGroupUserJoined_2_classLit = createForClass('im.actor.core.entity.content', 'ServiceGroupUserJoined', 164, Lim_actor_core_entity_content_ServiceContent_2_classLit);
 function ServiceGroupUserKicked(contentContainer){
   $clinit_AbsContent();
   var serviceMessage;
@@ -17198,30 +17198,30 @@ function ServiceGroupUserKicked(contentContainer){
   this.kickedUid = serviceMessage.ext.kickedUid;
 }
 
-defineClass(122, 37, {37:1, 122:1}, ServiceGroupUserKicked);
+defineClass(123, 37, {37:1, 123:1}, ServiceGroupUserKicked);
 _.kickedUid = 0;
-var Lim_actor_core_entity_content_ServiceGroupUserKicked_2_classLit = createForClass('im.actor.core.entity.content', 'ServiceGroupUserKicked', 122, Lim_actor_core_entity_content_ServiceContent_2_classLit);
+var Lim_actor_core_entity_content_ServiceGroupUserKicked_2_classLit = createForClass('im.actor.core.entity.content', 'ServiceGroupUserKicked', 123, Lim_actor_core_entity_content_ServiceContent_2_classLit);
 function ServiceGroupUserLeave(contentContainer){
   $clinit_AbsContent();
   ServiceContent.call(this, contentContainer);
 }
 
-defineClass(123, 37, {37:1, 123:1}, ServiceGroupUserLeave);
-var Lim_actor_core_entity_content_ServiceGroupUserLeave_2_classLit = createForClass('im.actor.core.entity.content', 'ServiceGroupUserLeave', 123, Lim_actor_core_entity_content_ServiceContent_2_classLit);
+defineClass(124, 37, {37:1, 124:1}, ServiceGroupUserLeave);
+var Lim_actor_core_entity_content_ServiceGroupUserLeave_2_classLit = createForClass('im.actor.core.entity.content', 'ServiceGroupUserLeave', 124, Lim_actor_core_entity_content_ServiceContent_2_classLit);
 function ServiceUserRegistered(contentContainer){
   $clinit_AbsContent();
   ServiceContent.call(this, contentContainer);
 }
 
-defineClass(120, 37, {37:1, 120:1}, ServiceUserRegistered);
-var Lim_actor_core_entity_content_ServiceUserRegistered_2_classLit = createForClass('im.actor.core.entity.content', 'ServiceUserRegistered', 120, Lim_actor_core_entity_content_ServiceContent_2_classLit);
+defineClass(121, 37, {37:1, 121:1}, ServiceUserRegistered);
+var Lim_actor_core_entity_content_ServiceUserRegistered_2_classLit = createForClass('im.actor.core.entity.content', 'ServiceUserRegistered', 121, Lim_actor_core_entity_content_ServiceContent_2_classLit);
 function StickerContent(remoteContainer){
   AbsContent.call(this, remoteContainer);
   this.sticker = new Sticker_0(remoteContainer.message_0);
 }
 
-defineClass(166, 74, {166:1}, StickerContent);
-var Lim_actor_core_entity_content_StickerContent_2_classLit = createForClass('im.actor.core.entity.content', 'StickerContent', 166, Lim_actor_core_entity_content_AbsContent_2_classLit);
+defineClass(120, 74, {120:1}, StickerContent);
+var Lim_actor_core_entity_content_StickerContent_2_classLit = createForClass('im.actor.core.entity.content', 'StickerContent', 120, Lim_actor_core_entity_content_AbsContent_2_classLit);
 function TextContent(remoteContainer){
   AbsContent.call(this, remoteContainer);
   this.text_0 = remoteContainer.message_0.text_0;
@@ -17291,7 +17291,7 @@ function $buildContainer_6(this$static){
   var res, writer;
   res = new DataOutput;
   writer = new BserWriter(res);
-  if (instanceOf(this$static, 128)) {
+  if (instanceOf(this$static, 129)) {
     $writeTag(writer, 1, 0);
     $writeVarInt_0(writer.stream, {l:0, m:0, h:0});
     $writeBytes(writer, 2, $buildContainer_7(this$static.content_0));
@@ -17329,7 +17329,7 @@ function $buildContainer_7(this$static){
   var res, writer;
   res = new DataOutput;
   writer = new BserWriter(res);
-  if (instanceOf(this$static, 165)) {
+  if (instanceOf(this$static, 167)) {
     $writeTag(writer, 1, 0);
     $writeVarInt_0(writer.stream, {l:1, m:0, h:0});
   }
@@ -17364,14 +17364,14 @@ function loadContainer_0(data_0){
   }
 }
 
-defineClass(1469, 4, $intern_18);
-var Lim_actor_core_entity_content_internal_AbsLocalContent_2_classLit = createForClass('im.actor.core.entity.content.internal', 'AbsLocalContent', 1469, Lim_actor_runtime_bser_BserObject_2_classLit);
+defineClass(1466, 4, $intern_18);
+var Lim_actor_core_entity_content_internal_AbsLocalContent_2_classLit = createForClass('im.actor.core.entity.content.internal', 'AbsLocalContent', 1466, Lim_actor_runtime_bser_BserObject_2_classLit);
 function ContentLocalContainer(content_0){
   this.content_0 = content_0;
 }
 
-defineClass(128, 1470, {128:1}, ContentLocalContainer);
-var Lim_actor_core_entity_content_internal_ContentLocalContainer_2_classLit = createForClass('im.actor.core.entity.content.internal', 'ContentLocalContainer', 128, Lim_actor_core_entity_content_internal_AbsContentContainer_2_classLit);
+defineClass(129, 1470, {129:1}, ContentLocalContainer);
+var Lim_actor_core_entity_content_internal_ContentLocalContainer_2_classLit = createForClass('im.actor.core.entity.content.internal', 'ContentLocalContainer', 129, Lim_actor_core_entity_content_internal_AbsContentContainer_2_classLit);
 function ContentRemoteContainer(message){
   this.message_0 = message;
 }
@@ -17408,7 +17408,7 @@ function LocalDocument_0(data_0){
   $load(this, data_0);
 }
 
-defineClass(164, 1469, $intern_18, LocalDocument, LocalDocument_0);
+defineClass(166, 1466, $intern_18, LocalDocument, LocalDocument_0);
 _.parse_0 = function parse_307(values){
   $parse_3(this, values);
 }
@@ -17418,7 +17418,7 @@ _.serialize = function serialize_296(writer){
 }
 ;
 _.fileSize = 0;
-var Lim_actor_core_entity_content_internal_LocalDocument_2_classLit = createForClass('im.actor.core.entity.content.internal', 'LocalDocument', 164, Lim_actor_core_entity_content_internal_AbsLocalContent_2_classLit);
+var Lim_actor_core_entity_content_internal_LocalDocument_2_classLit = createForClass('im.actor.core.entity.content.internal', 'LocalDocument', 166, Lim_actor_core_entity_content_internal_AbsLocalContent_2_classLit);
 function LocalFastThumb(fastThumb){
   this.w = fastThumb.w;
   this.h_0 = fastThumb.h_0;
@@ -17455,7 +17455,7 @@ function LocalPhoto_0(data_0){
   LocalDocument_0.call(this, data_0);
 }
 
-defineClass(165, 164, {165:1, 4:1}, LocalPhoto, LocalPhoto_0);
+defineClass(167, 166, {167:1, 4:1}, LocalPhoto, LocalPhoto_0);
 _.parse_0 = function parse_309(values){
   $parse_3(this, values);
   this.w = convertInt($getLong(values, 10));
@@ -17470,12 +17470,12 @@ _.serialize = function serialize_298(writer){
 ;
 _.h_0 = 0;
 _.w = 0;
-var Lim_actor_core_entity_content_internal_LocalPhoto_2_classLit = createForClass('im.actor.core.entity.content.internal', 'LocalPhoto', 165, Lim_actor_core_entity_content_internal_LocalDocument_2_classLit);
+var Lim_actor_core_entity_content_internal_LocalPhoto_2_classLit = createForClass('im.actor.core.entity.content.internal', 'LocalPhoto', 167, Lim_actor_core_entity_content_internal_LocalDocument_2_classLit);
 function LocalVideo(data_0){
   LocalDocument_0.call(this, data_0);
 }
 
-defineClass(229, 164, {229:1, 4:1}, LocalVideo);
+defineClass(229, 166, {229:1, 4:1}, LocalVideo);
 _.parse_0 = function parse_310(values){
   $parse_3(this, values);
   this.w = convertInt($getLong(values, 10));
@@ -17494,6 +17494,13 @@ _.duration = 0;
 _.h_0 = 0;
 _.w = 0;
 var Lim_actor_core_entity_content_internal_LocalVideo_2_classLit = createForClass('im.actor.core.entity.content.internal', 'LocalVideo', 229, Lim_actor_core_entity_content_internal_LocalDocument_2_classLit);
+function $getFileReference512(this$static){
+  if (!this$static.apiImageLocation512) {
+    return null;
+  }
+  return new FileReference(this$static.apiImageLocation512.fileLocation, '', this$static.apiImageLocation512.fileSize);
+}
+
 function Sticker(apiStickerDescriptor, collectionId, accessHash){
   this.collectionAccessHash = accessHash;
   this.stickerCollectionId = collectionId;
@@ -17504,6 +17511,7 @@ function Sticker(apiStickerDescriptor, collectionId, accessHash){
 }
 
 function Sticker_0(msg){
+  this.thumb = msg.fastPreview;
   this.stickerId = msg.stickerId.value_0;
   this.stickerCollectionId = msg.stickerCollectionId.value_0;
   this.collectionAccessHash = msg.stickerCollectionAccessHash.value_0;
@@ -17511,7 +17519,7 @@ function Sticker_0(msg){
   this.apiImageLocation512 = msg.image512;
 }
 
-defineClass(500, 1469, $intern_18, Sticker, Sticker_0);
+defineClass(498, 1466, $intern_18, Sticker, Sticker_0);
 _.parse_0 = function parse_311(values){
   this.apiImageLocation128 = $getObj(values, 1, new ApiImageLocation);
   this.apiImageLocation256 = $getObj(values, 2, new ApiImageLocation);
@@ -17519,6 +17527,7 @@ _.parse_0 = function parse_311(values){
   this.stickerId = convertInt($getLong(values, 4));
   this.stickerCollectionId = convertInt($getLong(values, 5));
   this.collectionAccessHash = $getLong(values, 6);
+  this.thumb = $getBytes(values, 7);
 }
 ;
 _.serialize = function serialize_300(writer){
@@ -17528,12 +17537,13 @@ _.serialize = function serialize_300(writer){
   $writeInt(writer, 4, this.stickerId);
   $writeInt(writer, 5, this.stickerCollectionId);
   $writeLong(writer, 6, this.collectionAccessHash);
+  $writeBytes(writer, 7, this.thumb);
 }
 ;
 _.collectionAccessHash = {l:0, m:0, h:0};
 _.stickerCollectionId = 0;
 _.stickerId = 0;
-var Lim_actor_core_entity_content_internal_Sticker_2_classLit = createForClass('im.actor.core.entity.content.internal', 'Sticker', 500, Lim_actor_core_entity_content_internal_AbsLocalContent_2_classLit);
+var Lim_actor_core_entity_content_internal_Sticker_2_classLit = createForClass('im.actor.core.entity.content.internal', 'Sticker', 498, Lim_actor_core_entity_content_internal_AbsLocalContent_2_classLit);
 function $applyWrapped_1(this$static, wrapped){
   var m, m$iterator;
   this$static.id_0 = wrapped.id_0;
@@ -17632,28 +17642,28 @@ function $formatFileSize(this$static, bytes){
 }
 
 function $formatFullServiceMessage(this$static, senderId, content_0){
-  if (instanceOf(content_0, 120)) {
+  if (instanceOf(content_0, 121)) {
     return $replace_0($getTemplate(this$static, senderId, 'ServiceRegisteredFull'), '{name}', senderId == this$static.modules_0.authentication.myUid?this$static.locale.get_2('You'):$getName($getValue_1(this$static.modules_0.users.users, fromInt(senderId))));
   }
-   else if (instanceOf(content_0, 121)) {
+   else if (instanceOf(content_0, 122)) {
     return $replace_0($getTemplate(this$static, senderId, 'ServiceGroupCreatedFull'), '{name}', senderId == this$static.modules_0.authentication.myUid?this$static.locale.get_2('You'):$getName($getValue_1(this$static.modules_0.users.users, fromInt(senderId))));
   }
    else if (instanceOf(content_0, 99)) {
     return $replace_0($replace_0($getTemplate(this$static, senderId, 'ServiceGroupAdded'), '{name}', senderId == this$static.modules_0.authentication.myUid?this$static.locale.get_2('You'):$getName($getValue_1(this$static.modules_0.users.users, fromInt(senderId)))), '{name_added}', $getSubjectName(this$static, content_0.addedUid));
   }
-   else if (instanceOf(content_0, 122)) {
+   else if (instanceOf(content_0, 123)) {
     return $replace_0($replace_0($getTemplate(this$static, senderId, 'ServiceGroupKicked'), '{name}', senderId == this$static.modules_0.authentication.myUid?this$static.locale.get_2('You'):$getName($getValue_1(this$static.modules_0.users.users, fromInt(senderId)))), '{name_kicked}', $getSubjectName(this$static, content_0.kickedUid));
   }
-   else if (instanceOf(content_0, 123)) {
+   else if (instanceOf(content_0, 124)) {
     return $replace_0($getTemplate(this$static, senderId, 'ServiceGroupLeaved'), '{name}', senderId == this$static.modules_0.authentication.myUid?this$static.locale.get_2('You'):$getName($getValue_1(this$static.modules_0.users.users, fromInt(senderId))));
   }
-   else if (instanceOf(content_0, 124)) {
+   else if (instanceOf(content_0, 125)) {
     return $replace_0($replace_0($getTemplate(this$static, senderId, 'ServiceGroupTitleFull'), '{name}', senderId == this$static.modules_0.authentication.myUid?this$static.locale.get_2('You'):$getName($getValue_1(this$static.modules_0.users.users, fromInt(senderId)))), '{title}', content_0.newTitle);
   }
-   else if (instanceOf(content_0, 125)) {
+   else if (instanceOf(content_0, 126)) {
     return content_0.newAvatar?$replace_0($getTemplate(this$static, senderId, 'ServiceGroupAvatarChanged'), '{name}', senderId == this$static.modules_0.authentication.myUid?this$static.locale.get_2('You'):$getName($getValue_1(this$static.modules_0.users.users, fromInt(senderId)))):$replace_0($getTemplate(this$static, senderId, 'ServiceGroupAvatarRemoved'), '{name}', senderId == this$static.modules_0.authentication.myUid?this$static.locale.get_2('You'):$getName($getValue_1(this$static.modules_0.users.users, fromInt(senderId))));
   }
-   else if (instanceOf(content_0, 162)) {
+   else if (instanceOf(content_0, 164)) {
     return $replace_0($getTemplate(this$static, senderId, 'ServiceGroupJoined'), '{name}', senderId == this$static.modules_0.authentication.myUid?this$static.locale.get_2('You'):$getName($getValue_1(this$static.modules_0.users.users, fromInt(senderId))));
   }
   return content_0.compatText;
@@ -17901,7 +17911,7 @@ function JsFacade_0(endpoints){
   log_1($format(dateTimeFormat, new Date_0, null) + '[D] ' + 'JsMessenger' + ':' + 'JsMessenger created');
 }
 
-defineClass(140, 1, {191:1}, JsFacade, JsFacade_0);
+defineClass(141, 1, {192:1}, JsFacade, JsFacade_0);
 _.addContact_0 = function addContact(uid){
   return create_52(new JsFacade$34(this, uid));
 }
@@ -18452,7 +18462,7 @@ _.unbindUser_0 = function unbindUser(uid, callback){
 }
 ;
 var EndpointsDev1, EndpointsProduction;
-var Lim_actor_core_js_JsFacade_2_classLit = createForClass('im.actor.core.js', 'JsFacade', 140, Ljava_lang_Object_2_classLit);
+var Lim_actor_core_js_JsFacade_2_classLit = createForClass('im.actor.core.js', 'JsFacade', 141, Ljava_lang_Object_2_classLit);
 function JsFacade$1(this$0){
   this.this$01 = this$0;
 }
@@ -20454,9 +20464,9 @@ function makeClosure(closure){
   return new JsAuthErrorClosureExporterImpl_0(closure);
 }
 
-defineClass(192, 1, {192:1, 191:1}, JsAuthErrorClosureExporterImpl, JsAuthErrorClosureExporterImpl_0);
+defineClass(193, 1, {193:1, 192:1}, JsAuthErrorClosureExporterImpl, JsAuthErrorClosureExporterImpl_0);
 _.equals$ = function equals_6(obj){
-  return obj != null && instanceOf(obj, 192) && this.jso == obj.jso;
+  return obj != null && instanceOf(obj, 193) && this.jso == obj.jso;
 }
 ;
 _.onError_1 = function onError_34(a0, a1, a2, a3){
@@ -20464,7 +20474,7 @@ _.onError_1 = function onError_34(a0, a1, a2, a3){
 }
 ;
 var exported_0 = false;
-var Lim_actor_core_js_entity_JsAuthErrorClosureExporterImpl_2_classLit = createForClass('im.actor.core.js.entity', 'JsAuthErrorClosureExporterImpl', 192, Ljava_lang_Object_2_classLit);
+var Lim_actor_core_js_entity_JsAuthErrorClosureExporterImpl_2_classLit = createForClass('im.actor.core.js.entity', 'JsAuthErrorClosureExporterImpl', 193, Ljava_lang_Object_2_classLit);
 var Lim_actor_core_js_entity_JsAuthSuccessClosure_2_classLit = createForInterface('im.actor.core.js.entity', 'JsAuthSuccessClosure');
 function $export_1(){
   if (!exported_1) {
@@ -20515,9 +20525,9 @@ function makeClosure_0(closure){
   return new JsAuthSuccessClosureExporterImpl_0(closure);
 }
 
-defineClass(193, 1, {193:1, 191:1}, JsAuthSuccessClosureExporterImpl, JsAuthSuccessClosureExporterImpl_0);
+defineClass(194, 1, {194:1, 192:1}, JsAuthSuccessClosureExporterImpl, JsAuthSuccessClosureExporterImpl_0);
 _.equals$ = function equals_7(obj){
-  return obj != null && instanceOf(obj, 193) && this.jso == obj.jso;
+  return obj != null && instanceOf(obj, 194) && this.jso == obj.jso;
 }
 ;
 _.onResult_1 = function onResult_34(a0){
@@ -20525,7 +20535,7 @@ _.onResult_1 = function onResult_34(a0){
 }
 ;
 var exported_1 = false;
-var Lim_actor_core_js_entity_JsAuthSuccessClosureExporterImpl_2_classLit = createForClass('im.actor.core.js.entity', 'JsAuthSuccessClosureExporterImpl', 193, Ljava_lang_Object_2_classLit);
+var Lim_actor_core_js_entity_JsAuthSuccessClosureExporterImpl_2_classLit = createForClass('im.actor.core.js.entity', 'JsAuthSuccessClosureExporterImpl', 194, Ljava_lang_Object_2_classLit);
 var Lim_actor_core_js_entity_JsClosure_2_classLit = createForInterface('im.actor.core.js.entity', 'JsClosure');
 function $export_2(){
   if (!exported_2) {
@@ -20560,7 +20570,7 @@ function JsClosureExporterImpl(){
   $export_2();
 }
 
-defineClass(269, 1, {269:1, 191:1}, JsClosureExporterImpl);
+defineClass(269, 1, {269:1, 192:1}, JsClosureExporterImpl);
 _.callback_1 = function callback_0(){
   this.jso.apply(null, []);
 }
@@ -20634,7 +20644,7 @@ _.convert = function convert_1(value_0){
 ;
 var Lim_actor_core_js_entity_JsContact$1_2_classLit = createForClass('im.actor.core.js.entity', 'JsContact/1', 565, Ljava_lang_Object_2_classLit);
 function createContent(src_0, sender){
-  var attaches, contactContent, content_0, doc, emails, f, f$iterator, fields, fileExtension, fileName, fileSize, fileUrl, isShort, isUploading, locationContent, messenger, modernMessage, paragraphStyle, phones, photoContent, s, s$iterator, s$iterator0, srcAttach, srcAttach$iterator, text_0, textContent, thumb, thumbBase64, voiceContent, ext, dotIndex;
+  var attaches, contactContent, content_0, doc, emails, f, f$iterator, fields, fileExtension, fileName, fileReference512, fileSize, fileUrl, imageLocation512, isShort, isUploading, locationContent, messenger, modernMessage, paragraphStyle, phones, photoContent, s, s$iterator, s$iterator0, srcAttach, srcAttach$iterator, text_0, textContent, thumb, thumbBase64, thumbRaw, voiceContent, ext, dotIndex;
   messenger = instance_1;
   if (instanceOf(src_0, 75)) {
     textContent = src_0;
@@ -20686,6 +20696,19 @@ function createContent(src_0, sender){
      else {
       content_0 = {content:'document', fileName:fileName, fileExtension:fileExtension, fileSize:fileSize, preview:thumb, fileUrl:fileUrl, isUploading:isUploading};
     }
+  }
+   else if (instanceOf(src_0, 120)) {
+    fileReference512 = $getFileReference512(src_0.sticker);
+    imageLocation512 = src_0.sticker.apiImageLocation512;
+    fileUrl = $getFileUrl_0(messenger.filesModule, fileReference512.wrapped.fileId, fileReference512.wrapped.accessHash);
+    fileSize = $formatFileSize(messenger.modules_0.i18nEngine, fileReference512.fileSize);
+    thumb = null;
+    thumbRaw = src_0.sticker.thumb;
+    if (thumbRaw != null) {
+      thumbBase64 = toBase64(thumbRaw);
+      thumb = 'data:image/jpg;base64,' + thumbBase64;
+    }
+    content_0 = create_6(fileReference512.fileName, '.webp', fileSize, imageLocation512.width_0, imageLocation512.height_0, thumb, fileUrl, false);
   }
    else if (instanceOf(src_0, 118)) {
     contactContent = src_0;
@@ -20750,7 +20773,7 @@ function fromGroupVM(groupVM, messenger){
   }
   convertedMembers = new ArrayList;
   groupMembers = groupVM.members.get_1();
-  members = $toArray(groupMembers, initDim(Lim_actor_core_entity_GroupMember_2_classLit, $intern_3, 196, groupMembers.map_0.size_1(), 0, 1));
+  members = $toArray(groupMembers, initDim(Lim_actor_core_entity_GroupMember_2_classLit, $intern_3, 197, groupMembers.map_0.size_1(), 0, 1));
   for (g$index = 0 , g$max = members.length; g$index < g$max; ++g$index) {
     g = members[g$index];
     peerInfo = $buildPeerInfo(messenger, user_0(g.uid));
@@ -21054,13 +21077,13 @@ function makeClosure_1(closure){
   return new JsBindedValueCallbackExporterImpl_0(closure);
 }
 
-defineClass(194, 1, {194:1, 191:1}, JsBindedValueCallbackExporterImpl, JsBindedValueCallbackExporterImpl_0);
+defineClass(195, 1, {195:1, 192:1}, JsBindedValueCallbackExporterImpl, JsBindedValueCallbackExporterImpl_0);
 _.equals$ = function equals_9(obj){
-  return obj != null && instanceOf(obj, 194) && this.jso == obj.jso;
+  return obj != null && instanceOf(obj, 195) && this.jso == obj.jso;
 }
 ;
 var exported_3 = false;
-var Lim_actor_core_js_modules_JsBindedValueCallbackExporterImpl_2_classLit = createForClass('im.actor.core.js.modules', 'JsBindedValueCallbackExporterImpl', 194, Ljava_lang_Object_2_classLit);
+var Lim_actor_core_js_modules_JsBindedValueCallbackExporterImpl_2_classLit = createForClass('im.actor.core.js.modules', 'JsBindedValueCallbackExporterImpl', 195, Ljava_lang_Object_2_classLit);
 function $buildApiPeer(peer){
   return peer.peerType == ($clinit_PeerType() , PRIVATE_0)?new ApiPeer_0(($clinit_ApiPeerType() , PRIVATE), peer.peerId):peer.peerType == GROUP_0?new ApiPeer_0(($clinit_ApiPeerType() , GROUP), peer.peerId):null;
 }
@@ -24317,7 +24340,7 @@ function PeerChatOpened(peer){
   this.peer = peer;
 }
 
-defineClass(142, $intern_28, {142:1}, PeerChatOpened);
+defineClass(143, $intern_28, {143:1}, PeerChatOpened);
 _.getType = function getType_5(){
   return 'peer_chat_opened';
 }
@@ -24326,7 +24349,7 @@ _.toString$ = function toString_287(){
   return 'peer_chat_opened {' + $toIdString(this.peer) + '}';
 }
 ;
-var Lim_actor_core_modules_events_PeerChatOpened_2_classLit = createForClass('im.actor.core.modules.events', 'PeerChatOpened', 142, Lim_actor_runtime_eventbus_Event_2_classLit);
+var Lim_actor_core_modules_events_PeerChatOpened_2_classLit = createForClass('im.actor.core.modules.events', 'PeerChatOpened', 143, Lim_actor_runtime_eventbus_Event_2_classLit);
 function PeerInfoClosed(peer){
   this.peer = peer;
 }
@@ -24473,7 +24496,7 @@ function ContactsModule$3$1$1(val$callback){
 
 defineClass(1049, 1, $intern_26, ContactsModule$3$1$1);
 _.run = function run_11(){
-  $onResult_23(this.val$callback2, initDim(Lim_actor_core_viewmodel_UserVM_2_classLit, $intern_3, 146, 0, 0, 1));
+  $onResult_23(this.val$callback2, initDim(Lim_actor_core_viewmodel_UserVM_2_classLit, $intern_3, 147, 0, 0, 1));
 }
 ;
 var Lim_actor_core_modules_internal_ContactsModule$3$1$1_2_classLit = createForClass('im.actor.core.modules.internal', 'ContactsModule/3/1/1', 1049, Ljava_lang_Object_2_classLit);
@@ -24483,7 +24506,7 @@ function ContactsModule$3$1$2(val$callback){
 
 defineClass(1050, 1, $intern_26, ContactsModule$3$1$2);
 _.run = function run_12(){
-  $onResult_23(this.val$callback2, initDim(Lim_actor_core_viewmodel_UserVM_2_classLit, $intern_3, 146, 0, 0, 1));
+  $onResult_23(this.val$callback2, initDim(Lim_actor_core_viewmodel_UserVM_2_classLit, $intern_3, 147, 0, 0, 1));
 }
 ;
 var Lim_actor_core_modules_internal_ContactsModule$3$1$2_2_classLit = createForClass('im.actor.core.modules.internal', 'ContactsModule/3/1/2', 1050, Ljava_lang_Object_2_classLit);
@@ -25594,7 +25617,7 @@ function $findMentions_0(this$static, gid, query){
   query = $trim(query).toLowerCase();
   results = new ArrayList;
   group = $getValue_1(this$static.context.groups.groups, fromInt(gid));
-  members = $toArray_0(group.members, initDim(Lim_actor_core_entity_GroupMember_2_classLit, $intern_3, 196, group.members.size_1(), 0, 1));
+  members = $toArray_0(group.members, initDim(Lim_actor_core_entity_GroupMember_2_classLit, $intern_3, 197, group.members.size_1(), 0, 1));
   sort_0(members, new MentionsModule$1(this$static));
   for (member$index = 0 , member$max = members.length; member$index < member$max; ++member$index) {
     member = members[member$index];
@@ -25771,7 +25794,7 @@ function MessagesModule(context){
 
 defineClass(865, 21, {}, MessagesModule);
 _.onBusEvent = function onBusEvent_2(event_0){
-  instanceOf(event_0, 142) && $assumeConvActor(this, event_0.peer);
+  instanceOf(event_0, 143) && $assumeConvActor(this, event_0.peer);
 }
 ;
 var Lim_actor_core_modules_internal_MessagesModule_2_classLit = createForClass('im.actor.core.modules.internal', 'MessagesModule', 865, Lim_actor_core_modules_AbsModule_2_classLit);
@@ -27461,15 +27484,15 @@ _.onReceive = function onReceive_1(message){
     changeAvatar = message;
     $changeAvatar_1(this, changeAvatar.gid, changeAvatar.descriptor);
   }
-   else if (instanceOf(message, 156)) {
+   else if (instanceOf(message, 158)) {
     uploadCompleted = message;
     $uploadCompleted(this, uploadCompleted.rid, uploadCompleted.fileReference);
   }
-   else if (instanceOf(message, 200)) {
+   else if (instanceOf(message, 201)) {
     avatarChanged = message;
     $avatarChanged(this, avatarChanged.gid, avatarChanged.rid);
   }
-   else if (instanceOf(message, 157)) {
+   else if (instanceOf(message, 159)) {
     uploadError = message;
     $uploadError(this, uploadError.rid);
   }
@@ -27575,10 +27598,10 @@ function GroupAvatarChangeActor$AvatarChanged(gid, rid){
   this.rid = rid;
 }
 
-defineClass(200, 1, {200:1}, GroupAvatarChangeActor$AvatarChanged);
+defineClass(201, 1, {201:1}, GroupAvatarChangeActor$AvatarChanged);
 _.gid = 0;
 _.rid = {l:0, m:0, h:0};
-var Lim_actor_core_modules_internal_avatar_GroupAvatarChangeActor$AvatarChanged_2_classLit = createForClass('im.actor.core.modules.internal.avatar', 'GroupAvatarChangeActor/AvatarChanged', 200, Ljava_lang_Object_2_classLit);
+var Lim_actor_core_modules_internal_avatar_GroupAvatarChangeActor$AvatarChanged_2_classLit = createForClass('im.actor.core.modules.internal.avatar', 'GroupAvatarChangeActor/AvatarChanged', 201, Ljava_lang_Object_2_classLit);
 function GroupAvatarChangeActor$ChangeAvatar(gid, descriptor){
   this.gid = gid;
   this.descriptor = descriptor;
@@ -27650,16 +27673,16 @@ _.onReceive = function onReceive_2(message){
     changeAvatar = message;
     $changeAvatar_2(this, changeAvatar.descriptor);
   }
-   else if (instanceOf(message, 156)) {
+   else if (instanceOf(message, 158)) {
     uploadCompleted = message;
     $uploadCompleted_0(this, uploadCompleted.rid, uploadCompleted.fileReference);
   }
-   else if (instanceOf(message, 157)) {
+   else if (instanceOf(message, 159)) {
     uploadError = message;
     $uploadError_0(this, uploadError.rid);
   }
    else 
-    instanceOf(message, 281)?$removeAvatar_1(this):instanceOf(message, 201)?$avatarChanged_0(this, message.rid):(!!this.context_0.actorScope.actorSystem.traceInterface && ($clinit_Log() , warn($format(($clinit_JsLogProvider() , dateTimeFormat), new Date_0, null) + '[W] ' + 'ACTOR_SYSTEM' + ':' + ('Drop: ' + message))) , $reply(this, new DeadLetter(message)));
+    instanceOf(message, 281)?$removeAvatar_1(this):instanceOf(message, 202)?$avatarChanged_0(this, message.rid):(!!this.context_0.actorScope.actorSystem.traceInterface && ($clinit_Log() , warn($format(($clinit_JsLogProvider() , dateTimeFormat), new Date_0, null) + '[W] ' + 'ACTOR_SYSTEM' + ':' + ('Drop: ' + message))) , $reply(this, new DeadLetter(message)));
 }
 ;
 _.currentChangeTask = {l:0, m:0, h:0};
@@ -27734,9 +27757,9 @@ function OwnAvatarChangeActor$AvatarChanged(rid){
   this.rid = rid;
 }
 
-defineClass(201, 1, {201:1}, OwnAvatarChangeActor$AvatarChanged);
+defineClass(202, 1, {202:1}, OwnAvatarChangeActor$AvatarChanged);
 _.rid = {l:0, m:0, h:0};
-var Lim_actor_core_modules_internal_avatar_OwnAvatarChangeActor$AvatarChanged_2_classLit = createForClass('im.actor.core.modules.internal.avatar', 'OwnAvatarChangeActor/AvatarChanged', 201, Ljava_lang_Object_2_classLit);
+var Lim_actor_core_modules_internal_avatar_OwnAvatarChangeActor$AvatarChanged_2_classLit = createForClass('im.actor.core.modules.internal.avatar', 'OwnAvatarChangeActor/AvatarChanged', 202, Ljava_lang_Object_2_classLit);
 function OwnAvatarChangeActor$ChangeAvatar(descriptor){
   this.descriptor = descriptor;
 }
@@ -28447,16 +28470,16 @@ function UploadManager$UploadCompleted(rid, fileReference){
   this.fileReference = fileReference;
 }
 
-defineClass(156, 1, {156:1}, UploadManager$UploadCompleted);
+defineClass(158, 1, {158:1}, UploadManager$UploadCompleted);
 _.rid = {l:0, m:0, h:0};
-var Lim_actor_core_modules_internal_file_UploadManager$UploadCompleted_2_classLit = createForClass('im.actor.core.modules.internal.file', 'UploadManager/UploadCompleted', 156, Ljava_lang_Object_2_classLit);
+var Lim_actor_core_modules_internal_file_UploadManager$UploadCompleted_2_classLit = createForClass('im.actor.core.modules.internal.file', 'UploadManager/UploadCompleted', 158, Ljava_lang_Object_2_classLit);
 function UploadManager$UploadError(rid){
   this.rid = rid;
 }
 
-defineClass(157, 1, {157:1}, UploadManager$UploadError);
+defineClass(159, 1, {159:1}, UploadManager$UploadError);
 _.rid = {l:0, m:0, h:0};
-var Lim_actor_core_modules_internal_file_UploadManager$UploadError_2_classLit = createForClass('im.actor.core.modules.internal.file', 'UploadManager/UploadError', 157, Ljava_lang_Object_2_classLit);
+var Lim_actor_core_modules_internal_file_UploadManager$UploadError_2_classLit = createForClass('im.actor.core.modules.internal.file', 'UploadManager/UploadError', 159, Ljava_lang_Object_2_classLit);
 function UploadManager$UploadTaskComplete(rid, location_0, reference){
   this.rid = rid;
   this.location_0 = location_0;
@@ -29002,7 +29025,7 @@ _.onReceive = function onReceive_8(message){
    else if (instanceOf(message, 290)) {
     $onInMessages(this, message.messages);
   }
-   else if (instanceOf(message, 202)) {
+   else if (instanceOf(message, 203)) {
     contentUpdated = message;
     $onMessageContentUpdated(this, contentUpdated.rid, contentUpdated.content_0);
   }
@@ -29015,7 +29038,7 @@ _.onReceive = function onReceive_8(message){
     $onMessageError(this, messageError.rid);
   }
    else 
-    instanceOf(message, 284)?$onMessageRead(this, message.date):instanceOf(message, 283)?$onMessageReceived(this, message.date):instanceOf(message, 282)?$onHistoryLoaded(this, message.messages):instanceOf(message, 288)?($clear_3(this.messages) , $clear_3(this.docs) , $clear_2(this.inPendingIndex) , $clear_2(this.outPendingIndex) , $send(this.dialogsActor, new DialogsActor$ChatClear(this.peer))):instanceOf(message, 289)?($clear_3(this.messages) , $clear_3(this.docs) , $clear_2(this.inPendingIndex) , $clear_2(this.outPendingIndex) , $send(this.dialogsActor, new DialogsActor$ChatDelete(this.peer))):instanceOf(message, 148)?$onMessagesDeleted(this, message.rids):instanceOf(message, 147)?$onMessageReadByMe(this, message.date):instanceOf(message, 286)?$onMessageReactionsUpdated(this, message.rid, message.reactions):(!!this.context_0.actorScope.actorSystem.traceInterface && ($clinit_Log() , warn($format(($clinit_JsLogProvider() , dateTimeFormat), new Date_0, null) + '[W] ' + 'ACTOR_SYSTEM' + ':' + ('Drop: ' + message))) , $reply(this, new DeadLetter(message)));
+    instanceOf(message, 284)?$onMessageRead(this, message.date):instanceOf(message, 283)?$onMessageReceived(this, message.date):instanceOf(message, 282)?$onHistoryLoaded(this, message.messages):instanceOf(message, 288)?($clear_3(this.messages) , $clear_3(this.docs) , $clear_2(this.inPendingIndex) , $clear_2(this.outPendingIndex) , $send(this.dialogsActor, new DialogsActor$ChatClear(this.peer))):instanceOf(message, 289)?($clear_3(this.messages) , $clear_3(this.docs) , $clear_2(this.inPendingIndex) , $clear_2(this.outPendingIndex) , $send(this.dialogsActor, new DialogsActor$ChatDelete(this.peer))):instanceOf(message, 149)?$onMessagesDeleted(this, message.rids):instanceOf(message, 148)?$onMessageReadByMe(this, message.date):instanceOf(message, 286)?$onMessageReactionsUpdated(this, message.rid, message.reactions):(!!this.context_0.actorScope.actorSystem.traceInterface && ($clinit_Log() , warn($format(($clinit_JsLogProvider() , dateTimeFormat), new Date_0, null) + '[W] ' + 'ACTOR_SYSTEM' + ':' + ('Drop: ' + message))) , $reply(this, new DeadLetter(message)));
 }
 ;
 _.preStart = function preStart_5(){
@@ -29057,9 +29080,9 @@ function ConversationActor$MessageContentUpdated(rid, content_0){
   this.content_0 = content_0;
 }
 
-defineClass(202, 1, {202:1}, ConversationActor$MessageContentUpdated);
+defineClass(203, 1, {203:1}, ConversationActor$MessageContentUpdated);
 _.rid = {l:0, m:0, h:0};
-var Lim_actor_core_modules_internal_messages_ConversationActor$MessageContentUpdated_2_classLit = createForClass('im.actor.core.modules.internal.messages', 'ConversationActor/MessageContentUpdated', 202, Ljava_lang_Object_2_classLit);
+var Lim_actor_core_modules_internal_messages_ConversationActor$MessageContentUpdated_2_classLit = createForClass('im.actor.core.modules.internal.messages', 'ConversationActor/MessageContentUpdated', 203, Ljava_lang_Object_2_classLit);
 function ConversationActor$MessageError(rid){
   this.rid = rid;
 }
@@ -29086,9 +29109,9 @@ function ConversationActor$MessageReadByMe(date){
   this.date = date;
 }
 
-defineClass(147, 1, {147:1}, ConversationActor$MessageReadByMe);
+defineClass(148, 1, {148:1}, ConversationActor$MessageReadByMe);
 _.date = {l:0, m:0, h:0};
-var Lim_actor_core_modules_internal_messages_ConversationActor$MessageReadByMe_2_classLit = createForClass('im.actor.core.modules.internal.messages', 'ConversationActor/MessageReadByMe', 147, Ljava_lang_Object_2_classLit);
+var Lim_actor_core_modules_internal_messages_ConversationActor$MessageReadByMe_2_classLit = createForClass('im.actor.core.modules.internal.messages', 'ConversationActor/MessageReadByMe', 148, Ljava_lang_Object_2_classLit);
 function ConversationActor$MessageReceived(date){
   this.date = date;
 }
@@ -29115,8 +29138,8 @@ function ConversationActor$MessagesDeleted(rids){
   this.rids = rids;
 }
 
-defineClass(148, 1, {148:1}, ConversationActor$MessagesDeleted);
-var Lim_actor_core_modules_internal_messages_ConversationActor$MessagesDeleted_2_classLit = createForClass('im.actor.core.modules.internal.messages', 'ConversationActor/MessagesDeleted', 148, Ljava_lang_Object_2_classLit);
+defineClass(149, 1, {149:1}, ConversationActor$MessagesDeleted);
+var Lim_actor_core_modules_internal_messages_ConversationActor$MessagesDeleted_2_classLit = createForClass('im.actor.core.modules.internal.messages', 'ConversationActor/MessagesDeleted', 149, Ljava_lang_Object_2_classLit);
 function $onLoadMore(this$static){
   if (this$static.historyLoaded) {
     return;
@@ -29541,7 +29564,7 @@ function $onMessageContentChanged(this$static, peer, rid, content_0){
   var description, dialog;
   dialog = $getValue_0(this$static.dialogs, $getUnuqueId(peer));
   if (!!dialog && eq(dialog.rid, rid)) {
-    description = instanceOf(content_0, 75)?new ContentDescription_1(($clinit_ContentType() , TEXT_1), content_0.text_0):instanceOf(content_0, 65)?new ContentDescription_0(($clinit_ContentType() , DOCUMENT_PHOTO)):instanceOf(content_0, 88)?new ContentDescription_0(($clinit_ContentType() , DOCUMENT_VIDEO)):instanceOf(content_0, 86)?new ContentDescription_0(($clinit_ContentType() , DOCUMENT_AUDIO)):instanceOf(content_0, 28)?new ContentDescription_0(($clinit_ContentType() , DOCUMENT)):instanceOf(content_0, 119)?new ContentDescription_0(($clinit_ContentType() , LOCATION)):instanceOf(content_0, 118)?new ContentDescription_0(($clinit_ContentType() , CONTACT)):instanceOf(content_0, 166)?new ContentDescription_0(($clinit_ContentType() , STICKER)):instanceOf(content_0, 120)?new ContentDescription_0(($clinit_ContentType() , SERVICE_REGISTERED)):instanceOf(content_0, 125)?!content_0.newAvatar?new ContentDescription_0(($clinit_ContentType() , SERVICE_AVATAR_REMOVED)):new ContentDescription_0(($clinit_ContentType() , SERVICE_AVATAR)):instanceOf(content_0, 124)?new ContentDescription_1(($clinit_ContentType() , SERVICE_TITLE), content_0.newTitle):instanceOf(content_0, 121)?new ContentDescription_0(($clinit_ContentType() , SERVICE_CREATED)):instanceOf(content_0, 99)?new ContentDescription_2(($clinit_ContentType() , SERVICE_ADD), '', content_0.addedUid, false):instanceOf(content_0, 122)?new ContentDescription_2(($clinit_ContentType() , SERVICE_KICK), '', content_0.kickedUid, false):instanceOf(content_0, 123)?new ContentDescription_2(($clinit_ContentType() , SERVICE_LEAVE), '', 0, true):instanceOf(content_0, 162)?new ContentDescription_2(($clinit_ContentType() , SERVICE_JOINED), '', 0, false):instanceOf(content_0, 37)?new ContentDescription_2(($clinit_ContentType() , SERVICE), content_0.compatText, 0, false):new ContentDescription_0(($clinit_ContentType() , UNKNOWN_CONTENT));
+    description = instanceOf(content_0, 75)?new ContentDescription_1(($clinit_ContentType() , TEXT_1), content_0.text_0):instanceOf(content_0, 65)?new ContentDescription_0(($clinit_ContentType() , DOCUMENT_PHOTO)):instanceOf(content_0, 88)?new ContentDescription_0(($clinit_ContentType() , DOCUMENT_VIDEO)):instanceOf(content_0, 86)?new ContentDescription_0(($clinit_ContentType() , DOCUMENT_AUDIO)):instanceOf(content_0, 28)?new ContentDescription_0(($clinit_ContentType() , DOCUMENT)):instanceOf(content_0, 119)?new ContentDescription_0(($clinit_ContentType() , LOCATION)):instanceOf(content_0, 118)?new ContentDescription_0(($clinit_ContentType() , CONTACT)):instanceOf(content_0, 120)?new ContentDescription_0(($clinit_ContentType() , STICKER)):instanceOf(content_0, 121)?new ContentDescription_0(($clinit_ContentType() , SERVICE_REGISTERED)):instanceOf(content_0, 126)?!content_0.newAvatar?new ContentDescription_0(($clinit_ContentType() , SERVICE_AVATAR_REMOVED)):new ContentDescription_0(($clinit_ContentType() , SERVICE_AVATAR)):instanceOf(content_0, 125)?new ContentDescription_1(($clinit_ContentType() , SERVICE_TITLE), content_0.newTitle):instanceOf(content_0, 122)?new ContentDescription_0(($clinit_ContentType() , SERVICE_CREATED)):instanceOf(content_0, 99)?new ContentDescription_2(($clinit_ContentType() , SERVICE_ADD), '', content_0.addedUid, false):instanceOf(content_0, 123)?new ContentDescription_2(($clinit_ContentType() , SERVICE_KICK), '', content_0.kickedUid, false):instanceOf(content_0, 124)?new ContentDescription_2(($clinit_ContentType() , SERVICE_LEAVE), '', 0, true):instanceOf(content_0, 164)?new ContentDescription_2(($clinit_ContentType() , SERVICE_JOINED), '', 0, false):instanceOf(content_0, 37)?new ContentDescription_2(($clinit_ContentType() , SERVICE), content_0.compatText, 0, false):new ContentDescription_0(($clinit_ContentType() , UNKNOWN_CONTENT));
     $addOrUpdateItem_0(this$static, $createDialog($setMessageType($setRelatedUid($setText(new DialogBuilder_0(dialog), description.text_0), description.relatedUser), description.contentType)));
   }
 }
@@ -29579,7 +29602,7 @@ function DialogsActor(context){
 defineClass(866, 26, {}, DialogsActor);
 _.onReceive = function onReceive_13(message){
   var contentChanged, counterChanged, deleted, groupChanged, historyLoaded, inMessage, messageStateChanged, userChanged;
-  if (instanceOf(message, 158)) {
+  if (instanceOf(message, 160)) {
     inMessage = message;
     $onMessage(this, inMessage.peer, inMessage.message_0, false, inMessage.counter);
   }
@@ -29593,7 +29616,7 @@ _.onReceive = function onReceive_13(message){
    else if (instanceOf(message, 356)) {
     $onChatDeleted(this, message.peer);
   }
-   else if (instanceOf(message, 159)) {
+   else if (instanceOf(message, 161)) {
     messageStateChanged = message;
     $onMessageStatusChanged(this, messageStateChanged.peer, messageStateChanged.rid, messageStateChanged.state);
   }
@@ -29667,9 +29690,9 @@ function DialogsActor$InMessage(peer, message, counter){
   this.counter = counter;
 }
 
-defineClass(158, 1, {158:1}, DialogsActor$InMessage);
+defineClass(160, 1, {160:1}, DialogsActor$InMessage);
 _.counter = 0;
-var Lim_actor_core_modules_internal_messages_DialogsActor$InMessage_2_classLit = createForClass('im.actor.core.modules.internal.messages', 'DialogsActor/InMessage', 158, Ljava_lang_Object_2_classLit);
+var Lim_actor_core_modules_internal_messages_DialogsActor$InMessage_2_classLit = createForClass('im.actor.core.modules.internal.messages', 'DialogsActor/InMessage', 160, Ljava_lang_Object_2_classLit);
 function DialogsActor$MessageContentChanged(peer, rid, content_0){
   this.peer = peer;
   this.rid = rid;
@@ -29692,9 +29715,9 @@ function DialogsActor$MessageStateChanged(peer, rid, state){
   this.state = state;
 }
 
-defineClass(159, 1, {159:1}, DialogsActor$MessageStateChanged);
+defineClass(161, 1, {161:1}, DialogsActor$MessageStateChanged);
 _.rid = {l:0, m:0, h:0};
-var Lim_actor_core_modules_internal_messages_DialogsActor$MessageStateChanged_2_classLit = createForClass('im.actor.core.modules.internal.messages', 'DialogsActor/MessageStateChanged', 159, Ljava_lang_Object_2_classLit);
+var Lim_actor_core_modules_internal_messages_DialogsActor$MessageStateChanged_2_classLit = createForClass('im.actor.core.modules.internal.messages', 'DialogsActor/MessageStateChanged', 161, Ljava_lang_Object_2_classLit);
 function DialogsActor$PeerDesc(title_0, avatar){
   this.title_0 = title_0;
   this.avatar = avatar;
@@ -30214,7 +30237,7 @@ _.onReceive = function onReceive_19(message){
     inMessage = message;
     $onInMessage_1(this, inMessage.peer, inMessage.message_0);
   }
-   else if (instanceOf(message, 160)) {
+   else if (instanceOf(message, 162)) {
     outMessage = message;
     $onOutMessage(this, outMessage.peer, outMessage.sortDate);
   }
@@ -30252,9 +30275,9 @@ function OwnReadActor$OutMessage(peer, sortDate){
   this.sortDate = sortDate;
 }
 
-defineClass(160, 1, {160:1}, OwnReadActor$OutMessage);
+defineClass(162, 1, {162:1}, OwnReadActor$OutMessage);
 _.sortDate = {l:0, m:0, h:0};
-var Lim_actor_core_modules_internal_messages_OwnReadActor$OutMessage_2_classLit = createForClass('im.actor.core.modules.internal.messages', 'OwnReadActor/OutMessage', 160, Ljava_lang_Object_2_classLit);
+var Lim_actor_core_modules_internal_messages_OwnReadActor$OutMessage_2_classLit = createForClass('im.actor.core.modules.internal.messages', 'OwnReadActor/OutMessage', 162, Ljava_lang_Object_2_classLit);
 function OwnReadActor$StartGetDifference(){
 }
 
@@ -30440,7 +30463,7 @@ function $performSendContent(this$static, peer, rid, content_0){
    else if (instanceOf(content_0, 118)) {
     message = new ApiJsonMessage_0(content_0.rawJson);
   }
-   else if (instanceOf(content_0, 166)) {
+   else if (instanceOf(content_0, 120)) {
     sticker = content_0.sticker;
     message = new ApiStickerMessage_0(valueOf(sticker.stickerId), sticker.apiImageLocation512, sticker.apiImageLocation256, valueOf(sticker.stickerCollectionId), valueOf_0(sticker.collectionAccessHash));
   }
@@ -30473,11 +30496,11 @@ _.onReceive = function onReceive_20(message){
     sendDocument = message;
     $doSendDocument(this, sendDocument.peer, sendDocument.fileName, sendDocument.mimeType, sendDocument.fileSize, sendDocument.descriptor);
   }
-   else if (instanceOf(message, 156)) {
+   else if (instanceOf(message, 158)) {
     uploadCompleted = message;
     $onFileUploaded(this, uploadCompleted.rid, uploadCompleted.fileReference);
   }
-   else if (instanceOf(message, 157)) {
+   else if (instanceOf(message, 159)) {
     uploadError = message;
     $onFileUploadError(this, uploadError.rid);
   }
@@ -30959,7 +30982,7 @@ function $onBusEvent(this$static, event_0){
     visibleChanged.isVisible?(this$static.isAppVisible = true , isElectron_0() && hideNewMessages()):(this$static.isAppVisible = false);
   }
    else 
-    instanceOf(event_0, 142)?$onConversationVisible(this$static, event_0.peer):instanceOf(event_0, 272) && $onConversationHidden(this$static, event_0.peer);
+    instanceOf(event_0, 143)?$onConversationVisible(this$static, event_0.peer):instanceOf(event_0, 272) && $onConversationHidden(this$static, event_0.peer);
 }
 
 function $onConversationHidden(this$static, peer){
@@ -31439,7 +31462,7 @@ function PresenceActor(messenger){
 
 defineClass(1187, 26, {}, PresenceActor);
 _.onBusEvent = function onBusEvent_6(event_0){
-  instanceOf(event_0, 226)?$send(this.context_0.actorScope.actorRef, new PresenceActor$SessionCreated):instanceOf(event_0, 142)?$send(this.context_0.actorScope.actorRef, new PresenceActor$Subscribe(event_0.peer)):instanceOf(event_0, 273) && $send(this.context_0.actorScope.actorRef, new PresenceActor$Subscribe(event_0.peer));
+  instanceOf(event_0, 226)?$send(this.context_0.actorScope.actorRef, new PresenceActor$SessionCreated):instanceOf(event_0, 143)?$send(this.context_0.actorScope.actorRef, new PresenceActor$Subscribe(event_0.peer)):instanceOf(event_0, 273) && $send(this.context_0.actorScope.actorRef, new PresenceActor$Subscribe(event_0.peer));
 }
 ;
 _.onReceive = function onReceive_23(message){
@@ -32022,7 +32045,7 @@ function OwnTypingActor(messenger){
 
 defineClass(1038, 26, {}, OwnTypingActor);
 _.onReceive = function onReceive_28(message){
-  instanceOf(message, 292)?$onTyping_1(this, message.peer):instanceOf(message, 293)?$onMessageSent_1(this, message.peer):instanceOf(message, 203)?$onAbortTyping(this, message.peer):(!!this.context_0.actorScope.actorSystem.traceInterface && ($clinit_Log() , warn($format(($clinit_JsLogProvider() , dateTimeFormat), new Date_0, null) + '[W] ' + 'ACTOR_SYSTEM' + ':' + ('Drop: ' + message))) , $reply(this, new DeadLetter(message)));
+  instanceOf(message, 292)?$onTyping_1(this, message.peer):instanceOf(message, 293)?$onMessageSent_1(this, message.peer):instanceOf(message, 204)?$onAbortTyping(this, message.peer):(!!this.context_0.actorScope.actorSystem.traceInterface && ($clinit_Log() , warn($format(($clinit_JsLogProvider() , dateTimeFormat), new Date_0, null) + '[W] ' + 'ACTOR_SYSTEM' + ':' + ('Drop: ' + message))) , $reply(this, new DeadLetter(message)));
 }
 ;
 _.lastTypingTime = {l:0, m:0, h:0};
@@ -32042,8 +32065,8 @@ function OwnTypingActor$AbortTyping(peer){
   this.peer = peer;
 }
 
-defineClass(203, 1, {203:1}, OwnTypingActor$AbortTyping);
-var Lim_actor_core_modules_internal_typing_OwnTypingActor$AbortTyping_2_classLit = createForClass('im.actor.core.modules.internal.typing', 'OwnTypingActor/AbortTyping', 203, Ljava_lang_Object_2_classLit);
+defineClass(204, 1, {204:1}, OwnTypingActor$AbortTyping);
+var Lim_actor_core_modules_internal_typing_OwnTypingActor$AbortTyping_2_classLit = createForClass('im.actor.core.modules.internal.typing', 'OwnTypingActor/AbortTyping', 204, Ljava_lang_Object_2_classLit);
 function OwnTypingActor$MessageSent(peer){
   this.peer = peer;
 }
@@ -32143,11 +32166,11 @@ _.onReceive = function onReceive_29(message){
     typing = message;
     $groupTyping(this, typing.gid, typing.uid, typing.type_0);
   }
-   else if (instanceOf(message, 154)) {
+   else if (instanceOf(message, 156)) {
     typing = message;
     $stopPrivateTyping(this, typing.uid);
   }
-   else if (instanceOf(message, 155)) {
+   else if (instanceOf(message, 157)) {
     typing = message;
     $stopGroupTyping(this, typing.gid, typing.uid);
   }
@@ -32255,7 +32278,7 @@ function TypingActor$StopGroupTyping(gid, uid){
   this.uid = uid;
 }
 
-defineClass(155, 1, {155:1}, TypingActor$StopGroupTyping);
+defineClass(157, 1, {157:1}, TypingActor$StopGroupTyping);
 _.equals$ = function equals_12(o){
   var that;
   if (this === o)
@@ -32279,12 +32302,12 @@ _.hashCode$ = function hashCode_9(){
 ;
 _.gid = 0;
 _.uid = 0;
-var Lim_actor_core_modules_internal_typing_TypingActor$StopGroupTyping_2_classLit = createForClass('im.actor.core.modules.internal.typing', 'TypingActor/StopGroupTyping', 155, Ljava_lang_Object_2_classLit);
+var Lim_actor_core_modules_internal_typing_TypingActor$StopGroupTyping_2_classLit = createForClass('im.actor.core.modules.internal.typing', 'TypingActor/StopGroupTyping', 157, Ljava_lang_Object_2_classLit);
 function TypingActor$StopTyping(uid){
   this.uid = uid;
 }
 
-defineClass(154, 1, {154:1}, TypingActor$StopTyping);
+defineClass(156, 1, {156:1}, TypingActor$StopTyping);
 _.equals$ = function equals_13(o){
   var that;
   if (this === o)
@@ -32302,7 +32325,7 @@ _.hashCode$ = function hashCode_10(){
 }
 ;
 _.uid = 0;
-var Lim_actor_core_modules_internal_typing_TypingActor$StopTyping_2_classLit = createForClass('im.actor.core.modules.internal.typing', 'TypingActor/StopTyping', 154, Ljava_lang_Object_2_classLit);
+var Lim_actor_core_modules_internal_typing_TypingActor$StopTyping_2_classLit = createForClass('im.actor.core.modules.internal.typing', 'TypingActor/StopTyping', 156, Ljava_lang_Object_2_classLit);
 function $onContactsAdded_0(this$static, uid){
   $send(this$static.contactsSyncActor, new ContactsSyncActor$ContactsAdded(uid));
 }
@@ -33178,7 +33201,7 @@ function $isCausesInvalidation(this$static, update){
   var contactRegistered, groupInvite, groups, invited, kick, leave, localNameChanged, updateMessage, users;
   users = new HashSet;
   groups = new HashSet;
-  if (instanceOf(update, 133)) {
+  if (instanceOf(update, 134)) {
     updateMessage = update;
     $add_1(users, valueOf(updateMessage.senderUid));
     updateMessage.peer.type_0 == ($clinit_ApiPeerType() , GROUP) && $add_1(groups, valueOf(updateMessage.peer.id_0));
@@ -33188,35 +33211,35 @@ function $isCausesInvalidation(this$static, update){
     contactRegistered = update;
     $add_1(users, valueOf(contactRegistered.uid));
   }
-   else if (instanceOf(update, 183)) {
+   else if (instanceOf(update, 184)) {
     groupInvite = update;
     $add_1(users, valueOf(groupInvite.inviteUid));
     $add_1(groups, valueOf(groupInvite.groupId));
   }
-   else if (instanceOf(update, 184)) {
+   else if (instanceOf(update, 185)) {
     invited = update;
     $add_1(users, valueOf(invited.inviterUid));
     $add_1(users, valueOf(invited.uid));
     $add_1(groups, valueOf(invited.groupId));
   }
-   else if (instanceOf(update, 186)) {
+   else if (instanceOf(update, 187)) {
     kick = update;
     $add_1(users, valueOf(kick.kickerUid));
     $add_1(users, valueOf(kick.uid));
     $add_1(groups, valueOf(kick.groupId));
   }
-   else if (instanceOf(update, 185)) {
+   else if (instanceOf(update, 186)) {
     leave = update;
     $add_1(users, valueOf(leave.uid));
     $add_1(groups, valueOf(leave.groupId));
   }
+   else if (instanceOf(update, 133)) {
+    $addAll(users, update.uids);
+  }
+   else if (instanceOf(update, 182)) {
+    $addAll(users, update.uids);
+  }
    else if (instanceOf(update, 132)) {
-    $addAll(users, update.uids);
-  }
-   else if (instanceOf(update, 181)) {
-    $addAll(users, update.uids);
-  }
-   else if (instanceOf(update, 131)) {
     localNameChanged = update;
     $add_1(users, valueOf(localNameChanged.uid));
   }
@@ -33274,7 +33297,7 @@ function $processUpdate(this$static, update){
   if ($process(this$static.usersProcessor, update)) {
     return;
   }
-  if (instanceOf(update, 133)) {
+  if (instanceOf(update, 134)) {
     message = update;
     $onMessage_1(this$static.messagesProcessor, message.peer, message.senderUid, message.date, message.rid, message.message_0);
     $onMessage_2(this$static.typingProcessor, message.peer, message.senderUid);
@@ -33327,27 +33350,27 @@ function $processUpdate(this$static, update){
     aboutChanged = update;
     $onAboutChanged(this$static.groupsProcessor, aboutChanged.groupId, aboutChanged.about);
   }
-   else if (instanceOf(update, 187)) {
+   else if (instanceOf(update, 188)) {
     avatarChanged = update;
     $onAvatarChanged(this$static.groupsProcessor, avatarChanged.groupId, avatarChanged.rid, avatarChanged.uid, avatarChanged.avatar, avatarChanged.date, false);
   }
-   else if (instanceOf(update, 183)) {
+   else if (instanceOf(update, 184)) {
     groupInvite = update;
     $onGroupInvite(this$static.groupsProcessor, groupInvite.groupId, groupInvite.rid, groupInvite.inviteUid, groupInvite.date, false);
   }
-   else if (instanceOf(update, 185)) {
+   else if (instanceOf(update, 186)) {
     leave = update;
     $onUserLeave(this$static.groupsProcessor, leave.groupId, leave.rid, leave.uid, leave.date, false);
   }
-   else if (instanceOf(update, 186)) {
+   else if (instanceOf(update, 187)) {
     userKick = update;
     $onUserKicked(this$static.groupsProcessor, userKick.groupId, userKick.rid, userKick.uid, userKick.kickerUid, userKick.date, false);
   }
-   else if (instanceOf(update, 184)) {
+   else if (instanceOf(update, 185)) {
     userInvited = update;
     $onUserAdded(this$static.groupsProcessor, userInvited.groupId, userInvited.rid, userInvited.uid, userInvited.inviterUid, userInvited.date, false);
   }
-   else if (instanceOf(update, 132)) {
+   else if (instanceOf(update, 133)) {
     contactsAdded = update;
     res = initDim(I_classLit, $intern_3, 0, contactsAdded.uids.size_1(), 7, 1);
     for (i_0 = 0; i_0 < res.length; i_0++) {
@@ -33355,7 +33378,7 @@ function $processUpdate(this$static, update){
     }
     $onContactsAdded_0(this$static.contactsProcessor, res);
   }
-   else if (instanceOf(update, 181)) {
+   else if (instanceOf(update, 182)) {
     contactsRemoved = update;
     res = initDim(I_classLit, $intern_3, 0, contactsRemoved.uids.size_1(), 7, 1);
     for (i_0 = 0; i_0 < res.length; i_0++) {
@@ -33364,7 +33387,7 @@ function $processUpdate(this$static, update){
     $onContactsRemoved_0(this$static.contactsProcessor, res);
   }
    else 
-    instanceOf(update, 400)?$onMembersUpdated(this$static.groupsProcessor, update.groupId, update.members):instanceOf(update, 256)?$onSettingsChanged(this$static.settingsProcessor, update.key, update.value_0):instanceOf(update, 257)?$onCountersChanged_0(this$static.messagesProcessor, update.counters):instanceOf(update, 253)?$onChatGroupsChanged(this$static.messagesProcessor, update.dialogs):instanceOf(update, 182)?$onReactionsChanged(this$static.messagesProcessor, update.peer, update.rid, update.reactions):instanceOf(update, 98)?$onOwnStickerCollectionsChanged(this$static.stickersProcessor, update.collections):instanceOf(update, 402) && $onStickerCollectionsChanged(this$static.stickersProcessor, update.collections);
+    instanceOf(update, 400)?$onMembersUpdated(this$static.groupsProcessor, update.groupId, update.members):instanceOf(update, 256)?$onSettingsChanged(this$static.settingsProcessor, update.key, update.value_0):instanceOf(update, 257)?$onCountersChanged_0(this$static.messagesProcessor, update.counters):instanceOf(update, 253)?$onChatGroupsChanged(this$static.messagesProcessor, update.dialogs):instanceOf(update, 183)?$onReactionsChanged(this$static.messagesProcessor, update.peer, update.rid, update.reactions):instanceOf(update, 98)?$onOwnStickerCollectionsChanged(this$static.stickersProcessor, update.collections):instanceOf(update, 402) && $onStickerCollectionsChanged(this$static.stickersProcessor, update.collections);
 }
 
 function $processWeakUpdate(this$static, update, date){
@@ -33416,7 +33439,7 @@ function UpdateProcessor$1(val$founded, val$users){
 
 defineClass(1248, 1, $intern_26, UpdateProcessor$1);
 _.run = function run_121(){
-  $onResult_23(this.val$founded2.commandCallback, $toArray_0(this.val$users3, initDim(Lim_actor_core_viewmodel_UserVM_2_classLit, $intern_3, 146, this.val$users3.size_1(), 0, 1)));
+  $onResult_23(this.val$founded2.commandCallback, $toArray_0(this.val$users3, initDim(Lim_actor_core_viewmodel_UserVM_2_classLit, $intern_3, 147, this.val$users3.size_1(), 0, 1)));
 }
 ;
 var Lim_actor_core_modules_updates_UpdateProcessor$1_2_classLit = createForClass('im.actor.core.modules.updates', 'UpdateProcessor/1', 1248, Ljava_lang_Object_2_classLit);
@@ -33517,27 +33540,27 @@ function $onUserNickChanged(this$static, uid, nick){
 
 function $process(this$static, update){
   var avatarChanged, localNameChanged, nickChanged, userAboutChanged, userNameChanged;
-  if (instanceOf(update, 178)) {
+  if (instanceOf(update, 179)) {
     userNameChanged = update;
     $onUserNameChanged(this$static, userNameChanged.uid, userNameChanged.name_0);
     return true;
   }
-   else if (instanceOf(update, 131)) {
+   else if (instanceOf(update, 132)) {
     localNameChanged = update;
     $onUserLocalNameChanged(this$static, localNameChanged.uid, localNameChanged.localName);
     return true;
   }
-   else if (instanceOf(update, 179)) {
+   else if (instanceOf(update, 180)) {
     nickChanged = update;
     $onUserNickChanged(this$static, nickChanged.uid, nickChanged.nickname);
     return true;
   }
-   else if (instanceOf(update, 180)) {
+   else if (instanceOf(update, 181)) {
     userAboutChanged = update;
     $onUserAboutChanged(this$static, userAboutChanged.uid, userAboutChanged.about);
     return true;
   }
-   else if (instanceOf(update, 177)) {
+   else if (instanceOf(update, 178)) {
     avatarChanged = update;
     $onUserAvatarChanged(this$static, avatarChanged.uid, avatarChanged.avatar);
     return true;
@@ -33627,7 +33650,7 @@ function buildDiff(updates){
   res = new CombinedDifference;
   for (u$iterator = new AbstractList$IteratorImpl(updates); u$iterator.i < u$iterator.this$01.size_1();) {
     u = (checkCriticalElement(u$iterator.i < u$iterator.this$01.size_1()) , u$iterator.this$01.get_0(u$iterator.last = u$iterator.i++));
-    if (instanceOf(u, 133)) {
+    if (instanceOf(u, 134)) {
       $putMessage(res, u);
     }
      else if (instanceOf(u, 248)) {
@@ -33645,13 +33668,13 @@ function buildDiff(updates){
      else if (instanceOf(u, 257)) {
       $setCounters(res, u.counters);
     }
-     else if (instanceOf(u, 178))
+     else if (instanceOf(u, 179))
     ;
-    else if (instanceOf(u, 131))
-    ;
-    else if (instanceOf(u, 179))
+    else if (instanceOf(u, 132))
     ;
     else if (instanceOf(u, 180))
+    ;
+    else if (instanceOf(u, 181))
     ;
     else {
       $add_0(res.otherUpdates, u);
@@ -34070,7 +34093,7 @@ function get_0(endpoints, keyStorage, callback, isEnableLog, id_0, minDelay, max
 defineClass(1139, 1436, {}, ApiBroker);
 _.onReceive = function onReceive_31(message){
   var authIdInvalidated, cancelRequest, forceResend, initMTProto, newSessionCreated, request, response, update;
-  if (instanceOf(message, 152)) {
+  if (instanceOf(message, 154)) {
     $clinit_Log();
     log_1($format(($clinit_JsLogProvider() , dateTimeFormat), new Date_0, null) + '[D] ' + 'ApiBroker' + ':' + 'Creating auth key...');
     requestAuthId(this.endpoints, this.minDelay, this.maxDelay, this.maxFailureCount, new ApiBroker$2(this));
@@ -34287,8 +34310,8 @@ var Lim_actor_core_network_api_ApiBroker$ProtoUpdate_2_classLit = createForClass
 function ApiBroker$RequestAuthId(){
 }
 
-defineClass(152, 1, {152:1}, ApiBroker$RequestAuthId);
-var Lim_actor_core_network_api_ApiBroker$RequestAuthId_2_classLit = createForClass('im.actor.core.network.api', 'ApiBroker/RequestAuthId', 152, Ljava_lang_Object_2_classLit);
+defineClass(154, 1, {154:1}, ApiBroker$RequestAuthId);
+var Lim_actor_core_network_api_ApiBroker$RequestAuthId_2_classLit = createForClass('im.actor.core.network.api', 'ApiBroker/RequestAuthId', 154, Ljava_lang_Object_2_classLit);
 function ApiBroker$RequestHolder(requestTime, publicId, message, callback){
   this.requestTime = requestTime;
   this.message_0 = message;
@@ -34816,7 +34839,7 @@ function senderActor(proto){
 defineClass(1268, 1436, {}, PusherActor);
 _.onReceive = function onReceive_33(message){
   var $tmp, holder, messageAck, newSession, sendMessage, toSend, unsentPackage, unsentPackage$iterator;
-  if (instanceOf(message, 175)) {
+  if (instanceOf(message, 176)) {
     this.isEnableLog && d_0('ProtoSender', 'Received SendMessage #' + toString_4(message.mid));
     sendMessage = message;
     holder = new ProtoMessage(sendMessage.mid, sendMessage.message_0);
@@ -34843,7 +34866,7 @@ _.onReceive = function onReceive_33(message){
     this.isEnableLog && ($clinit_Log() , log_1($format(($clinit_JsLogProvider() , dateTimeFormat), new Date_0, null) + '[D] ' + 'ProtoSender' + ':' + 'Sending SessionHello'));
     $doSend(this, new ProtoMessage(($clinit_MTUids() , $tmp = NEXT_ID_0.value_0 , NEXT_ID_0.value_0 = add_1(NEXT_ID_0.value_0, {l:1, m:0, h:0}) , $tmp), $toByteArray_0(new SessionHello)));
   }
-   else if (instanceOf(message, 176)) {
+   else if (instanceOf(message, 177)) {
     this.isEnableLog && d_0('ProtoSender', 'Received ForgetMessage #' + toString_4(message.mid));
     this.unsentPackages.remove_1(valueOf_0(message.mid));
   }
@@ -34924,9 +34947,9 @@ function PusherActor$ForgetMessage(rid){
   this.mid = rid;
 }
 
-defineClass(176, 1, {176:1}, PusherActor$ForgetMessage);
+defineClass(177, 1, {177:1}, PusherActor$ForgetMessage);
 _.mid = {l:0, m:0, h:0};
-var Lim_actor_core_network_mtp_actors_PusherActor$ForgetMessage_2_classLit = createForClass('im.actor.core.network.mtp.actors', 'PusherActor/ForgetMessage', 176, Ljava_lang_Object_2_classLit);
+var Lim_actor_core_network_mtp_actors_PusherActor$ForgetMessage_2_classLit = createForClass('im.actor.core.network.mtp.actors', 'PusherActor/ForgetMessage', 177, Ljava_lang_Object_2_classLit);
 function PusherActor$NewSession(messageId){
   this.messageId = messageId;
 }
@@ -34944,9 +34967,9 @@ function PusherActor$SendMessage(rid, message){
   this.message_0 = message;
 }
 
-defineClass(175, 1, {175:1}, PusherActor$SendMessage);
+defineClass(176, 1, {176:1}, PusherActor$SendMessage);
 _.mid = {l:0, m:0, h:0};
-var Lim_actor_core_network_mtp_actors_PusherActor$SendMessage_2_classLit = createForClass('im.actor.core.network.mtp.actors', 'PusherActor/SendMessage', 175, Ljava_lang_Object_2_classLit);
+var Lim_actor_core_network_mtp_actors_PusherActor$SendMessage_2_classLit = createForClass('im.actor.core.network.mtp.actors', 'PusherActor/SendMessage', 176, Ljava_lang_Object_2_classLit);
 function PusherActor$SessionLost(){
 }
 
@@ -34979,7 +35002,7 @@ function $onReceive_1(this$static, message){
       $send(this$static.sender, new PusherActor$NewSession(newSessionCreated.messageId));
       $onSessionCreated(this$static.proto.callback_0);
     }
-     else if (instanceOf(obj, 190)) {
+     else if (instanceOf(obj, 191)) {
       container = obj;
       for (m$array = container.messages , m$index = 0 , m$max = m$array.length; m$index < m$max; ++m$index) {
         m = m$array[m$index];
@@ -35144,7 +35167,7 @@ function Container_0(messages){
   this.messages = messages;
 }
 
-defineClass(190, 42, {190:1, 30:1}, Container, Container_0);
+defineClass(191, 42, {191:1, 30:1}, Container, Container_0);
 _.getHeader_0 = function getHeader_48(){
   return 10;
 }
@@ -35177,7 +35200,7 @@ _.writeBody = function writeBody_0(bs){
   }
 }
 ;
-var Lim_actor_core_network_mtp_entity_Container_2_classLit = createForClass('im.actor.core.network.mtp.entity', 'Container', 190, Lim_actor_core_network_mtp_entity_ProtoStruct_2_classLit);
+var Lim_actor_core_network_mtp_entity_Container_2_classLit = createForClass('im.actor.core.network.mtp.entity', 'Container', 191, Lim_actor_core_network_mtp_entity_ProtoStruct_2_classLit);
 function Drop(stream){
   ProtoStruct.call(this, stream);
 }
@@ -35861,9 +35884,9 @@ function Timing(tag){
   this.TAG = tag;
 }
 
-defineClass(204, 1, {}, Timing);
+defineClass(205, 1, {}, Timing);
 _.sectionStart = {l:0, m:0, h:0};
-var Lim_actor_core_util_Timing_2_classLit = createForClass('im.actor.core.util', 'Timing', 204, Ljava_lang_Object_2_classLit);
+var Lim_actor_core_util_Timing_2_classLit = createForClass('im.actor.core.util', 'Timing', 205, Ljava_lang_Object_2_classLit);
 function $onContactsChanged_1(this$static, isEmpty){
   if (this$static.isContactsEmpty.value_0.value_0 != isEmpty) {
     $putBool(this$static.context.preferences, 'app.contacts.empty', isEmpty);
@@ -36004,8 +36027,8 @@ function DialogSmall(peer, counter){
 defineClass(1129, 1, {}, DialogSmall);
 _.counter = 0;
 var Lim_actor_core_viewmodel_DialogSmall_2_classLit = createForClass('im.actor.core.viewmodel', 'DialogSmall', 1129, Ljava_lang_Object_2_classLit);
-defineClass(145, 1, $intern_32);
-var Lim_actor_runtime_mvvm_BaseValueModel_2_classLit = createForClass('im.actor.runtime.mvvm', 'BaseValueModel', 145, Ljava_lang_Object_2_classLit);
+defineClass(146, 1, $intern_32);
+var Lim_actor_runtime_mvvm_BaseValueModel_2_classLit = createForClass('im.actor.runtime.mvvm', 'BaseValueModel', 146, Ljava_lang_Object_2_classLit);
 function $clinit_DialogSpecVM(){
   $clinit_DialogSpecVM = emptyMethod;
   CREATOR_6 = new DialogSpecVM$1;
@@ -36017,7 +36040,7 @@ function DialogSpecVM(rawObj){
   this.isUnread = new BooleanValueModel(($clinit_Boolean() , rawObj.isUnread?TRUE:FALSE));
 }
 
-defineClass(1182, 145, $intern_32, DialogSpecVM);
+defineClass(1182, 146, $intern_32, DialogSpecVM);
 _.updateValues = function updateValues(rawObj){
   $change(this.counter, valueOf(rawObj.counter));
   $change(this.isUnread, ($clinit_Boolean() , rawObj.isUnread?TRUE:FALSE));
@@ -36078,7 +36101,7 @@ function GroupVM(rawObj, myUid){
   this.about = new StringValueModel(rawObj.about);
 }
 
-defineClass(986, 145, $intern_32, GroupVM);
+defineClass(986, 146, $intern_32, GroupVM);
 _.updateValues = function updateValues_0(rawObj){
   var isChanged;
   isChanged = $change(this.name_0, rawObj.title_0);
@@ -36131,7 +36154,7 @@ function StickerPackVM(rawObj){
   this.stickers = new ValueModel(new ArrayList_0(rawObj.stickers));
 }
 
-defineClass(1216, 145, $intern_32, StickerPackVM);
+defineClass(1216, 146, $intern_32, StickerPackVM);
 _.updateValues = function updateValues_1(rawObj){
   var isChanged;
   isChanged = $change(this.stickers, new ArrayList_0(rawObj.stickers));
@@ -36240,10 +36263,10 @@ function UserPresence_0(lastSeen){
   this.lastSeen = lastSeen;
 }
 
-defineClass(149, 1, {}, UserPresence, UserPresence_0);
+defineClass(151, 1, {}, UserPresence, UserPresence_0);
 _.lastSeen = {l:0, m:0, h:0};
 _.state = 0;
-var Lim_actor_core_viewmodel_UserPresence_2_classLit = createForClass('im.actor.core.viewmodel', 'UserPresence', 149, Ljava_lang_Object_2_classLit);
+var Lim_actor_core_viewmodel_UserPresence_2_classLit = createForClass('im.actor.core.viewmodel', 'UserPresence', 151, Ljava_lang_Object_2_classLit);
 function UserTypingVM(){
   this.userTyping = new ValueModel(($clinit_Boolean() , $clinit_Boolean() , FALSE));
 }
@@ -36308,7 +36331,7 @@ function UserVM(user, modules){
   $schedule_2(this.presenceTimer, {l:60000, m:0, h:0});
 }
 
-defineClass(146, 145, {146:1, 145:1}, UserVM);
+defineClass(147, 146, {147:1, 146:1}, UserVM);
 _.updateValues = function updateValues_2(rawObj){
   var isChanged;
   isChanged = $change(this.name_0, rawObj.localName == null?rawObj.name_0:rawObj.localName);
@@ -36326,7 +36349,7 @@ _.updateValues = function updateValues_2(rawObj){
 ;
 _.id_0 = 0;
 _.isBot = false;
-var Lim_actor_core_viewmodel_UserVM_2_classLit = createForClass('im.actor.core.viewmodel', 'UserVM', 146, Lim_actor_runtime_mvvm_BaseValueModel_2_classLit);
+var Lim_actor_core_viewmodel_UserVM_2_classLit = createForClass('im.actor.core.viewmodel', 'UserVM', 147, Lim_actor_runtime_mvvm_BaseValueModel_2_classLit);
 function UserVM$1(val$modules){
   this.val$modules1 = val$modules;
 }
@@ -36648,12 +36671,12 @@ function ArrayListContactRecord(collection){
   ArrayList_0.call(this, collection);
 }
 
-defineClass(499, 7, $intern_33, ArrayListContactRecord);
+defineClass(500, 7, $intern_33, ArrayListContactRecord);
 _.get_0 = function get_2(index_0){
   return checkElementIndex(index_0, this.array.length) , this.array[index_0];
 }
 ;
-var Lim_actor_core_viewmodel_generics_ArrayListContactRecord_2_classLit = createForClass('im.actor.core.viewmodel.generics', 'ArrayListContactRecord', 499, Ljava_util_ArrayList_2_classLit);
+var Lim_actor_core_viewmodel_generics_ArrayListContactRecord_2_classLit = createForClass('im.actor.core.viewmodel.generics', 'ArrayListContactRecord', 500, Ljava_util_ArrayList_2_classLit);
 function ArrayListDialogSmall(){
   ArrayList.call(this);
 }
@@ -37110,8 +37133,8 @@ function ActorSelection(props, path){
   this.path = path;
 }
 
-defineClass(134, 1, {}, ActorSelection);
-var Lim_actor_runtime_actors_ActorSelection_2_classLit = createForClass('im.actor.runtime.actors', 'ActorSelection', 134, Ljava_lang_Object_2_classLit);
+defineClass(135, 1, {}, ActorSelection);
+var Lim_actor_runtime_actors_ActorSelection_2_classLit = createForClass('im.actor.runtime.actors', 'ActorSelection', 135, Ljava_lang_Object_2_classLit);
 function $clinit_ActorSystem(){
   $clinit_ActorSystem = emptyMethod;
   mainSystem = new ActorSystem;
@@ -37255,11 +37278,11 @@ function result_0(res){
   return result;
 }
 
-defineClass(498, 1, {}, DispatchResult);
+defineClass(499, 1, {}, DispatchResult);
 _.delay = {l:0, m:0, h:0};
 _.isResult = false;
 var FREE_RESULTS;
-var Lim_actor_runtime_actors_dispatch_DispatchResult_2_classLit = createForClass('im.actor.runtime.actors.dispatch', 'DispatchResult', 498, Ljava_lang_Object_2_classLit);
+var Lim_actor_runtime_actors_dispatch_DispatchResult_2_classLit = createForClass('im.actor.runtime.actors.dispatch', 'DispatchResult', 499, Ljava_lang_Object_2_classLit);
 function $initDispatcher(this$static, dispatcher){
   if (this$static.dispatcher) {
     throw new RuntimeException_0('Double dispatcher init');
@@ -38674,7 +38697,7 @@ function SparseArray_0(initialCapacity){
   this.mSize = 0;
 }
 
-defineClass(150, 1, {}, SparseArray);
+defineClass(152, 1, {}, SparseArray);
 _.toString$ = function toString_314(){
   var buffer, i_0, key, value_0;
   this.mGarbage && $gc(this);
@@ -38698,7 +38721,7 @@ _.toString$ = function toString_314(){
 _.mGarbage = false;
 _.mSize = 0;
 var DELETED;
-var Lim_actor_runtime_collections_SparseArray_2_classLit = createForClass('im.actor.runtime.collections', 'SparseArray', 150, Ljava_lang_Object_2_classLit);
+var Lim_actor_runtime_collections_SparseArray_2_classLit = createForClass('im.actor.runtime.collections', 'SparseArray', 152, Ljava_lang_Object_2_classLit);
 function $clinit_Base64Utils(){
   $clinit_Base64Utils = emptyMethod;
   var i_0;
@@ -38884,12 +38907,12 @@ function EventBus$2(this$0, val$event){
   this.val$event2 = val$event;
 }
 
-defineClass(198, 1, $intern_26, EventBus$2);
+defineClass(199, 1, $intern_26, EventBus$2);
 _.run = function run_130(){
   $deliver(this.this$01, this.val$event2, true);
 }
 ;
-var Lim_actor_runtime_eventbus_EventBus$2_2_classLit = createForClass('im.actor.runtime.eventbus', 'EventBus/2', 198, Ljava_lang_Object_2_classLit);
+var Lim_actor_runtime_eventbus_EventBus$2_2_classLit = createForClass('im.actor.runtime.eventbus', 'EventBus/2', 199, Ljava_lang_Object_2_classLit);
 function EventBus$SubscriberConfig(baseType){
   this.types = new ArrayList;
   $add_0(this.types, baseType);
@@ -39316,9 +39339,9 @@ function makeClosure_2(closure){
   return new JsDisplayListCallbackExporterImpl_0(closure);
 }
 
-defineClass(195, 1, {195:1, 191:1}, JsDisplayListCallbackExporterImpl, JsDisplayListCallbackExporterImpl_0);
+defineClass(196, 1, {196:1, 192:1}, JsDisplayListCallbackExporterImpl, JsDisplayListCallbackExporterImpl_0);
 _.equals$ = function equals_18(obj){
-  return obj != null && instanceOf(obj, 195) && this.jso == obj.jso;
+  return obj != null && instanceOf(obj, 196) && this.jso == obj.jso;
 }
 ;
 _.onCollectionChanged_0 = function onCollectionChanged(a0){
@@ -39326,15 +39349,15 @@ _.onCollectionChanged_0 = function onCollectionChanged(a0){
 }
 ;
 var exported_4 = false;
-var Lim_actor_runtime_js_mvvm_JsDisplayListCallbackExporterImpl_2_classLit = createForClass('im.actor.runtime.js.mvvm', 'JsDisplayListCallbackExporterImpl', 195, Ljava_lang_Object_2_classLit);
+var Lim_actor_runtime_js_mvvm_JsDisplayListCallbackExporterImpl_2_classLit = createForClass('im.actor.runtime.js.mvvm', 'JsDisplayListCallbackExporterImpl', 196, Ljava_lang_Object_2_classLit);
 function JsMatcher(matchResult){
   this.matchResult = matchResult;
 }
 
 defineClass(1229, 1, {}, JsMatcher);
 var Lim_actor_runtime_js_regexp_JsMatcher_2_classLit = createForClass('im.actor.runtime.js.regexp', 'JsMatcher', 1229, Ljava_lang_Object_2_classLit);
-defineClass(1466, 1, {});
-var Lim_actor_runtime_regexp_PatternCompat_2_classLit = createForClass('im.actor.runtime.regexp', 'PatternCompat', 1466, Ljava_lang_Object_2_classLit);
+defineClass(1467, 1, {});
+var Lim_actor_runtime_regexp_PatternCompat_2_classLit = createForClass('im.actor.runtime.regexp', 'PatternCompat', 1467, Ljava_lang_Object_2_classLit);
 function $matcher(this$static, input_0){
   return new JsMatcher($exec(this$static.compiled, input_0));
 }
@@ -39343,8 +39366,8 @@ function JsPattern(pattern){
   this.compiled = new RegExp(pattern);
 }
 
-defineClass(127, 1466, {}, JsPattern);
-var Lim_actor_runtime_js_regexp_JsPattern_2_classLit = createForClass('im.actor.runtime.js.regexp', 'JsPattern', 127, Lim_actor_runtime_regexp_PatternCompat_2_classLit);
+defineClass(128, 1467, {}, JsPattern);
+var Lim_actor_runtime_js_regexp_JsPattern_2_classLit = createForClass('im.actor.runtime.js.regexp', 'JsPattern', 128, Lim_actor_runtime_regexp_PatternCompat_2_classLit);
 function $clear_2(this$static){
   this$static.items.map_0.clear_0();
   $save(this$static);
@@ -39960,9 +39983,9 @@ function JsAtomicInteger(){
   this.value_0 = 1;
 }
 
-defineClass(161, 1457, {}, JsAtomicInteger);
+defineClass(163, 1457, {}, JsAtomicInteger);
 _.value_0 = 0;
-var Lim_actor_runtime_js_threading_JsAtomicInteger_2_classLit = createForClass('im.actor.runtime.js.threading', 'JsAtomicInteger', 161, Lim_actor_runtime_threading_AtomicIntegerCompat_2_classLit);
+var Lim_actor_runtime_js_threading_JsAtomicInteger_2_classLit = createForClass('im.actor.runtime.js.threading', 'JsAtomicInteger', 163, Lim_actor_runtime_threading_AtomicIntegerCompat_2_classLit);
 defineClass(1462, 1, {});
 var Lim_actor_runtime_threading_AtomicLongCompat_2_classLit = createForClass('im.actor.runtime.threading', 'AtomicLongCompat', 1462, Ljava_lang_Object_2_classLit);
 function JsAtomicLong(){
@@ -40117,8 +40140,8 @@ _.run = function run_131(){
 }
 ;
 var Lim_actor_runtime_js_threading_JsThreads$1_2_classLit = createForClass('im.actor.runtime.js.threading', 'JsThreads/1', 1179, Ljava_lang_Object_2_classLit);
-defineClass(1468, 1, {});
-var Lim_actor_runtime_threading_AbsTimerCompat_2_classLit = createForClass('im.actor.runtime.threading', 'AbsTimerCompat', 1468, Ljava_lang_Object_2_classLit);
+defineClass(1469, 1, {});
+var Lim_actor_runtime_threading_AbsTimerCompat_2_classLit = createForClass('im.actor.runtime.threading', 'AbsTimerCompat', 1469, Ljava_lang_Object_2_classLit);
 function $schedule_2(this$static, delay){
   $schedule_0(this$static.secureInterval, toInt(delay));
 }
@@ -40127,8 +40150,8 @@ function JsTimerCompat(runnable){
   this.secureInterval = {runnable:runnable};
 }
 
-defineClass(129, 1468, {}, JsTimerCompat);
-var Lim_actor_runtime_js_threading_JsTimerCompat_2_classLit = createForClass('im.actor.runtime.js.threading', 'JsTimerCompat', 129, Lim_actor_runtime_threading_AbsTimerCompat_2_classLit);
+defineClass(130, 1469, {}, JsTimerCompat);
+var Lim_actor_runtime_js_threading_JsTimerCompat_2_classLit = createForClass('im.actor.runtime.js.threading', 'JsTimerCompat', 130, Lim_actor_runtime_threading_AbsTimerCompat_2_classLit);
 function convertBytes(buffer){
   var array, i_0, res;
   array = new Uint8Array(buffer);
@@ -40381,9 +40404,9 @@ function JSONArray(){
   this.values = new ArrayList;
 }
 
-defineClass(173, 1, {173:1}, JSONArray);
+defineClass(174, 1, {174:1}, JSONArray);
 _.equals$ = function equals_19(o){
-  return instanceOf(o, 173) && $equals_2(o.values, this.values);
+  return instanceOf(o, 174) && $equals_2(o.values, this.values);
 }
 ;
 _.hashCode$ = function hashCode_15(){
@@ -40407,7 +40430,7 @@ _.toString$ = function toString_316(){
   }
 }
 ;
-var Lim_actor_runtime_json_JSONArray_2_classLit = createForClass('im.actor.runtime.json', 'JSONArray', 173, Ljava_lang_Object_2_classLit);
+var Lim_actor_runtime_json_JSONArray_2_classLit = createForClass('im.actor.runtime.json', 'JSONArray', 174, Ljava_lang_Object_2_classLit);
 function JSONException(s){
   Exception_0.call(this, s);
 }
@@ -40459,7 +40482,7 @@ function $getInt_0(this$static, name_0){
 function $getJSONArray(this$static, name_0){
   var object;
   object = $get_1(this$static, name_0);
-  if (instanceOf(object, 173)) {
+  if (instanceOf(object, 174)) {
     return object;
   }
    else {
@@ -40731,7 +40754,7 @@ function $value(this$static, value_0){
   if (this$static.stack_0.isEmpty_0()) {
     throw new JSONException('Nesting problem');
   }
-  if (instanceOf(value_0, 173)) {
+  if (instanceOf(value_0, 174)) {
     $writeTo(value_0, this$static);
     return this$static;
   }
@@ -40740,7 +40763,7 @@ function $value(this$static, value_0){
     return this$static;
   }
   $beforeValue(this$static);
-  value_0 == null || instanceOf(value_0, 138) || maskUndefined(value_0) === maskUndefined(($clinit_JSONObject() , NULL))?$append_1(this$static.out, value_0):instanceOf(value_0, 69)?$append_2(this$static.out, numberToString(value_0)):$string(this$static, isJavaString(value_0)?value_0:hasJavaObjectVirtualDispatch(value_0)?value_0.toString$():isJavaArray(value_0)?$toString(value_0):value_0.toString?value_0.toString():'[JavaScriptObject]');
+  value_0 == null || instanceOf(value_0, 139) || maskUndefined(value_0) === maskUndefined(($clinit_JSONObject() , NULL))?$append_1(this$static.out, value_0):instanceOf(value_0, 69)?$append_2(this$static.out, numberToString(value_0)):$string(this$static, isJavaString(value_0)?value_0:hasJavaObjectVirtualDispatch(value_0)?value_0.toString$():isJavaArray(value_0)?$toString(value_0):value_0.toString?value_0.toString():'[JavaScriptObject]');
   return this$static;
 }
 
@@ -41072,13 +41095,13 @@ function MDDocument(sections){
 
 defineClass(957, 1, {}, MDDocument);
 var Lim_actor_runtime_markdown_MDDocument_2_classLit = createForClass('im.actor.runtime.markdown', 'MDDocument', 957, Ljava_lang_Object_2_classLit);
-defineClass(143, 1, {143:1});
-var Lim_actor_runtime_markdown_MDText_2_classLit = createForClass('im.actor.runtime.markdown', 'MDText', 143, Ljava_lang_Object_2_classLit);
+defineClass(144, 1, {144:1});
+var Lim_actor_runtime_markdown_MDText_2_classLit = createForClass('im.actor.runtime.markdown', 'MDText', 144, Ljava_lang_Object_2_classLit);
 function MDRawText(rawText){
   this.rawText = rawText;
 }
 
-defineClass(298, 143, {298:1, 143:1}, MDRawText);
+defineClass(298, 144, {298:1, 144:1}, MDRawText);
 var Lim_actor_runtime_markdown_MDRawText_2_classLit = createForClass('im.actor.runtime.markdown', 'MDRawText', 298, Lim_actor_runtime_markdown_MDText_2_classLit);
 function MDSection(code_0){
   this.code_0 = code_0;
@@ -41090,15 +41113,15 @@ function MDSection_0(text_0){
   this.type_0 = 0;
 }
 
-defineClass(199, 1, {199:1}, MDSection, MDSection_0);
+defineClass(200, 1, {200:1}, MDSection, MDSection_0);
 _.type_0 = 0;
-var Lim_actor_runtime_markdown_MDSection_2_classLit = createForClass('im.actor.runtime.markdown', 'MDSection', 199, Ljava_lang_Object_2_classLit);
+var Lim_actor_runtime_markdown_MDSection_2_classLit = createForClass('im.actor.runtime.markdown', 'MDSection', 200, Ljava_lang_Object_2_classLit);
 function MDSpan(spanType, child){
   this.spanType = spanType;
   this.child = child;
 }
 
-defineClass(299, 143, {299:1, 143:1}, MDSpan);
+defineClass(299, 144, {299:1, 144:1}, MDSpan);
 _.spanType = 0;
 var Lim_actor_runtime_markdown_MDSpan_2_classLit = createForClass('im.actor.runtime.markdown', 'MDSpan', 299, Lim_actor_runtime_markdown_MDText_2_classLit);
 function MDUrl(urlTitle, url_0){
@@ -41106,7 +41129,7 @@ function MDUrl(urlTitle, url_0){
   this.url_0 = url_0;
 }
 
-defineClass(208, 143, {143:1, 208:1}, MDUrl);
+defineClass(208, 144, {144:1, 208:1}, MDUrl);
 var Lim_actor_runtime_markdown_MDUrl_2_classLit = createForClass('im.actor.runtime.markdown', 'MDUrl', 208, Lim_actor_runtime_markdown_MDText_2_classLit);
 function $addText(cursor, limit, elements){
   if (cursor.currentOffset < limit) {
@@ -41272,7 +41295,7 @@ function $handleSpans(this$static, cursor, blockEnd){
   elements = new ArrayList;
   while ($handleSpan(this$static, cursor, blockEnd, elements))
   ;
-  return $toArray_0(elements, initDim(Lim_actor_runtime_markdown_MDText_2_classLit, $intern_3, 143, elements.size_1(), 0, 1));
+  return $toArray_0(elements, initDim(Lim_actor_runtime_markdown_MDText_2_classLit, $intern_3, 144, elements.size_1(), 0, 1));
 }
 
 function $handleTextBlock(this$static, cursor, blockEnd, paragraphs){
@@ -41326,7 +41349,7 @@ function $processDocument(this$static, text_0){
   sections = new ArrayList;
   while ($handleCodeBlock(this$static, cursor, sections))
   ;
-  return new MDDocument($toArray_0(sections, initDim(Lim_actor_runtime_markdown_MDSection_2_classLit, $intern_3, 199, sections.size_1(), 0, 1)));
+  return new MDDocument($toArray_0(sections, initDim(Lim_actor_runtime_markdown_MDSection_2_classLit, $intern_3, 200, sections.size_1(), 0, 1)));
 }
 
 function MarkdownParser(){
@@ -41923,8 +41946,8 @@ function ArrayStoreException(message){
   RuntimeException_0.call(this, message);
 }
 
-defineClass(137, 13, $intern_2, ArrayStoreException);
-var Ljava_lang_ArrayStoreException_2_classLit = createForClass('java.lang', 'ArrayStoreException', 137, Ljava_lang_RuntimeException_2_classLit);
+defineClass(138, 13, $intern_2, ArrayStoreException);
+var Ljava_lang_ArrayStoreException_2_classLit = createForClass('java.lang', 'ArrayStoreException', 138, Ljava_lang_RuntimeException_2_classLit);
 function $clinit_Boolean(){
   $clinit_Boolean = emptyMethod;
   FALSE = new Boolean_0(false);
@@ -41932,7 +41955,7 @@ function $clinit_Boolean(){
 }
 
 function $equals_4(this$static, o){
-  return instanceOf(o, 138) && o.value_0 == this$static.value_0;
+  return instanceOf(o, 139) && o.value_0 == this$static.value_0;
 }
 
 function Boolean_0(value_0){
@@ -41943,7 +41966,7 @@ function compare_5(x_0, y_0){
   return x_0 == y_0?0:x_0?1:-1;
 }
 
-defineClass(138, 1, {3:1, 138:1, 27:1}, Boolean_0);
+defineClass(139, 1, {3:1, 139:1, 27:1}, Boolean_0);
 _.compareTo = function compareTo_0(b){
   return compare_5(this.value_0, b.value_0);
 }
@@ -41962,7 +41985,7 @@ _.toString$ = function toString_322(){
 ;
 _.value_0 = false;
 var FALSE, TRUE;
-var Ljava_lang_Boolean_2_classLit = createForClass('java.lang', 'Boolean', 138, Ljava_lang_Object_2_classLit);
+var Ljava_lang_Boolean_2_classLit = createForClass('java.lang', 'Boolean', 139, Ljava_lang_Object_2_classLit);
 function codePointAt(cs, index_0, limit){
   var hiSurrogate, loSurrogate;
   hiSurrogate = $charAt(cs, index_0++);
@@ -43081,7 +43104,7 @@ _.equals$ = function equals_26(obj){
   if (obj === this) {
     return true;
   }
-  if (!instanceOf(obj, 136)) {
+  if (!instanceOf(obj, 137)) {
     return false;
   }
   otherMap = obj;
@@ -44825,11 +44848,11 @@ function Random(){
   this.seedlo = lo ^ $intern_43;
 }
 
-defineClass(144, 1, {}, Random);
+defineClass(145, 1, {}, Random);
 _.seedhi = 0;
 _.seedlo = 0;
 var twoToTheXMinus24, twoToTheXMinus48, uniqueSeed = 0;
-var Ljava_util_Random_2_classLit = createForClass('java.util', 'Random', 144, Ljava_lang_Object_2_classLit);
+var Ljava_util_Random_2_classLit = createForClass('java.util', 'Random', 145, Ljava_lang_Object_2_classLit);
 function $clear_5(this$static){
   this$static.root = null;
   this$static.size_0 = 0;
@@ -45903,7 +45926,7 @@ function isAssignableToClass(o, clazz){
   if (Ljava_lang_Object_2_classLit == clazz) {
     return true;
   }
-  if (Lorg_timepedia_exporter_client_Exportable_2_classLit == clazz && instanceOf(o, 191)) {
+  if (Lorg_timepedia_exporter_client_Exportable_2_classLit == clazz && instanceOf(o, 192)) {
     return true;
   }
   if (o != null) {
