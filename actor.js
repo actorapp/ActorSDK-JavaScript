@@ -249,36 +249,36 @@ function actor(){
   processMetas();
   try {
     var strongName;
-    unflattenKeylistIntoAnswers(['ar', 'gecko1_8'], '92BB461F9DCE4C597E9A4E6CDD590C06');
-    unflattenKeylistIntoAnswers(['ar', 'ie10'], '92BB461F9DCE4C597E9A4E6CDD590C06' + ':1');
-    unflattenKeylistIntoAnswers(['default', 'gecko1_8'], '92BB461F9DCE4C597E9A4E6CDD590C06' + ':10');
-    unflattenKeylistIntoAnswers(['default', 'ie10'], '92BB461F9DCE4C597E9A4E6CDD590C06' + ':11');
-    unflattenKeylistIntoAnswers(['default', 'ie8'], '92BB461F9DCE4C597E9A4E6CDD590C06' + ':12');
-    unflattenKeylistIntoAnswers(['default', 'ie9'], '92BB461F9DCE4C597E9A4E6CDD590C06' + ':13');
-    unflattenKeylistIntoAnswers(['default', 'safari'], '92BB461F9DCE4C597E9A4E6CDD590C06' + ':14');
-    unflattenKeylistIntoAnswers(['en', 'gecko1_8'], '92BB461F9DCE4C597E9A4E6CDD590C06' + ':15');
-    unflattenKeylistIntoAnswers(['en', 'ie10'], '92BB461F9DCE4C597E9A4E6CDD590C06' + ':16');
-    unflattenKeylistIntoAnswers(['en', 'ie8'], '92BB461F9DCE4C597E9A4E6CDD590C06' + ':17');
-    unflattenKeylistIntoAnswers(['en', 'ie9'], '92BB461F9DCE4C597E9A4E6CDD590C06' + ':18');
-    unflattenKeylistIntoAnswers(['en', 'safari'], '92BB461F9DCE4C597E9A4E6CDD590C06' + ':19');
-    unflattenKeylistIntoAnswers(['ar', 'ie8'], '92BB461F9DCE4C597E9A4E6CDD590C06' + ':2');
-    unflattenKeylistIntoAnswers(['pt', 'gecko1_8'], '92BB461F9DCE4C597E9A4E6CDD590C06' + ':20');
-    unflattenKeylistIntoAnswers(['pt', 'ie10'], '92BB461F9DCE4C597E9A4E6CDD590C06' + ':21');
-    unflattenKeylistIntoAnswers(['pt', 'ie8'], '92BB461F9DCE4C597E9A4E6CDD590C06' + ':22');
-    unflattenKeylistIntoAnswers(['pt', 'ie9'], '92BB461F9DCE4C597E9A4E6CDD590C06' + ':23');
-    unflattenKeylistIntoAnswers(['pt', 'safari'], '92BB461F9DCE4C597E9A4E6CDD590C06' + ':24');
-    unflattenKeylistIntoAnswers(['ru', 'gecko1_8'], '92BB461F9DCE4C597E9A4E6CDD590C06' + ':25');
-    unflattenKeylistIntoAnswers(['ru', 'ie10'], '92BB461F9DCE4C597E9A4E6CDD590C06' + ':26');
-    unflattenKeylistIntoAnswers(['ru', 'ie8'], '92BB461F9DCE4C597E9A4E6CDD590C06' + ':27');
-    unflattenKeylistIntoAnswers(['ru', 'ie9'], '92BB461F9DCE4C597E9A4E6CDD590C06' + ':28');
-    unflattenKeylistIntoAnswers(['ru', 'safari'], '92BB461F9DCE4C597E9A4E6CDD590C06' + ':29');
-    unflattenKeylistIntoAnswers(['ar', 'ie9'], '92BB461F9DCE4C597E9A4E6CDD590C06' + ':3');
-    unflattenKeylistIntoAnswers(['ar', 'safari'], '92BB461F9DCE4C597E9A4E6CDD590C06' + ':4');
-    unflattenKeylistIntoAnswers(['cn', 'gecko1_8'], '92BB461F9DCE4C597E9A4E6CDD590C06' + ':5');
-    unflattenKeylistIntoAnswers(['cn', 'ie10'], '92BB461F9DCE4C597E9A4E6CDD590C06' + ':6');
-    unflattenKeylistIntoAnswers(['cn', 'ie8'], '92BB461F9DCE4C597E9A4E6CDD590C06' + ':7');
-    unflattenKeylistIntoAnswers(['cn', 'ie9'], '92BB461F9DCE4C597E9A4E6CDD590C06' + ':8');
-    unflattenKeylistIntoAnswers(['cn', 'safari'], '92BB461F9DCE4C597E9A4E6CDD590C06' + ':9');
+    unflattenKeylistIntoAnswers(['ar', 'gecko1_8'], 'CECF773466F056B0A8F5CFA1E55119BA');
+    unflattenKeylistIntoAnswers(['ar', 'ie10'], 'CECF773466F056B0A8F5CFA1E55119BA' + ':1');
+    unflattenKeylistIntoAnswers(['default', 'gecko1_8'], 'CECF773466F056B0A8F5CFA1E55119BA' + ':10');
+    unflattenKeylistIntoAnswers(['default', 'ie10'], 'CECF773466F056B0A8F5CFA1E55119BA' + ':11');
+    unflattenKeylistIntoAnswers(['default', 'ie8'], 'CECF773466F056B0A8F5CFA1E55119BA' + ':12');
+    unflattenKeylistIntoAnswers(['default', 'ie9'], 'CECF773466F056B0A8F5CFA1E55119BA' + ':13');
+    unflattenKeylistIntoAnswers(['default', 'safari'], 'CECF773466F056B0A8F5CFA1E55119BA' + ':14');
+    unflattenKeylistIntoAnswers(['en', 'gecko1_8'], 'CECF773466F056B0A8F5CFA1E55119BA' + ':15');
+    unflattenKeylistIntoAnswers(['en', 'ie10'], 'CECF773466F056B0A8F5CFA1E55119BA' + ':16');
+    unflattenKeylistIntoAnswers(['en', 'ie8'], 'CECF773466F056B0A8F5CFA1E55119BA' + ':17');
+    unflattenKeylistIntoAnswers(['en', 'ie9'], 'CECF773466F056B0A8F5CFA1E55119BA' + ':18');
+    unflattenKeylistIntoAnswers(['en', 'safari'], 'CECF773466F056B0A8F5CFA1E55119BA' + ':19');
+    unflattenKeylistIntoAnswers(['ar', 'ie8'], 'CECF773466F056B0A8F5CFA1E55119BA' + ':2');
+    unflattenKeylistIntoAnswers(['pt', 'gecko1_8'], 'CECF773466F056B0A8F5CFA1E55119BA' + ':20');
+    unflattenKeylistIntoAnswers(['pt', 'ie10'], 'CECF773466F056B0A8F5CFA1E55119BA' + ':21');
+    unflattenKeylistIntoAnswers(['pt', 'ie8'], 'CECF773466F056B0A8F5CFA1E55119BA' + ':22');
+    unflattenKeylistIntoAnswers(['pt', 'ie9'], 'CECF773466F056B0A8F5CFA1E55119BA' + ':23');
+    unflattenKeylistIntoAnswers(['pt', 'safari'], 'CECF773466F056B0A8F5CFA1E55119BA' + ':24');
+    unflattenKeylistIntoAnswers(['ru', 'gecko1_8'], 'CECF773466F056B0A8F5CFA1E55119BA' + ':25');
+    unflattenKeylistIntoAnswers(['ru', 'ie10'], 'CECF773466F056B0A8F5CFA1E55119BA' + ':26');
+    unflattenKeylistIntoAnswers(['ru', 'ie8'], 'CECF773466F056B0A8F5CFA1E55119BA' + ':27');
+    unflattenKeylistIntoAnswers(['ru', 'ie9'], 'CECF773466F056B0A8F5CFA1E55119BA' + ':28');
+    unflattenKeylistIntoAnswers(['ru', 'safari'], 'CECF773466F056B0A8F5CFA1E55119BA' + ':29');
+    unflattenKeylistIntoAnswers(['ar', 'ie9'], 'CECF773466F056B0A8F5CFA1E55119BA' + ':3');
+    unflattenKeylistIntoAnswers(['ar', 'safari'], 'CECF773466F056B0A8F5CFA1E55119BA' + ':4');
+    unflattenKeylistIntoAnswers(['cn', 'gecko1_8'], 'CECF773466F056B0A8F5CFA1E55119BA' + ':5');
+    unflattenKeylistIntoAnswers(['cn', 'ie10'], 'CECF773466F056B0A8F5CFA1E55119BA' + ':6');
+    unflattenKeylistIntoAnswers(['cn', 'ie8'], 'CECF773466F056B0A8F5CFA1E55119BA' + ':7');
+    unflattenKeylistIntoAnswers(['cn', 'ie9'], 'CECF773466F056B0A8F5CFA1E55119BA' + ':8');
+    unflattenKeylistIntoAnswers(['cn', 'safari'], 'CECF773466F056B0A8F5CFA1E55119BA' + ':9');
     strongName = answers[computePropValue('locale')][computePropValue('user.agent')];
     var idx = strongName.indexOf(':');
     if (idx != -1) {
@@ -317,7 +317,7 @@ function actor(){
 }
 
 actor();
-(function () {var $gwt_version = "2.7.0";var $wnd = window;var $doc = $wnd.document;var $moduleName, $moduleBase;var $stats = $wnd.__gwtStatsEvent ? function(a) {$wnd.__gwtStatsEvent(a)} : null;var $strongName = '92BB461F9DCE4C597E9A4E6CDD590C06';var $intern_0 = 2147483647, $intern_1 = {5:1, 18:1}, $intern_2 = {5:1, 11:1, 18:1}, $intern_3 = {5:1}, $intern_4 = 1000, $intern_5 = 65535, $intern_6 = 4194303, $intern_7 = 1048575, $intern_8 = 524288, $intern_9 = 4194304, $intern_10 = 17592186044416, $intern_11 = -9223372036854775808, $intern_12 = {426:1}, $intern_13 = 65536, $intern_14 = 131072, $intern_15 = 1048576, $intern_16 = 16777216, $intern_17 = 67108864, $intern_18 = {3:1}, $intern_19 = 1487, $intern_20 = 1512, $intern_21 = 1490, $intern_22 = 1514, $intern_23 = 1502, $intern_24 = 1023, $intern_25 = 1473, $intern_26 = {9:1}, $intern_27 = {68:1}, $intern_28 = 1476, $intern_29 = {43:1, 5:1}, $intern_30 = {30:1}, $intern_31 = 5.9604644775390625E-8, $intern_32 = {148:1}, $intern_33 = {5:1, 49:1, 91:1}, $intern_34 = {4:1, 5:1, 11:1, 18:1}, $intern_35 = 1.52587890625E-5, $intern_36 = 9.5367431640625E-7, $intern_37 = 2.220446049250313E-16, $intern_38 = {138:1}, $intern_39 = {90:1}, $intern_40 = {93:1, 55:1}, $intern_41 = {93:1, 103:1, 55:1}, $intern_42 = {5:1, 138:1}, $intern_43 = 15525485, $intern_44 = {5:1, 27:1, 12:1, 72:1}, $intern_45 = 1470;
+(function () {var $gwt_version = "2.7.0";var $wnd = window;var $doc = $wnd.document;var $moduleName, $moduleBase;var $stats = $wnd.__gwtStatsEvent ? function(a) {$wnd.__gwtStatsEvent(a)} : null;var $strongName = 'CECF773466F056B0A8F5CFA1E55119BA';var $intern_0 = 2147483647, $intern_1 = {5:1, 18:1}, $intern_2 = {5:1, 11:1, 18:1}, $intern_3 = {5:1}, $intern_4 = 1000, $intern_5 = 65535, $intern_6 = 4194303, $intern_7 = 1048575, $intern_8 = 524288, $intern_9 = 4194304, $intern_10 = 17592186044416, $intern_11 = -9223372036854775808, $intern_12 = {426:1}, $intern_13 = 65536, $intern_14 = 131072, $intern_15 = 1048576, $intern_16 = 16777216, $intern_17 = 67108864, $intern_18 = {3:1}, $intern_19 = 1487, $intern_20 = 1512, $intern_21 = 1490, $intern_22 = 1514, $intern_23 = 1502, $intern_24 = 1023, $intern_25 = 1473, $intern_26 = {9:1}, $intern_27 = {68:1}, $intern_28 = 1476, $intern_29 = {43:1, 5:1}, $intern_30 = {30:1}, $intern_31 = 5.9604644775390625E-8, $intern_32 = {148:1}, $intern_33 = {5:1, 49:1, 91:1}, $intern_34 = {4:1, 5:1, 11:1, 18:1}, $intern_35 = 1.52587890625E-5, $intern_36 = 9.5367431640625E-7, $intern_37 = 2.220446049250313E-16, $intern_38 = {138:1}, $intern_39 = {90:1}, $intern_40 = {93:1, 55:1}, $intern_41 = {93:1, 103:1, 55:1}, $intern_42 = {5:1, 138:1}, $intern_43 = 15525485, $intern_44 = {5:1, 27:1, 12:1, 72:1}, $intern_45 = 1470;
 var _, initFnList_0, prototypesByTypeId_0 = {}, permutationId = -1;
 function im_actor_core_js_providers_Assets(){
   switch (permutationId) {
@@ -22151,7 +22151,7 @@ function $performLoad(this$static){
   }
   fileLocations = new ArrayList;
   for (i_0 = 0; i_0 < 50 && this$static.filesQueue.size_1() > 0; i_0++) {
-    request = this$static.filesQueue.get_0(0);
+    request = this$static.filesQueue.remove_0(0);
     $add_0(fileLocations, new ApiFileLocation_0(request.id_0, request.accessHash));
   }
   if (fileLocations.size_1() == 0) {
