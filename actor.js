@@ -249,36 +249,36 @@ function actor(){
   processMetas();
   try {
     var strongName;
-    unflattenKeylistIntoAnswers(['ar', 'gecko1_8'], '86D0A973DB7E4015FC11E65828F53F56');
-    unflattenKeylistIntoAnswers(['ar', 'ie10'], '86D0A973DB7E4015FC11E65828F53F56' + ':1');
-    unflattenKeylistIntoAnswers(['default', 'gecko1_8'], '86D0A973DB7E4015FC11E65828F53F56' + ':10');
-    unflattenKeylistIntoAnswers(['default', 'ie10'], '86D0A973DB7E4015FC11E65828F53F56' + ':11');
-    unflattenKeylistIntoAnswers(['default', 'ie8'], '86D0A973DB7E4015FC11E65828F53F56' + ':12');
-    unflattenKeylistIntoAnswers(['default', 'ie9'], '86D0A973DB7E4015FC11E65828F53F56' + ':13');
-    unflattenKeylistIntoAnswers(['default', 'safari'], '86D0A973DB7E4015FC11E65828F53F56' + ':14');
-    unflattenKeylistIntoAnswers(['en', 'gecko1_8'], '86D0A973DB7E4015FC11E65828F53F56' + ':15');
-    unflattenKeylistIntoAnswers(['en', 'ie10'], '86D0A973DB7E4015FC11E65828F53F56' + ':16');
-    unflattenKeylistIntoAnswers(['en', 'ie8'], '86D0A973DB7E4015FC11E65828F53F56' + ':17');
-    unflattenKeylistIntoAnswers(['en', 'ie9'], '86D0A973DB7E4015FC11E65828F53F56' + ':18');
-    unflattenKeylistIntoAnswers(['en', 'safari'], '86D0A973DB7E4015FC11E65828F53F56' + ':19');
-    unflattenKeylistIntoAnswers(['ar', 'ie8'], '86D0A973DB7E4015FC11E65828F53F56' + ':2');
-    unflattenKeylistIntoAnswers(['pt', 'gecko1_8'], '86D0A973DB7E4015FC11E65828F53F56' + ':20');
-    unflattenKeylistIntoAnswers(['pt', 'ie10'], '86D0A973DB7E4015FC11E65828F53F56' + ':21');
-    unflattenKeylistIntoAnswers(['pt', 'ie8'], '86D0A973DB7E4015FC11E65828F53F56' + ':22');
-    unflattenKeylistIntoAnswers(['pt', 'ie9'], '86D0A973DB7E4015FC11E65828F53F56' + ':23');
-    unflattenKeylistIntoAnswers(['pt', 'safari'], '86D0A973DB7E4015FC11E65828F53F56' + ':24');
-    unflattenKeylistIntoAnswers(['ru', 'gecko1_8'], '86D0A973DB7E4015FC11E65828F53F56' + ':25');
-    unflattenKeylistIntoAnswers(['ru', 'ie10'], '86D0A973DB7E4015FC11E65828F53F56' + ':26');
-    unflattenKeylistIntoAnswers(['ru', 'ie8'], '86D0A973DB7E4015FC11E65828F53F56' + ':27');
-    unflattenKeylistIntoAnswers(['ru', 'ie9'], '86D0A973DB7E4015FC11E65828F53F56' + ':28');
-    unflattenKeylistIntoAnswers(['ru', 'safari'], '86D0A973DB7E4015FC11E65828F53F56' + ':29');
-    unflattenKeylistIntoAnswers(['ar', 'ie9'], '86D0A973DB7E4015FC11E65828F53F56' + ':3');
-    unflattenKeylistIntoAnswers(['ar', 'safari'], '86D0A973DB7E4015FC11E65828F53F56' + ':4');
-    unflattenKeylistIntoAnswers(['cn', 'gecko1_8'], '86D0A973DB7E4015FC11E65828F53F56' + ':5');
-    unflattenKeylistIntoAnswers(['cn', 'ie10'], '86D0A973DB7E4015FC11E65828F53F56' + ':6');
-    unflattenKeylistIntoAnswers(['cn', 'ie8'], '86D0A973DB7E4015FC11E65828F53F56' + ':7');
-    unflattenKeylistIntoAnswers(['cn', 'ie9'], '86D0A973DB7E4015FC11E65828F53F56' + ':8');
-    unflattenKeylistIntoAnswers(['cn', 'safari'], '86D0A973DB7E4015FC11E65828F53F56' + ':9');
+    unflattenKeylistIntoAnswers(['ar', 'gecko1_8'], '755AA24A1BFE6F96D8A1471A6766E63B');
+    unflattenKeylistIntoAnswers(['ar', 'ie10'], '755AA24A1BFE6F96D8A1471A6766E63B' + ':1');
+    unflattenKeylistIntoAnswers(['default', 'gecko1_8'], '755AA24A1BFE6F96D8A1471A6766E63B' + ':10');
+    unflattenKeylistIntoAnswers(['default', 'ie10'], '755AA24A1BFE6F96D8A1471A6766E63B' + ':11');
+    unflattenKeylistIntoAnswers(['default', 'ie8'], '755AA24A1BFE6F96D8A1471A6766E63B' + ':12');
+    unflattenKeylistIntoAnswers(['default', 'ie9'], '755AA24A1BFE6F96D8A1471A6766E63B' + ':13');
+    unflattenKeylistIntoAnswers(['default', 'safari'], '755AA24A1BFE6F96D8A1471A6766E63B' + ':14');
+    unflattenKeylistIntoAnswers(['en', 'gecko1_8'], '755AA24A1BFE6F96D8A1471A6766E63B' + ':15');
+    unflattenKeylistIntoAnswers(['en', 'ie10'], '755AA24A1BFE6F96D8A1471A6766E63B' + ':16');
+    unflattenKeylistIntoAnswers(['en', 'ie8'], '755AA24A1BFE6F96D8A1471A6766E63B' + ':17');
+    unflattenKeylistIntoAnswers(['en', 'ie9'], '755AA24A1BFE6F96D8A1471A6766E63B' + ':18');
+    unflattenKeylistIntoAnswers(['en', 'safari'], '755AA24A1BFE6F96D8A1471A6766E63B' + ':19');
+    unflattenKeylistIntoAnswers(['ar', 'ie8'], '755AA24A1BFE6F96D8A1471A6766E63B' + ':2');
+    unflattenKeylistIntoAnswers(['pt', 'gecko1_8'], '755AA24A1BFE6F96D8A1471A6766E63B' + ':20');
+    unflattenKeylistIntoAnswers(['pt', 'ie10'], '755AA24A1BFE6F96D8A1471A6766E63B' + ':21');
+    unflattenKeylistIntoAnswers(['pt', 'ie8'], '755AA24A1BFE6F96D8A1471A6766E63B' + ':22');
+    unflattenKeylistIntoAnswers(['pt', 'ie9'], '755AA24A1BFE6F96D8A1471A6766E63B' + ':23');
+    unflattenKeylistIntoAnswers(['pt', 'safari'], '755AA24A1BFE6F96D8A1471A6766E63B' + ':24');
+    unflattenKeylistIntoAnswers(['ru', 'gecko1_8'], '755AA24A1BFE6F96D8A1471A6766E63B' + ':25');
+    unflattenKeylistIntoAnswers(['ru', 'ie10'], '755AA24A1BFE6F96D8A1471A6766E63B' + ':26');
+    unflattenKeylistIntoAnswers(['ru', 'ie8'], '755AA24A1BFE6F96D8A1471A6766E63B' + ':27');
+    unflattenKeylistIntoAnswers(['ru', 'ie9'], '755AA24A1BFE6F96D8A1471A6766E63B' + ':28');
+    unflattenKeylistIntoAnswers(['ru', 'safari'], '755AA24A1BFE6F96D8A1471A6766E63B' + ':29');
+    unflattenKeylistIntoAnswers(['ar', 'ie9'], '755AA24A1BFE6F96D8A1471A6766E63B' + ':3');
+    unflattenKeylistIntoAnswers(['ar', 'safari'], '755AA24A1BFE6F96D8A1471A6766E63B' + ':4');
+    unflattenKeylistIntoAnswers(['cn', 'gecko1_8'], '755AA24A1BFE6F96D8A1471A6766E63B' + ':5');
+    unflattenKeylistIntoAnswers(['cn', 'ie10'], '755AA24A1BFE6F96D8A1471A6766E63B' + ':6');
+    unflattenKeylistIntoAnswers(['cn', 'ie8'], '755AA24A1BFE6F96D8A1471A6766E63B' + ':7');
+    unflattenKeylistIntoAnswers(['cn', 'ie9'], '755AA24A1BFE6F96D8A1471A6766E63B' + ':8');
+    unflattenKeylistIntoAnswers(['cn', 'safari'], '755AA24A1BFE6F96D8A1471A6766E63B' + ':9');
     strongName = answers[computePropValue('locale')][computePropValue('user.agent')];
     var idx = strongName.indexOf(':');
     if (idx != -1) {
@@ -317,7 +317,7 @@ function actor(){
 }
 
 actor();
-(function () {var $gwt_version = "2.7.0";var $wnd = window;var $doc = $wnd.document;var $moduleName, $moduleBase;var $stats = $wnd.__gwtStatsEvent ? function(a) {$wnd.__gwtStatsEvent(a)} : null;var $strongName = '86D0A973DB7E4015FC11E65828F53F56';var $intern_0 = 2147483647, $intern_1 = {5:1, 18:1}, $intern_2 = {5:1, 11:1, 18:1}, $intern_3 = {5:1}, $intern_4 = 1000, $intern_5 = 65535, $intern_6 = 4194303, $intern_7 = 1048575, $intern_8 = 524288, $intern_9 = 4194304, $intern_10 = 17592186044416, $intern_11 = -9223372036854775808, $intern_12 = {426:1}, $intern_13 = 65536, $intern_14 = 131072, $intern_15 = 1048576, $intern_16 = 16777216, $intern_17 = 67108864, $intern_18 = {3:1}, $intern_19 = 1487, $intern_20 = 1512, $intern_21 = 1490, $intern_22 = 1514, $intern_23 = 1502, $intern_24 = 1023, $intern_25 = 1473, $intern_26 = {9:1}, $intern_27 = {69:1}, $intern_28 = 1476, $intern_29 = {43:1, 5:1}, $intern_30 = {30:1}, $intern_31 = 5.9604644775390625E-8, $intern_32 = {148:1}, $intern_33 = {5:1, 49:1, 91:1}, $intern_34 = {4:1, 5:1, 11:1, 18:1}, $intern_35 = 1.52587890625E-5, $intern_36 = 9.5367431640625E-7, $intern_37 = 2.220446049250313E-16, $intern_38 = {138:1}, $intern_39 = {90:1}, $intern_40 = {93:1, 55:1}, $intern_41 = {93:1, 103:1, 55:1}, $intern_42 = {5:1, 138:1}, $intern_43 = 15525485, $intern_44 = {5:1, 27:1, 12:1, 73:1}, $intern_45 = 1470;
+(function () {var $gwt_version = "2.7.0";var $wnd = window;var $doc = $wnd.document;var $moduleName, $moduleBase;var $stats = $wnd.__gwtStatsEvent ? function(a) {$wnd.__gwtStatsEvent(a)} : null;var $strongName = '755AA24A1BFE6F96D8A1471A6766E63B';var $intern_0 = 2147483647, $intern_1 = {5:1, 18:1}, $intern_2 = {5:1, 11:1, 18:1}, $intern_3 = {5:1}, $intern_4 = 1000, $intern_5 = 65535, $intern_6 = 4194303, $intern_7 = 1048575, $intern_8 = 524288, $intern_9 = 4194304, $intern_10 = 17592186044416, $intern_11 = -9223372036854775808, $intern_12 = {426:1}, $intern_13 = 65536, $intern_14 = 131072, $intern_15 = 1048576, $intern_16 = 16777216, $intern_17 = 67108864, $intern_18 = {3:1}, $intern_19 = 1487, $intern_20 = 1512, $intern_21 = 1490, $intern_22 = 1514, $intern_23 = 1502, $intern_24 = 1023, $intern_25 = 1473, $intern_26 = {9:1}, $intern_27 = {69:1}, $intern_28 = 1476, $intern_29 = {43:1, 5:1}, $intern_30 = {30:1}, $intern_31 = 5.9604644775390625E-8, $intern_32 = {148:1}, $intern_33 = {5:1, 49:1, 91:1}, $intern_34 = {4:1, 5:1, 11:1, 18:1}, $intern_35 = 1.52587890625E-5, $intern_36 = 9.5367431640625E-7, $intern_37 = 2.220446049250313E-16, $intern_38 = {138:1}, $intern_39 = {90:1}, $intern_40 = {93:1, 55:1}, $intern_41 = {93:1, 103:1, 55:1}, $intern_42 = {5:1, 138:1}, $intern_43 = 15525485, $intern_44 = {5:1, 27:1, 12:1, 73:1}, $intern_45 = 1470;
 var _, initFnList_0, prototypesByTypeId_0 = {}, permutationId = -1;
 function im_actor_core_js_providers_Assets(){
   switch (permutationId) {
@@ -21282,8 +21282,6 @@ function fromGroupVM(groupVM, messenger){
   for (g$index = 0 , g$max = members.length; g$index < g$max; ++g$index) {
     g = members[g$index];
     peerInfo = $buildPeerInfo(messenger, user_0(g.uid));
-    $clinit_Log();
-    log_1($format(($clinit_JsLogProvider() , dateTimeFormat), new Date_0, null) + '[D] ' + 'JsGroup' + ':' + ('PeerInfo: ' + peerInfo));
     $add_0(convertedMembers, {peerInfo:peerInfo, isAdmin:g.isAdministrator, canKick:g.inviterUid == messenger.modules_0.authentication.myUid || groupVM.creatorId == messenger.modules_0.authentication.myUid});
   }
   sort_1(convertedMembers, new JsGroup$1);
@@ -21678,6 +21676,7 @@ function $getGroupOnline(this$static, gid){
     value_0 = new JsBindedValue;
     groupVM = $get_2(this$static.context.groups.collection, fromInt(gid));
     groupVM.presence.subscribe_0(new JsBindingModule$8(this$static, groupVM, value_0));
+    this$static.groupOnlines.put(valueOf(gid), value_0);
   }
   return this$static.groupOnlines.get_2(valueOf(gid));
 }
@@ -21769,40 +21768,39 @@ function $getUserOnline(this$static, uid){
 }
 
 function $onFileLoaded(this$static, fileId){
-  var contact, contact$iterator, dialog, dialog$iterator, doc, founded, g, g$iterator, gid, groupVM, message, message$iterator, messageList, messageList$iterator, u, u$iterator, uid, user, userVM;
+  var contact, contact$iterator, dialog, dialog$iterator, doc, g, g$iterator, gid, groupVM, message, message$iterator, messageList, messageList$iterator, u, u$iterator, uid, user, userVM;
   if (this$static.dialogsList) {
+    this$static.dialogsList.isForceReconverted = false;
     for (dialog$iterator = new AbstractList$IteratorImpl(this$static.dialogsList.values); dialog$iterator.i < dialog$iterator.this$01.size_1();) {
       dialog = (checkCriticalElement(dialog$iterator.i < dialog$iterator.this$01.size_1()) , dialog$iterator.this$01.get_0(dialog$iterator.last = dialog$iterator.i++));
-      $checkAvatar(dialog.dialogAvatar, fileId) && $forceReconvert_0(this$static.dialogsList, $getUnuqueId(dialog.peer));
+      $checkAvatar(dialog.dialogAvatar, fileId) && $forceReconvert(this$static.dialogsList, $getUnuqueId(dialog.peer));
     }
+    $stopReconverting(this$static.dialogsList);
   }
   if (this$static.contactsList) {
+    this$static.contactsList.isForceReconverted = false;
     for (contact$iterator = new AbstractList$IteratorImpl(this$static.contactsList.values); contact$iterator.i < contact$iterator.this$01.size_1();) {
       contact = (checkCriticalElement(contact$iterator.i < contact$iterator.this$01.size_1()) , contact$iterator.this$01.get_0(contact$iterator.last = contact$iterator.i++));
-      $checkAvatar(contact.avatar, fileId) && $forceReconvert_0(this$static.contactsList, fromInt(contact.uid));
+      $checkAvatar(contact.avatar, fileId) && $forceReconvert(this$static.contactsList, fromInt(contact.uid));
     }
+    $stopReconverting(this$static.contactsList);
   }
   for (messageList$iterator = $iterator_0(new AbstractMap$2(this$static.messageLists)); messageList$iterator.val$outerIter2.hasNext();) {
     messageList = $next_1(messageList$iterator);
-    founded = false;
+    messageList.isForceReconverted = false;
     for (message$iterator = new AbstractList$IteratorImpl(messageList.values); message$iterator.i < message$iterator.this$01.size_1();) {
       message = (checkCriticalElement(message$iterator.i < message$iterator.this$01.size_1()) , message$iterator.this$01.get_0(message$iterator.last = message$iterator.i++));
       user = $get_2(this$static.context.users.collection, fromInt(message.senderId));
       if ($checkAvatar(user.avatar.value_0, fileId)) {
-        founded = true;
-        break;
+        $forceReconvert(messageList, message.rid);
+        continue;
       }
       if (instanceOf(message.content_0, 28)) {
         doc = message.content_0;
-        if (instanceOf(doc.source, 226)) {
-          if ($contains_0(fileId, valueOf_0(doc.source.fileReference.wrapped.fileId))) {
-            founded = true;
-            break;
-          }
-        }
+        instanceOf(doc.source, 226) && $contains_0(fileId, valueOf_0(doc.source.fileReference.wrapped.fileId)) && $forceReconvert(messageList, message.rid);
       }
     }
-    founded && $forceReconvert(messageList);
+    $stopReconverting(messageList);
   }
   for (u$iterator = $iterator_0(new AbstractMap$2(this$static.users)); u$iterator.val$outerIter2.hasNext();) {
     u = $next_1(u$iterator);
@@ -40176,21 +40174,13 @@ function $clear_1(array){
   array.splice(0, array.length);
 }
 
-function $forceReconvert(this$static){
-  var i_0;
-  $clear_1(this$static.jsValues);
-  for (i_0 = 0; i_0 < this$static.values.size_1(); i_0++) {
-    $push(this$static.jsValues, this$static.entityConverter.convert(this$static.values.get_0(i_0)));
-  }
-  $notifySubscribers(this$static);
-}
-
-function $forceReconvert_0(this$static, id_0){
+function $forceReconvert(this$static, id_0){
   var i_0;
   for (i_0 = 0; i_0 < this$static.values.size_1(); i_0++) {
     if (eq(this$static.values.get_0(i_0).getEngineId(), id_0)) {
       $remove_1(this$static.jsValues, i_0);
       $insert(this$static.jsValues, i_0, this$static.entityConverter.convert(this$static.values.get_0(i_0)));
+      this$static.isForceReconverted = true;
     }
   }
 }
@@ -40251,6 +40241,13 @@ function $reverse(array){
   return array.slice().reverse();
 }
 
+function $stopReconverting(this$static){
+  if (this$static.isForceReconverted) {
+    this$static.isForceReconverted = false;
+    $notifySubscribers(this$static);
+  }
+}
+
 function $subscribe_5(this$static, callback){
   $indexOf(this$static.callbacks, callback, 0) != -1 || $add_0(this$static.callbacks, callback);
   $onCollectionChanged(callback, this$static.jsValues);
@@ -40282,7 +40279,7 @@ function JsDisplayList(listEngine, entityConverter){
     item_0 = $getValue_0(listEngine, rid);
     if (!item_0) {
       $clinit_Log();
-      warn($format(($clinit_JsLogProvider() , dateTimeFormat), new Date_0, null) + '[W] ' + 'AngularList' + ':' + ('Unable to find item #' + toString_4(rid)));
+      warn($format(($clinit_JsLogProvider() , dateTimeFormat), new Date_0, null) + '[W] ' + 'JsDisplayList' + ':' + ('Unable to find item #' + toString_4(rid)));
       continue;
     }
     $add_0(this.values, item_0);
@@ -40292,6 +40289,7 @@ function JsDisplayList(listEngine, entityConverter){
 }
 
 defineClass(777, 1, {}, JsDisplayList);
+_.isForceReconverted = false;
 var Lim_actor_runtime_js_mvvm_JsDisplayList_2_classLit = createForClass('im.actor.runtime.js.mvvm', 'JsDisplayList', 777, Ljava_lang_Object_2_classLit);
 var Lim_actor_runtime_js_mvvm_JsDisplayListCallback_2_classLit = createForInterface('im.actor.runtime.js.mvvm', 'JsDisplayListCallback');
 function $export_4(){
