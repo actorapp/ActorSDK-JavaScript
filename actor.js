@@ -249,36 +249,36 @@ function actor(){
   processMetas();
   try {
     var strongName;
-    unflattenKeylistIntoAnswers(['ar', 'gecko1_8'], 'D5533FB3B1F0866EDBD16DF6EB24DF73');
-    unflattenKeylistIntoAnswers(['ar', 'ie10'], 'D5533FB3B1F0866EDBD16DF6EB24DF73' + ':1');
-    unflattenKeylistIntoAnswers(['default', 'gecko1_8'], 'D5533FB3B1F0866EDBD16DF6EB24DF73' + ':10');
-    unflattenKeylistIntoAnswers(['default', 'ie10'], 'D5533FB3B1F0866EDBD16DF6EB24DF73' + ':11');
-    unflattenKeylistIntoAnswers(['default', 'ie8'], 'D5533FB3B1F0866EDBD16DF6EB24DF73' + ':12');
-    unflattenKeylistIntoAnswers(['default', 'ie9'], 'D5533FB3B1F0866EDBD16DF6EB24DF73' + ':13');
-    unflattenKeylistIntoAnswers(['default', 'safari'], 'D5533FB3B1F0866EDBD16DF6EB24DF73' + ':14');
-    unflattenKeylistIntoAnswers(['en', 'gecko1_8'], 'D5533FB3B1F0866EDBD16DF6EB24DF73' + ':15');
-    unflattenKeylistIntoAnswers(['en', 'ie10'], 'D5533FB3B1F0866EDBD16DF6EB24DF73' + ':16');
-    unflattenKeylistIntoAnswers(['en', 'ie8'], 'D5533FB3B1F0866EDBD16DF6EB24DF73' + ':17');
-    unflattenKeylistIntoAnswers(['en', 'ie9'], 'D5533FB3B1F0866EDBD16DF6EB24DF73' + ':18');
-    unflattenKeylistIntoAnswers(['en', 'safari'], 'D5533FB3B1F0866EDBD16DF6EB24DF73' + ':19');
-    unflattenKeylistIntoAnswers(['ar', 'ie8'], 'D5533FB3B1F0866EDBD16DF6EB24DF73' + ':2');
-    unflattenKeylistIntoAnswers(['pt', 'gecko1_8'], 'D5533FB3B1F0866EDBD16DF6EB24DF73' + ':20');
-    unflattenKeylistIntoAnswers(['pt', 'ie10'], 'D5533FB3B1F0866EDBD16DF6EB24DF73' + ':21');
-    unflattenKeylistIntoAnswers(['pt', 'ie8'], 'D5533FB3B1F0866EDBD16DF6EB24DF73' + ':22');
-    unflattenKeylistIntoAnswers(['pt', 'ie9'], 'D5533FB3B1F0866EDBD16DF6EB24DF73' + ':23');
-    unflattenKeylistIntoAnswers(['pt', 'safari'], 'D5533FB3B1F0866EDBD16DF6EB24DF73' + ':24');
-    unflattenKeylistIntoAnswers(['ru', 'gecko1_8'], 'D5533FB3B1F0866EDBD16DF6EB24DF73' + ':25');
-    unflattenKeylistIntoAnswers(['ru', 'ie10'], 'D5533FB3B1F0866EDBD16DF6EB24DF73' + ':26');
-    unflattenKeylistIntoAnswers(['ru', 'ie8'], 'D5533FB3B1F0866EDBD16DF6EB24DF73' + ':27');
-    unflattenKeylistIntoAnswers(['ru', 'ie9'], 'D5533FB3B1F0866EDBD16DF6EB24DF73' + ':28');
-    unflattenKeylistIntoAnswers(['ru', 'safari'], 'D5533FB3B1F0866EDBD16DF6EB24DF73' + ':29');
-    unflattenKeylistIntoAnswers(['ar', 'ie9'], 'D5533FB3B1F0866EDBD16DF6EB24DF73' + ':3');
-    unflattenKeylistIntoAnswers(['ar', 'safari'], 'D5533FB3B1F0866EDBD16DF6EB24DF73' + ':4');
-    unflattenKeylistIntoAnswers(['cn', 'gecko1_8'], 'D5533FB3B1F0866EDBD16DF6EB24DF73' + ':5');
-    unflattenKeylistIntoAnswers(['cn', 'ie10'], 'D5533FB3B1F0866EDBD16DF6EB24DF73' + ':6');
-    unflattenKeylistIntoAnswers(['cn', 'ie8'], 'D5533FB3B1F0866EDBD16DF6EB24DF73' + ':7');
-    unflattenKeylistIntoAnswers(['cn', 'ie9'], 'D5533FB3B1F0866EDBD16DF6EB24DF73' + ':8');
-    unflattenKeylistIntoAnswers(['cn', 'safari'], 'D5533FB3B1F0866EDBD16DF6EB24DF73' + ':9');
+    unflattenKeylistIntoAnswers(['ar', 'gecko1_8'], '0133AAE3AAE7447A2835305737D7B29C');
+    unflattenKeylistIntoAnswers(['ar', 'ie10'], '0133AAE3AAE7447A2835305737D7B29C' + ':1');
+    unflattenKeylistIntoAnswers(['default', 'gecko1_8'], '0133AAE3AAE7447A2835305737D7B29C' + ':10');
+    unflattenKeylistIntoAnswers(['default', 'ie10'], '0133AAE3AAE7447A2835305737D7B29C' + ':11');
+    unflattenKeylistIntoAnswers(['default', 'ie8'], '0133AAE3AAE7447A2835305737D7B29C' + ':12');
+    unflattenKeylistIntoAnswers(['default', 'ie9'], '0133AAE3AAE7447A2835305737D7B29C' + ':13');
+    unflattenKeylistIntoAnswers(['default', 'safari'], '0133AAE3AAE7447A2835305737D7B29C' + ':14');
+    unflattenKeylistIntoAnswers(['en', 'gecko1_8'], '0133AAE3AAE7447A2835305737D7B29C' + ':15');
+    unflattenKeylistIntoAnswers(['en', 'ie10'], '0133AAE3AAE7447A2835305737D7B29C' + ':16');
+    unflattenKeylistIntoAnswers(['en', 'ie8'], '0133AAE3AAE7447A2835305737D7B29C' + ':17');
+    unflattenKeylistIntoAnswers(['en', 'ie9'], '0133AAE3AAE7447A2835305737D7B29C' + ':18');
+    unflattenKeylistIntoAnswers(['en', 'safari'], '0133AAE3AAE7447A2835305737D7B29C' + ':19');
+    unflattenKeylistIntoAnswers(['ar', 'ie8'], '0133AAE3AAE7447A2835305737D7B29C' + ':2');
+    unflattenKeylistIntoAnswers(['pt', 'gecko1_8'], '0133AAE3AAE7447A2835305737D7B29C' + ':20');
+    unflattenKeylistIntoAnswers(['pt', 'ie10'], '0133AAE3AAE7447A2835305737D7B29C' + ':21');
+    unflattenKeylistIntoAnswers(['pt', 'ie8'], '0133AAE3AAE7447A2835305737D7B29C' + ':22');
+    unflattenKeylistIntoAnswers(['pt', 'ie9'], '0133AAE3AAE7447A2835305737D7B29C' + ':23');
+    unflattenKeylistIntoAnswers(['pt', 'safari'], '0133AAE3AAE7447A2835305737D7B29C' + ':24');
+    unflattenKeylistIntoAnswers(['ru', 'gecko1_8'], '0133AAE3AAE7447A2835305737D7B29C' + ':25');
+    unflattenKeylistIntoAnswers(['ru', 'ie10'], '0133AAE3AAE7447A2835305737D7B29C' + ':26');
+    unflattenKeylistIntoAnswers(['ru', 'ie8'], '0133AAE3AAE7447A2835305737D7B29C' + ':27');
+    unflattenKeylistIntoAnswers(['ru', 'ie9'], '0133AAE3AAE7447A2835305737D7B29C' + ':28');
+    unflattenKeylistIntoAnswers(['ru', 'safari'], '0133AAE3AAE7447A2835305737D7B29C' + ':29');
+    unflattenKeylistIntoAnswers(['ar', 'ie9'], '0133AAE3AAE7447A2835305737D7B29C' + ':3');
+    unflattenKeylistIntoAnswers(['ar', 'safari'], '0133AAE3AAE7447A2835305737D7B29C' + ':4');
+    unflattenKeylistIntoAnswers(['cn', 'gecko1_8'], '0133AAE3AAE7447A2835305737D7B29C' + ':5');
+    unflattenKeylistIntoAnswers(['cn', 'ie10'], '0133AAE3AAE7447A2835305737D7B29C' + ':6');
+    unflattenKeylistIntoAnswers(['cn', 'ie8'], '0133AAE3AAE7447A2835305737D7B29C' + ':7');
+    unflattenKeylistIntoAnswers(['cn', 'ie9'], '0133AAE3AAE7447A2835305737D7B29C' + ':8');
+    unflattenKeylistIntoAnswers(['cn', 'safari'], '0133AAE3AAE7447A2835305737D7B29C' + ':9');
     strongName = answers[computePropValue('locale')][computePropValue('user.agent')];
     var idx = strongName.indexOf(':');
     if (idx != -1) {
@@ -317,7 +317,7 @@ function actor(){
 }
 
 actor();
-(function () {var $gwt_version = "2.7.0";var $wnd = window;var $doc = $wnd.document;var $moduleName, $moduleBase;var $stats = $wnd.__gwtStatsEvent ? function(a) {$wnd.__gwtStatsEvent(a)} : null;var $strongName = 'D5533FB3B1F0866EDBD16DF6EB24DF73';var $intern_0 = 2147483647, $intern_1 = {4:1, 18:1}, $intern_2 = {4:1, 11:1, 18:1}, $intern_3 = {4:1}, $intern_4 = 1000, $intern_5 = 65535, $intern_6 = 4194303, $intern_7 = 1048575, $intern_8 = 524288, $intern_9 = 4194304, $intern_10 = 17592186044416, $intern_11 = -9223372036854775808, $intern_12 = {426:1}, $intern_13 = 65536, $intern_14 = 131072, $intern_15 = 1048576, $intern_16 = 16777216, $intern_17 = 67108864, $intern_18 = {3:1}, $intern_19 = 1487, $intern_20 = 1512, $intern_21 = 1490, $intern_22 = 1514, $intern_23 = 1502, $intern_24 = 1023, $intern_25 = 1473, $intern_26 = {9:1}, $intern_27 = {69:1}, $intern_28 = 1476, $intern_29 = {43:1, 4:1}, $intern_30 = {30:1}, $intern_31 = 5.9604644775390625E-8, $intern_32 = {149:1}, $intern_33 = {4:1, 49:1, 91:1}, $intern_34 = {5:1, 4:1, 11:1, 18:1}, $intern_35 = 1.52587890625E-5, $intern_36 = 9.5367431640625E-7, $intern_37 = 2.220446049250313E-16, $intern_38 = {139:1}, $intern_39 = {90:1}, $intern_40 = {93:1, 55:1}, $intern_41 = {93:1, 103:1, 55:1}, $intern_42 = {4:1, 139:1}, $intern_43 = 15525485, $intern_44 = {4:1, 27:1, 12:1, 73:1}, $intern_45 = 1470;
+(function () {var $gwt_version = "2.7.0";var $wnd = window;var $doc = $wnd.document;var $moduleName, $moduleBase;var $stats = $wnd.__gwtStatsEvent ? function(a) {$wnd.__gwtStatsEvent(a)} : null;var $strongName = '0133AAE3AAE7447A2835305737D7B29C';var $intern_0 = 2147483647, $intern_1 = {4:1, 18:1}, $intern_2 = {4:1, 11:1, 18:1}, $intern_3 = {4:1}, $intern_4 = 1000, $intern_5 = 65535, $intern_6 = 4194303, $intern_7 = 1048575, $intern_8 = 524288, $intern_9 = 4194304, $intern_10 = 17592186044416, $intern_11 = -9223372036854775808, $intern_12 = {426:1}, $intern_13 = 65536, $intern_14 = 131072, $intern_15 = 1048576, $intern_16 = 16777216, $intern_17 = 67108864, $intern_18 = {3:1}, $intern_19 = 1487, $intern_20 = 1512, $intern_21 = 1490, $intern_22 = 1514, $intern_23 = 1502, $intern_24 = 1023, $intern_25 = 1473, $intern_26 = {9:1}, $intern_27 = {69:1}, $intern_28 = 1476, $intern_29 = {43:1, 4:1}, $intern_30 = {30:1}, $intern_31 = 5.9604644775390625E-8, $intern_32 = {149:1}, $intern_33 = {4:1, 49:1, 91:1}, $intern_34 = {5:1, 4:1, 11:1, 18:1}, $intern_35 = 1.52587890625E-5, $intern_36 = 9.5367431640625E-7, $intern_37 = 2.220446049250313E-16, $intern_38 = {139:1}, $intern_39 = {90:1}, $intern_40 = {93:1, 55:1}, $intern_41 = {93:1, 103:1, 55:1}, $intern_42 = {4:1, 139:1}, $intern_43 = 15525485, $intern_44 = {4:1, 27:1, 12:1, 73:1}, $intern_45 = 1470;
 var _, initFnList_0, prototypesByTypeId_0 = {}, permutationId = -1;
 function im_actor_core_js_providers_Assets(){
   switch (permutationId) {
@@ -40238,6 +40238,7 @@ function $addItemOrUpdateImpl(this$static, item_0){
       if (this$static.isOverlaysSupported) {
         $markAsDirty(this$static, i0);
         $remove_2(this$static.jsOverlays, i0);
+        this$static.isOverlayDirty.remove_0(i0);
       }
       break;
     }
@@ -40248,6 +40249,7 @@ function $addItemOrUpdateImpl(this$static, item_0){
       $insert(this$static.jsValues, i_0, this$static.entityConverter.convert(item_0));
       if (this$static.isOverlaysSupported) {
         $insert(this$static.jsOverlays, i_0, null);
+        $add(this$static.isOverlayDirty, i_0, ($clinit_Boolean() , $clinit_Boolean() , TRUE));
         $markAsDirty(this$static, i_0);
       }
       return;
@@ -40257,6 +40259,7 @@ function $addItemOrUpdateImpl(this$static, item_0){
   $push(this$static.jsValues, this$static.entityConverter.convert(item_0));
   if (this$static.isOverlaysSupported) {
     $push(this$static.jsOverlays, null);
+    $add_0(this$static.isOverlayDirty, ($clinit_Boolean() , $clinit_Boolean() , TRUE));
     $markAsDirty(this$static, this$static.values.size_1() - 1);
   }
 }
@@ -40281,41 +40284,30 @@ function $markAsDirty(this$static, index_0){
 
 function $notifySubscribers(this$static){
   var callback, callback$iterator, rev_0, revOverlays;
-  $clinit_Log();
-  log_1($format(($clinit_JsLogProvider() , dateTimeFormat), new Date_0, null) + '[D] ' + 'JsDisplayList' + ':' + 'notifySubscribers');
   if (this$static.isOverlaysSupported) {
-    log_1($format(dateTimeFormat, new Date_0, null) + '[D] ' + 'JsDisplayList' + ':' + 'notifySubscribers:isOverlaysSupported');
     for (callback$iterator = new AbstractList$IteratorImpl(this$static.callbacks); callback$iterator.i < callback$iterator.this$01.size_1();) {
       callback = (checkCriticalElement(callback$iterator.i < callback$iterator.this$01.size_1()) , callback$iterator.this$01.get_0(callback$iterator.last = callback$iterator.i++));
-      log_1($format(dateTimeFormat, new Date_0, null) + '[D] ' + 'JsDisplayList' + ':' + 'notifySubscribers:isOverlaysSupported:item');
       $onCollectionChanged(callback, this$static.jsValues, this$static.jsOverlays);
     }
   }
    else {
-    log_1($format(dateTimeFormat, new Date_0, null) + '[D] ' + 'JsDisplayList' + ':' + 'notifySubscribers:isOverlaysSupported:false');
     for (callback$iterator = new AbstractList$IteratorImpl(this$static.callbacks); callback$iterator.i < callback$iterator.this$01.size_1();) {
       callback = (checkCriticalElement(callback$iterator.i < callback$iterator.this$01.size_1()) , callback$iterator.this$01.get_0(callback$iterator.last = callback$iterator.i++));
-      log_1($format(dateTimeFormat, new Date_0, null) + '[D] ' + 'JsDisplayList' + ':' + 'notifySubscribers:isOverlaysSupported:item');
       $onCollectionChanged(callback, this$static.jsValues, null);
     }
   }
   if (this$static.callbacksInverted.size_1() > 0) {
-    log_1($format(dateTimeFormat, new Date_0, null) + '[D] ' + 'JsDisplayList' + ':' + 'notifySubscribers:inverted');
     rev_0 = $reverse(this$static.jsValues);
     if (this$static.isOverlaysSupported) {
-      log_1($format(dateTimeFormat, new Date_0, null) + '[D] ' + 'JsDisplayList' + ':' + 'notifySubscribers:inverted:isOverlaysSupported');
       revOverlays = $reverse(this$static.jsOverlays);
       for (callback$iterator = new AbstractList$IteratorImpl(this$static.callbacksInverted); callback$iterator.i < callback$iterator.this$01.size_1();) {
         callback = (checkCriticalElement(callback$iterator.i < callback$iterator.this$01.size_1()) , callback$iterator.this$01.get_0(callback$iterator.last = callback$iterator.i++));
-        log_1($format(dateTimeFormat, new Date_0, null) + '[D] ' + 'JsDisplayList' + ':' + 'notifySubscribers:inverted:isOverlaysSupported:item');
         $invoke_2(callback.jso, rev_0, revOverlays);
       }
     }
      else {
-      log_1($format(dateTimeFormat, new Date_0, null) + '[D] ' + 'JsDisplayList' + ':' + 'notifySubscribers:inverted:isOverlaysSupported:false');
       for (callback$iterator = new AbstractList$IteratorImpl(this$static.callbacksInverted); callback$iterator.i < callback$iterator.this$01.size_1();) {
         callback = (checkCriticalElement(callback$iterator.i < callback$iterator.this$01.size_1()) , callback$iterator.this$01.get_0(callback$iterator.last = callback$iterator.i++));
-        log_1($format(dateTimeFormat, new Date_0, null) + '[D] ' + 'JsDisplayList' + ':' + 'notifySubscribers:inverted:isOverlaysSupported:false:item');
         $invoke_2(callback.jso, rev_0, null);
       }
     }
@@ -40393,6 +40385,7 @@ function $remoteItemImpl(this$static, id_0){
       if (this$static.isOverlaysSupported) {
         $markAsDirty(this$static, i_0);
         $remove_2(this$static.jsOverlays, i_0);
+        $add_0(this$static.isOverlayDirty, ($clinit_Boolean() , $clinit_Boolean() , TRUE));
       }
       break;
     }
