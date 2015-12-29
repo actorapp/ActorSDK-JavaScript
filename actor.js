@@ -249,36 +249,36 @@ function actor(){
   processMetas();
   try {
     var strongName;
-    unflattenKeylistIntoAnswers(['ar', 'gecko1_8'], '71227D75C335C5EE840CE17EDB73C1C0');
-    unflattenKeylistIntoAnswers(['ar', 'ie10'], '71227D75C335C5EE840CE17EDB73C1C0' + ':1');
-    unflattenKeylistIntoAnswers(['default', 'gecko1_8'], '71227D75C335C5EE840CE17EDB73C1C0' + ':10');
-    unflattenKeylistIntoAnswers(['default', 'ie10'], '71227D75C335C5EE840CE17EDB73C1C0' + ':11');
-    unflattenKeylistIntoAnswers(['default', 'ie8'], '71227D75C335C5EE840CE17EDB73C1C0' + ':12');
-    unflattenKeylistIntoAnswers(['default', 'ie9'], '71227D75C335C5EE840CE17EDB73C1C0' + ':13');
-    unflattenKeylistIntoAnswers(['default', 'safari'], '71227D75C335C5EE840CE17EDB73C1C0' + ':14');
-    unflattenKeylistIntoAnswers(['en', 'gecko1_8'], '71227D75C335C5EE840CE17EDB73C1C0' + ':15');
-    unflattenKeylistIntoAnswers(['en', 'ie10'], '71227D75C335C5EE840CE17EDB73C1C0' + ':16');
-    unflattenKeylistIntoAnswers(['en', 'ie8'], '71227D75C335C5EE840CE17EDB73C1C0' + ':17');
-    unflattenKeylistIntoAnswers(['en', 'ie9'], '71227D75C335C5EE840CE17EDB73C1C0' + ':18');
-    unflattenKeylistIntoAnswers(['en', 'safari'], '71227D75C335C5EE840CE17EDB73C1C0' + ':19');
-    unflattenKeylistIntoAnswers(['ar', 'ie8'], '71227D75C335C5EE840CE17EDB73C1C0' + ':2');
-    unflattenKeylistIntoAnswers(['pt', 'gecko1_8'], '71227D75C335C5EE840CE17EDB73C1C0' + ':20');
-    unflattenKeylistIntoAnswers(['pt', 'ie10'], '71227D75C335C5EE840CE17EDB73C1C0' + ':21');
-    unflattenKeylistIntoAnswers(['pt', 'ie8'], '71227D75C335C5EE840CE17EDB73C1C0' + ':22');
-    unflattenKeylistIntoAnswers(['pt', 'ie9'], '71227D75C335C5EE840CE17EDB73C1C0' + ':23');
-    unflattenKeylistIntoAnswers(['pt', 'safari'], '71227D75C335C5EE840CE17EDB73C1C0' + ':24');
-    unflattenKeylistIntoAnswers(['ru', 'gecko1_8'], '71227D75C335C5EE840CE17EDB73C1C0' + ':25');
-    unflattenKeylistIntoAnswers(['ru', 'ie10'], '71227D75C335C5EE840CE17EDB73C1C0' + ':26');
-    unflattenKeylistIntoAnswers(['ru', 'ie8'], '71227D75C335C5EE840CE17EDB73C1C0' + ':27');
-    unflattenKeylistIntoAnswers(['ru', 'ie9'], '71227D75C335C5EE840CE17EDB73C1C0' + ':28');
-    unflattenKeylistIntoAnswers(['ru', 'safari'], '71227D75C335C5EE840CE17EDB73C1C0' + ':29');
-    unflattenKeylistIntoAnswers(['ar', 'ie9'], '71227D75C335C5EE840CE17EDB73C1C0' + ':3');
-    unflattenKeylistIntoAnswers(['ar', 'safari'], '71227D75C335C5EE840CE17EDB73C1C0' + ':4');
-    unflattenKeylistIntoAnswers(['cn', 'gecko1_8'], '71227D75C335C5EE840CE17EDB73C1C0' + ':5');
-    unflattenKeylistIntoAnswers(['cn', 'ie10'], '71227D75C335C5EE840CE17EDB73C1C0' + ':6');
-    unflattenKeylistIntoAnswers(['cn', 'ie8'], '71227D75C335C5EE840CE17EDB73C1C0' + ':7');
-    unflattenKeylistIntoAnswers(['cn', 'ie9'], '71227D75C335C5EE840CE17EDB73C1C0' + ':8');
-    unflattenKeylistIntoAnswers(['cn', 'safari'], '71227D75C335C5EE840CE17EDB73C1C0' + ':9');
+    unflattenKeylistIntoAnswers(['ar', 'gecko1_8'], 'B92EFD3FC389451692B8674719155EE5');
+    unflattenKeylistIntoAnswers(['ar', 'ie10'], 'B92EFD3FC389451692B8674719155EE5' + ':1');
+    unflattenKeylistIntoAnswers(['default', 'gecko1_8'], 'B92EFD3FC389451692B8674719155EE5' + ':10');
+    unflattenKeylistIntoAnswers(['default', 'ie10'], 'B92EFD3FC389451692B8674719155EE5' + ':11');
+    unflattenKeylistIntoAnswers(['default', 'ie8'], 'B92EFD3FC389451692B8674719155EE5' + ':12');
+    unflattenKeylistIntoAnswers(['default', 'ie9'], 'B92EFD3FC389451692B8674719155EE5' + ':13');
+    unflattenKeylistIntoAnswers(['default', 'safari'], 'B92EFD3FC389451692B8674719155EE5' + ':14');
+    unflattenKeylistIntoAnswers(['en', 'gecko1_8'], 'B92EFD3FC389451692B8674719155EE5' + ':15');
+    unflattenKeylistIntoAnswers(['en', 'ie10'], 'B92EFD3FC389451692B8674719155EE5' + ':16');
+    unflattenKeylistIntoAnswers(['en', 'ie8'], 'B92EFD3FC389451692B8674719155EE5' + ':17');
+    unflattenKeylistIntoAnswers(['en', 'ie9'], 'B92EFD3FC389451692B8674719155EE5' + ':18');
+    unflattenKeylistIntoAnswers(['en', 'safari'], 'B92EFD3FC389451692B8674719155EE5' + ':19');
+    unflattenKeylistIntoAnswers(['ar', 'ie8'], 'B92EFD3FC389451692B8674719155EE5' + ':2');
+    unflattenKeylistIntoAnswers(['pt', 'gecko1_8'], 'B92EFD3FC389451692B8674719155EE5' + ':20');
+    unflattenKeylistIntoAnswers(['pt', 'ie10'], 'B92EFD3FC389451692B8674719155EE5' + ':21');
+    unflattenKeylistIntoAnswers(['pt', 'ie8'], 'B92EFD3FC389451692B8674719155EE5' + ':22');
+    unflattenKeylistIntoAnswers(['pt', 'ie9'], 'B92EFD3FC389451692B8674719155EE5' + ':23');
+    unflattenKeylistIntoAnswers(['pt', 'safari'], 'B92EFD3FC389451692B8674719155EE5' + ':24');
+    unflattenKeylistIntoAnswers(['ru', 'gecko1_8'], 'B92EFD3FC389451692B8674719155EE5' + ':25');
+    unflattenKeylistIntoAnswers(['ru', 'ie10'], 'B92EFD3FC389451692B8674719155EE5' + ':26');
+    unflattenKeylistIntoAnswers(['ru', 'ie8'], 'B92EFD3FC389451692B8674719155EE5' + ':27');
+    unflattenKeylistIntoAnswers(['ru', 'ie9'], 'B92EFD3FC389451692B8674719155EE5' + ':28');
+    unflattenKeylistIntoAnswers(['ru', 'safari'], 'B92EFD3FC389451692B8674719155EE5' + ':29');
+    unflattenKeylistIntoAnswers(['ar', 'ie9'], 'B92EFD3FC389451692B8674719155EE5' + ':3');
+    unflattenKeylistIntoAnswers(['ar', 'safari'], 'B92EFD3FC389451692B8674719155EE5' + ':4');
+    unflattenKeylistIntoAnswers(['cn', 'gecko1_8'], 'B92EFD3FC389451692B8674719155EE5' + ':5');
+    unflattenKeylistIntoAnswers(['cn', 'ie10'], 'B92EFD3FC389451692B8674719155EE5' + ':6');
+    unflattenKeylistIntoAnswers(['cn', 'ie8'], 'B92EFD3FC389451692B8674719155EE5' + ':7');
+    unflattenKeylistIntoAnswers(['cn', 'ie9'], 'B92EFD3FC389451692B8674719155EE5' + ':8');
+    unflattenKeylistIntoAnswers(['cn', 'safari'], 'B92EFD3FC389451692B8674719155EE5' + ':9');
     strongName = answers[computePropValue('locale')][computePropValue('user.agent')];
     var idx = strongName.indexOf(':');
     if (idx != -1) {
@@ -317,7 +317,7 @@ function actor(){
 }
 
 actor();
-(function () {var $gwt_version = "2.7.0";var $wnd = window;var $doc = $wnd.document;var $moduleName, $moduleBase;var $stats = $wnd.__gwtStatsEvent ? function(a) {$wnd.__gwtStatsEvent(a)} : null;var $strongName = '71227D75C335C5EE840CE17EDB73C1C0';var $intern_0 = 2147483647, $intern_1 = {4:1, 18:1}, $intern_2 = {4:1, 11:1, 18:1}, $intern_3 = {4:1}, $intern_4 = 1000, $intern_5 = 65535, $intern_6 = 4194303, $intern_7 = 1048575, $intern_8 = 524288, $intern_9 = 4194304, $intern_10 = 17592186044416, $intern_11 = -9223372036854775808, $intern_12 = {426:1}, $intern_13 = 65536, $intern_14 = 131072, $intern_15 = 1048576, $intern_16 = 16777216, $intern_17 = 67108864, $intern_18 = {3:1}, $intern_19 = 1487, $intern_20 = 1512, $intern_21 = 1490, $intern_22 = 1514, $intern_23 = 1502, $intern_24 = 1023, $intern_25 = 1473, $intern_26 = {9:1}, $intern_27 = {69:1}, $intern_28 = 1476, $intern_29 = {43:1, 4:1}, $intern_30 = {30:1}, $intern_31 = 5.9604644775390625E-8, $intern_32 = {149:1}, $intern_33 = {4:1, 49:1, 91:1}, $intern_34 = {5:1, 4:1, 11:1, 18:1}, $intern_35 = 1.52587890625E-5, $intern_36 = 9.5367431640625E-7, $intern_37 = 2.220446049250313E-16, $intern_38 = {139:1}, $intern_39 = {90:1}, $intern_40 = {93:1, 55:1}, $intern_41 = {93:1, 103:1, 55:1}, $intern_42 = {4:1, 139:1}, $intern_43 = 15525485, $intern_44 = {4:1, 27:1, 12:1, 73:1}, $intern_45 = 1470;
+(function () {var $gwt_version = "2.7.0";var $wnd = window;var $doc = $wnd.document;var $moduleName, $moduleBase;var $stats = $wnd.__gwtStatsEvent ? function(a) {$wnd.__gwtStatsEvent(a)} : null;var $strongName = 'B92EFD3FC389451692B8674719155EE5';var $intern_0 = 2147483647, $intern_1 = {4:1, 18:1}, $intern_2 = {4:1, 11:1, 18:1}, $intern_3 = {4:1}, $intern_4 = 1000, $intern_5 = 65535, $intern_6 = 4194303, $intern_7 = 1048575, $intern_8 = 524288, $intern_9 = 4194304, $intern_10 = 17592186044416, $intern_11 = -9223372036854775808, $intern_12 = {426:1}, $intern_13 = 65536, $intern_14 = 131072, $intern_15 = 1048576, $intern_16 = 16777216, $intern_17 = 67108864, $intern_18 = {3:1}, $intern_19 = 1487, $intern_20 = 1512, $intern_21 = 1490, $intern_22 = 1514, $intern_23 = 1502, $intern_24 = 1023, $intern_25 = 1473, $intern_26 = {9:1}, $intern_27 = {69:1}, $intern_28 = 1476, $intern_29 = {43:1, 4:1}, $intern_30 = {30:1}, $intern_31 = 5.9604644775390625E-8, $intern_32 = {149:1}, $intern_33 = {4:1, 49:1, 91:1}, $intern_34 = {5:1, 4:1, 11:1, 18:1}, $intern_35 = 1.52587890625E-5, $intern_36 = 9.5367431640625E-7, $intern_37 = 2.220446049250313E-16, $intern_38 = {139:1}, $intern_39 = {90:1}, $intern_40 = {93:1, 55:1}, $intern_41 = {93:1, 103:1, 55:1}, $intern_42 = {4:1, 139:1}, $intern_43 = 15525485, $intern_44 = {4:1, 27:1, 12:1, 73:1}, $intern_45 = 1470;
 var _, initFnList_0, prototypesByTypeId_0 = {}, permutationId = -1;
 function im_actor_core_js_providers_Assets(){
   switch (permutationId) {
@@ -21402,18 +21402,6 @@ function create_10(rid, sortKey, sender, isOut, date, fullDate, state, isOnServe
 }
 
 var CONVERTER_1;
-function $buildOverlay(prev, current){
-  var currentDate, dateDiv, prevDate, showDate, useCompact;
-  prevDate = prev?new Date_1(prev.date):null;
-  currentDate = new Date_1(current.date);
-  dateDiv = null;
-  prev?(showDate = ($clinit_CalendarUtil() , !(prevDate.jsdate.getFullYear() - 1900 == currentDate.jsdate.getFullYear() - 1900 && prevDate.jsdate.getMonth() == currentDate.jsdate.getMonth() && prevDate.jsdate.getDate() == currentDate.jsdate.getDate()))):(showDate = true);
-  showDate && (dateDiv = $formatMonth_0(instance_1.modules_0.i18nEngine, currentDate));
-  useCompact = false;
-  !!prev && !showDate && prev.senderId == current.senderId && lt(sub_0(prev.date, current.date), {l:600000, m:0, h:0}) && (useCompact = true);
-  return {useShort:useCompact, dateDivider:dateDiv};
-}
-
 function $convert(value_0){
   var content_0, date, fullDate, i_0, i$iterator, isOnServer, isOut, isOwnSet, messenger, r, r$iterator, reactions, rid, sender, sortKey, uids;
   messenger = instance_1;
@@ -21445,7 +21433,8 @@ function JsMessage$1(){
 
 defineClass(576, 1, {}, JsMessage$1);
 _.buildOverlay = function buildOverlay_1(prev, current, next){
-  return $buildOverlay(prev, current, next);
+  var nextDate, currentDate, dateDiv, showDate, useCompact;
+  return nextDate = next?new Date_1(next.date):null , currentDate = new Date_1(current.date) , dateDiv = null , next?(showDate = ($clinit_CalendarUtil() , !(nextDate.jsdate.getFullYear() - 1900 == currentDate.jsdate.getFullYear() - 1900 && nextDate.jsdate.getMonth() == currentDate.jsdate.getMonth() && nextDate.jsdate.getDate() == currentDate.jsdate.getDate()))):(showDate = true) , showDate && (dateDiv = $formatMonth_0(instance_1.modules_0.i18nEngine, currentDate)) , useCompact = false , !!next && !showDate && next.senderId == current.senderId && lt(sub_0(next.date, current.date), {l:600000, m:0, h:0}) && (useCompact = true) , {useShort:useCompact, dateDivider:dateDiv};
 }
 ;
 _.convert = function convert_3(value_0){
@@ -40311,17 +40300,22 @@ function $notifySubscribers(this$static){
     }
   }
   if (this$static.callbacksInverted.size_1() > 0) {
+    log_1($format(dateTimeFormat, new Date_0, null) + '[D] ' + 'JsDisplayList' + ':' + 'notifySubscribers:inverted');
     rev_0 = $reverse(this$static.jsValues);
     if (this$static.isOverlaysSupported) {
+      log_1($format(dateTimeFormat, new Date_0, null) + '[D] ' + 'JsDisplayList' + ':' + 'notifySubscribers:inverted:isOverlaysSupported');
       revOverlays = $reverse(this$static.jsOverlays);
       for (callback$iterator = new AbstractList$IteratorImpl(this$static.callbacksInverted); callback$iterator.i < callback$iterator.this$01.size_1();) {
         callback = (checkCriticalElement(callback$iterator.i < callback$iterator.this$01.size_1()) , callback$iterator.this$01.get_0(callback$iterator.last = callback$iterator.i++));
+        log_1($format(dateTimeFormat, new Date_0, null) + '[D] ' + 'JsDisplayList' + ':' + 'notifySubscribers:inverted:isOverlaysSupported:item');
         $invoke_2(callback.jso, rev_0, revOverlays);
       }
     }
      else {
+      log_1($format(dateTimeFormat, new Date_0, null) + '[D] ' + 'JsDisplayList' + ':' + 'notifySubscribers:inverted:isOverlaysSupported:false');
       for (callback$iterator = new AbstractList$IteratorImpl(this$static.callbacksInverted); callback$iterator.i < callback$iterator.this$01.size_1();) {
         callback = (checkCriticalElement(callback$iterator.i < callback$iterator.this$01.size_1()) , callback$iterator.this$01.get_0(callback$iterator.last = callback$iterator.i++));
+        log_1($format(dateTimeFormat, new Date_0, null) + '[D] ' + 'JsDisplayList' + ':' + 'notifySubscribers:inverted:isOverlaysSupported:false:item');
         $invoke_2(callback.jso, rev_0, null);
       }
     }
