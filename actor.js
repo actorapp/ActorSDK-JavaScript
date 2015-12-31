@@ -249,36 +249,36 @@ function actor(){
   processMetas();
   try {
     var strongName;
-    unflattenKeylistIntoAnswers(['ar', 'gecko1_8'], '0133AAE3AAE7447A2835305737D7B29C');
-    unflattenKeylistIntoAnswers(['ar', 'ie10'], '0133AAE3AAE7447A2835305737D7B29C' + ':1');
-    unflattenKeylistIntoAnswers(['default', 'gecko1_8'], '0133AAE3AAE7447A2835305737D7B29C' + ':10');
-    unflattenKeylistIntoAnswers(['default', 'ie10'], '0133AAE3AAE7447A2835305737D7B29C' + ':11');
-    unflattenKeylistIntoAnswers(['default', 'ie8'], '0133AAE3AAE7447A2835305737D7B29C' + ':12');
-    unflattenKeylistIntoAnswers(['default', 'ie9'], '0133AAE3AAE7447A2835305737D7B29C' + ':13');
-    unflattenKeylistIntoAnswers(['default', 'safari'], '0133AAE3AAE7447A2835305737D7B29C' + ':14');
-    unflattenKeylistIntoAnswers(['en', 'gecko1_8'], '0133AAE3AAE7447A2835305737D7B29C' + ':15');
-    unflattenKeylistIntoAnswers(['en', 'ie10'], '0133AAE3AAE7447A2835305737D7B29C' + ':16');
-    unflattenKeylistIntoAnswers(['en', 'ie8'], '0133AAE3AAE7447A2835305737D7B29C' + ':17');
-    unflattenKeylistIntoAnswers(['en', 'ie9'], '0133AAE3AAE7447A2835305737D7B29C' + ':18');
-    unflattenKeylistIntoAnswers(['en', 'safari'], '0133AAE3AAE7447A2835305737D7B29C' + ':19');
-    unflattenKeylistIntoAnswers(['ar', 'ie8'], '0133AAE3AAE7447A2835305737D7B29C' + ':2');
-    unflattenKeylistIntoAnswers(['pt', 'gecko1_8'], '0133AAE3AAE7447A2835305737D7B29C' + ':20');
-    unflattenKeylistIntoAnswers(['pt', 'ie10'], '0133AAE3AAE7447A2835305737D7B29C' + ':21');
-    unflattenKeylistIntoAnswers(['pt', 'ie8'], '0133AAE3AAE7447A2835305737D7B29C' + ':22');
-    unflattenKeylistIntoAnswers(['pt', 'ie9'], '0133AAE3AAE7447A2835305737D7B29C' + ':23');
-    unflattenKeylistIntoAnswers(['pt', 'safari'], '0133AAE3AAE7447A2835305737D7B29C' + ':24');
-    unflattenKeylistIntoAnswers(['ru', 'gecko1_8'], '0133AAE3AAE7447A2835305737D7B29C' + ':25');
-    unflattenKeylistIntoAnswers(['ru', 'ie10'], '0133AAE3AAE7447A2835305737D7B29C' + ':26');
-    unflattenKeylistIntoAnswers(['ru', 'ie8'], '0133AAE3AAE7447A2835305737D7B29C' + ':27');
-    unflattenKeylistIntoAnswers(['ru', 'ie9'], '0133AAE3AAE7447A2835305737D7B29C' + ':28');
-    unflattenKeylistIntoAnswers(['ru', 'safari'], '0133AAE3AAE7447A2835305737D7B29C' + ':29');
-    unflattenKeylistIntoAnswers(['ar', 'ie9'], '0133AAE3AAE7447A2835305737D7B29C' + ':3');
-    unflattenKeylistIntoAnswers(['ar', 'safari'], '0133AAE3AAE7447A2835305737D7B29C' + ':4');
-    unflattenKeylistIntoAnswers(['cn', 'gecko1_8'], '0133AAE3AAE7447A2835305737D7B29C' + ':5');
-    unflattenKeylistIntoAnswers(['cn', 'ie10'], '0133AAE3AAE7447A2835305737D7B29C' + ':6');
-    unflattenKeylistIntoAnswers(['cn', 'ie8'], '0133AAE3AAE7447A2835305737D7B29C' + ':7');
-    unflattenKeylistIntoAnswers(['cn', 'ie9'], '0133AAE3AAE7447A2835305737D7B29C' + ':8');
-    unflattenKeylistIntoAnswers(['cn', 'safari'], '0133AAE3AAE7447A2835305737D7B29C' + ':9');
+    unflattenKeylistIntoAnswers(['ar', 'gecko1_8'], '6702197735EA5F7D8C1CD49733DD1E93');
+    unflattenKeylistIntoAnswers(['ar', 'ie10'], '6702197735EA5F7D8C1CD49733DD1E93' + ':1');
+    unflattenKeylistIntoAnswers(['default', 'gecko1_8'], '6702197735EA5F7D8C1CD49733DD1E93' + ':10');
+    unflattenKeylistIntoAnswers(['default', 'ie10'], '6702197735EA5F7D8C1CD49733DD1E93' + ':11');
+    unflattenKeylistIntoAnswers(['default', 'ie8'], '6702197735EA5F7D8C1CD49733DD1E93' + ':12');
+    unflattenKeylistIntoAnswers(['default', 'ie9'], '6702197735EA5F7D8C1CD49733DD1E93' + ':13');
+    unflattenKeylistIntoAnswers(['default', 'safari'], '6702197735EA5F7D8C1CD49733DD1E93' + ':14');
+    unflattenKeylistIntoAnswers(['en', 'gecko1_8'], '6702197735EA5F7D8C1CD49733DD1E93' + ':15');
+    unflattenKeylistIntoAnswers(['en', 'ie10'], '6702197735EA5F7D8C1CD49733DD1E93' + ':16');
+    unflattenKeylistIntoAnswers(['en', 'ie8'], '6702197735EA5F7D8C1CD49733DD1E93' + ':17');
+    unflattenKeylistIntoAnswers(['en', 'ie9'], '6702197735EA5F7D8C1CD49733DD1E93' + ':18');
+    unflattenKeylistIntoAnswers(['en', 'safari'], '6702197735EA5F7D8C1CD49733DD1E93' + ':19');
+    unflattenKeylistIntoAnswers(['ar', 'ie8'], '6702197735EA5F7D8C1CD49733DD1E93' + ':2');
+    unflattenKeylistIntoAnswers(['pt', 'gecko1_8'], '6702197735EA5F7D8C1CD49733DD1E93' + ':20');
+    unflattenKeylistIntoAnswers(['pt', 'ie10'], '6702197735EA5F7D8C1CD49733DD1E93' + ':21');
+    unflattenKeylistIntoAnswers(['pt', 'ie8'], '6702197735EA5F7D8C1CD49733DD1E93' + ':22');
+    unflattenKeylistIntoAnswers(['pt', 'ie9'], '6702197735EA5F7D8C1CD49733DD1E93' + ':23');
+    unflattenKeylistIntoAnswers(['pt', 'safari'], '6702197735EA5F7D8C1CD49733DD1E93' + ':24');
+    unflattenKeylistIntoAnswers(['ru', 'gecko1_8'], '6702197735EA5F7D8C1CD49733DD1E93' + ':25');
+    unflattenKeylistIntoAnswers(['ru', 'ie10'], '6702197735EA5F7D8C1CD49733DD1E93' + ':26');
+    unflattenKeylistIntoAnswers(['ru', 'ie8'], '6702197735EA5F7D8C1CD49733DD1E93' + ':27');
+    unflattenKeylistIntoAnswers(['ru', 'ie9'], '6702197735EA5F7D8C1CD49733DD1E93' + ':28');
+    unflattenKeylistIntoAnswers(['ru', 'safari'], '6702197735EA5F7D8C1CD49733DD1E93' + ':29');
+    unflattenKeylistIntoAnswers(['ar', 'ie9'], '6702197735EA5F7D8C1CD49733DD1E93' + ':3');
+    unflattenKeylistIntoAnswers(['ar', 'safari'], '6702197735EA5F7D8C1CD49733DD1E93' + ':4');
+    unflattenKeylistIntoAnswers(['cn', 'gecko1_8'], '6702197735EA5F7D8C1CD49733DD1E93' + ':5');
+    unflattenKeylistIntoAnswers(['cn', 'ie10'], '6702197735EA5F7D8C1CD49733DD1E93' + ':6');
+    unflattenKeylistIntoAnswers(['cn', 'ie8'], '6702197735EA5F7D8C1CD49733DD1E93' + ':7');
+    unflattenKeylistIntoAnswers(['cn', 'ie9'], '6702197735EA5F7D8C1CD49733DD1E93' + ':8');
+    unflattenKeylistIntoAnswers(['cn', 'safari'], '6702197735EA5F7D8C1CD49733DD1E93' + ':9');
     strongName = answers[computePropValue('locale')][computePropValue('user.agent')];
     var idx = strongName.indexOf(':');
     if (idx != -1) {
@@ -317,7 +317,7 @@ function actor(){
 }
 
 actor();
-(function () {var $gwt_version = "2.7.0";var $wnd = window;var $doc = $wnd.document;var $moduleName, $moduleBase;var $stats = $wnd.__gwtStatsEvent ? function(a) {$wnd.__gwtStatsEvent(a)} : null;var $strongName = '0133AAE3AAE7447A2835305737D7B29C';var $intern_0 = 2147483647, $intern_1 = {4:1, 18:1}, $intern_2 = {4:1, 11:1, 18:1}, $intern_3 = {4:1}, $intern_4 = 1000, $intern_5 = 65535, $intern_6 = 4194303, $intern_7 = 1048575, $intern_8 = 524288, $intern_9 = 4194304, $intern_10 = 17592186044416, $intern_11 = -9223372036854775808, $intern_12 = {426:1}, $intern_13 = 65536, $intern_14 = 131072, $intern_15 = 1048576, $intern_16 = 16777216, $intern_17 = 67108864, $intern_18 = {3:1}, $intern_19 = 1487, $intern_20 = 1512, $intern_21 = 1490, $intern_22 = 1514, $intern_23 = 1502, $intern_24 = 1023, $intern_25 = 1473, $intern_26 = {9:1}, $intern_27 = {69:1}, $intern_28 = 1476, $intern_29 = {43:1, 4:1}, $intern_30 = {30:1}, $intern_31 = 5.9604644775390625E-8, $intern_32 = {149:1}, $intern_33 = {4:1, 49:1, 91:1}, $intern_34 = {5:1, 4:1, 11:1, 18:1}, $intern_35 = 1.52587890625E-5, $intern_36 = 9.5367431640625E-7, $intern_37 = 2.220446049250313E-16, $intern_38 = {139:1}, $intern_39 = {90:1}, $intern_40 = {93:1, 55:1}, $intern_41 = {93:1, 103:1, 55:1}, $intern_42 = {4:1, 139:1}, $intern_43 = 15525485, $intern_44 = {4:1, 27:1, 12:1, 73:1}, $intern_45 = 1470;
+(function () {var $gwt_version = "2.7.0";var $wnd = window;var $doc = $wnd.document;var $moduleName, $moduleBase;var $stats = $wnd.__gwtStatsEvent ? function(a) {$wnd.__gwtStatsEvent(a)} : null;var $strongName = '6702197735EA5F7D8C1CD49733DD1E93';var $intern_0 = 2147483647, $intern_1 = {4:1, 18:1}, $intern_2 = {4:1, 11:1, 18:1}, $intern_3 = {4:1}, $intern_4 = 1000, $intern_5 = 65535, $intern_6 = 4194303, $intern_7 = 1048575, $intern_8 = 524288, $intern_9 = 4194304, $intern_10 = 17592186044416, $intern_11 = -9223372036854775808, $intern_12 = {426:1}, $intern_13 = 65536, $intern_14 = 131072, $intern_15 = 1048576, $intern_16 = 16777216, $intern_17 = 67108864, $intern_18 = {3:1}, $intern_19 = 1487, $intern_20 = 1512, $intern_21 = 1490, $intern_22 = 1514, $intern_23 = 1502, $intern_24 = 1023, $intern_25 = 1473, $intern_26 = {9:1}, $intern_27 = {69:1}, $intern_28 = 1476, $intern_29 = {43:1, 4:1}, $intern_30 = {30:1}, $intern_31 = 5.9604644775390625E-8, $intern_32 = {149:1}, $intern_33 = {4:1, 49:1, 91:1}, $intern_34 = {5:1, 4:1, 11:1, 18:1}, $intern_35 = 1.52587890625E-5, $intern_36 = 9.5367431640625E-7, $intern_37 = 2.220446049250313E-16, $intern_38 = {139:1}, $intern_39 = {90:1}, $intern_40 = {93:1, 55:1}, $intern_41 = {93:1, 103:1, 55:1}, $intern_42 = {4:1, 139:1}, $intern_43 = 15525485, $intern_44 = {4:1, 27:1, 12:1, 73:1}, $intern_45 = 1470;
 var _, initFnList_0, prototypesByTypeId_0 = {}, permutationId = -1;
 function im_actor_core_js_providers_Assets(){
   switch (permutationId) {
@@ -910,11 +910,11 @@ function $fillInStackTrace(this$static){
 }
 
 function $printStackTrace(this$static, out){
-  var element, element$array, element$index, element$max, t, stackTrace;
+  var element, element$array, element$index, element$max, t;
   for (t = this$static; t; t = t.cause) {
     t != this$static && out.print_0('Caused by: ');
     out.println(t);
-    for (element$array = (t.stackTrace == null && (t.stackTrace = ($clinit_StackTraceCreator() , stackTrace = collector.getStackTrace(t) , dropInternalFrames(stackTrace))) , t.stackTrace) , element$index = 0 , element$max = element$array.length; element$index < element$max; ++element$index) {
+    for (element$array = (t.stackTrace == null && (t.stackTrace = constructJavaStackTrace(t)) , t.stackTrace) , element$index = 0 , element$max = element$array.length; element$index < element$max; ++element$index) {
       element = element$array[element$index];
       out.println_0('\tat ' + element);
     }
@@ -1308,6 +1308,13 @@ function $clinit_StackTraceCreator(){
 function captureStackTrace(throwable, reference){
   $clinit_StackTraceCreator();
   collector.collect(throwable, reference);
+}
+
+function constructJavaStackTrace(thrown){
+  $clinit_StackTraceCreator();
+  var stackTrace;
+  stackTrace = collector.getStackTrace(thrown);
+  return dropInternalFrames(stackTrace);
 }
 
 function dropInternalFrames(stackTrace){
@@ -18730,7 +18737,7 @@ _.renderMarkdown_0 = function renderMarkdown(markdownText){
     if (instanceOf($e0, 11)) {
       e = $e0;
       $clinit_Log();
-      error_0($format(($clinit_JsLogProvider() , dateTimeFormat), new Date_0, null) + '[E] ' + 'Markdown' + ':' + e);
+      $e('Markdown', e);
       return '[Error while processing text]';
     }
      else 
@@ -18753,7 +18760,7 @@ _.requestSms_0 = function requestSms(phone, success, error){
     if (instanceOf($e0, 11)) {
       e = $e0;
       $clinit_Log();
-      error_0($format(($clinit_JsLogProvider() , dateTimeFormat), new Date_0, null) + '[E] ' + 'JsMessenger' + ':' + e);
+      $e('JsMessenger', e);
       $postToMainThread(new JsFacade$3(this, error));
     }
      else 
@@ -18786,7 +18793,8 @@ _.sendCode_0 = function sendCode(code_0, success, error){
     $e0 = wrap($e0);
     if (instanceOf($e0, 11)) {
       e = $e0;
-      $printStackTrace(e, ($clinit_System() , err));
+      $clinit_Log();
+      $e('JsMessenger', e);
       $postToMainThread(new JsFacade$6(this, error));
     }
      else 
@@ -18947,7 +18955,7 @@ _.execute_0 = function execute_3(){
 var Lim_actor_core_js_JsFacade$10_2_classLit = createForClass('im.actor.core.js', 'JsFacade/10', 711, Lim_actor_runtime_js_utils_JsPromiseExecutor_2_classLit);
 function $onError(this$static, e){
   $clinit_Log();
-  error_0($format(($clinit_JsLogProvider() , dateTimeFormat), new Date_0, null) + '[E] ' + 'JsMessenger' + ':' + e);
+  $e('JsMessenger', e);
   $reject(this$static.this$11, e.message_0);
 }
 
@@ -19579,7 +19587,7 @@ _.val$gid2 = 0;
 var Lim_actor_core_js_JsFacade$27_2_classLit = createForClass('im.actor.core.js', 'JsFacade/27', 745, Lim_actor_runtime_js_utils_JsPromiseExecutor_2_classLit);
 function $onError_13(this$static, e){
   $clinit_Log();
-  error_0($format(($clinit_JsLogProvider() , dateTimeFormat), new Date_0, null) + '[E] ' + 'JsMessenger' + ':' + e);
+  $e('JsMessenger', e);
   $reject(this$static.this$11, e.message_0);
 }
 
@@ -20224,7 +20232,7 @@ _.execute_0 = function execute_34(){
 var Lim_actor_core_js_JsFacade$8_2_classLit = createForClass('im.actor.core.js', 'JsFacade/8', 707, Lim_actor_runtime_js_utils_JsPromiseExecutor_2_classLit);
 function $onError_29(this$static, e){
   $clinit_Log();
-  error_0($format(($clinit_JsLogProvider() , dateTimeFormat), new Date_0, null) + '[E] ' + 'JsMessenger' + ':' + e);
+  $e('JsMessenger', e);
   $reject(this$static.this$11, e.message_0);
 }
 
@@ -20266,7 +20274,7 @@ _.val$id2 = 0;
 var Lim_actor_core_js_JsFacade$9_2_classLit = createForClass('im.actor.core.js', 'JsFacade/9', 709, Lim_actor_runtime_js_utils_JsPromiseExecutor_2_classLit);
 function $onError_30(this$static, e){
   $clinit_Log();
-  error_0($format(($clinit_JsLogProvider() , dateTimeFormat), new Date_0, null) + '[E] ' + 'JsMessenger' + ':' + e);
+  $e('JsMessenger', e);
   $reject(this$static.this$11, e.message_0);
 }
 
@@ -22238,7 +22246,8 @@ function $deserialize(data_0){
     $e0 = wrap($e0);
     if (instanceOf($e0, 5)) {
       e = $e0;
-      $printStackTrace(e, ($clinit_System() , err));
+      $clinit_Log();
+      $e('JsFilesModule', e);
       return null;
     }
      else 
@@ -22381,7 +22390,7 @@ defineClass(1006, 1, {}, JsFilesModule$FileBinderActor$1);
 _.onError_2 = function onError_37(e){
   this.this$11.isLoading = false;
   $clinit_Log();
-  error_0($format(($clinit_JsLogProvider() , dateTimeFormat), new Date_0, null) + '[E] ' + 'JsFilesModule' + ':' + e);
+  $e('JsFilesModule', e);
   this.this$11.isLoading = false;
   $sendOnce_0(this.this$11.context_0.actorScope.actorRef, new JsFilesModule$FileBinderActor$PerformLoad, {l:200, m:0, h:0});
 }
@@ -28050,7 +28059,7 @@ _.create_0 = function create_43(){
 ;
 var Lim_actor_core_modules_internal_SettingsModule$1_2_classLit = createForClass('im.actor.core.modules.internal', 'SettingsModule/1', 873, Ljava_lang_Object_2_classLit);
 function $buildStickerPacks(this$static){
-  var add_0, apiCollection, apiCollection$iterator, e, existingVM, existingVM$iterator, remove, update, vms;
+  var add_0, apiCollection, apiCollection$iterator, existingVM, existingVM$iterator, remove, update, vms;
   vms = new ArrayList_0(this$static.stickerPacks.get_1());
   remove = new ArrayList_0(vms);
   try {
@@ -28074,11 +28083,7 @@ function $buildStickerPacks(this$static){
   }
    catch ($e0) {
     $e0 = wrap($e0);
-    if (instanceOf($e0, 11)) {
-      e = $e0;
-      $printStackTrace(e, ($clinit_System() , err));
-    }
-     else 
+    if (!instanceOf($e0, 11))
       throw unwrap($e0);
   }
   return vms;
@@ -30529,9 +30534,17 @@ function $buildPeerDesc(this$static, peer){
   switch (peer.peerType.ordinal) {
     case 0:
       u = $getUser_1(this$static, peer.peerId);
+      if (!u) {
+        return null;
+      }
+
       return new DialogsActor$PeerDesc(u.localName == null?u.name_0:u.localName, u.avatar);
     case 1:
       g = $getGroup_1(this$static, peer.peerId);
+      if (!g) {
+        return null;
+      }
+
       return new DialogsActor$PeerDesc(g.title_0, g.avatar);
     default:return null;
   }
@@ -30933,7 +30946,7 @@ function $applyGroups(this$static, dialogGroups){
 }
 
 function $notifyVM(this$static){
-  var dialogSmalls, groups, i_0, i$iterator, p_0, p$iterator, spec;
+  var dialogSmalls, group, groups, i_0, i$iterator, p_0, p$iterator, spec, user;
   groups = new ArrayList;
   for (i$iterator = new AbstractList$IteratorImpl(this$static.storage.groups); i$iterator.i < i$iterator.this$01.size_1();) {
     i_0 = (checkCriticalElement(i$iterator.i < i$iterator.this$01.size_1()) , i$iterator.this$01.get_0(i$iterator.last = i$iterator.i++));
@@ -30942,10 +30955,16 @@ function $notifyVM(this$static){
       p_0 = (checkCriticalElement(p$iterator.i < p$iterator.this$01.size_1()) , p$iterator.this$01.get_0(p$iterator.last = p$iterator.i++));
       spec = $getValue_1(this$static.specs.proxyKeyValueEngine, $getUnuqueId(p_0));
       if (p_0.peerType == ($clinit_PeerType() , GROUP_0)) {
-        $getGroup_1(this$static, p_0.peerId);
+        group = $getGroup_1(this$static, p_0.peerId);
+        if (!group) {
+          continue;
+        }
       }
        else if (p_0.peerType == PRIVATE_0) {
-        $getUser_1(this$static, p_0.peerId);
+        user = $getUser_1(this$static, p_0.peerId);
+        if (!user) {
+          continue;
+        }
       }
        else {
         continue;
@@ -36855,8 +36874,7 @@ function $clinit_MTUids(){
 var NEXT_ID_0;
 function $onActorDie(ref, envelope, e){
   w_0('ACTOR_SYSTEM', 'Die(' + ref.path + ') by ' + envelope.message_0);
-  $clinit_Log();
-  error_0($format(($clinit_JsLogProvider() , dateTimeFormat), new Date_0, null) + '[E] ' + 'ACTOR_SYSTEM' + ':' + e);
+  $printStackTrace(e, ($clinit_System() , err));
 }
 
 function $onEnvelopeProcessed(envelope, duration){
@@ -40127,8 +40145,17 @@ function $clinit_JsLogProvider(){
   dateTimeFormat = ($clinit_DateTimeFormat_0() , getFormat($getDateTimeFormatInfo(($clinit_LocaleInfo() , $clinit_LocaleInfo() , instance_0))));
 }
 
+function $e(tag, throwable){
+  var element, element$array, element$index, element$max, stackTrace;
+  stackTrace = '';
+  for (element$array = (throwable.stackTrace == null && (throwable.stackTrace = constructJavaStackTrace(throwable)) , throwable.stackTrace) , element$index = 0 , element$max = element$array.length; element$index < element$max; ++element$index) {
+    element = element$array[element$index];
+    stackTrace += element + '\n';
+  }
+  error_0($format(dateTimeFormat, new Date_0, null) + '[E] ' + tag + ':' + throwable + '\n' + stackTrace);
+}
+
 function error_0(message){
-  $clinit_JsLogProvider();
   window.console.error(message);
 }
 
@@ -40617,7 +40644,8 @@ function JsIndexStorage(prefix, storage){
     $e0 = wrap($e0);
     if (instanceOf($e0, 11)) {
       e = $e0;
-      $printStackTrace(e, ($clinit_System() , err));
+      $clinit_Log();
+      $e('JsIndexStorage', e);
     }
      else 
       throw unwrap($e0);
@@ -40704,7 +40732,8 @@ function JsKeyValueStorage(prefix, storage){
     $e0 = wrap($e0);
     if (instanceOf($e0, 11)) {
       e = $e0;
-      $printStackTrace(e, ($clinit_System() , err));
+      $clinit_Log();
+      $e('JsKeyValueStorage', e);
     }
      else 
       throw unwrap($e0);
@@ -40730,7 +40759,7 @@ function $addOrUpdateItem_2(this$static, item_0){
         e = $e0;
         $clinit_Log();
         log_1($format(($clinit_JsLogProvider() , dateTimeFormat), new Date_0, null) + '[D] ' + 'JsListEngine' + ':' + 'Exception during update (addOrUpdateItem)');
-        $printStackTrace(e, ($clinit_System() , err));
+        $e('JsListEngine', e);
       }
        else 
         throw unwrap($e0);
@@ -40758,7 +40787,7 @@ function $addOrUpdateItems_1(this$static, items){
         e = $e0;
         $clinit_Log();
         log_1($format(($clinit_JsLogProvider() , dateTimeFormat), new Date_0, null) + '[D] ' + 'JsListEngine' + ':' + 'Exception during update (addOrUpdateItems)');
-        $printStackTrace(e, ($clinit_System() , err));
+        $e('JsListEngine', e);
       }
        else 
         throw unwrap($e0);
@@ -40781,7 +40810,7 @@ function $clear_2(this$static){
         e = $e0;
         $clinit_Log();
         log_1($format(($clinit_JsLogProvider() , dateTimeFormat), new Date_0, null) + '[D] ' + 'JsListEngine' + ':' + 'Exception during update (clear)');
-        $printStackTrace(e, ($clinit_System() , err));
+        $e('JsListEngine', e);
       }
        else 
         throw unwrap($e0);
@@ -40815,7 +40844,8 @@ function $getValue_0(this$static, key){
       if (instanceOf($e0, 5)) {
         e = $e0;
         d_0('JsListEngine', 'Unable to decode: ' + e.detailMessage);
-        $printStackTrace(e, ($clinit_System() , err));
+        $clinit_Log();
+        $e('JsListEngine', e);
       }
        else 
         throw unwrap($e0);
@@ -40841,7 +40871,7 @@ function $removeItem_3(this$static, key){
         e = $e0;
         $clinit_Log();
         log_1($format(($clinit_JsLogProvider() , dateTimeFormat), new Date_0, null) + '[D] ' + 'JsListEngine' + ':' + 'Exception during update (removeItem)');
-        $printStackTrace(e, ($clinit_System() , err));
+        $e('JsListEngine', e);
       }
        else 
         throw unwrap($e0);
@@ -40867,7 +40897,7 @@ function $removeItems(this$static, keys_0){
         e = $e0;
         $clinit_Log();
         log_1($format(($clinit_JsLogProvider() , dateTimeFormat), new Date_0, null) + '[D] ' + 'JsListEngine' + ':' + 'Exception during update (removeItems)');
-        $printStackTrace(e, ($clinit_System() , err));
+        $e('JsListEngine', e);
       }
        else 
         throw unwrap($e0);
@@ -40897,7 +40927,7 @@ function $replaceItems(this$static, items){
         e = $e0;
         $clinit_Log();
         log_1($format(($clinit_JsLogProvider() , dateTimeFormat), new Date_0, null) + '[D] ' + 'JsListEngine' + ':' + 'Exception during update (replaceItems)');
-        $printStackTrace(e, ($clinit_System() , err));
+        $e('JsListEngine', e);
       }
        else 
         throw unwrap($e0);
@@ -41060,7 +41090,8 @@ function JsListStorage(prefix, storage){
       $e0 = wrap($e0);
       if (instanceOf($e0, 11)) {
         e = $e0;
-        $printStackTrace(e, ($clinit_System() , err));
+        $clinit_Log();
+        $e('JsListStorage', e);
       }
        else 
         throw unwrap($e0);
