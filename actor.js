@@ -249,36 +249,36 @@ function actor(){
   processMetas();
   try {
     var strongName;
-    unflattenKeylistIntoAnswers(['ar', 'gecko1_8'], '3638D7E3C30FEC94BA77C12DA8170BEC');
-    unflattenKeylistIntoAnswers(['ar', 'ie10'], '3638D7E3C30FEC94BA77C12DA8170BEC' + ':1');
-    unflattenKeylistIntoAnswers(['default', 'gecko1_8'], '3638D7E3C30FEC94BA77C12DA8170BEC' + ':10');
-    unflattenKeylistIntoAnswers(['default', 'ie10'], '3638D7E3C30FEC94BA77C12DA8170BEC' + ':11');
-    unflattenKeylistIntoAnswers(['default', 'ie8'], '3638D7E3C30FEC94BA77C12DA8170BEC' + ':12');
-    unflattenKeylistIntoAnswers(['default', 'ie9'], '3638D7E3C30FEC94BA77C12DA8170BEC' + ':13');
-    unflattenKeylistIntoAnswers(['default', 'safari'], '3638D7E3C30FEC94BA77C12DA8170BEC' + ':14');
-    unflattenKeylistIntoAnswers(['en', 'gecko1_8'], '3638D7E3C30FEC94BA77C12DA8170BEC' + ':15');
-    unflattenKeylistIntoAnswers(['en', 'ie10'], '3638D7E3C30FEC94BA77C12DA8170BEC' + ':16');
-    unflattenKeylistIntoAnswers(['en', 'ie8'], '3638D7E3C30FEC94BA77C12DA8170BEC' + ':17');
-    unflattenKeylistIntoAnswers(['en', 'ie9'], '3638D7E3C30FEC94BA77C12DA8170BEC' + ':18');
-    unflattenKeylistIntoAnswers(['en', 'safari'], '3638D7E3C30FEC94BA77C12DA8170BEC' + ':19');
-    unflattenKeylistIntoAnswers(['ar', 'ie8'], '3638D7E3C30FEC94BA77C12DA8170BEC' + ':2');
-    unflattenKeylistIntoAnswers(['pt', 'gecko1_8'], '3638D7E3C30FEC94BA77C12DA8170BEC' + ':20');
-    unflattenKeylistIntoAnswers(['pt', 'ie10'], '3638D7E3C30FEC94BA77C12DA8170BEC' + ':21');
-    unflattenKeylistIntoAnswers(['pt', 'ie8'], '3638D7E3C30FEC94BA77C12DA8170BEC' + ':22');
-    unflattenKeylistIntoAnswers(['pt', 'ie9'], '3638D7E3C30FEC94BA77C12DA8170BEC' + ':23');
-    unflattenKeylistIntoAnswers(['pt', 'safari'], '3638D7E3C30FEC94BA77C12DA8170BEC' + ':24');
-    unflattenKeylistIntoAnswers(['ru', 'gecko1_8'], '3638D7E3C30FEC94BA77C12DA8170BEC' + ':25');
-    unflattenKeylistIntoAnswers(['ru', 'ie10'], '3638D7E3C30FEC94BA77C12DA8170BEC' + ':26');
-    unflattenKeylistIntoAnswers(['ru', 'ie8'], '3638D7E3C30FEC94BA77C12DA8170BEC' + ':27');
-    unflattenKeylistIntoAnswers(['ru', 'ie9'], '3638D7E3C30FEC94BA77C12DA8170BEC' + ':28');
-    unflattenKeylistIntoAnswers(['ru', 'safari'], '3638D7E3C30FEC94BA77C12DA8170BEC' + ':29');
-    unflattenKeylistIntoAnswers(['ar', 'ie9'], '3638D7E3C30FEC94BA77C12DA8170BEC' + ':3');
-    unflattenKeylistIntoAnswers(['ar', 'safari'], '3638D7E3C30FEC94BA77C12DA8170BEC' + ':4');
-    unflattenKeylistIntoAnswers(['cn', 'gecko1_8'], '3638D7E3C30FEC94BA77C12DA8170BEC' + ':5');
-    unflattenKeylistIntoAnswers(['cn', 'ie10'], '3638D7E3C30FEC94BA77C12DA8170BEC' + ':6');
-    unflattenKeylistIntoAnswers(['cn', 'ie8'], '3638D7E3C30FEC94BA77C12DA8170BEC' + ':7');
-    unflattenKeylistIntoAnswers(['cn', 'ie9'], '3638D7E3C30FEC94BA77C12DA8170BEC' + ':8');
-    unflattenKeylistIntoAnswers(['cn', 'safari'], '3638D7E3C30FEC94BA77C12DA8170BEC' + ':9');
+    unflattenKeylistIntoAnswers(['ar', 'gecko1_8'], 'D874862715B3C1B6F799F5BA946780FA');
+    unflattenKeylistIntoAnswers(['ar', 'ie10'], 'D874862715B3C1B6F799F5BA946780FA' + ':1');
+    unflattenKeylistIntoAnswers(['default', 'gecko1_8'], 'D874862715B3C1B6F799F5BA946780FA' + ':10');
+    unflattenKeylistIntoAnswers(['default', 'ie10'], 'D874862715B3C1B6F799F5BA946780FA' + ':11');
+    unflattenKeylistIntoAnswers(['default', 'ie8'], 'D874862715B3C1B6F799F5BA946780FA' + ':12');
+    unflattenKeylistIntoAnswers(['default', 'ie9'], 'D874862715B3C1B6F799F5BA946780FA' + ':13');
+    unflattenKeylistIntoAnswers(['default', 'safari'], 'D874862715B3C1B6F799F5BA946780FA' + ':14');
+    unflattenKeylistIntoAnswers(['en', 'gecko1_8'], 'D874862715B3C1B6F799F5BA946780FA' + ':15');
+    unflattenKeylistIntoAnswers(['en', 'ie10'], 'D874862715B3C1B6F799F5BA946780FA' + ':16');
+    unflattenKeylistIntoAnswers(['en', 'ie8'], 'D874862715B3C1B6F799F5BA946780FA' + ':17');
+    unflattenKeylistIntoAnswers(['en', 'ie9'], 'D874862715B3C1B6F799F5BA946780FA' + ':18');
+    unflattenKeylistIntoAnswers(['en', 'safari'], 'D874862715B3C1B6F799F5BA946780FA' + ':19');
+    unflattenKeylistIntoAnswers(['ar', 'ie8'], 'D874862715B3C1B6F799F5BA946780FA' + ':2');
+    unflattenKeylistIntoAnswers(['pt', 'gecko1_8'], 'D874862715B3C1B6F799F5BA946780FA' + ':20');
+    unflattenKeylistIntoAnswers(['pt', 'ie10'], 'D874862715B3C1B6F799F5BA946780FA' + ':21');
+    unflattenKeylistIntoAnswers(['pt', 'ie8'], 'D874862715B3C1B6F799F5BA946780FA' + ':22');
+    unflattenKeylistIntoAnswers(['pt', 'ie9'], 'D874862715B3C1B6F799F5BA946780FA' + ':23');
+    unflattenKeylistIntoAnswers(['pt', 'safari'], 'D874862715B3C1B6F799F5BA946780FA' + ':24');
+    unflattenKeylistIntoAnswers(['ru', 'gecko1_8'], 'D874862715B3C1B6F799F5BA946780FA' + ':25');
+    unflattenKeylistIntoAnswers(['ru', 'ie10'], 'D874862715B3C1B6F799F5BA946780FA' + ':26');
+    unflattenKeylistIntoAnswers(['ru', 'ie8'], 'D874862715B3C1B6F799F5BA946780FA' + ':27');
+    unflattenKeylistIntoAnswers(['ru', 'ie9'], 'D874862715B3C1B6F799F5BA946780FA' + ':28');
+    unflattenKeylistIntoAnswers(['ru', 'safari'], 'D874862715B3C1B6F799F5BA946780FA' + ':29');
+    unflattenKeylistIntoAnswers(['ar', 'ie9'], 'D874862715B3C1B6F799F5BA946780FA' + ':3');
+    unflattenKeylistIntoAnswers(['ar', 'safari'], 'D874862715B3C1B6F799F5BA946780FA' + ':4');
+    unflattenKeylistIntoAnswers(['cn', 'gecko1_8'], 'D874862715B3C1B6F799F5BA946780FA' + ':5');
+    unflattenKeylistIntoAnswers(['cn', 'ie10'], 'D874862715B3C1B6F799F5BA946780FA' + ':6');
+    unflattenKeylistIntoAnswers(['cn', 'ie8'], 'D874862715B3C1B6F799F5BA946780FA' + ':7');
+    unflattenKeylistIntoAnswers(['cn', 'ie9'], 'D874862715B3C1B6F799F5BA946780FA' + ':8');
+    unflattenKeylistIntoAnswers(['cn', 'safari'], 'D874862715B3C1B6F799F5BA946780FA' + ':9');
     strongName = answers[computePropValue('locale')][computePropValue('user.agent')];
     var idx = strongName.indexOf(':');
     if (idx != -1) {
@@ -317,7 +317,7 @@ function actor(){
 }
 
 actor();
-(function () {var $gwt_version = "2.7.0";var $wnd = window;var $doc = $wnd.document;var $moduleName, $moduleBase;var $stats = $wnd.__gwtStatsEvent ? function(a) {$wnd.__gwtStatsEvent(a)} : null;var $strongName = '3638D7E3C30FEC94BA77C12DA8170BEC';var $intern_0 = 2147483647, $intern_1 = {3:1, 22:1}, $intern_2 = {3:1, 15:1, 22:1}, $intern_3 = {3:1, 10:1}, $intern_4 = {3:1}, $intern_5 = 1000, $intern_6 = 65535, $intern_7 = 4194303, $intern_8 = 1048575, $intern_9 = 524288, $intern_10 = 4194304, $intern_11 = 17592186044416, $intern_12 = -9223372036854775808, $intern_13 = {456:1}, $intern_14 = 65536, $intern_15 = 131072, $intern_16 = 1048576, $intern_17 = 16777216, $intern_18 = 67108864, $intern_19 = {6:1}, $intern_20 = 1575, $intern_21 = 1600, $intern_22 = 1578, $intern_23 = 1603, $intern_24 = 1590, $intern_25 = 1023, $intern_26 = {3:1, 33:1}, $intern_27 = 1561, $intern_28 = {12:1}, $intern_29 = {73:1}, $intern_30 = 1564, $intern_31 = {4:1, 3:1}, $intern_32 = {13:1, 3:1}, $intern_33 = {25:1}, $intern_34 = 5.9604644775390625E-8, $intern_35 = {157:1}, $intern_36 = {3:1, 55:1, 97:1}, $intern_37 = {5:1, 3:1, 15:1, 22:1}, $intern_38 = {108:1, 3:1, 10:1}, $intern_39 = {281:1}, $intern_40 = 1.52587890625E-5, $intern_41 = 9.5367431640625E-7, $intern_42 = 2.220446049250313E-16, $intern_43 = {148:1}, $intern_44 = {96:1}, $intern_45 = {99:1, 59:1}, $intern_46 = {99:1, 111:1, 59:1}, $intern_47 = {3:1, 148:1}, $intern_48 = 15525485, $intern_49 = {3:1, 32:1, 17:1, 77:1}, $intern_50 = 1558;
+(function () {var $gwt_version = "2.7.0";var $wnd = window;var $doc = $wnd.document;var $moduleName, $moduleBase;var $stats = $wnd.__gwtStatsEvent ? function(a) {$wnd.__gwtStatsEvent(a)} : null;var $strongName = 'D874862715B3C1B6F799F5BA946780FA';var $intern_0 = 2147483647, $intern_1 = {3:1, 22:1}, $intern_2 = {3:1, 15:1, 22:1}, $intern_3 = {3:1, 10:1}, $intern_4 = {3:1}, $intern_5 = 1000, $intern_6 = 65535, $intern_7 = 4194303, $intern_8 = 1048575, $intern_9 = 524288, $intern_10 = 4194304, $intern_11 = 17592186044416, $intern_12 = -9223372036854775808, $intern_13 = {456:1}, $intern_14 = 65536, $intern_15 = 131072, $intern_16 = 1048576, $intern_17 = 16777216, $intern_18 = 67108864, $intern_19 = {6:1}, $intern_20 = 1575, $intern_21 = 1600, $intern_22 = 1578, $intern_23 = 1603, $intern_24 = 1590, $intern_25 = 1023, $intern_26 = {3:1, 33:1}, $intern_27 = 1561, $intern_28 = {12:1}, $intern_29 = {73:1}, $intern_30 = 1564, $intern_31 = {4:1, 3:1}, $intern_32 = {13:1, 3:1}, $intern_33 = {25:1}, $intern_34 = 5.9604644775390625E-8, $intern_35 = {157:1}, $intern_36 = {3:1, 55:1, 97:1}, $intern_37 = {5:1, 3:1, 15:1, 22:1}, $intern_38 = {108:1, 3:1, 10:1}, $intern_39 = {281:1}, $intern_40 = 1.52587890625E-5, $intern_41 = 9.5367431640625E-7, $intern_42 = 2.220446049250313E-16, $intern_43 = {148:1}, $intern_44 = {96:1}, $intern_45 = {99:1, 59:1}, $intern_46 = {99:1, 111:1, 59:1}, $intern_47 = {3:1, 148:1}, $intern_48 = 15525485, $intern_49 = {3:1, 32:1, 17:1, 77:1}, $intern_50 = 1558;
 var _, initFnList_0, prototypesByTypeId_0 = {}, permutationId = -1;
 function im_actor_core_js_providers_Assets(){
   switch (permutationId) {
@@ -19408,7 +19408,7 @@ function $convertSearchRes(this$static, res){
 }
 
 function $createGroup_0(this$static, title_0, file, uids){
-  return create_57(new JsFacade$28(this$static, file, title_0, uids));
+  return create_58(new JsFacade$28(this$static, file, title_0, uids));
 }
 
 function JsFacade(){
@@ -19455,11 +19455,11 @@ function JsFacade_0(endpoints){
 
 defineClass(152, 1, {204:1}, JsFacade, JsFacade_0);
 _.addContact_0 = function addContact(uid){
-  return create_57(new JsFacade$36(this, uid));
+  return create_58(new JsFacade$36(this, uid));
 }
 ;
 _.addLike_0 = function addLike(peer, rid){
-  return create_57(new JsFacade$37(this, peer, rid));
+  return create_58(new JsFacade$37(this, peer, rid));
 }
 ;
 _.bindChat_0 = function bindChat(peer, callback){
@@ -19578,11 +19578,11 @@ _.changeSoundEffectsEnabled_0 = function changeSoundEffectsEnabled(enabled){
 }
 ;
 _.clearChat_0 = function clearChat(peer){
-  return create_57(new JsFacade$12(this, peer));
+  return create_58(new JsFacade$12(this, peer));
 }
 ;
 _.deleteChat_0 = function deleteChat(peer){
-  return create_57(new JsFacade$11(this, peer));
+  return create_58(new JsFacade$11(this, peer));
 }
 ;
 _.deleteMessage_0 = function deleteMessage_0(peer, id_0){
@@ -19590,51 +19590,51 @@ _.deleteMessage_0 = function deleteMessage_0(peer, id_0){
 }
 ;
 _.editGroupAbout_0 = function editGroupAbout(gid, newAbout){
-  return create_57(new JsFacade$27(this, gid, newAbout));
+  return create_58(new JsFacade$27(this, gid, newAbout));
 }
 ;
 _.editGroupTitle_0 = function editGroupTitle(gid, newTitle){
-  return create_57(new JsFacade$26(this, gid, newTitle));
+  return create_58(new JsFacade$26(this, gid, newTitle));
 }
 ;
 _.editMyAbout_0 = function editMyAbout(newAbout){
-  return create_57(new JsFacade$18(this, newAbout));
+  return create_58(new JsFacade$18(this, newAbout));
 }
 ;
 _.editMyName_0 = function editMyName(newName){
-  return create_57(new JsFacade$16(this, newName));
+  return create_58(new JsFacade$16(this, newName));
 }
 ;
 _.editMyNick_0 = function editMyNick(newNick){
-  return create_57(new JsFacade$17(this, newNick));
+  return create_58(new JsFacade$17(this, newNick));
 }
 ;
 _.editName_0 = function editName(uid, newName){
-  return create_57(new JsFacade$24(this, uid, newName));
+  return create_58(new JsFacade$24(this, uid, newName));
 }
 ;
 _.favoriteChat_0 = function favoriteChat(peer){
-  return create_57(new JsFacade$14(this, peer));
+  return create_58(new JsFacade$14(this, peer));
 }
 ;
 _.findAllDocs_0 = function findAllDocs(peer){
-  return create_57(new JsFacade$21(this, peer));
+  return create_58(new JsFacade$21(this, peer));
 }
 ;
 _.findAllLinks_0 = function findAllLinks(peer){
-  return create_57(new JsFacade$22(this, peer));
+  return create_58(new JsFacade$22(this, peer));
 }
 ;
 _.findAllPhotos_0 = function findAllPhotos(peer){
-  return create_57(new JsFacade$20(this, peer));
+  return create_58(new JsFacade$20(this, peer));
 }
 ;
 _.findAllText_0 = function findAllText(peer, query){
-  return create_57(new JsFacade$19(this, peer, query));
+  return create_58(new JsFacade$19(this, peer, query));
 }
 ;
 _.findGroups_0 = function findGroups(){
-  return create_57(new JsFacade$23(this));
+  return create_58(new JsFacade$23(this));
 }
 ;
 _.findMentions_0 = function findMentions(gid, query){
@@ -19649,7 +19649,7 @@ _.findMentions_0 = function findMentions(gid, query){
 }
 ;
 _.findUsers_0 = function findUsers(query){
-  return create_57(new JsFacade$39(this, query));
+  return create_58(new JsFacade$39(this, query));
 }
 ;
 _.getAuthPhone_0 = function getAuthPhone(){
@@ -19669,11 +19669,11 @@ _.getGroupPeer_0 = function getGroupPeer(gid){
 }
 ;
 _.getIntegrationToken_0 = function getIntegrationToken(gid){
-  return create_57(new JsFacade$32(this, gid));
+  return create_58(new JsFacade$32(this, gid));
 }
 ;
 _.getInviteLink_0 = function getInviteLink(gid){
-  return create_57(new JsFacade$34(this, gid));
+  return create_58(new JsFacade$34(this, gid));
 }
 ;
 _.getTyping_0 = function getTyping(peer){
@@ -19714,11 +19714,11 @@ _.handleLinkClick_0 = function handleLinkClick(event_0){
 }
 ;
 _.hideChat_0 = function hideChat(peer){
-  return create_57(new JsFacade$13(this, peer));
+  return create_58(new JsFacade$13(this, peer));
 }
 ;
 _.inviteMember_0 = function inviteMember(gid, uid){
-  return create_57(new JsFacade$29(this, gid, uid));
+  return create_58(new JsFacade$29(this, gid, uid));
 }
 ;
 _.isElectron_1 = function isElectron(){
@@ -19754,15 +19754,15 @@ _.isSoundEffectsEnabled_0 = function isSoundEffectsEnabled(){
 }
 ;
 _.joinGroupViaLink_0 = function joinGroupViaLink(url_0){
-  return create_57(new JsFacade$25(this, url_0));
+  return create_58(new JsFacade$25(this, url_0));
 }
 ;
 _.kickMember_0 = function kickMember(gid, uid){
-  return create_57(new JsFacade$30(this, gid, uid));
+  return create_58(new JsFacade$30(this, gid, uid));
 }
 ;
 _.leaveGroup_0 = function leaveGroup(gid){
-  return create_57(new JsFacade$31(this, gid));
+  return create_58(new JsFacade$31(this, gid));
 }
 ;
 _.loadDraft_0 = function loadDraft(peer){
@@ -19770,7 +19770,7 @@ _.loadDraft_0 = function loadDraft(peer){
 }
 ;
 _.loadSessions_0 = function loadSessions(){
-  return create_57(new JsFacade$8(this));
+  return create_58(new JsFacade$8(this));
 }
 ;
 _.onAppHidden_0 = function onAppHidden(){
@@ -19837,7 +19837,7 @@ _.onTyping_0 = function onTyping(peer){
 }
 ;
 _.removeContact_0 = function removeContact(uid){
-  return create_57(new JsFacade$40(this, uid));
+  return create_58(new JsFacade$40(this, uid));
 }
 ;
 _.removeGroupAvatar_0 = function removeGroupAvatar(gid){
@@ -19845,7 +19845,7 @@ _.removeGroupAvatar_0 = function removeGroupAvatar(gid){
 }
 ;
 _.removeLike_0 = function removeLike(peer, rid){
-  return create_57(new JsFacade$38(this, peer, rid));
+  return create_58(new JsFacade$38(this, peer, rid));
 }
 ;
 _.removeMyAvatar_0 = function removeMyAvatar(){
@@ -19894,11 +19894,11 @@ _.requestSms_0 = function requestSms(phone, success, error){
 }
 ;
 _.revokeIntegrationToken_0 = function revokeIntegrationToken(gid){
-  return create_57(new JsFacade$33(this, gid));
+  return create_58(new JsFacade$33(this, gid));
 }
 ;
 _.revokeInviteLink_0 = function revokeInviteLink(gid){
-  return create_57(new JsFacade$35(this, gid));
+  return create_58(new JsFacade$35(this, gid));
 }
 ;
 _.saveDraft_0 = function saveDraft(peer, text_0){
@@ -19950,11 +19950,11 @@ _.signUp_0 = function signUp(name_0, success, error){
 }
 ;
 _.terminateAllSessions_0 = function terminateAllSessions(){
-  return create_57(new JsFacade$10(this));
+  return create_58(new JsFacade$10(this));
 }
 ;
 _.terminateSession_0 = function terminateSession(id_0){
-  return create_57(new JsFacade$9(this, id_0));
+  return create_58(new JsFacade$9(this, id_0));
 }
 ;
 _.unbindChat_0 = function unbindChat(peer, callback){
@@ -20037,7 +20037,7 @@ _.unbindUserOnline_0 = function unbindUserOnline(uid, callback){
 }
 ;
 _.unfavoriteChat_0 = function unfavoriteChat(peer){
-  return create_57(new JsFacade$15(this, peer));
+  return create_58(new JsFacade$15(this, peer));
 }
 ;
 var EndpointsDev1, EndpointsProduction;
@@ -21921,11 +21921,11 @@ function $buildPeerInfo(this$static, peer){
   var groupVM, userVM;
   if (peer.peerType == ($clinit_PeerType() , PRIVATE_0)) {
     userVM = $get_2($getUsers(this$static), fromInt(peer.peerId));
-    return {peer:create_13(peer), title:userVM.name_0.value_0, avatar:$getSmallAvatarUrl(this$static, userVM.avatar.value_0), placeholder:getPlaceholder(peer.peerId)};
+    return {peer:create_13(peer), title:userVM.name_0.value_0, userName:userVM.nick.value_0, avatar:$getSmallAvatarUrl(this$static, userVM.avatar.value_0), placeholder:getPlaceholder(peer.peerId)};
   }
    else if (peer.peerType == GROUP_0) {
     groupVM = $get_2($getGroups(this$static), fromInt(peer.peerId));
-    return {peer:create_13(peer), title:groupVM.name_0.value_0, avatar:$getSmallAvatarUrl(this$static, groupVM.avatar.value_0), placeholder:getPlaceholder(peer.peerId)};
+    return create_15(create_13(peer), groupVM.name_0.value_0, null, $getSmallAvatarUrl(this$static, groupVM.avatar.value_0), getPlaceholder(peer.peerId));
   }
    else {
     throw new RuntimeException;
@@ -22457,7 +22457,7 @@ _.buildOverlay = function buildOverlay_0(prev, current, next){
 ;
 _.convert = function convert_2(src_0){
   var messenger, showSender, senderName, date, fileUrl, highlightContent, messageText, peerInfo;
-  return messenger = instance_1 , showSender = false , src_0.peer.peerType == ($clinit_PeerType() , GROUP_0) && src_0.messageType != ($clinit_ContentType() , SERVICE) && src_0.messageType != ($clinit_ContentType() , NONE) && (showSender = src_0.senderId != 0) , senderName = null , showSender && (senderName = $get_2($getUsers(messenger), fromInt(src_0.senderId)).name_0.value_0) , date = $formatShortDate(messenger.modules_0.i18nEngine, src_0.date) , fileUrl = null , !!src_0.dialogAvatar && !!src_0.dialogAvatar.smallImage && (fileUrl = $getFileUrl(messenger, src_0.dialogAvatar.smallImage.fileReference)) , highlightContent = src_0.messageType != ($clinit_ContentType() , TEXT_1) , messageText = $formatContentText(messenger.modules_0.i18nEngine, src_0.senderId, src_0.messageType, src_0.text_0, src_0.relatedUid) , peerInfo = {peer:create_13(src_0.peer), title:src_0.dialogTitle, avatar:fileUrl, placeholder:getPlaceholder(src_0.peer.peerId)} , create_8(peerInfo, date, senderName, showSender, messageText, highlightContent, convert_0(src_0.status_0), src_0.unreadCount);
+  return messenger = instance_1 , showSender = false , src_0.peer.peerType == ($clinit_PeerType() , GROUP_0) && src_0.messageType != ($clinit_ContentType() , SERVICE) && src_0.messageType != ($clinit_ContentType() , NONE) && (showSender = src_0.senderId != 0) , senderName = null , showSender && (senderName = $get_2($getUsers(messenger), fromInt(src_0.senderId)).name_0.value_0) , date = $formatShortDate(messenger.modules_0.i18nEngine, src_0.date) , fileUrl = null , !!src_0.dialogAvatar && !!src_0.dialogAvatar.smallImage && (fileUrl = $getFileUrl(messenger, src_0.dialogAvatar.smallImage.fileReference)) , highlightContent = src_0.messageType != ($clinit_ContentType() , TEXT_1) , messageText = $formatContentText(messenger.modules_0.i18nEngine, src_0.senderId, src_0.messageType, src_0.text_0, src_0.relatedUid) , peerInfo = create_15(create_13(src_0.peer), src_0.dialogTitle, null, fileUrl, getPlaceholder(src_0.peer.peerId)) , create_8(peerInfo, date, senderName, showSender, messageText, highlightContent, convert_0(src_0.status_0), src_0.unreadCount);
 }
 ;
 _.isSupportOverlays = function isSupportOverlays_0(){
@@ -22609,12 +22609,16 @@ function create_14(peerType, peerId, peerKey){
   return {type:peerType, id:peerId, key:peerKey};
 }
 
+function create_15(peer, title_0, userName, avatar, placeholder){
+  return {peer:peer, title:title_0, userName:userName, avatar:avatar, placeholder:placeholder};
+}
+
 function $clinit_JsSearchEntity(){
   $clinit_JsSearchEntity = emptyMethod;
   CONVERTER_2 = new JsSearchEntity$1;
 }
 
-function create_15(peerInfo){
+function create_16(peerInfo){
   $clinit_JsSearchEntity();
   return {peerInfo:peerInfo};
 }
@@ -22630,7 +22634,7 @@ _.buildOverlay = function buildOverlay_2(prev, current, next){
 ;
 _.convert = function convert_4(value_0){
   var messenger;
-  return messenger = instance_1 , create_15($buildPeerInfo(messenger, value_0.peer));
+  return messenger = instance_1 , create_16($buildPeerInfo(messenger, value_0.peer));
 }
 ;
 _.isSupportOverlays = function isSupportOverlays_2(){
@@ -23334,7 +23338,7 @@ function JsFilesModule$1(this$0, val$modules){
 }
 
 defineClass(1049, 1, {}, JsFilesModule$1);
-_.create_0 = function create_16(){
+_.create_0 = function create_17(){
   return new JsFilesModule$FileBinderActor(this.this$01, this.val$modules2);
 }
 ;
@@ -25444,7 +25448,7 @@ function ApiModule$1(this$0){
 }
 
 defineClass(1175, 1, {}, ApiModule$1);
-_.create_0 = function create_17(){
+_.create_0 = function create_18(){
   return new PersistentRequestsActor(this.this$01.context);
 }
 ;
@@ -25944,7 +25948,7 @@ function Updates$1(this$0){
 }
 
 defineClass(1227, 1, {}, Updates$1);
-_.create_0 = function create_18(){
+_.create_0 = function create_19(){
   return new SequenceActor(this.this$01.context);
 }
 ;
@@ -26316,7 +26320,7 @@ function AppStateModule$1(this$0){
 }
 
 defineClass(1062, 1, {}, AppStateModule$1);
-_.create_0 = function create_19(){
+_.create_0 = function create_20(){
   return new ListsStatesActor(this.this$01.context);
 }
 ;
@@ -26385,7 +26389,7 @@ function ContactsModule$1(this$0){
 }
 
 defineClass(1118, 1, {}, ContactsModule$1);
-_.create_0 = function create_20(){
+_.create_0 = function create_21(){
   return new BookImportActor(this.this$01.context);
 }
 ;
@@ -26395,7 +26399,7 @@ function ContactsModule$2(this$0){
 }
 
 defineClass(1119, 1, {}, ContactsModule$2);
-_.create_0 = function create_21(){
+_.create_0 = function create_22(){
   return new ContactsSyncActor(this.this$01.context);
 }
 ;
@@ -26610,7 +26614,7 @@ function DeviceInfoModule$1(this$0){
 }
 
 defineClass(1243, 1, {}, DeviceInfoModule$1);
-_.create_0 = function create_22(){
+_.create_0 = function create_23(){
   return new DeviceInfoActor(this.this$01.context);
 }
 ;
@@ -26682,7 +26686,7 @@ function FilesModule$2(this$0){
 }
 
 defineClass(1236, 1, {}, FilesModule$2);
-_.create_0 = function create_23(){
+_.create_0 = function create_24(){
   return new DownloadManager(this.this$01.context);
 }
 ;
@@ -26692,7 +26696,7 @@ function FilesModule$3(this$0){
 }
 
 defineClass(1237, 1, {}, FilesModule$3);
-_.create_0 = function create_24(){
+_.create_0 = function create_25(){
   return new UploadManager(this.this$01.context);
 }
 ;
@@ -26729,7 +26733,7 @@ function GroupsModule$1(val$context){
 }
 
 defineClass(850, 1, {}, GroupsModule$1);
-_.create_0 = function create_25(){
+_.create_0 = function create_26(){
   return new GroupAvatarChangeActor(this.val$context2);
 }
 ;
@@ -27747,7 +27751,7 @@ function MessagesModule$1(this$0){
 }
 
 defineClass(931, 1, {}, MessagesModule$1);
-_.create_0 = function create_26(){
+_.create_0 = function create_27(){
   return new DialogsActor(this.this$01.context);
 }
 ;
@@ -27758,7 +27762,7 @@ function MessagesModule$10(this$0, val$peer){
 }
 
 defineClass(940, 1, {}, MessagesModule$10);
-_.create_0 = function create_27(){
+_.create_0 = function create_28(){
   return new ConversationActor(this.val$peer2, this.this$01.context);
 }
 ;
@@ -27769,7 +27773,7 @@ function MessagesModule$11(this$0, val$peer){
 }
 
 defineClass(941, 1, {}, MessagesModule$11);
-_.create_0 = function create_28(){
+_.create_0 = function create_29(){
   return new ConversationHistoryActor(this.val$peer2, this.this$01.context);
 }
 ;
@@ -27817,7 +27821,7 @@ function MessagesModule$14$1(){
 }
 
 defineClass(947, 1, {}, MessagesModule$14$1);
-_.create_0 = function create_29(){
+_.create_0 = function create_30(){
   return new MessageShownFilter;
 }
 ;
@@ -28373,7 +28377,7 @@ function MessagesModule$2(this$0){
 }
 
 defineClass(932, 1, {}, MessagesModule$2);
-_.create_0 = function create_30(){
+_.create_0 = function create_31(){
   return new DialogsHistoryActor(this.this$01.context);
 }
 ;
@@ -28601,7 +28605,7 @@ function MessagesModule$3(this$0){
 }
 
 defineClass(933, 1, {}, MessagesModule$3);
-_.create_0 = function create_31(){
+_.create_0 = function create_32(){
   return new GroupedDialogsActor(this.this$01.context);
 }
 ;
@@ -28611,7 +28615,7 @@ function MessagesModule$4(this$0){
 }
 
 defineClass(934, 1, {}, MessagesModule$4);
-_.create_0 = function create_32(){
+_.create_0 = function create_33(){
   return new OwnReadActor(this.this$01.context);
 }
 ;
@@ -28621,7 +28625,7 @@ function MessagesModule$5(this$0){
 }
 
 defineClass(935, 1, {}, MessagesModule$5);
-_.create_0 = function create_33(){
+_.create_0 = function create_34(){
   return new CursorReaderActor(this.this$01.context);
 }
 ;
@@ -28631,7 +28635,7 @@ function MessagesModule$6(this$0){
 }
 
 defineClass(936, 1, {}, MessagesModule$6);
-_.create_0 = function create_34(){
+_.create_0 = function create_35(){
   return new CursorReceiverActor(this.this$01.context);
 }
 ;
@@ -28641,7 +28645,7 @@ function MessagesModule$7(this$0){
 }
 
 defineClass(937, 1, {}, MessagesModule$7);
-_.create_0 = function create_35(){
+_.create_0 = function create_36(){
   return new SenderActor(this.this$01.context);
 }
 ;
@@ -28651,7 +28655,7 @@ function MessagesModule$8(this$0){
 }
 
 defineClass(938, 1, {}, MessagesModule$8);
-_.create_0 = function create_36(){
+_.create_0 = function create_37(){
   return new MessageDeleteActor(this.this$01.context);
 }
 ;
@@ -28661,7 +28665,7 @@ function MessagesModule$9(this$0){
 }
 
 defineClass(939, 1, {}, MessagesModule$9);
-_.create_0 = function create_37(){
+_.create_0 = function create_38(){
   return new MessageShownActor(this.this$01.context);
 }
 ;
@@ -28689,7 +28693,7 @@ function NotificationsModule$1(this$0){
 }
 
 defineClass(1240, 1, {}, NotificationsModule$1);
-_.create_0 = function create_38(){
+_.create_0 = function create_39(){
   return new NotificationsActor(this.this$01.context);
 }
 ;
@@ -28707,7 +28711,7 @@ function PresenceModule$1(val$modules){
 }
 
 defineClass(1231, 1, {}, PresenceModule$1);
-_.create_0 = function create_39(){
+_.create_0 = function create_40(){
   return new OwnPresenceActor(this.val$modules2);
 }
 ;
@@ -28729,7 +28733,7 @@ function ProfileModule$1(val$modules){
 }
 
 defineClass(918, 1, {}, ProfileModule$1);
-_.create_0 = function create_40(){
+_.create_0 = function create_41(){
   return new OwnAvatarChangeActor(this.val$modules2);
 }
 ;
@@ -28750,7 +28754,7 @@ function PushesModule$1(this$0){
 }
 
 defineClass(1181, 1, {}, PushesModule$1);
-_.create_0 = function create_41(){
+_.create_0 = function create_42(){
   return new PushRegisterActor(this.this$01.context);
 }
 ;
@@ -28806,7 +28810,7 @@ function SearchModule$1(this$0){
 }
 
 defineClass(1137, 1, {}, SearchModule$1);
-_.create_0 = function create_42(){
+_.create_0 = function create_43(){
   return new SearchActor(this.this$01.context);
 }
 ;
@@ -29260,7 +29264,7 @@ function SettingsModule$1(this$0){
 }
 
 defineClass(915, 1, {}, SettingsModule$1);
-_.create_0 = function create_43(){
+_.create_0 = function create_44(){
   return new SettingsSyncActor(this.this$01.context);
 }
 ;
@@ -30746,7 +30750,7 @@ function UploadManager$13(this$0, val$finalPendingQueue){
 }
 
 defineClass(1275, 1, {}, UploadManager$13);
-_.create_0 = function create_44(){
+_.create_0 = function create_45(){
   return new UploadTask(this.val$finalPendingQueue2.rid, this.val$finalPendingQueue2.fileDescriptor, this.val$finalPendingQueue2.fileName, this.this$01.context_0.actorScope.actorRef, this.this$01.context);
 }
 ;
@@ -33813,7 +33817,7 @@ function PresenceActor$1(val$messenger){
 }
 
 defineClass(519, 1, {}, PresenceActor$1);
-_.create_0 = function create_45(){
+_.create_0 = function create_46(){
   return new PresenceActor(this.val$messenger1);
 }
 ;
@@ -34357,7 +34361,7 @@ function OwnTypingActor$1(val$context){
 }
 
 defineClass(1112, 1, {}, OwnTypingActor$1);
-_.create_0 = function create_46(){
+_.create_0 = function create_47(){
   return new OwnTypingActor(this.val$context1);
 }
 ;
@@ -34487,7 +34491,7 @@ function TypingActor$1(val$messenger){
 }
 
 defineClass(521, 1, {}, TypingActor$1);
-_.create_0 = function create_47(){
+_.create_0 = function create_48(){
   return new TypingActor(this.val$messenger1);
 }
 ;
@@ -36539,7 +36543,7 @@ function ApiBroker$1(val$endpoints, val$keyStorage, val$callback, val$isEnableLo
 }
 
 defineClass(1220, 1, {}, ApiBroker$1);
-_.create_0 = function create_48(){
+_.create_0 = function create_49(){
   return new ApiBroker(this.val$endpoints1, this.val$keyStorage2, this.val$callback3, this.val$isEnableLog4, this.val$minDelay5, this.val$maxDelay6, this.val$maxFailureCount7, this.val$parserConfig8);
 }
 ;
@@ -36552,7 +36556,7 @@ function ApiBroker$2(){
 }
 
 defineClass(1221, 1, {}, ApiBroker$2);
-_.create_0 = function create_49(){
+_.create_0 = function create_50(){
   return new AuthKeyActor;
 }
 ;
@@ -37396,7 +37400,7 @@ function ManagerActor$1(val$mtProto){
 }
 
 defineClass(576, 1, {}, ManagerActor$1);
-_.create_0 = function create_50(){
+_.create_0 = function create_51(){
   return new ManagerActor(this.val$mtProto1);
 }
 ;
@@ -37648,7 +37652,7 @@ function PusherActor$1(val$proto){
 }
 
 defineClass(577, 1, {}, PusherActor$1);
-_.create_0 = function create_51(){
+_.create_0 = function create_52(){
   return new PusherActor(this.val$proto1);
 }
 ;
@@ -37822,7 +37826,7 @@ function ReceiverActor$1(val$proto){
 }
 
 defineClass(578, 1, {}, ReceiverActor$1);
-_.create_0 = function create_52(){
+_.create_0 = function create_53(){
   return new ReceiverActor(this.val$proto1);
 }
 ;
@@ -39022,7 +39026,7 @@ function DialogSpecVM$1(){
 }
 
 defineClass(1258, 1, {}, DialogSpecVM$1);
-_.create_1 = function create_53(baseValue){
+_.create_1 = function create_54(baseValue){
   return new DialogSpecVM(baseValue);
 }
 ;
@@ -39092,7 +39096,7 @@ function GroupVM$1(val$myUid){
 }
 
 defineClass(1064, 1, {}, GroupVM$1);
-_.create_1 = function create_54(baseValue){
+_.create_1 = function create_55(baseValue){
   return new GroupVM(baseValue, this.val$myUid1);
 }
 ;
@@ -39325,7 +39329,7 @@ function UserVM$1(val$modules){
 }
 
 defineClass(1071, 1, {}, UserVM$1);
-_.create_1 = function create_55(baseValue){
+_.create_1 = function create_56(baseValue){
   return new UserVM(baseValue, this.val$modules1);
 }
 ;
@@ -47163,7 +47167,7 @@ function $schedule_1(this$static, msec){
   }
 }
 
-function create_56(runnable){
+function create_57(runnable){
   console.warn('Create jsSecureInverval');
   try {
     if (typeof Worker !== 'undefined') {
@@ -47221,7 +47225,7 @@ function JsThreads(queue, dispatch){
   this.dispatch = dispatch;
   $setListener(this.queue, new AbstractDispatcher$1(this));
   this.isDoingIteration = false;
-  this.secureInterval = create_56(new JsThreads$1(this));
+  this.secureInterval = create_57(new JsThreads$1(this));
 }
 
 defineClass(1253, 1199, {}, JsThreads);
@@ -47296,7 +47300,7 @@ function $update_11(this$static, index_0, obj){
   $insert(this$static, index_0, obj);
 }
 
-function create_57(executor){
+function create_58(executor){
   var _executor = executor;
   return new Promise(function(resolve, reject){
     _executor.performExecute(resolve, reject);
