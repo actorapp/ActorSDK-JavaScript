@@ -249,36 +249,36 @@ function actor(){
   processMetas();
   try {
     var strongName;
-    unflattenKeylistIntoAnswers(['ar', 'gecko1_8'], 'D805668876C67C365775970A0505CB08');
-    unflattenKeylistIntoAnswers(['ar', 'ie10'], 'D805668876C67C365775970A0505CB08' + ':1');
-    unflattenKeylistIntoAnswers(['default', 'gecko1_8'], 'D805668876C67C365775970A0505CB08' + ':10');
-    unflattenKeylistIntoAnswers(['default', 'ie10'], 'D805668876C67C365775970A0505CB08' + ':11');
-    unflattenKeylistIntoAnswers(['default', 'ie8'], 'D805668876C67C365775970A0505CB08' + ':12');
-    unflattenKeylistIntoAnswers(['default', 'ie9'], 'D805668876C67C365775970A0505CB08' + ':13');
-    unflattenKeylistIntoAnswers(['default', 'safari'], 'D805668876C67C365775970A0505CB08' + ':14');
-    unflattenKeylistIntoAnswers(['en', 'gecko1_8'], 'D805668876C67C365775970A0505CB08' + ':15');
-    unflattenKeylistIntoAnswers(['en', 'ie10'], 'D805668876C67C365775970A0505CB08' + ':16');
-    unflattenKeylistIntoAnswers(['en', 'ie8'], 'D805668876C67C365775970A0505CB08' + ':17');
-    unflattenKeylistIntoAnswers(['en', 'ie9'], 'D805668876C67C365775970A0505CB08' + ':18');
-    unflattenKeylistIntoAnswers(['en', 'safari'], 'D805668876C67C365775970A0505CB08' + ':19');
-    unflattenKeylistIntoAnswers(['ar', 'ie8'], 'D805668876C67C365775970A0505CB08' + ':2');
-    unflattenKeylistIntoAnswers(['pt', 'gecko1_8'], 'D805668876C67C365775970A0505CB08' + ':20');
-    unflattenKeylistIntoAnswers(['pt', 'ie10'], 'D805668876C67C365775970A0505CB08' + ':21');
-    unflattenKeylistIntoAnswers(['pt', 'ie8'], 'D805668876C67C365775970A0505CB08' + ':22');
-    unflattenKeylistIntoAnswers(['pt', 'ie9'], 'D805668876C67C365775970A0505CB08' + ':23');
-    unflattenKeylistIntoAnswers(['pt', 'safari'], 'D805668876C67C365775970A0505CB08' + ':24');
-    unflattenKeylistIntoAnswers(['ru', 'gecko1_8'], 'D805668876C67C365775970A0505CB08' + ':25');
-    unflattenKeylistIntoAnswers(['ru', 'ie10'], 'D805668876C67C365775970A0505CB08' + ':26');
-    unflattenKeylistIntoAnswers(['ru', 'ie8'], 'D805668876C67C365775970A0505CB08' + ':27');
-    unflattenKeylistIntoAnswers(['ru', 'ie9'], 'D805668876C67C365775970A0505CB08' + ':28');
-    unflattenKeylistIntoAnswers(['ru', 'safari'], 'D805668876C67C365775970A0505CB08' + ':29');
-    unflattenKeylistIntoAnswers(['ar', 'ie9'], 'D805668876C67C365775970A0505CB08' + ':3');
-    unflattenKeylistIntoAnswers(['ar', 'safari'], 'D805668876C67C365775970A0505CB08' + ':4');
-    unflattenKeylistIntoAnswers(['cn', 'gecko1_8'], 'D805668876C67C365775970A0505CB08' + ':5');
-    unflattenKeylistIntoAnswers(['cn', 'ie10'], 'D805668876C67C365775970A0505CB08' + ':6');
-    unflattenKeylistIntoAnswers(['cn', 'ie8'], 'D805668876C67C365775970A0505CB08' + ':7');
-    unflattenKeylistIntoAnswers(['cn', 'ie9'], 'D805668876C67C365775970A0505CB08' + ':8');
-    unflattenKeylistIntoAnswers(['cn', 'safari'], 'D805668876C67C365775970A0505CB08' + ':9');
+    unflattenKeylistIntoAnswers(['ar', 'gecko1_8'], '6B9A64EDB152BA1A8FED38C917E9CD65');
+    unflattenKeylistIntoAnswers(['ar', 'ie10'], '6B9A64EDB152BA1A8FED38C917E9CD65' + ':1');
+    unflattenKeylistIntoAnswers(['default', 'gecko1_8'], '6B9A64EDB152BA1A8FED38C917E9CD65' + ':10');
+    unflattenKeylistIntoAnswers(['default', 'ie10'], '6B9A64EDB152BA1A8FED38C917E9CD65' + ':11');
+    unflattenKeylistIntoAnswers(['default', 'ie8'], '6B9A64EDB152BA1A8FED38C917E9CD65' + ':12');
+    unflattenKeylistIntoAnswers(['default', 'ie9'], '6B9A64EDB152BA1A8FED38C917E9CD65' + ':13');
+    unflattenKeylistIntoAnswers(['default', 'safari'], '6B9A64EDB152BA1A8FED38C917E9CD65' + ':14');
+    unflattenKeylistIntoAnswers(['en', 'gecko1_8'], '6B9A64EDB152BA1A8FED38C917E9CD65' + ':15');
+    unflattenKeylistIntoAnswers(['en', 'ie10'], '6B9A64EDB152BA1A8FED38C917E9CD65' + ':16');
+    unflattenKeylistIntoAnswers(['en', 'ie8'], '6B9A64EDB152BA1A8FED38C917E9CD65' + ':17');
+    unflattenKeylistIntoAnswers(['en', 'ie9'], '6B9A64EDB152BA1A8FED38C917E9CD65' + ':18');
+    unflattenKeylistIntoAnswers(['en', 'safari'], '6B9A64EDB152BA1A8FED38C917E9CD65' + ':19');
+    unflattenKeylistIntoAnswers(['ar', 'ie8'], '6B9A64EDB152BA1A8FED38C917E9CD65' + ':2');
+    unflattenKeylistIntoAnswers(['pt', 'gecko1_8'], '6B9A64EDB152BA1A8FED38C917E9CD65' + ':20');
+    unflattenKeylistIntoAnswers(['pt', 'ie10'], '6B9A64EDB152BA1A8FED38C917E9CD65' + ':21');
+    unflattenKeylistIntoAnswers(['pt', 'ie8'], '6B9A64EDB152BA1A8FED38C917E9CD65' + ':22');
+    unflattenKeylistIntoAnswers(['pt', 'ie9'], '6B9A64EDB152BA1A8FED38C917E9CD65' + ':23');
+    unflattenKeylistIntoAnswers(['pt', 'safari'], '6B9A64EDB152BA1A8FED38C917E9CD65' + ':24');
+    unflattenKeylistIntoAnswers(['ru', 'gecko1_8'], '6B9A64EDB152BA1A8FED38C917E9CD65' + ':25');
+    unflattenKeylistIntoAnswers(['ru', 'ie10'], '6B9A64EDB152BA1A8FED38C917E9CD65' + ':26');
+    unflattenKeylistIntoAnswers(['ru', 'ie8'], '6B9A64EDB152BA1A8FED38C917E9CD65' + ':27');
+    unflattenKeylistIntoAnswers(['ru', 'ie9'], '6B9A64EDB152BA1A8FED38C917E9CD65' + ':28');
+    unflattenKeylistIntoAnswers(['ru', 'safari'], '6B9A64EDB152BA1A8FED38C917E9CD65' + ':29');
+    unflattenKeylistIntoAnswers(['ar', 'ie9'], '6B9A64EDB152BA1A8FED38C917E9CD65' + ':3');
+    unflattenKeylistIntoAnswers(['ar', 'safari'], '6B9A64EDB152BA1A8FED38C917E9CD65' + ':4');
+    unflattenKeylistIntoAnswers(['cn', 'gecko1_8'], '6B9A64EDB152BA1A8FED38C917E9CD65' + ':5');
+    unflattenKeylistIntoAnswers(['cn', 'ie10'], '6B9A64EDB152BA1A8FED38C917E9CD65' + ':6');
+    unflattenKeylistIntoAnswers(['cn', 'ie8'], '6B9A64EDB152BA1A8FED38C917E9CD65' + ':7');
+    unflattenKeylistIntoAnswers(['cn', 'ie9'], '6B9A64EDB152BA1A8FED38C917E9CD65' + ':8');
+    unflattenKeylistIntoAnswers(['cn', 'safari'], '6B9A64EDB152BA1A8FED38C917E9CD65' + ':9');
     strongName = answers[computePropValue('locale')][computePropValue('user.agent')];
     var idx = strongName.indexOf(':');
     if (idx != -1) {
@@ -317,7 +317,7 @@ function actor(){
 }
 
 actor();
-(function () {var $gwt_version = "2.7.0";var $wnd = window;var $doc = $wnd.document;var $moduleName, $moduleBase;var $stats = $wnd.__gwtStatsEvent ? function(a) {$wnd.__gwtStatsEvent(a)} : null;var $strongName = 'D805668876C67C365775970A0505CB08';var $intern_0 = 2147483647, $intern_1 = {3:1, 22:1}, $intern_2 = {3:1, 15:1, 22:1}, $intern_3 = {3:1, 10:1}, $intern_4 = {3:1}, $intern_5 = 1000, $intern_6 = 65535, $intern_7 = 4194303, $intern_8 = 1048575, $intern_9 = 524288, $intern_10 = 4194304, $intern_11 = 17592186044416, $intern_12 = -9223372036854775808, $intern_13 = {458:1}, $intern_14 = 65536, $intern_15 = 131072, $intern_16 = 1048576, $intern_17 = 16777216, $intern_18 = 67108864, $intern_19 = {6:1}, $intern_20 = 1576, $intern_21 = 1601, $intern_22 = 1579, $intern_23 = 1604, $intern_24 = 1591, $intern_25 = 1023, $intern_26 = {3:1, 33:1}, $intern_27 = 1562, $intern_28 = {12:1}, $intern_29 = {73:1}, $intern_30 = 1565, $intern_31 = {4:1, 3:1}, $intern_32 = {13:1, 3:1}, $intern_33 = {25:1}, $intern_34 = 5.9604644775390625E-8, $intern_35 = {157:1}, $intern_36 = {3:1, 55:1, 97:1}, $intern_37 = {5:1, 3:1, 15:1, 22:1}, $intern_38 = {108:1, 3:1, 10:1}, $intern_39 = {281:1}, $intern_40 = 1.52587890625E-5, $intern_41 = 9.5367431640625E-7, $intern_42 = 2.220446049250313E-16, $intern_43 = {148:1}, $intern_44 = {96:1}, $intern_45 = {99:1, 59:1}, $intern_46 = {99:1, 111:1, 59:1}, $intern_47 = {3:1, 148:1}, $intern_48 = 15525485, $intern_49 = {3:1, 32:1, 17:1, 77:1}, $intern_50 = 1559;
+(function () {var $gwt_version = "2.7.0";var $wnd = window;var $doc = $wnd.document;var $moduleName, $moduleBase;var $stats = $wnd.__gwtStatsEvent ? function(a) {$wnd.__gwtStatsEvent(a)} : null;var $strongName = '6B9A64EDB152BA1A8FED38C917E9CD65';var $intern_0 = 2147483647, $intern_1 = {3:1, 22:1}, $intern_2 = {3:1, 15:1, 22:1}, $intern_3 = {3:1, 10:1}, $intern_4 = {3:1}, $intern_5 = 1000, $intern_6 = 65535, $intern_7 = 4194303, $intern_8 = 1048575, $intern_9 = 524288, $intern_10 = 4194304, $intern_11 = 17592186044416, $intern_12 = -9223372036854775808, $intern_13 = {458:1}, $intern_14 = 65536, $intern_15 = 131072, $intern_16 = 1048576, $intern_17 = 16777216, $intern_18 = 67108864, $intern_19 = {6:1}, $intern_20 = 1576, $intern_21 = 1601, $intern_22 = 1579, $intern_23 = 1604, $intern_24 = 1591, $intern_25 = 1023, $intern_26 = {3:1, 33:1}, $intern_27 = 1562, $intern_28 = {12:1}, $intern_29 = {73:1}, $intern_30 = 1565, $intern_31 = {4:1, 3:1}, $intern_32 = {13:1, 3:1}, $intern_33 = {25:1}, $intern_34 = 5.9604644775390625E-8, $intern_35 = {157:1}, $intern_36 = {3:1, 55:1, 97:1}, $intern_37 = {5:1, 3:1, 15:1, 22:1}, $intern_38 = {108:1, 3:1, 10:1}, $intern_39 = {281:1}, $intern_40 = 1.52587890625E-5, $intern_41 = 9.5367431640625E-7, $intern_42 = 2.220446049250313E-16, $intern_43 = {148:1}, $intern_44 = {96:1}, $intern_45 = {99:1, 59:1}, $intern_46 = {99:1, 111:1, 59:1}, $intern_47 = {3:1, 148:1}, $intern_48 = 15525485, $intern_49 = {3:1, 32:1, 17:1, 77:1}, $intern_50 = 1559;
 var _, initFnList_0, prototypesByTypeId_0 = {}, permutationId = -1;
 function im_actor_core_js_providers_Assets(){
   switch (permutationId) {
@@ -47393,12 +47393,14 @@ function $createJSWebSocket(url_0, webSocket){
 }
 
 function $doClose(this$static){
+  d_0(this$static.TAG, 'doClose');
   this$static.isClosed = true;
   this$static.jsWebSocket.close();
 }
 
 function $doConnect(this$static){
   var url_0;
+  d_0(this$static.TAG, 'doConnect');
   this$static.isClosed = true;
   if (this$static.endpoint_0.type_0 == ($clinit_ConnectionEndpoint$Type() , WS)) {
     url_0 = 'ws://' + this$static.endpoint_0.host + ':' + this$static.endpoint_0.port + '/';
@@ -47414,6 +47416,7 @@ function $doConnect(this$static){
 
 function $doSend_1(this$static, data_0){
   var i_0, push_0;
+  d_0(this$static.TAG, 'doSend');
   if (this$static.isClosed) {
     return;
   }
@@ -47433,20 +47436,24 @@ function $send_3(this$static, message){
 function WebSocketConnection(endpoint, connection){
   this.connection = connection;
   this.endpoint_0 = endpoint;
+  this.TAG = 'WebSocketConnection#' + connectionId_0++;
 }
 
 defineClass(1532, 1530, {}, WebSocketConnection);
 _.onRawClosed = function onRawClosed(){
+  d_0(this.TAG, 'onRawClosed');
   this.isClosed = true;
   $close_0(this.connection.this$01);
 }
 ;
 _.onRawConnected = function onRawConnected(){
+  d_0(this.TAG, 'onRawConnected');
   this.isClosed = false;
   $onRawConnected(this.connection.this$01);
 }
 ;
 _.onRawMessage = function onRawMessage(message){
+  d_0(this.TAG, 'onRawMessage');
   if (this.isClosed) {
     return;
   }
@@ -47454,6 +47461,7 @@ _.onRawMessage = function onRawMessage(message){
 }
 ;
 _.isClosed = false;
+var connectionId_0 = 0;
 var Lim_actor_runtime_js_websocket_WebSocketConnection_2_classLit = createForClass('im.actor.runtime.js.websocket', 'WebSocketConnection', 1532, Lim_actor_runtime_mtproto_AsyncConnection_2_classLit);
 function checkDouble(d){
   if (isInfinite(d) || isNaN_0(d)) {
@@ -48788,7 +48796,8 @@ function $onRawReceived(this$static, data_0){
     $e0 = wrap($e0);
     if (instanceOf($e0, 5)) {
       e = $e0;
-      $printStackTrace(e, ($clinit_System() , err));
+      $clinit_Log();
+      $e(this$static.TAG, e);
       $close_0(this$static);
     }
      else 
@@ -48808,7 +48817,8 @@ function $post(this$static, data_0, len){
     $e0 = wrap($e0);
     if (instanceOf($e0, 5)) {
       e = $e0;
-      $printStackTrace(e, ($clinit_System() , err));
+      $clinit_Log();
+      $e(this$static.TAG, e);
       $close_0(this$static);
     }
      else 
