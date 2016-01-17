@@ -249,36 +249,36 @@ function actor(){
   processMetas();
   try {
     var strongName;
-    unflattenKeylistIntoAnswers(['ar', 'gecko1_8'], 'CF425AE96D415626A9EB5E0FA7CD65F1');
-    unflattenKeylistIntoAnswers(['ar', 'ie10'], 'CF425AE96D415626A9EB5E0FA7CD65F1' + ':1');
-    unflattenKeylistIntoAnswers(['default', 'gecko1_8'], 'CF425AE96D415626A9EB5E0FA7CD65F1' + ':10');
-    unflattenKeylistIntoAnswers(['default', 'ie10'], 'CF425AE96D415626A9EB5E0FA7CD65F1' + ':11');
-    unflattenKeylistIntoAnswers(['default', 'ie8'], 'CF425AE96D415626A9EB5E0FA7CD65F1' + ':12');
-    unflattenKeylistIntoAnswers(['default', 'ie9'], 'CF425AE96D415626A9EB5E0FA7CD65F1' + ':13');
-    unflattenKeylistIntoAnswers(['default', 'safari'], 'CF425AE96D415626A9EB5E0FA7CD65F1' + ':14');
-    unflattenKeylistIntoAnswers(['en', 'gecko1_8'], 'CF425AE96D415626A9EB5E0FA7CD65F1' + ':15');
-    unflattenKeylistIntoAnswers(['en', 'ie10'], 'CF425AE96D415626A9EB5E0FA7CD65F1' + ':16');
-    unflattenKeylistIntoAnswers(['en', 'ie8'], 'CF425AE96D415626A9EB5E0FA7CD65F1' + ':17');
-    unflattenKeylistIntoAnswers(['en', 'ie9'], 'CF425AE96D415626A9EB5E0FA7CD65F1' + ':18');
-    unflattenKeylistIntoAnswers(['en', 'safari'], 'CF425AE96D415626A9EB5E0FA7CD65F1' + ':19');
-    unflattenKeylistIntoAnswers(['ar', 'ie8'], 'CF425AE96D415626A9EB5E0FA7CD65F1' + ':2');
-    unflattenKeylistIntoAnswers(['pt', 'gecko1_8'], 'CF425AE96D415626A9EB5E0FA7CD65F1' + ':20');
-    unflattenKeylistIntoAnswers(['pt', 'ie10'], 'CF425AE96D415626A9EB5E0FA7CD65F1' + ':21');
-    unflattenKeylistIntoAnswers(['pt', 'ie8'], 'CF425AE96D415626A9EB5E0FA7CD65F1' + ':22');
-    unflattenKeylistIntoAnswers(['pt', 'ie9'], 'CF425AE96D415626A9EB5E0FA7CD65F1' + ':23');
-    unflattenKeylistIntoAnswers(['pt', 'safari'], 'CF425AE96D415626A9EB5E0FA7CD65F1' + ':24');
-    unflattenKeylistIntoAnswers(['ru', 'gecko1_8'], 'CF425AE96D415626A9EB5E0FA7CD65F1' + ':25');
-    unflattenKeylistIntoAnswers(['ru', 'ie10'], 'CF425AE96D415626A9EB5E0FA7CD65F1' + ':26');
-    unflattenKeylistIntoAnswers(['ru', 'ie8'], 'CF425AE96D415626A9EB5E0FA7CD65F1' + ':27');
-    unflattenKeylistIntoAnswers(['ru', 'ie9'], 'CF425AE96D415626A9EB5E0FA7CD65F1' + ':28');
-    unflattenKeylistIntoAnswers(['ru', 'safari'], 'CF425AE96D415626A9EB5E0FA7CD65F1' + ':29');
-    unflattenKeylistIntoAnswers(['ar', 'ie9'], 'CF425AE96D415626A9EB5E0FA7CD65F1' + ':3');
-    unflattenKeylistIntoAnswers(['ar', 'safari'], 'CF425AE96D415626A9EB5E0FA7CD65F1' + ':4');
-    unflattenKeylistIntoAnswers(['cn', 'gecko1_8'], 'CF425AE96D415626A9EB5E0FA7CD65F1' + ':5');
-    unflattenKeylistIntoAnswers(['cn', 'ie10'], 'CF425AE96D415626A9EB5E0FA7CD65F1' + ':6');
-    unflattenKeylistIntoAnswers(['cn', 'ie8'], 'CF425AE96D415626A9EB5E0FA7CD65F1' + ':7');
-    unflattenKeylistIntoAnswers(['cn', 'ie9'], 'CF425AE96D415626A9EB5E0FA7CD65F1' + ':8');
-    unflattenKeylistIntoAnswers(['cn', 'safari'], 'CF425AE96D415626A9EB5E0FA7CD65F1' + ':9');
+    unflattenKeylistIntoAnswers(['ar', 'gecko1_8'], 'D805668876C67C365775970A0505CB08');
+    unflattenKeylistIntoAnswers(['ar', 'ie10'], 'D805668876C67C365775970A0505CB08' + ':1');
+    unflattenKeylistIntoAnswers(['default', 'gecko1_8'], 'D805668876C67C365775970A0505CB08' + ':10');
+    unflattenKeylistIntoAnswers(['default', 'ie10'], 'D805668876C67C365775970A0505CB08' + ':11');
+    unflattenKeylistIntoAnswers(['default', 'ie8'], 'D805668876C67C365775970A0505CB08' + ':12');
+    unflattenKeylistIntoAnswers(['default', 'ie9'], 'D805668876C67C365775970A0505CB08' + ':13');
+    unflattenKeylistIntoAnswers(['default', 'safari'], 'D805668876C67C365775970A0505CB08' + ':14');
+    unflattenKeylistIntoAnswers(['en', 'gecko1_8'], 'D805668876C67C365775970A0505CB08' + ':15');
+    unflattenKeylistIntoAnswers(['en', 'ie10'], 'D805668876C67C365775970A0505CB08' + ':16');
+    unflattenKeylistIntoAnswers(['en', 'ie8'], 'D805668876C67C365775970A0505CB08' + ':17');
+    unflattenKeylistIntoAnswers(['en', 'ie9'], 'D805668876C67C365775970A0505CB08' + ':18');
+    unflattenKeylistIntoAnswers(['en', 'safari'], 'D805668876C67C365775970A0505CB08' + ':19');
+    unflattenKeylistIntoAnswers(['ar', 'ie8'], 'D805668876C67C365775970A0505CB08' + ':2');
+    unflattenKeylistIntoAnswers(['pt', 'gecko1_8'], 'D805668876C67C365775970A0505CB08' + ':20');
+    unflattenKeylistIntoAnswers(['pt', 'ie10'], 'D805668876C67C365775970A0505CB08' + ':21');
+    unflattenKeylistIntoAnswers(['pt', 'ie8'], 'D805668876C67C365775970A0505CB08' + ':22');
+    unflattenKeylistIntoAnswers(['pt', 'ie9'], 'D805668876C67C365775970A0505CB08' + ':23');
+    unflattenKeylistIntoAnswers(['pt', 'safari'], 'D805668876C67C365775970A0505CB08' + ':24');
+    unflattenKeylistIntoAnswers(['ru', 'gecko1_8'], 'D805668876C67C365775970A0505CB08' + ':25');
+    unflattenKeylistIntoAnswers(['ru', 'ie10'], 'D805668876C67C365775970A0505CB08' + ':26');
+    unflattenKeylistIntoAnswers(['ru', 'ie8'], 'D805668876C67C365775970A0505CB08' + ':27');
+    unflattenKeylistIntoAnswers(['ru', 'ie9'], 'D805668876C67C365775970A0505CB08' + ':28');
+    unflattenKeylistIntoAnswers(['ru', 'safari'], 'D805668876C67C365775970A0505CB08' + ':29');
+    unflattenKeylistIntoAnswers(['ar', 'ie9'], 'D805668876C67C365775970A0505CB08' + ':3');
+    unflattenKeylistIntoAnswers(['ar', 'safari'], 'D805668876C67C365775970A0505CB08' + ':4');
+    unflattenKeylistIntoAnswers(['cn', 'gecko1_8'], 'D805668876C67C365775970A0505CB08' + ':5');
+    unflattenKeylistIntoAnswers(['cn', 'ie10'], 'D805668876C67C365775970A0505CB08' + ':6');
+    unflattenKeylistIntoAnswers(['cn', 'ie8'], 'D805668876C67C365775970A0505CB08' + ':7');
+    unflattenKeylistIntoAnswers(['cn', 'ie9'], 'D805668876C67C365775970A0505CB08' + ':8');
+    unflattenKeylistIntoAnswers(['cn', 'safari'], 'D805668876C67C365775970A0505CB08' + ':9');
     strongName = answers[computePropValue('locale')][computePropValue('user.agent')];
     var idx = strongName.indexOf(':');
     if (idx != -1) {
@@ -317,7 +317,7 @@ function actor(){
 }
 
 actor();
-(function () {var $gwt_version = "2.7.0";var $wnd = window;var $doc = $wnd.document;var $moduleName, $moduleBase;var $stats = $wnd.__gwtStatsEvent ? function(a) {$wnd.__gwtStatsEvent(a)} : null;var $strongName = 'CF425AE96D415626A9EB5E0FA7CD65F1';var $intern_0 = 2147483647, $intern_1 = {3:1, 22:1}, $intern_2 = {3:1, 15:1, 22:1}, $intern_3 = {3:1, 10:1}, $intern_4 = {3:1}, $intern_5 = 1000, $intern_6 = 65535, $intern_7 = 4194303, $intern_8 = 1048575, $intern_9 = 524288, $intern_10 = 4194304, $intern_11 = 17592186044416, $intern_12 = -9223372036854775808, $intern_13 = {458:1}, $intern_14 = 65536, $intern_15 = 131072, $intern_16 = 1048576, $intern_17 = 16777216, $intern_18 = 67108864, $intern_19 = {6:1}, $intern_20 = 1576, $intern_21 = 1601, $intern_22 = 1579, $intern_23 = 1604, $intern_24 = 1591, $intern_25 = 1023, $intern_26 = {3:1, 33:1}, $intern_27 = 1562, $intern_28 = {12:1}, $intern_29 = {73:1}, $intern_30 = 1565, $intern_31 = {4:1, 3:1}, $intern_32 = {13:1, 3:1}, $intern_33 = {25:1}, $intern_34 = 5.9604644775390625E-8, $intern_35 = {157:1}, $intern_36 = {3:1, 55:1, 97:1}, $intern_37 = {5:1, 3:1, 15:1, 22:1}, $intern_38 = {108:1, 3:1, 10:1}, $intern_39 = {281:1}, $intern_40 = 1.52587890625E-5, $intern_41 = 9.5367431640625E-7, $intern_42 = 2.220446049250313E-16, $intern_43 = {148:1}, $intern_44 = {96:1}, $intern_45 = {99:1, 59:1}, $intern_46 = {99:1, 111:1, 59:1}, $intern_47 = {3:1, 148:1}, $intern_48 = 15525485, $intern_49 = {3:1, 32:1, 17:1, 77:1}, $intern_50 = 1559;
+(function () {var $gwt_version = "2.7.0";var $wnd = window;var $doc = $wnd.document;var $moduleName, $moduleBase;var $stats = $wnd.__gwtStatsEvent ? function(a) {$wnd.__gwtStatsEvent(a)} : null;var $strongName = 'D805668876C67C365775970A0505CB08';var $intern_0 = 2147483647, $intern_1 = {3:1, 22:1}, $intern_2 = {3:1, 15:1, 22:1}, $intern_3 = {3:1, 10:1}, $intern_4 = {3:1}, $intern_5 = 1000, $intern_6 = 65535, $intern_7 = 4194303, $intern_8 = 1048575, $intern_9 = 524288, $intern_10 = 4194304, $intern_11 = 17592186044416, $intern_12 = -9223372036854775808, $intern_13 = {458:1}, $intern_14 = 65536, $intern_15 = 131072, $intern_16 = 1048576, $intern_17 = 16777216, $intern_18 = 67108864, $intern_19 = {6:1}, $intern_20 = 1576, $intern_21 = 1601, $intern_22 = 1579, $intern_23 = 1604, $intern_24 = 1591, $intern_25 = 1023, $intern_26 = {3:1, 33:1}, $intern_27 = 1562, $intern_28 = {12:1}, $intern_29 = {73:1}, $intern_30 = 1565, $intern_31 = {4:1, 3:1}, $intern_32 = {13:1, 3:1}, $intern_33 = {25:1}, $intern_34 = 5.9604644775390625E-8, $intern_35 = {157:1}, $intern_36 = {3:1, 55:1, 97:1}, $intern_37 = {5:1, 3:1, 15:1, 22:1}, $intern_38 = {108:1, 3:1, 10:1}, $intern_39 = {281:1}, $intern_40 = 1.52587890625E-5, $intern_41 = 9.5367431640625E-7, $intern_42 = 2.220446049250313E-16, $intern_43 = {148:1}, $intern_44 = {96:1}, $intern_45 = {99:1, 59:1}, $intern_46 = {99:1, 111:1, 59:1}, $intern_47 = {3:1, 148:1}, $intern_48 = 15525485, $intern_49 = {3:1, 32:1, 17:1, 77:1}, $intern_50 = 1559;
 var _, initFnList_0, prototypesByTypeId_0 = {}, permutationId = -1;
 function im_actor_core_js_providers_Assets(){
   switch (permutationId) {
@@ -4269,7 +4269,7 @@ function values_0(){
 defineClass(56, 17, {56:1, 3:1, 32:1, 17:1}, AuthState);
 var AUTH_CUSTOM, AUTH_EMAIL, AUTH_PHONE, AUTH_START, CODE_VALIDATION_CUSTOM, CODE_VALIDATION_EMAIL, CODE_VALIDATION_PHONE, COMPLETE_OAUTH, GET_OAUTH_PARAMS, LOGGED_IN, PASSWORD_VALIDATION, SIGN_UP;
 var Lim_actor_core_AuthState_2_classLit = createForEnum('im.actor.core', 'AuthState', 56, Ljava_lang_Enum_2_classLit, values_0);
-function Configuration(endpoints, notificationProvider, apiConfiguration, deviceCategory, platformType, minDelay, maxDelay, maxFailureCount, extensions, timeZone, preferredLanguages, customAppName, trustedKeys){
+function Configuration(endpoints, notificationProvider, apiConfiguration, deviceCategory, platformType, minDelay, maxDelay, maxFailureCount, extensions, timeZone, preferredLanguages, customAppName, trustedKeys, enablePhoneBookImport){
   this.endpoints = endpoints;
   this.enableContactsLogging = false;
   this.enableNetworkLogging = false;
@@ -4286,12 +4286,14 @@ function Configuration(endpoints, notificationProvider, apiConfiguration, device
   this.preferredLanguages = preferredLanguages;
   this.customAppName = customAppName;
   this.trustedKeys = trustedKeys;
+  this.enablePhoneBookImport = enablePhoneBookImport;
 }
 
 defineClass(835, 1, {}, Configuration);
 _.enableContactsLogging = false;
 _.enableFilesLogging = false;
 _.enableNetworkLogging = false;
+_.enablePhoneBookImport = false;
 _.maxDelay = 0;
 _.maxFailureCount = 0;
 _.minDelay = 0;
@@ -4351,7 +4353,7 @@ function $build(this$static){
     throw new RuntimeException_0('App Category not set');
   }
   this$static.trustedKeys.size_1() == 0 && ($clinit_Log() , warn($format(($clinit_JsLogProvider() , dateTimeFormat), new Date_0, null) + '[W] ' + 'ConfigurationBuilder' + ':' + 'No Trusted keys set. Using anonymous server authentication.'));
-  return new Configuration($toArray_0(this$static.endpoints, initDim(Lim_actor_runtime_mtproto_ConnectionEndpoint_2_classLit, $intern_3, 113, this$static.endpoints.size_1(), 0, 1)), this$static.notificationProvider, this$static.apiConfiguration, this$static.deviceCategory, this$static.platformType, this$static.minDelay, this$static.maxDelay, this$static.maxFailureCount, $toArray_0(this$static.extensions, initDim(Lim_actor_core_ConfigurationExtension_2_classLit, $intern_3, 1678, this$static.extensions.size_1(), 0, 1)), this$static.timeZone, $toArray_0(this$static.preferredLanguages, initDim(Ljava_lang_String_2_classLit, $intern_3, 2, this$static.preferredLanguages.size_1(), 4, 1)), this$static.customAppName, $toArray_0(this$static.trustedKeys, initDim(Lim_actor_core_network_TrustedKey_2_classLit, $intern_3, 1679, this$static.trustedKeys.size_1(), 0, 1)));
+  return new Configuration($toArray_0(this$static.endpoints, initDim(Lim_actor_runtime_mtproto_ConnectionEndpoint_2_classLit, $intern_3, 113, this$static.endpoints.size_1(), 0, 1)), this$static.notificationProvider, this$static.apiConfiguration, this$static.deviceCategory, this$static.platformType, this$static.minDelay, this$static.maxDelay, this$static.maxFailureCount, $toArray_0(this$static.extensions, initDim(Lim_actor_core_ConfigurationExtension_2_classLit, $intern_3, 1678, this$static.extensions.size_1(), 0, 1)), this$static.timeZone, $toArray_0(this$static.preferredLanguages, initDim(Ljava_lang_String_2_classLit, $intern_3, 2, this$static.preferredLanguages.size_1(), 4, 1)), this$static.customAppName, $toArray_0(this$static.trustedKeys, initDim(Lim_actor_core_network_TrustedKey_2_classLit, $intern_3, 1679, this$static.trustedKeys.size_1(), 0, 1)), this$static.isPhoneBookImportEnabled);
 }
 
 function $setApiConfiguration(this$static, apiConfiguration){
@@ -4389,6 +4391,7 @@ function ConfigurationBuilder(){
 }
 
 defineClass(829, 1, {}, ConfigurationBuilder);
+_.isPhoneBookImportEnabled = true;
 _.maxDelay = 15000;
 _.maxFailureCount = 50;
 _.minDelay = 100;
@@ -4616,11 +4619,11 @@ function $requestInviteLink(this$static, gid){
 }
 
 function $requestStartEmailAuth(this$static, email){
-  return new Authentication$1(this$static.modules_0.authentication, email);
+  return new Authentication$2(this$static.modules_0.authentication, email);
 }
 
 function $requestStartPhoneAuth(this$static, phone){
-  return new Authentication$3(this$static.modules_0.authentication, phone);
+  return new Authentication$4(this$static.modules_0.authentication, phone);
 }
 
 function $revokeIntegrationToken(this$static, gid){
@@ -4648,7 +4651,7 @@ function $sendPhoto(this$static, peer, fileName, w, h, fastThumb, descriptor){
 }
 
 function $signUp(this$static, name_0){
-  return new Authentication$6(this$static.modules_0.authentication, name_0, ($clinit_ApiSex() , UNKNOWN_0));
+  return new Authentication$7(this$static.modules_0.authentication, name_0, ($clinit_ApiSex() , UNKNOWN_0));
 }
 
 function $terminateSession(this$static, id_0){
@@ -6187,7 +6190,7 @@ function ApiGroupOutPeer_0(groupId, accessHash){
   this.accessHash = accessHash;
 }
 
-defineClass(35, 6, $intern_19, ApiGroupOutPeer, ApiGroupOutPeer_0);
+defineClass(36, 6, $intern_19, ApiGroupOutPeer, ApiGroupOutPeer_0);
 _.parse_0 = function parse_34(values){
   this.groupId = convertInt($getLong(values, 1));
   this.accessHash = $getLong(values, 2);
@@ -6208,7 +6211,7 @@ _.toString$ = function toString_35(){
 ;
 _.accessHash = {l:0, m:0, h:0};
 _.groupId = 0;
-var Lim_actor_core_api_ApiGroupOutPeer_2_classLit = createForClass('im.actor.core.api', 'ApiGroupOutPeer', 35, Lim_actor_runtime_bser_BserObject_2_classLit);
+var Lim_actor_core_api_ApiGroupOutPeer_2_classLit = createForClass('im.actor.core.api', 'ApiGroupOutPeer', 36, Lim_actor_runtime_bser_BserObject_2_classLit);
 function ApiHTTPHeader(){
 }
 
@@ -7989,7 +7992,7 @@ function ApiServiceMessage_0(text_0, ext){
   this.ext = ext;
 }
 
-defineClass(62, 1600, {62:1, 6:1}, ApiServiceMessage, ApiServiceMessage_0);
+defineClass(63, 1600, {63:1, 6:1}, ApiServiceMessage, ApiServiceMessage_0);
 _.getHeader = function getHeader_39(){
   return 2;
 }
@@ -8025,7 +8028,7 @@ _.toString$ = function toString_78(){
   return res;
 }
 ;
-var Lim_actor_core_api_ApiServiceMessage_2_classLit = createForClass('im.actor.core.api', 'ApiServiceMessage', 62, Lim_actor_core_api_ApiMessage_2_classLit);
+var Lim_actor_core_api_ApiServiceMessage_2_classLit = createForClass('im.actor.core.api', 'ApiServiceMessage', 63, Lim_actor_core_api_ApiMessage_2_classLit);
 function $clinit_ApiSex(){
   $clinit_ApiSex = emptyMethod;
   UNKNOWN_0 = new ApiSex('UNKNOWN', 0, 1);
@@ -18434,7 +18437,7 @@ function convertData(container){
        else if (instanceOf(content_0, 181)) {
         return new TextContent(remoteContainer);
       }
-       else if (instanceOf(content_0, 62)) {
+       else if (instanceOf(content_0, 63)) {
         ext = content_0.ext;
         return instanceOf(ext, 239)?new ServiceUserRegistered(remoteContainer):instanceOf(ext, 240)?new ServiceGroupTitleChanged(remoteContainer):instanceOf(ext, 241)?new ServiceGroupAvatarChanged(remoteContainer):instanceOf(ext, 242)?new ServiceGroupCreated(remoteContainer):instanceOf(ext, 182)?new ServiceGroupUserInvited(remoteContainer):instanceOf(ext, 243)?new ServiceGroupUserKicked(remoteContainer):instanceOf(ext, 244)?new ServiceGroupUserLeave(remoteContainer):instanceOf(ext, 245)?new ServiceGroupUserJoined(remoteContainer):new ServiceContent(remoteContainer);
       }
@@ -25473,7 +25476,7 @@ function $onLoggedIn(this$static, callback, response){
   $putBool(this$static.modules_0.preferences, 'auth_yes', true);
   $putInt(this$static.modules_0.preferences, 'auth_uid', this$static.myUid);
   $onLoggedIn_0(this$static.modules_0);
-  $onUpdateReceived_1(this$static.modules_0.updates, new LoggedIn(response, new Authentication$10(this$static, callback)), valueOf_0({l:500, m:0, h:0}));
+  $onUpdateReceived_1(this$static.modules_0.updates, new LoggedIn(response, new Authentication$11(this$static, callback)), valueOf_0({l:500, m:0, h:0}));
 }
 
 function $request_2(this$static, request, callback){
@@ -25484,7 +25487,7 @@ function $requestValidateCode(this$static, code_0){
   if (code_0 == null) {
     throw new RuntimeException_0("Code couldn't be null!");
   }
-  return new Authentication$7(this$static, code_0);
+  return new Authentication$8(this$static, code_0);
 }
 
 function $run(this$static){
@@ -25518,74 +25521,13 @@ function Authentication(modules){
 defineClass(1006, 1, {}, Authentication);
 _.myUid = 0;
 var Lim_actor_core_modules_Authentication_2_classLit = createForClass('im.actor.core.modules', 'Authentication', 1006, Ljava_lang_Object_2_classLit);
-function $start(this$static, callback){
-  var langs, s, s$array, s$index, s$max;
-  langs = new ArrayList;
-  for (s$array = this$static.this$01.modules_0.configuration.preferredLanguages , s$index = 0 , s$max = s$array.length; s$index < s$max; ++s$index) {
-    s = s$array[s$index];
-    langs.array[langs.array.length] = s;
-  }
-  $request_2(this$static.this$01, new RequestStartEmailAuth_0(this$static.val$email2, this$static.this$01.apiConfiguration.appId, this$static.this$01.apiConfiguration.appKey, this$static.this$01.deviceHash, this$static.this$01.apiConfiguration.deviceTitle, this$static.this$01.modules_0.configuration.timeZone, langs), new Authentication$1$1(this$static, this$static.val$email2, callback));
-}
-
-function Authentication$1(this$0, val$email){
+function Authentication$11(this$0, val$callback){
   this.this$01 = this$0;
-  this.val$email2 = val$email;
-}
-
-defineClass(1007, 1, {}, Authentication$1);
-var Lim_actor_core_modules_Authentication$1_2_classLit = createForClass('im.actor.core.modules', 'Authentication/1', 1007, Ljava_lang_Object_2_classLit);
-function Authentication$1$1(this$1, val$email, val$callback){
-  this.this$11 = this$1;
-  this.val$email2 = val$email;
-  this.val$callback3 = val$callback;
-}
-
-defineClass(1008, 1, {}, Authentication$1$1);
-_.onError_2 = function onError_39(e){
-  postToMainThread(new Authentication$1$1$2(this.val$callback3, e));
-}
-;
-_.onResult_2 = function onResult_39(response){
-  var emailActivationType;
-  $putString(this.this$11.this$01.modules_0.preferences, 'auth_email', this.val$email2);
-  $putString(this.this$11.this$01.modules_0.preferences, 'auth_transaction_hash', response.transactionHash);
-  emailActivationType = response.activationType;
-  emailActivationType == ($clinit_ApiEmailActivationType() , OAUTH2)?(this.this$11.this$01.state = ($clinit_AuthState() , GET_OAUTH_PARAMS)):emailActivationType == CODE?(this.this$11.this$01.state = ($clinit_AuthState() , CODE_VALIDATION_EMAIL)):emailActivationType == PASSWORD && (this.this$11.this$01.state = ($clinit_AuthState() , PASSWORD_VALIDATION));
-  postToMainThread(new Authentication$1$1$1(this, this.val$callback3));
-}
-;
-var Lim_actor_core_modules_Authentication$1$1_2_classLit = createForClass('im.actor.core.modules', 'Authentication/1/1', 1008, Ljava_lang_Object_2_classLit);
-function Authentication$1$1$1(this$2, val$callback){
-  this.this$21 = this$2;
   this.val$callback2 = val$callback;
 }
 
-defineClass(1009, 1, $intern_28, Authentication$1$1$1);
+defineClass(1022, 1, $intern_28, Authentication$11);
 _.run = function run_1(){
-  $onResult_26(this.val$callback2, this.this$21.this$11.this$01.state);
-}
-;
-var Lim_actor_core_modules_Authentication$1$1$1_2_classLit = createForClass('im.actor.core.modules', 'Authentication/1/1/1', 1009, Ljava_lang_Object_2_classLit);
-function Authentication$1$1$2(val$callback, val$e){
-  this.val$callback2 = val$callback;
-  this.val$e3 = val$e;
-}
-
-defineClass(1010, 1, $intern_28, Authentication$1$1$2);
-_.run = function run_2(){
-  $onError_25(this.val$callback2, this.val$e3);
-  $printStackTrace(this.val$e3, ($clinit_System() , err));
-}
-;
-var Lim_actor_core_modules_Authentication$1$1$2_2_classLit = createForClass('im.actor.core.modules', 'Authentication/1/1/2', 1010, Ljava_lang_Object_2_classLit);
-function Authentication$10(this$0, val$callback){
-  this.this$01 = this$0;
-  this.val$callback2 = val$callback;
-}
-
-defineClass(1022, 1, $intern_28, Authentication$10);
-_.run = function run_3(){
   var contactRecord, contactRecord$iterator, records, user;
   this.this$01.state = ($clinit_AuthState() , LOGGED_IN);
   this.val$callback2.onResult_0(this.this$01.state);
@@ -25597,7 +25539,69 @@ _.run = function run_3(){
   }
 }
 ;
-var Lim_actor_core_modules_Authentication$10_2_classLit = createForClass('im.actor.core.modules', 'Authentication/10', 1022, Ljava_lang_Object_2_classLit);
+var Lim_actor_core_modules_Authentication$11_2_classLit = createForClass('im.actor.core.modules', 'Authentication/11', 1022, Ljava_lang_Object_2_classLit);
+function $start(this$static, callback){
+  var langs, s, s$array, s$index, s$max;
+  langs = new ArrayList;
+  for (s$array = this$static.this$01.modules_0.configuration.preferredLanguages , s$index = 0 , s$max = s$array.length; s$index < s$max; ++s$index) {
+    s = s$array[s$index];
+    langs.array[langs.array.length] = s;
+  }
+  $request_2(this$static.this$01, new RequestStartEmailAuth_0(this$static.val$email2, this$static.this$01.apiConfiguration.appId, this$static.this$01.apiConfiguration.appKey, this$static.this$01.deviceHash, this$static.this$01.apiConfiguration.deviceTitle, this$static.this$01.modules_0.configuration.timeZone, langs), new Authentication$2$1(this$static, this$static.val$email2, callback));
+}
+
+function Authentication$2(this$0, val$email){
+  this.this$01 = this$0;
+  this.val$email2 = val$email;
+}
+
+defineClass(1007, 1, {}, Authentication$2);
+var Lim_actor_core_modules_Authentication$2_2_classLit = createForClass('im.actor.core.modules', 'Authentication/2', 1007, Ljava_lang_Object_2_classLit);
+function Authentication$2$1(this$1, val$email, val$callback){
+  this.this$11 = this$1;
+  this.val$email2 = val$email;
+  this.val$callback3 = val$callback;
+}
+
+defineClass(1008, 1, {}, Authentication$2$1);
+_.onError_2 = function onError_39(e){
+  postToMainThread(new Authentication$2$1$2(e, this.val$callback3));
+}
+;
+_.onResult_2 = function onResult_39(response){
+  var emailActivationType;
+  $putString(this.this$11.this$01.modules_0.preferences, 'auth_email', this.val$email2);
+  $putString(this.this$11.this$01.modules_0.preferences, 'auth_transaction_hash', response.transactionHash);
+  emailActivationType = response.activationType;
+  emailActivationType == ($clinit_ApiEmailActivationType() , OAUTH2)?(this.this$11.this$01.state = ($clinit_AuthState() , GET_OAUTH_PARAMS)):emailActivationType == CODE?(this.this$11.this$01.state = ($clinit_AuthState() , CODE_VALIDATION_EMAIL)):emailActivationType == PASSWORD && (this.this$11.this$01.state = ($clinit_AuthState() , PASSWORD_VALIDATION));
+  postToMainThread(new Authentication$2$1$1(this, this.val$callback3));
+}
+;
+var Lim_actor_core_modules_Authentication$2$1_2_classLit = createForClass('im.actor.core.modules', 'Authentication/2/1', 1008, Ljava_lang_Object_2_classLit);
+function Authentication$2$1$1(this$2, val$callback){
+  this.this$21 = this$2;
+  this.val$callback2 = val$callback;
+}
+
+defineClass(1009, 1, $intern_28, Authentication$2$1$1);
+_.run = function run_2(){
+  $onResult_26(this.val$callback2, this.this$21.this$11.this$01.state);
+}
+;
+var Lim_actor_core_modules_Authentication$2$1$1_2_classLit = createForClass('im.actor.core.modules', 'Authentication/2/1/1', 1009, Ljava_lang_Object_2_classLit);
+function Authentication$2$1$2(val$e, val$callback){
+  this.val$e2 = val$e;
+  this.val$callback3 = val$callback;
+}
+
+defineClass(1010, 1, $intern_28, Authentication$2$1$2);
+_.run = function run_3(){
+  $clinit_Log();
+  $e('Authentication', this.val$e2);
+  $onError_25(this.val$callback3, this.val$e2);
+}
+;
+var Lim_actor_core_modules_Authentication$2$1$2_2_classLit = createForClass('im.actor.core.modules', 'Authentication/2/1/2', 1010, Ljava_lang_Object_2_classLit);
 function $start_0(this$static, callback){
   var langs, s, s$array, s$index, s$max;
   langs = new ArrayList;
@@ -25605,156 +25609,161 @@ function $start_0(this$static, callback){
     s = s$array[s$index];
     langs.array[langs.array.length] = s;
   }
-  $request_2(this$static.this$01, new RequestStartPhoneAuth_0(this$static.val$phone2, this$static.this$01.apiConfiguration.appId, this$static.this$01.apiConfiguration.appKey, this$static.this$01.deviceHash, this$static.this$01.apiConfiguration.deviceTitle, this$static.this$01.modules_0.configuration.timeZone, langs), new Authentication$3$1(this$static, this$static.val$phone2, callback));
+  $request_2(this$static.this$01, new RequestStartPhoneAuth_0(this$static.val$phone2, this$static.this$01.apiConfiguration.appId, this$static.this$01.apiConfiguration.appKey, this$static.this$01.deviceHash, this$static.this$01.apiConfiguration.deviceTitle, this$static.this$01.modules_0.configuration.timeZone, langs), new Authentication$4$1(this$static, this$static.val$phone2, callback));
 }
 
-function Authentication$3(this$0, val$phone){
+function Authentication$4(this$0, val$phone){
   this.this$01 = this$0;
   this.val$phone2 = val$phone;
 }
 
-defineClass(1011, 1, {}, Authentication$3);
+defineClass(1011, 1, {}, Authentication$4);
 _.val$phone2 = {l:0, m:0, h:0};
-var Lim_actor_core_modules_Authentication$3_2_classLit = createForClass('im.actor.core.modules', 'Authentication/3', 1011, Ljava_lang_Object_2_classLit);
-function Authentication$3$1(this$1, val$phone, val$callback){
+var Lim_actor_core_modules_Authentication$4_2_classLit = createForClass('im.actor.core.modules', 'Authentication/4', 1011, Ljava_lang_Object_2_classLit);
+function Authentication$4$1(this$1, val$phone, val$callback){
   this.this$11 = this$1;
   this.val$phone2 = val$phone;
   this.val$callback4 = val$callback;
 }
 
-defineClass(1012, 1, {}, Authentication$3$1);
+defineClass(1012, 1, {}, Authentication$4$1);
 _.onError_2 = function onError_40(e){
-  postToMainThread(new Authentication$3$1$2(this.val$callback4, e));
+  postToMainThread(new Authentication$4$1$2(e, this.val$callback4));
 }
 ;
 _.onResult_2 = function onResult_40(response){
   $putLong(this.this$11.this$01.modules_0.preferences, 'auth_phone', this.val$phone2);
   $putString(this.this$11.this$01.modules_0.preferences, 'auth_transaction_hash', response.transactionHash);
   this.this$11.this$01.state = ($clinit_AuthState() , CODE_VALIDATION_PHONE);
-  postToMainThread(new Authentication$3$1$1(this, this.val$callback4));
+  postToMainThread(new Authentication$4$1$1(this, this.val$callback4));
 }
 ;
 _.val$phone2 = {l:0, m:0, h:0};
-var Lim_actor_core_modules_Authentication$3$1_2_classLit = createForClass('im.actor.core.modules', 'Authentication/3/1', 1012, Ljava_lang_Object_2_classLit);
-function Authentication$3$1$1(this$2, val$callback){
+var Lim_actor_core_modules_Authentication$4$1_2_classLit = createForClass('im.actor.core.modules', 'Authentication/4/1', 1012, Ljava_lang_Object_2_classLit);
+function Authentication$4$1$1(this$2, val$callback){
   this.this$21 = this$2;
   this.val$callback2 = val$callback;
 }
 
-defineClass(1013, 1, $intern_28, Authentication$3$1$1);
+defineClass(1013, 1, $intern_28, Authentication$4$1$1);
 _.run = function run_4(){
   $onResult_8(this.val$callback2, this.this$21.this$11.this$01.state);
 }
 ;
-var Lim_actor_core_modules_Authentication$3$1$1_2_classLit = createForClass('im.actor.core.modules', 'Authentication/3/1/1', 1013, Ljava_lang_Object_2_classLit);
-function Authentication$3$1$2(val$callback, val$e){
-  this.val$callback2 = val$callback;
-  this.val$e3 = val$e;
+var Lim_actor_core_modules_Authentication$4$1$1_2_classLit = createForClass('im.actor.core.modules', 'Authentication/4/1/1', 1013, Ljava_lang_Object_2_classLit);
+function Authentication$4$1$2(val$e, val$callback){
+  this.val$e2 = val$e;
+  this.val$callback3 = val$callback;
 }
 
-defineClass(1014, 1, $intern_28, Authentication$3$1$2);
+defineClass(1014, 1, $intern_28, Authentication$4$1$2);
 _.run = function run_5(){
-  $onError_8(this.val$callback2, this.val$e3);
-  $printStackTrace(this.val$e3, ($clinit_System() , err));
+  $clinit_Log();
+  $e('Authentication', this.val$e2);
+  $onError_8(this.val$callback3, this.val$e2);
 }
 ;
-var Lim_actor_core_modules_Authentication$3$1$2_2_classLit = createForClass('im.actor.core.modules', 'Authentication/3/1/2', 1014, Ljava_lang_Object_2_classLit);
+var Lim_actor_core_modules_Authentication$4$1$2_2_classLit = createForClass('im.actor.core.modules', 'Authentication/4/1/2', 1014, Ljava_lang_Object_2_classLit);
 function $start_1(this$static, callback){
-  $request_2(this$static.this$01, new RequestSignUp_0($getString_0(this$static.this$01.modules_0.preferences, 'auth_transaction_hash'), this$static.val$name2, this$static.val$sex3), new Authentication$6$1(this$static, callback));
+  $request_2(this$static.this$01, new RequestSignUp_0($getString_0(this$static.this$01.modules_0.preferences, 'auth_transaction_hash'), this$static.val$name2, this$static.val$sex3), new Authentication$7$1(this$static, callback));
 }
 
-function Authentication$6(this$0, val$name, val$sex){
+function Authentication$7(this$0, val$name, val$sex){
   this.this$01 = this$0;
   this.val$name2 = val$name;
   this.val$sex3 = val$sex;
 }
 
-defineClass(1015, 1, {}, Authentication$6);
-var Lim_actor_core_modules_Authentication$6_2_classLit = createForClass('im.actor.core.modules', 'Authentication/6', 1015, Ljava_lang_Object_2_classLit);
-function Authentication$6$1(this$1, val$callback){
+defineClass(1015, 1, {}, Authentication$7);
+var Lim_actor_core_modules_Authentication$7_2_classLit = createForClass('im.actor.core.modules', 'Authentication/7', 1015, Ljava_lang_Object_2_classLit);
+function Authentication$7$1(this$1, val$callback){
   this.this$11 = this$1;
   this.val$callback2 = val$callback;
 }
 
-defineClass(1016, 1, {}, Authentication$6$1);
+defineClass(1016, 1, {}, Authentication$7$1);
 _.onError_2 = function onError_41(e){
   $equals_6('EMAIL_CODE_EXPIRED', e.tag) && (this.this$11.this$01.state = ($clinit_AuthState() , AUTH_START));
-  postToMainThread(new Authentication$6$1$1(this.val$callback2, e));
+  postToMainThread(new Authentication$7$1$1(e, this.val$callback2));
 }
 ;
 _.onResult_2 = function onResult_41(response){
   $onLoggedIn(this.this$11.this$01, this.val$callback2, response);
 }
 ;
-var Lim_actor_core_modules_Authentication$6$1_2_classLit = createForClass('im.actor.core.modules', 'Authentication/6/1', 1016, Ljava_lang_Object_2_classLit);
-function Authentication$6$1$1(val$callback, val$e){
-  this.val$callback2 = val$callback;
-  this.val$e3 = val$e;
+var Lim_actor_core_modules_Authentication$7$1_2_classLit = createForClass('im.actor.core.modules', 'Authentication/7/1', 1016, Ljava_lang_Object_2_classLit);
+function Authentication$7$1$1(val$e, val$callback){
+  this.val$e2 = val$e;
+  this.val$callback3 = val$callback;
 }
 
-defineClass(1017, 1, $intern_28, Authentication$6$1$1);
+defineClass(1017, 1, $intern_28, Authentication$7$1$1);
 _.run = function run_6(){
-  $onError_28(this.val$callback2, this.val$e3);
+  $clinit_Log();
+  $e('Authentication', this.val$e2);
+  $onError_28(this.val$callback3, this.val$e2);
 }
 ;
-var Lim_actor_core_modules_Authentication$6$1$1_2_classLit = createForClass('im.actor.core.modules', 'Authentication/6/1/1', 1017, Ljava_lang_Object_2_classLit);
+var Lim_actor_core_modules_Authentication$7$1$1_2_classLit = createForClass('im.actor.core.modules', 'Authentication/7/1/1', 1017, Ljava_lang_Object_2_classLit);
 function $start_2(this$static, callback){
   var transactionHash;
   transactionHash = $getString_0(this$static.this$01.modules_0.preferences, 'auth_transaction_hash');
-  $request_2(this$static.this$01, new RequestValidateCode_0(transactionHash, this$static.val$code2), new Authentication$7$1(this$static, callback));
+  $request_2(this$static.this$01, new RequestValidateCode_0(transactionHash, this$static.val$code2), new Authentication$8$1(this$static, callback));
 }
 
-function Authentication$7(this$0, val$code){
+function Authentication$8(this$0, val$code){
   this.this$01 = this$0;
   this.val$code2 = val$code;
 }
 
-defineClass(1018, 1, {}, Authentication$7);
-var Lim_actor_core_modules_Authentication$7_2_classLit = createForClass('im.actor.core.modules', 'Authentication/7', 1018, Ljava_lang_Object_2_classLit);
-function Authentication$7$1(this$1, val$callback){
+defineClass(1018, 1, {}, Authentication$8);
+var Lim_actor_core_modules_Authentication$8_2_classLit = createForClass('im.actor.core.modules', 'Authentication/8', 1018, Ljava_lang_Object_2_classLit);
+function Authentication$8$1(this$1, val$callback){
   this.this$11 = this$1;
   this.val$callback2 = val$callback;
 }
 
-defineClass(1019, 1, {}, Authentication$7$1);
+defineClass(1019, 1, {}, Authentication$8$1);
 _.onError_2 = function onError_42(e){
   if ($equals_6('PHONE_CODE_EXPIRED', e.tag) || $equals_6('EMAIL_CODE_EXPIRED', e.tag)) {
     this.this$11.this$01.state = ($clinit_AuthState() , AUTH_START);
   }
    else if ($equals_6('PHONE_NUMBER_UNOCCUPIED', e.tag) || $equals_6('EMAIL_UNOCCUPIED', e.tag)) {
     this.this$11.this$01.state = ($clinit_AuthState() , SIGN_UP);
-    postToMainThread(new Authentication$7$1$1(this.val$callback2));
+    postToMainThread(new Authentication$8$1$1(this.val$callback2));
     return;
   }
-  postToMainThread(new Authentication$7$1$2(this.val$callback2, e));
+  postToMainThread(new Authentication$8$1$2(e, this.val$callback2));
 }
 ;
 _.onResult_2 = function onResult_42(response){
   $onLoggedIn(this.this$11.this$01, this.val$callback2, response);
 }
 ;
-var Lim_actor_core_modules_Authentication$7$1_2_classLit = createForClass('im.actor.core.modules', 'Authentication/7/1', 1019, Ljava_lang_Object_2_classLit);
-function Authentication$7$1$1(val$callback){
+var Lim_actor_core_modules_Authentication$8$1_2_classLit = createForClass('im.actor.core.modules', 'Authentication/8/1', 1019, Ljava_lang_Object_2_classLit);
+function Authentication$8$1$1(val$callback){
   this.val$callback2 = val$callback;
 }
 
-defineClass(1020, 1, $intern_28, Authentication$7$1$1);
+defineClass(1020, 1, $intern_28, Authentication$8$1$1);
 _.run = function run_7(){
   $onResult_28(this.val$callback2, ($clinit_AuthState() , SIGN_UP));
 }
 ;
-var Lim_actor_core_modules_Authentication$7$1$1_2_classLit = createForClass('im.actor.core.modules', 'Authentication/7/1/1', 1020, Ljava_lang_Object_2_classLit);
-function Authentication$7$1$2(val$callback, val$e){
-  this.val$callback2 = val$callback;
-  this.val$e3 = val$e;
+var Lim_actor_core_modules_Authentication$8$1$1_2_classLit = createForClass('im.actor.core.modules', 'Authentication/8/1/1', 1020, Ljava_lang_Object_2_classLit);
+function Authentication$8$1$2(val$e, val$callback){
+  this.val$e2 = val$e;
+  this.val$callback3 = val$callback;
 }
 
-defineClass(1021, 1, $intern_28, Authentication$7$1$2);
+defineClass(1021, 1, $intern_28, Authentication$8$1$2);
 _.run = function run_8(){
-  $onError_27(this.val$callback2, this.val$e3);
+  $clinit_Log();
+  $e('Authentication', this.val$e2);
+  $onError_27(this.val$callback3, this.val$e2);
 }
 ;
-var Lim_actor_core_modules_Authentication$7$1$2_2_classLit = createForClass('im.actor.core.modules', 'Authentication/7/1/2', 1021, Ljava_lang_Object_2_classLit);
+var Lim_actor_core_modules_Authentication$8$1$2_2_classLit = createForClass('im.actor.core.modules', 'Authentication/8/1/2', 1021, Ljava_lang_Object_2_classLit);
 function $registerExtension(this$static){
   $add_0(this$static.extensionRefs, new Extensions$ExtensionRef);
 }
@@ -30024,6 +30033,9 @@ function $performImportIfRequired(this$static){
 }
 
 function $performSync(this$static){
+  if (!this$static.context.configuration.enablePhoneBookImport) {
+    return;
+  }
   this$static.ENABLE_LOG && ($clinit_Log() , log_1($format(($clinit_JsLogProvider() , dateTimeFormat), new Date_0, null) + '[D] ' + 'ContactsImport' + ':' + 'Checking sync...'));
   if (this$static.phoneBookReadingIsInProgress) {
     this$static.ENABLE_LOG && ($clinit_Log() , log_1($format(($clinit_JsLogProvider() , dateTimeFormat), new Date_0, null) + '[D] ' + 'ContactsImport' + ':' + 'Sync already in progress'));
@@ -30185,7 +30197,7 @@ function $onContactsLoaded(this$static, result){
     return;
   }
   this$static.ENABLE_LOG && d_0('ContactsServerSync', 'Sync received ' + result.users.size_1() + ' contacts');
-  outer_0: for (uid$array = $toArray_0(this$static.contacts, initDim(Ljava_lang_Integer_2_classLit, $intern_3, 63, this$static.contacts.size_1(), 0, 1)) , uid$index = 0 , uid$max = uid$array.length; uid$index < uid$max; ++uid$index) {
+  outer_0: for (uid$array = $toArray_0(this$static.contacts, initDim(Ljava_lang_Integer_2_classLit, $intern_3, 60, this$static.contacts.size_1(), 0, 1)) , uid$index = 0 , uid$max = uid$array.length; uid$index < uid$max; ++uid$index) {
     uid = uid$array[uid$index];
     for (u$iterator0 = new AbstractList$IteratorImpl(result.users); u$iterator0.i < u$iterator0.this$01.size_1();) {
       u = (checkCriticalElement(u$iterator0.i < u$iterator0.this$01.size_1()) , u$iterator0.this$01.get_0(u$iterator0.last = u$iterator0.i++));
@@ -30248,7 +30260,7 @@ function $performSync_0(this$static){
   this$static.isInProgress = true;
   this$static.isInvalidated = false;
   this$static.ENABLE_LOG && ($clinit_Log() , log_1($format(($clinit_JsLogProvider() , dateTimeFormat), new Date_0, null) + '[D] ' + 'ContactsServerSync' + ':' + 'Starting sync'));
-  uids = $toArray_0(this$static.contacts, initDim(Ljava_lang_Integer_2_classLit, $intern_3, 63, this$static.contacts.size_1(), 0, 1));
+  uids = $toArray_0(this$static.contacts, initDim(Ljava_lang_Integer_2_classLit, $intern_3, 60, this$static.contacts.size_1(), 0, 1));
   mergeSort(uids, 0, uids.length, ($clinit_Comparators() , $clinit_Comparators() , NATURAL));
   hash = '';
   for (u$index = 0 , u$max = uids.length; u$index < u$max; ++u$index) {
@@ -30299,7 +30311,7 @@ function $updateEngineList(this$static){
     registeredContacts.array[registeredContacts.array.length] = contact;
   }
   $replaceItems(this$static.context.contacts.contacts, registeredContacts);
-  sorted = initDim(Ljava_lang_Integer_2_classLit, $intern_3, 63, this$static.contacts.size_1(), 0, 1);
+  sorted = initDim(Ljava_lang_Integer_2_classLit, $intern_3, 60, this$static.contacts.size_1(), 0, 1);
   sindex = 0;
   for (userModel$iterator = new AbstractList$IteratorImpl(userList); userModel$iterator.i < userModel$iterator.this$01.size_1();) {
     userModel = (checkCriticalElement(userModel$iterator.i < userModel$iterator.this$01.size_1()) , userModel$iterator.this$01.get_0(userModel$iterator.last = userModel$iterator.i++));
@@ -34440,7 +34452,7 @@ function $groupTyping(this$static, gid, uid, type_0){
     src_0 = this$static.groupTypings.get_2(valueOf(gid));
     if (!$contains_1(src_0, valueOf(uid))) {
       $add_1(src_0, valueOf(uid));
-      ids = $toArray(src_0, initDim(Ljava_lang_Integer_2_classLit, $intern_3, 63, src_0.map_0.size_1(), 0, 1));
+      ids = $toArray(src_0, initDim(Ljava_lang_Integer_2_classLit, $intern_3, 60, src_0.map_0.size_1(), 0, 1));
       ids2 = initDim(I_classLit, $intern_31, 0, ids.length, 7, 1);
       for (i_0 = 0; i_0 < ids.length; i_0++) {
         ids2[i_0] = ids[i_0].value_0;
@@ -34479,7 +34491,7 @@ function $stopGroupTyping(this$static, gid, uid){
   set_0 = this$static.groupTypings.get_2(valueOf(gid));
   if ($contains_1(set_0, valueOf(uid))) {
     $remove_4(set_0, valueOf(uid));
-    ids = $toArray(set_0, initDim(Ljava_lang_Integer_2_classLit, $intern_3, 63, set_0.map_0.size_1(), 0, 1));
+    ids = $toArray(set_0, initDim(Ljava_lang_Integer_2_classLit, $intern_3, 60, set_0.map_0.size_1(), 0, 1));
     ids2 = initDim(I_classLit, $intern_31, 0, ids.length, 7, 1);
     for (i_0 = 0; i_0 < ids.length; i_0++) {
       ids2[i_0] = ids[i_0].value_0;
@@ -35137,7 +35149,7 @@ function PresenceProcessor(modules){
 defineClass(1341, 27, {}, PresenceProcessor);
 var Lim_actor_core_modules_updates_PresenceProcessor_2_classLit = createForClass('im.actor.core.modules.updates', 'PresenceProcessor', 1341, Lim_actor_core_modules_AbsModule_2_classLit);
 function $checkFuture(this$static){
-  var i_0;
+  var i_0, key, key$array, key$index, key$max;
   for (i_0 = this$static.seq + 1;; i_0++) {
     if (this$static.further.containsKey(valueOf(i_0))) {
       $onReceive_0(this$static, this$static.further.remove_1(valueOf(i_0)));
@@ -35146,7 +35158,10 @@ function $checkFuture(this$static){
       break;
     }
   }
-  this$static.further.clear_0();
+  for (key$array = (new AbstractMap$1(this$static.further)).toArray_0(initDim(Ljava_lang_Integer_2_classLit, $intern_3, 60, 0, 0, 1)) , key$index = 0 , key$max = key$array.length; key$index < key$max; ++key$index) {
+    key = key$array[key$index];
+    key.value_0 <= this$static.seq && this$static.further.remove_1(key);
+  }
 }
 
 function $checkRunnables(this$static){
@@ -37531,7 +37546,7 @@ var Lim_actor_core_network_mtp_actors_ManagerActor$PerformConnectionCheck_2_clas
 function $buildAck(this$static){
   var acks, i_0, ids, ids2;
   ids = initDim(J_classLit, $intern_26, 0, this$static.confirm_0.map_0.size_1(), 6, 1);
-  ids2 = $toArray(this$static.confirm_0, initDim(Ljava_lang_Long_2_classLit, $intern_3, 60, this$static.confirm_0.map_0.size_1(), 0, 1));
+  ids2 = $toArray(this$static.confirm_0, initDim(Ljava_lang_Long_2_classLit, $intern_3, 61, this$static.confirm_0.map_0.size_1(), 0, 1));
   acks = '';
   for (i_0 = 0; i_0 < ids.length; i_0++) {
     ids[i_0] = ids2[i_0].value_0;
@@ -40928,7 +40943,7 @@ function $getLong_0(this$static, id_0){
   if ($indexOfKey(this$static.fields, id_0) >= 0) {
     $put_0(this$static.touched, id_0, ($clinit_Boolean() , $clinit_Boolean() , TRUE));
     obj = $get(this$static.fields, id_0, null);
-    if (instanceOf(obj, 60)) {
+    if (instanceOf(obj, 61)) {
       return obj.value_0;
     }
     throw new IncorrectTypeException('Expected type: long, got ' + $getSimpleName(getClass__Ljava_lang_Class___devirtual$(obj)));
@@ -41000,14 +41015,14 @@ function $getRepeatedLong(this$static, id_0){
   if ($indexOfKey(this$static.fields, id_0) >= 0) {
     $put_0(this$static.touched, id_0, ($clinit_Boolean() , $clinit_Boolean() , TRUE));
     val = $get(this$static.fields, id_0, null);
-    if (instanceOf(val, 60)) {
+    if (instanceOf(val, 61)) {
       $add_0(res, val);
     }
      else if (instanceOf(val, 55)) {
       rep = val;
       for (val2$iterator = rep.iterator(); val2$iterator.hasNext();) {
         val2 = val2$iterator.next_0();
-        if (instanceOf(val2, 60)) {
+        if (instanceOf(val2, 61)) {
           $add_0(res, val2);
         }
          else {
@@ -41220,7 +41235,7 @@ function $writeUnmapped(this$static, fieldNumber, value_0){
   if ($get(this$static.writtenFields, fieldNumber, ($clinit_Boolean() , $clinit_Boolean() , FALSE)).value_0) {
     return;
   }
-  if (instanceOf(value_0, 60)) {
+  if (instanceOf(value_0, 61)) {
     $writeLong(this$static, fieldNumber, value_0.value_0);
   }
    else if (instanceOf(value_0, 13)) {
@@ -41229,7 +41244,7 @@ function $writeUnmapped(this$static, fieldNumber, value_0){
    else if (instanceOf(value_0, 55)) {
     for (o$iterator = value_0.iterator(); o$iterator.hasNext();) {
       o = o$iterator.next_0();
-      if (instanceOf(o, 60)) {
+      if (instanceOf(o, 61)) {
         $writeLong(this$static, fieldNumber, o.value_0);
       }
        else if (instanceOf(o, 13)) {
@@ -47468,7 +47483,7 @@ function toDouble_0(value_0){
 }
 
 function toInteger(value_0){
-  if (instanceOf(value_0, 63)) {
+  if (instanceOf(value_0, 60)) {
     return value_0;
   }
    else if (instanceOf(value_0, 74)) {
@@ -47488,7 +47503,7 @@ function toInteger(value_0){
 }
 
 function toLong(value_0){
-  if (instanceOf(value_0, 60)) {
+  if (instanceOf(value_0, 61)) {
     return value_0;
   }
    else if (instanceOf(value_0, 74)) {
@@ -49582,7 +49597,7 @@ function valueOf(i_0){
   return new Integer(i_0);
 }
 
-defineClass(63, 74, {3:1, 32:1, 63:1, 74:1}, Integer);
+defineClass(60, 74, {3:1, 32:1, 60:1, 74:1}, Integer);
 _.compareTo = function compareTo_2(b){
   return compare_7(this.value_0, b.value_0);
 }
@@ -49592,7 +49607,7 @@ _.doubleValue = function doubleValue_1(){
 }
 ;
 _.equals$ = function equals_24(o){
-  return instanceOf(o, 63) && o.value_0 == this.value_0;
+  return instanceOf(o, 60) && o.value_0 == this.value_0;
 }
 ;
 _.hashCode$ = function hashCode_18(){
@@ -49612,15 +49627,15 @@ _.toString$ = function toString_367(){
 }
 ;
 _.value_0 = 0;
-var Ljava_lang_Integer_2_classLit = createForClass('java.lang', 'Integer', 63, Ljava_lang_Number_2_classLit);
+var Ljava_lang_Integer_2_classLit = createForClass('java.lang', 'Integer', 60, Ljava_lang_Number_2_classLit);
 function $clinit_Integer$BoxedValues(){
   $clinit_Integer$BoxedValues = emptyMethod;
-  boxedValues_0 = initDim(Ljava_lang_Integer_2_classLit, $intern_3, 63, 256, 0, 1);
+  boxedValues_0 = initDim(Ljava_lang_Integer_2_classLit, $intern_3, 60, 256, 0, 1);
 }
 
 var boxedValues_0;
 function $equals_5(this$static, o){
-  return instanceOf(o, 60) && eq(o.value_0, this$static.value_0);
+  return instanceOf(o, 61) && eq(o.value_0, this$static.value_0);
 }
 
 function Long(value_0){
@@ -49642,7 +49657,7 @@ function valueOf_0(i_0){
   return new Long(i_0);
 }
 
-defineClass(60, 74, {3:1, 32:1, 60:1, 74:1}, Long);
+defineClass(61, 74, {3:1, 32:1, 61:1, 74:1}, Long);
 _.compareTo = function compareTo_3(b){
   return compare_8(this.value_0, b.value_0);
 }
@@ -49672,10 +49687,10 @@ _.toString$ = function toString_368(){
 }
 ;
 _.value_0 = {l:0, m:0, h:0};
-var Ljava_lang_Long_2_classLit = createForClass('java.lang', 'Long', 60, Ljava_lang_Number_2_classLit);
+var Ljava_lang_Long_2_classLit = createForClass('java.lang', 'Long', 61, Ljava_lang_Number_2_classLit);
 function $clinit_Long$BoxedValues(){
   $clinit_Long$BoxedValues = emptyMethod;
-  boxedValues_1 = initDim(Ljava_lang_Long_2_classLit, $intern_3, 60, 256, 0, 1);
+  boxedValues_1 = initDim(Ljava_lang_Long_2_classLit, $intern_3, 61, 256, 0, 1);
 }
 
 var boxedValues_1;
@@ -50563,7 +50578,7 @@ function AbstractMap$1(this$0){
   this.this$01 = this$0;
 }
 
-defineClass(36, 1553, $intern_44, AbstractMap$1);
+defineClass(35, 1553, $intern_44, AbstractMap$1);
 _.contains_0 = function contains_3(key){
   return $contains_0(this, key);
 }
@@ -50584,7 +50599,7 @@ _.size_1 = function size_8(){
   return this.this$01.size_1();
 }
 ;
-var Ljava_util_AbstractMap$1_2_classLit = createForClass('java.util', 'AbstractMap/1', 36, Ljava_util_AbstractSet_2_classLit);
+var Ljava_util_AbstractMap$1_2_classLit = createForClass('java.util', 'AbstractMap/1', 35, Ljava_util_AbstractSet_2_classLit);
 function $next_0(this$static){
   var entry;
   entry = this$static.val$outerIter2.next_0();
@@ -50619,7 +50634,7 @@ function AbstractMap$2(this$0){
   this.this$01 = this$0;
 }
 
-defineClass(61, 1552, {}, AbstractMap$2);
+defineClass(62, 1552, {}, AbstractMap$2);
 _.contains_0 = function contains_4(value_0){
   return this.this$01.containsValue(value_0);
 }
@@ -50632,7 +50647,7 @@ _.size_1 = function size_9(){
   return this.this$01.size_1();
 }
 ;
-var Ljava_util_AbstractMap$2_2_classLit = createForClass('java.util', 'AbstractMap/2', 61, Ljava_util_AbstractCollection_2_classLit);
+var Ljava_util_AbstractMap$2_2_classLit = createForClass('java.util', 'AbstractMap/2', 62, Ljava_util_AbstractCollection_2_classLit);
 function $next_1(this$static){
   var entry;
   entry = this$static.val$outerIter2.next_0();
@@ -50964,6 +50979,10 @@ _.toArray = function toArray_3(){
   return this.coll.toArray();
 }
 ;
+_.toArray_0 = function toArray_4(a){
+  return this.coll.toArray_0(a);
+}
+;
 _.toString$ = function toString_374(){
   return this.coll.toString$();
 }
@@ -51073,11 +51092,18 @@ _.iterator = function iterator_6(){
   return new Collections$UnmodifiableMap$UnmodifiableEntrySet$1(it);
 }
 ;
-_.toArray = function toArray_4(){
+_.toArray = function toArray_5(){
   var array;
   array = this.coll.toArray();
   $wrap(array, array.length);
   return array;
+}
+;
+_.toArray_0 = function toArray_6(a){
+  var result;
+  result = this.coll.toArray_0(a);
+  $wrap(result, this.coll.size_1());
+  return result;
 }
 ;
 var Ljava_util_Collections$UnmodifiableMap$UnmodifiableEntrySet_2_classLit = createForClass('java.util', 'Collections/UnmodifiableMap/UnmodifiableEntrySet', 624, Ljava_util_Collections$UnmodifiableSet_2_classLit);
