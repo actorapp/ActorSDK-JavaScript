@@ -249,36 +249,36 @@ function actor(){
   processMetas();
   try {
     var strongName;
-    unflattenKeylistIntoAnswers(['ar', 'gecko1_8'], 'DCBAD2C487F55B3B50183F15CA57F34C');
-    unflattenKeylistIntoAnswers(['ar', 'ie10'], 'DCBAD2C487F55B3B50183F15CA57F34C' + ':1');
-    unflattenKeylistIntoAnswers(['default', 'gecko1_8'], 'DCBAD2C487F55B3B50183F15CA57F34C' + ':10');
-    unflattenKeylistIntoAnswers(['default', 'ie10'], 'DCBAD2C487F55B3B50183F15CA57F34C' + ':11');
-    unflattenKeylistIntoAnswers(['default', 'ie8'], 'DCBAD2C487F55B3B50183F15CA57F34C' + ':12');
-    unflattenKeylistIntoAnswers(['default', 'ie9'], 'DCBAD2C487F55B3B50183F15CA57F34C' + ':13');
-    unflattenKeylistIntoAnswers(['default', 'safari'], 'DCBAD2C487F55B3B50183F15CA57F34C' + ':14');
-    unflattenKeylistIntoAnswers(['en', 'gecko1_8'], 'DCBAD2C487F55B3B50183F15CA57F34C' + ':15');
-    unflattenKeylistIntoAnswers(['en', 'ie10'], 'DCBAD2C487F55B3B50183F15CA57F34C' + ':16');
-    unflattenKeylistIntoAnswers(['en', 'ie8'], 'DCBAD2C487F55B3B50183F15CA57F34C' + ':17');
-    unflattenKeylistIntoAnswers(['en', 'ie9'], 'DCBAD2C487F55B3B50183F15CA57F34C' + ':18');
-    unflattenKeylistIntoAnswers(['en', 'safari'], 'DCBAD2C487F55B3B50183F15CA57F34C' + ':19');
-    unflattenKeylistIntoAnswers(['ar', 'ie8'], 'DCBAD2C487F55B3B50183F15CA57F34C' + ':2');
-    unflattenKeylistIntoAnswers(['pt', 'gecko1_8'], 'DCBAD2C487F55B3B50183F15CA57F34C' + ':20');
-    unflattenKeylistIntoAnswers(['pt', 'ie10'], 'DCBAD2C487F55B3B50183F15CA57F34C' + ':21');
-    unflattenKeylistIntoAnswers(['pt', 'ie8'], 'DCBAD2C487F55B3B50183F15CA57F34C' + ':22');
-    unflattenKeylistIntoAnswers(['pt', 'ie9'], 'DCBAD2C487F55B3B50183F15CA57F34C' + ':23');
-    unflattenKeylistIntoAnswers(['pt', 'safari'], 'DCBAD2C487F55B3B50183F15CA57F34C' + ':24');
-    unflattenKeylistIntoAnswers(['ru', 'gecko1_8'], 'DCBAD2C487F55B3B50183F15CA57F34C' + ':25');
-    unflattenKeylistIntoAnswers(['ru', 'ie10'], 'DCBAD2C487F55B3B50183F15CA57F34C' + ':26');
-    unflattenKeylistIntoAnswers(['ru', 'ie8'], 'DCBAD2C487F55B3B50183F15CA57F34C' + ':27');
-    unflattenKeylistIntoAnswers(['ru', 'ie9'], 'DCBAD2C487F55B3B50183F15CA57F34C' + ':28');
-    unflattenKeylistIntoAnswers(['ru', 'safari'], 'DCBAD2C487F55B3B50183F15CA57F34C' + ':29');
-    unflattenKeylistIntoAnswers(['ar', 'ie9'], 'DCBAD2C487F55B3B50183F15CA57F34C' + ':3');
-    unflattenKeylistIntoAnswers(['ar', 'safari'], 'DCBAD2C487F55B3B50183F15CA57F34C' + ':4');
-    unflattenKeylistIntoAnswers(['cn', 'gecko1_8'], 'DCBAD2C487F55B3B50183F15CA57F34C' + ':5');
-    unflattenKeylistIntoAnswers(['cn', 'ie10'], 'DCBAD2C487F55B3B50183F15CA57F34C' + ':6');
-    unflattenKeylistIntoAnswers(['cn', 'ie8'], 'DCBAD2C487F55B3B50183F15CA57F34C' + ':7');
-    unflattenKeylistIntoAnswers(['cn', 'ie9'], 'DCBAD2C487F55B3B50183F15CA57F34C' + ':8');
-    unflattenKeylistIntoAnswers(['cn', 'safari'], 'DCBAD2C487F55B3B50183F15CA57F34C' + ':9');
+    unflattenKeylistIntoAnswers(['ar', 'gecko1_8'], '1C736C64069FCB1A67E2F6749979716E');
+    unflattenKeylistIntoAnswers(['ar', 'ie10'], '1C736C64069FCB1A67E2F6749979716E' + ':1');
+    unflattenKeylistIntoAnswers(['default', 'gecko1_8'], '1C736C64069FCB1A67E2F6749979716E' + ':10');
+    unflattenKeylistIntoAnswers(['default', 'ie10'], '1C736C64069FCB1A67E2F6749979716E' + ':11');
+    unflattenKeylistIntoAnswers(['default', 'ie8'], '1C736C64069FCB1A67E2F6749979716E' + ':12');
+    unflattenKeylistIntoAnswers(['default', 'ie9'], '1C736C64069FCB1A67E2F6749979716E' + ':13');
+    unflattenKeylistIntoAnswers(['default', 'safari'], '1C736C64069FCB1A67E2F6749979716E' + ':14');
+    unflattenKeylistIntoAnswers(['en', 'gecko1_8'], '1C736C64069FCB1A67E2F6749979716E' + ':15');
+    unflattenKeylistIntoAnswers(['en', 'ie10'], '1C736C64069FCB1A67E2F6749979716E' + ':16');
+    unflattenKeylistIntoAnswers(['en', 'ie8'], '1C736C64069FCB1A67E2F6749979716E' + ':17');
+    unflattenKeylistIntoAnswers(['en', 'ie9'], '1C736C64069FCB1A67E2F6749979716E' + ':18');
+    unflattenKeylistIntoAnswers(['en', 'safari'], '1C736C64069FCB1A67E2F6749979716E' + ':19');
+    unflattenKeylistIntoAnswers(['ar', 'ie8'], '1C736C64069FCB1A67E2F6749979716E' + ':2');
+    unflattenKeylistIntoAnswers(['pt', 'gecko1_8'], '1C736C64069FCB1A67E2F6749979716E' + ':20');
+    unflattenKeylistIntoAnswers(['pt', 'ie10'], '1C736C64069FCB1A67E2F6749979716E' + ':21');
+    unflattenKeylistIntoAnswers(['pt', 'ie8'], '1C736C64069FCB1A67E2F6749979716E' + ':22');
+    unflattenKeylistIntoAnswers(['pt', 'ie9'], '1C736C64069FCB1A67E2F6749979716E' + ':23');
+    unflattenKeylistIntoAnswers(['pt', 'safari'], '1C736C64069FCB1A67E2F6749979716E' + ':24');
+    unflattenKeylistIntoAnswers(['ru', 'gecko1_8'], '1C736C64069FCB1A67E2F6749979716E' + ':25');
+    unflattenKeylistIntoAnswers(['ru', 'ie10'], '1C736C64069FCB1A67E2F6749979716E' + ':26');
+    unflattenKeylistIntoAnswers(['ru', 'ie8'], '1C736C64069FCB1A67E2F6749979716E' + ':27');
+    unflattenKeylistIntoAnswers(['ru', 'ie9'], '1C736C64069FCB1A67E2F6749979716E' + ':28');
+    unflattenKeylistIntoAnswers(['ru', 'safari'], '1C736C64069FCB1A67E2F6749979716E' + ':29');
+    unflattenKeylistIntoAnswers(['ar', 'ie9'], '1C736C64069FCB1A67E2F6749979716E' + ':3');
+    unflattenKeylistIntoAnswers(['ar', 'safari'], '1C736C64069FCB1A67E2F6749979716E' + ':4');
+    unflattenKeylistIntoAnswers(['cn', 'gecko1_8'], '1C736C64069FCB1A67E2F6749979716E' + ':5');
+    unflattenKeylistIntoAnswers(['cn', 'ie10'], '1C736C64069FCB1A67E2F6749979716E' + ':6');
+    unflattenKeylistIntoAnswers(['cn', 'ie8'], '1C736C64069FCB1A67E2F6749979716E' + ':7');
+    unflattenKeylistIntoAnswers(['cn', 'ie9'], '1C736C64069FCB1A67E2F6749979716E' + ':8');
+    unflattenKeylistIntoAnswers(['cn', 'safari'], '1C736C64069FCB1A67E2F6749979716E' + ':9');
     strongName = answers[computePropValue('locale')][computePropValue('user.agent')];
     var idx = strongName.indexOf(':');
     if (idx != -1) {
@@ -317,7 +317,7 @@ function actor(){
 }
 
 actor();
-(function () {var $gwt_version = "2.7.0";var $wnd = window;var $doc = $wnd.document;var $moduleName, $moduleBase;var $stats = $wnd.__gwtStatsEvent ? function(a) {$wnd.__gwtStatsEvent(a)} : null;var $strongName = 'DCBAD2C487F55B3B50183F15CA57F34C';var $intern_0 = 2147483647, $intern_1 = {3:1, 22:1}, $intern_2 = {3:1, 15:1, 22:1}, $intern_3 = {3:1, 10:1}, $intern_4 = {3:1}, $intern_5 = 1000, $intern_6 = 65535, $intern_7 = 4194303, $intern_8 = 1048575, $intern_9 = 524288, $intern_10 = 4194304, $intern_11 = 17592186044416, $intern_12 = -9223372036854775808, $intern_13 = {465:1}, $intern_14 = 65536, $intern_15 = 131072, $intern_16 = 1048576, $intern_17 = 16777216, $intern_18 = 67108864, $intern_19 = {6:1}, $intern_20 = 1582, $intern_21 = 1607, $intern_22 = 1585, $intern_23 = 1610, $intern_24 = 1597, $intern_25 = 1023, $intern_26 = {3:1, 33:1}, $intern_27 = 1568, $intern_28 = {12:1}, $intern_29 = {73:1}, $intern_30 = 1571, $intern_31 = {4:1, 3:1}, $intern_32 = {13:1, 3:1}, $intern_33 = {25:1}, $intern_34 = 5.9604644775390625E-8, $intern_35 = {159:1}, $intern_36 = {3:1, 55:1, 97:1}, $intern_37 = {5:1, 3:1, 15:1, 22:1}, $intern_38 = {108:1, 3:1, 10:1}, $intern_39 = {286:1}, $intern_40 = 1.52587890625E-5, $intern_41 = 9.5367431640625E-7, $intern_42 = 2.220446049250313E-16, $intern_43 = {150:1}, $intern_44 = {96:1}, $intern_45 = {99:1, 59:1}, $intern_46 = {99:1, 111:1, 59:1}, $intern_47 = {3:1, 150:1}, $intern_48 = 15525485, $intern_49 = {3:1, 32:1, 17:1, 77:1}, $intern_50 = 1565;
+(function () {var $gwt_version = "2.7.0";var $wnd = window;var $doc = $wnd.document;var $moduleName, $moduleBase;var $stats = $wnd.__gwtStatsEvent ? function(a) {$wnd.__gwtStatsEvent(a)} : null;var $strongName = '1C736C64069FCB1A67E2F6749979716E';var $intern_0 = 2147483647, $intern_1 = {3:1, 22:1}, $intern_2 = {3:1, 15:1, 22:1}, $intern_3 = {3:1, 10:1}, $intern_4 = {3:1}, $intern_5 = 1000, $intern_6 = 65535, $intern_7 = 4194303, $intern_8 = 1048575, $intern_9 = 524288, $intern_10 = 4194304, $intern_11 = 17592186044416, $intern_12 = -9223372036854775808, $intern_13 = {465:1}, $intern_14 = 65536, $intern_15 = 131072, $intern_16 = 1048576, $intern_17 = 16777216, $intern_18 = 67108864, $intern_19 = {6:1}, $intern_20 = 1582, $intern_21 = 1607, $intern_22 = 1585, $intern_23 = 1610, $intern_24 = 1597, $intern_25 = 1023, $intern_26 = {3:1, 33:1}, $intern_27 = 1568, $intern_28 = {12:1}, $intern_29 = {73:1}, $intern_30 = 1571, $intern_31 = {4:1, 3:1}, $intern_32 = {13:1, 3:1}, $intern_33 = {25:1}, $intern_34 = 5.9604644775390625E-8, $intern_35 = {159:1}, $intern_36 = {3:1, 55:1, 97:1}, $intern_37 = {5:1, 3:1, 15:1, 22:1}, $intern_38 = {108:1, 3:1, 10:1}, $intern_39 = {286:1}, $intern_40 = 1.52587890625E-5, $intern_41 = 9.5367431640625E-7, $intern_42 = 2.220446049250313E-16, $intern_43 = {150:1}, $intern_44 = {96:1}, $intern_45 = {99:1, 59:1}, $intern_46 = {99:1, 111:1, 59:1}, $intern_47 = {3:1, 150:1}, $intern_48 = 15525485, $intern_49 = {3:1, 32:1, 17:1, 77:1}, $intern_50 = 1565;
 var _, initFnList_0, prototypesByTypeId_0 = {}, permutationId = -1;
 function im_actor_core_js_providers_Assets(){
   switch (permutationId) {
@@ -23621,8 +23621,6 @@ _.create_0 = function create_18(){
 ;
 var Lim_actor_core_js_modules_JsIdleModule$1_2_classLit = createForClass('im.actor.core.js.modules', 'JsIdleModule/1', 834, Ljava_lang_Object_2_classLit);
 function $onActionDetected(this$static){
-  $clinit_Log();
-  log_1($format(($clinit_JsLogProvider() , dateTimeFormat), new Date_0, null) + '[D] ' + 'JsIdle' + ':' + 'onActionDetected');
   if (!this$static.isAppVisible) {
     this$static.isAppVisible = true;
     $dispatch_0(new EventBus$2(this$static.messenger.modules_0.events, new AppVisibleChanged(true)));
@@ -23631,8 +23629,6 @@ function $onActionDetected(this$static){
 }
 
 function $onTimeoutDetected(this$static){
-  $clinit_Log();
-  log_1($format(($clinit_JsLogProvider() , dateTimeFormat), new Date_0, null) + '[D] ' + 'JsIdle' + ':' + 'onTimeoutDetected');
   if (this$static.isAppVisible) {
     this$static.isAppVisible = false;
     $dispatch_0(new EventBus$2(this$static.messenger.modules_0.events, new AppVisibleChanged(false)));
@@ -23650,12 +23646,10 @@ _.onActionDetected = function onActionDetected(){
 }
 ;
 _.onReceive = function onReceive_1(message){
-  instanceOf(message, 213)?$onTimeoutDetected(this):instanceOf(message, 113)?($clinit_Log() , log_1($format(($clinit_JsLogProvider() , dateTimeFormat), new Date_0, null) + '[D] ' + 'JsIdle' + ':' + 'onHidden') , $onTimeoutDetected(this)):(!!this.context_0.actorScope.actorSystem.traceInterface && ($clinit_Log() , warn($format(($clinit_JsLogProvider() , dateTimeFormat), new Date_0, null) + '[W] ' + 'ACTOR_SYSTEM' + ':' + ('Drop: ' + message))) , $reply(this, new DeadLetter(message)));
+  instanceOf(message, 213)?$onTimeoutDetected(this):instanceOf(message, 113)?$onTimeoutDetected(this):(!!this.context_0.actorScope.actorSystem.traceInterface && ($clinit_Log() , warn($format(($clinit_JsLogProvider() , dateTimeFormat), new Date_0, null) + '[W] ' + 'ACTOR_SYSTEM' + ':' + ('Drop: ' + message))) , $reply(this, new DeadLetter(message)));
 }
 ;
 _.preStart = function preStart_0(){
-  $clinit_Log();
-  log_1($format(($clinit_JsLogProvider() , dateTimeFormat), new Date_0, null) + '[D] ' + 'JsIdle' + ':' + 'preStart');
   subscribe(this);
   $sendOnce_0(this.context_0.actorScope.actorRef, new JsIdleModule$IdleActor$FlushTimeout, {l:180000, m:0, h:0});
 }
@@ -47402,7 +47396,7 @@ function $onReceived(this$static, data_0){
 defineClass(1536, 1, {});
 var Lim_actor_runtime_mtproto_AsyncConnection_2_classLit = createForClass('im.actor.runtime.mtproto', 'AsyncConnection', 1536, Ljava_lang_Object_2_classLit);
 function $createJSWebSocket(url_0, webSocket){
-  var jsWebSocket = new WebSocket(url_0, ['binary']);
+  var jsWebSocket = new WebSocket(url_0);
   jsWebSocket.binaryType = 'arraybuffer';
   jsWebSocket.onopen = function(){
     webSocket.onRawConnected();
