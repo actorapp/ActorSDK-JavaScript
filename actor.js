@@ -249,36 +249,36 @@ function actor(){
   processMetas();
   try {
     var strongName;
-    unflattenKeylistIntoAnswers(['ar', 'gecko1_8'], '2B12CE6B8AB8BFD8D56950709AA24B06');
-    unflattenKeylistIntoAnswers(['ar', 'ie10'], '2B12CE6B8AB8BFD8D56950709AA24B06' + ':1');
-    unflattenKeylistIntoAnswers(['default', 'gecko1_8'], '2B12CE6B8AB8BFD8D56950709AA24B06' + ':10');
-    unflattenKeylistIntoAnswers(['default', 'ie10'], '2B12CE6B8AB8BFD8D56950709AA24B06' + ':11');
-    unflattenKeylistIntoAnswers(['default', 'ie8'], '2B12CE6B8AB8BFD8D56950709AA24B06' + ':12');
-    unflattenKeylistIntoAnswers(['default', 'ie9'], '2B12CE6B8AB8BFD8D56950709AA24B06' + ':13');
-    unflattenKeylistIntoAnswers(['default', 'safari'], '2B12CE6B8AB8BFD8D56950709AA24B06' + ':14');
-    unflattenKeylistIntoAnswers(['en', 'gecko1_8'], '2B12CE6B8AB8BFD8D56950709AA24B06' + ':15');
-    unflattenKeylistIntoAnswers(['en', 'ie10'], '2B12CE6B8AB8BFD8D56950709AA24B06' + ':16');
-    unflattenKeylistIntoAnswers(['en', 'ie8'], '2B12CE6B8AB8BFD8D56950709AA24B06' + ':17');
-    unflattenKeylistIntoAnswers(['en', 'ie9'], '2B12CE6B8AB8BFD8D56950709AA24B06' + ':18');
-    unflattenKeylistIntoAnswers(['en', 'safari'], '2B12CE6B8AB8BFD8D56950709AA24B06' + ':19');
-    unflattenKeylistIntoAnswers(['ar', 'ie8'], '2B12CE6B8AB8BFD8D56950709AA24B06' + ':2');
-    unflattenKeylistIntoAnswers(['pt', 'gecko1_8'], '2B12CE6B8AB8BFD8D56950709AA24B06' + ':20');
-    unflattenKeylistIntoAnswers(['pt', 'ie10'], '2B12CE6B8AB8BFD8D56950709AA24B06' + ':21');
-    unflattenKeylistIntoAnswers(['pt', 'ie8'], '2B12CE6B8AB8BFD8D56950709AA24B06' + ':22');
-    unflattenKeylistIntoAnswers(['pt', 'ie9'], '2B12CE6B8AB8BFD8D56950709AA24B06' + ':23');
-    unflattenKeylistIntoAnswers(['pt', 'safari'], '2B12CE6B8AB8BFD8D56950709AA24B06' + ':24');
-    unflattenKeylistIntoAnswers(['ru', 'gecko1_8'], '2B12CE6B8AB8BFD8D56950709AA24B06' + ':25');
-    unflattenKeylistIntoAnswers(['ru', 'ie10'], '2B12CE6B8AB8BFD8D56950709AA24B06' + ':26');
-    unflattenKeylistIntoAnswers(['ru', 'ie8'], '2B12CE6B8AB8BFD8D56950709AA24B06' + ':27');
-    unflattenKeylistIntoAnswers(['ru', 'ie9'], '2B12CE6B8AB8BFD8D56950709AA24B06' + ':28');
-    unflattenKeylistIntoAnswers(['ru', 'safari'], '2B12CE6B8AB8BFD8D56950709AA24B06' + ':29');
-    unflattenKeylistIntoAnswers(['ar', 'ie9'], '2B12CE6B8AB8BFD8D56950709AA24B06' + ':3');
-    unflattenKeylistIntoAnswers(['ar', 'safari'], '2B12CE6B8AB8BFD8D56950709AA24B06' + ':4');
-    unflattenKeylistIntoAnswers(['cn', 'gecko1_8'], '2B12CE6B8AB8BFD8D56950709AA24B06' + ':5');
-    unflattenKeylistIntoAnswers(['cn', 'ie10'], '2B12CE6B8AB8BFD8D56950709AA24B06' + ':6');
-    unflattenKeylistIntoAnswers(['cn', 'ie8'], '2B12CE6B8AB8BFD8D56950709AA24B06' + ':7');
-    unflattenKeylistIntoAnswers(['cn', 'ie9'], '2B12CE6B8AB8BFD8D56950709AA24B06' + ':8');
-    unflattenKeylistIntoAnswers(['cn', 'safari'], '2B12CE6B8AB8BFD8D56950709AA24B06' + ':9');
+    unflattenKeylistIntoAnswers(['ar', 'gecko1_8'], 'F692A92F4E2E73330E42D9EC799F4E5C');
+    unflattenKeylistIntoAnswers(['ar', 'ie10'], 'F692A92F4E2E73330E42D9EC799F4E5C' + ':1');
+    unflattenKeylistIntoAnswers(['default', 'gecko1_8'], 'F692A92F4E2E73330E42D9EC799F4E5C' + ':10');
+    unflattenKeylistIntoAnswers(['default', 'ie10'], 'F692A92F4E2E73330E42D9EC799F4E5C' + ':11');
+    unflattenKeylistIntoAnswers(['default', 'ie8'], 'F692A92F4E2E73330E42D9EC799F4E5C' + ':12');
+    unflattenKeylistIntoAnswers(['default', 'ie9'], 'F692A92F4E2E73330E42D9EC799F4E5C' + ':13');
+    unflattenKeylistIntoAnswers(['default', 'safari'], 'F692A92F4E2E73330E42D9EC799F4E5C' + ':14');
+    unflattenKeylistIntoAnswers(['en', 'gecko1_8'], 'F692A92F4E2E73330E42D9EC799F4E5C' + ':15');
+    unflattenKeylistIntoAnswers(['en', 'ie10'], 'F692A92F4E2E73330E42D9EC799F4E5C' + ':16');
+    unflattenKeylistIntoAnswers(['en', 'ie8'], 'F692A92F4E2E73330E42D9EC799F4E5C' + ':17');
+    unflattenKeylistIntoAnswers(['en', 'ie9'], 'F692A92F4E2E73330E42D9EC799F4E5C' + ':18');
+    unflattenKeylistIntoAnswers(['en', 'safari'], 'F692A92F4E2E73330E42D9EC799F4E5C' + ':19');
+    unflattenKeylistIntoAnswers(['ar', 'ie8'], 'F692A92F4E2E73330E42D9EC799F4E5C' + ':2');
+    unflattenKeylistIntoAnswers(['pt', 'gecko1_8'], 'F692A92F4E2E73330E42D9EC799F4E5C' + ':20');
+    unflattenKeylistIntoAnswers(['pt', 'ie10'], 'F692A92F4E2E73330E42D9EC799F4E5C' + ':21');
+    unflattenKeylistIntoAnswers(['pt', 'ie8'], 'F692A92F4E2E73330E42D9EC799F4E5C' + ':22');
+    unflattenKeylistIntoAnswers(['pt', 'ie9'], 'F692A92F4E2E73330E42D9EC799F4E5C' + ':23');
+    unflattenKeylistIntoAnswers(['pt', 'safari'], 'F692A92F4E2E73330E42D9EC799F4E5C' + ':24');
+    unflattenKeylistIntoAnswers(['ru', 'gecko1_8'], 'F692A92F4E2E73330E42D9EC799F4E5C' + ':25');
+    unflattenKeylistIntoAnswers(['ru', 'ie10'], 'F692A92F4E2E73330E42D9EC799F4E5C' + ':26');
+    unflattenKeylistIntoAnswers(['ru', 'ie8'], 'F692A92F4E2E73330E42D9EC799F4E5C' + ':27');
+    unflattenKeylistIntoAnswers(['ru', 'ie9'], 'F692A92F4E2E73330E42D9EC799F4E5C' + ':28');
+    unflattenKeylistIntoAnswers(['ru', 'safari'], 'F692A92F4E2E73330E42D9EC799F4E5C' + ':29');
+    unflattenKeylistIntoAnswers(['ar', 'ie9'], 'F692A92F4E2E73330E42D9EC799F4E5C' + ':3');
+    unflattenKeylistIntoAnswers(['ar', 'safari'], 'F692A92F4E2E73330E42D9EC799F4E5C' + ':4');
+    unflattenKeylistIntoAnswers(['cn', 'gecko1_8'], 'F692A92F4E2E73330E42D9EC799F4E5C' + ':5');
+    unflattenKeylistIntoAnswers(['cn', 'ie10'], 'F692A92F4E2E73330E42D9EC799F4E5C' + ':6');
+    unflattenKeylistIntoAnswers(['cn', 'ie8'], 'F692A92F4E2E73330E42D9EC799F4E5C' + ':7');
+    unflattenKeylistIntoAnswers(['cn', 'ie9'], 'F692A92F4E2E73330E42D9EC799F4E5C' + ':8');
+    unflattenKeylistIntoAnswers(['cn', 'safari'], 'F692A92F4E2E73330E42D9EC799F4E5C' + ':9');
     strongName = answers[computePropValue('locale')][computePropValue('user.agent')];
     var idx = strongName.indexOf(':');
     if (idx != -1) {
@@ -317,7 +317,7 @@ function actor(){
 }
 
 actor();
-(function () {var $gwt_version = "2.7.0";var $wnd = window;var $doc = $wnd.document;var $moduleName, $moduleBase;var $stats = $wnd.__gwtStatsEvent ? function(a) {$wnd.__gwtStatsEvent(a)} : null;var $strongName = '2B12CE6B8AB8BFD8D56950709AA24B06';var $intern_0 = 2147483647, $intern_1 = {3:1, 22:1}, $intern_2 = {3:1, 15:1, 22:1}, $intern_3 = {3:1, 10:1}, $intern_4 = {3:1}, $intern_5 = 1000, $intern_6 = 65535, $intern_7 = 4194303, $intern_8 = 1048575, $intern_9 = 524288, $intern_10 = 4194304, $intern_11 = 17592186044416, $intern_12 = -9223372036854775808, $intern_13 = {472:1}, $intern_14 = 65536, $intern_15 = 131072, $intern_16 = 1048576, $intern_17 = 16777216, $intern_18 = 67108864, $intern_19 = {6:1}, $intern_20 = 1589, $intern_21 = 1614, $intern_22 = 1592, $intern_23 = 1617, $intern_24 = 1608, $intern_25 = 1023, $intern_26 = {3:1, 33:1}, $intern_27 = 1575, $intern_28 = {12:1}, $intern_29 = {68:1}, $intern_30 = 1578, $intern_31 = {4:1, 3:1}, $intern_32 = {13:1, 3:1}, $intern_33 = {25:1}, $intern_34 = 5.9604644775390625E-8, $intern_35 = {160:1}, $intern_36 = {3:1, 55:1, 99:1}, $intern_37 = {5:1, 3:1, 15:1, 22:1}, $intern_38 = {110:1, 3:1, 10:1}, $intern_39 = {292:1}, $intern_40 = 1.52587890625E-5, $intern_41 = 9.5367431640625E-7, $intern_42 = 2.220446049250313E-16, $intern_43 = {151:1}, $intern_44 = {98:1}, $intern_45 = {101:1, 59:1}, $intern_46 = {101:1, 113:1, 59:1}, $intern_47 = {3:1, 151:1}, $intern_48 = 15525485, $intern_49 = {3:1, 32:1, 17:1, 81:1}, $intern_50 = 1572;
+(function () {var $gwt_version = "2.7.0";var $wnd = window;var $doc = $wnd.document;var $moduleName, $moduleBase;var $stats = $wnd.__gwtStatsEvent ? function(a) {$wnd.__gwtStatsEvent(a)} : null;var $strongName = 'F692A92F4E2E73330E42D9EC799F4E5C';var $intern_0 = 2147483647, $intern_1 = {3:1, 22:1}, $intern_2 = {3:1, 15:1, 22:1}, $intern_3 = {3:1, 10:1}, $intern_4 = {3:1}, $intern_5 = 1000, $intern_6 = 65535, $intern_7 = 4194303, $intern_8 = 1048575, $intern_9 = 524288, $intern_10 = 4194304, $intern_11 = 17592186044416, $intern_12 = -9223372036854775808, $intern_13 = {472:1}, $intern_14 = 65536, $intern_15 = 131072, $intern_16 = 1048576, $intern_17 = 16777216, $intern_18 = 67108864, $intern_19 = {6:1}, $intern_20 = 1589, $intern_21 = 1614, $intern_22 = 1592, $intern_23 = 1617, $intern_24 = 1608, $intern_25 = 1023, $intern_26 = {3:1, 33:1}, $intern_27 = 1575, $intern_28 = {12:1}, $intern_29 = {68:1}, $intern_30 = 1578, $intern_31 = {4:1, 3:1}, $intern_32 = {13:1, 3:1}, $intern_33 = {25:1}, $intern_34 = 5.9604644775390625E-8, $intern_35 = {160:1}, $intern_36 = {3:1, 55:1, 99:1}, $intern_37 = {5:1, 3:1, 15:1, 22:1}, $intern_38 = {110:1, 3:1, 10:1}, $intern_39 = {292:1}, $intern_40 = 1.52587890625E-5, $intern_41 = 9.5367431640625E-7, $intern_42 = 2.220446049250313E-16, $intern_43 = {151:1}, $intern_44 = {98:1}, $intern_45 = {101:1, 59:1}, $intern_46 = {101:1, 113:1, 59:1}, $intern_47 = {3:1, 151:1}, $intern_48 = 15525485, $intern_49 = {3:1, 32:1, 17:1, 81:1}, $intern_50 = 1572;
 var _, initFnList_0, prototypesByTypeId_0 = {}, permutationId = -1;
 function im_actor_core_js_providers_Assets(){
   switch (permutationId) {
@@ -31546,9 +31546,10 @@ function $checkReadState(this$static, updateDialogs){
 }
 
 function $onHistoryLoaded(this$static, history_0){
-  var historyMessage, historyMessage$iterator, updated, updatedDocs;
+  var historyMessage, historyMessage$iterator, maxReadMessage, updated, updatedDocs;
   updated = new ArrayList;
   updatedDocs = new ArrayList;
+  maxReadMessage = {l:0, m:0, h:0};
   for (historyMessage$iterator = new AbstractList$IteratorImpl(history_0); historyMessage$iterator.i < historyMessage$iterator.this$01.size_1();) {
     historyMessage = (checkCriticalElement(historyMessage$iterator.i < historyMessage$iterator.this$01.size_1()) , historyMessage$iterator.this$01.get_0(historyMessage$iterator.last = historyMessage$iterator.i++));
     if ($getValue_0(this$static.messages, historyMessage.rid)) {
@@ -31556,9 +31557,13 @@ function $onHistoryLoaded(this$static, history_0){
     }
     updated.array[updated.array.length] = historyMessage;
     instanceOf(historyMessage.content_0, 34) && (updatedDocs.array[updatedDocs.array.length] = historyMessage , true);
+    historyMessage.senderId != this$static.context.authentication.myUid && (maxReadMessage = max_1(maxReadMessage, historyMessage.sortDate));
   }
   updated.size_1() > 0 && $addOrUpdateItems_1(this$static.messages, updated);
   updatedDocs.size_1() > 0 && $addOrUpdateItems_1(this$static.docs, updatedDocs);
+  this$static.inReadStateNew = max_1(this$static.inReadStateNew, maxReadMessage);
+  $putLong(this$static.context.preferences, this$static.IN_READ_STATE_NEW_PREF, this$static.inReadStateNew);
+  this$static.isAppVisible && this$static.isConversationVisible && $checkReadState(this$static, true);
 }
 
 function $onInMessage_0(this$static, message){
