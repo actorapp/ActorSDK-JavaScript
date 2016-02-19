@@ -249,41 +249,41 @@ function actor(){
   processMetas();
   try {
     var strongName;
-    unflattenKeylistIntoAnswers(['ar', 'gecko1_8'], 'C5F053828FC8C1F14CCC18975ADE03D9');
-    unflattenKeylistIntoAnswers(['ar', 'ie10'], 'C5F053828FC8C1F14CCC18975ADE03D9' + ':1');
-    unflattenKeylistIntoAnswers(['default', 'gecko1_8'], 'C5F053828FC8C1F14CCC18975ADE03D9' + ':10');
-    unflattenKeylistIntoAnswers(['default', 'ie10'], 'C5F053828FC8C1F14CCC18975ADE03D9' + ':11');
-    unflattenKeylistIntoAnswers(['default', 'ie8'], 'C5F053828FC8C1F14CCC18975ADE03D9' + ':12');
-    unflattenKeylistIntoAnswers(['default', 'ie9'], 'C5F053828FC8C1F14CCC18975ADE03D9' + ':13');
-    unflattenKeylistIntoAnswers(['default', 'safari'], 'C5F053828FC8C1F14CCC18975ADE03D9' + ':14');
-    unflattenKeylistIntoAnswers(['en', 'gecko1_8'], 'C5F053828FC8C1F14CCC18975ADE03D9' + ':15');
-    unflattenKeylistIntoAnswers(['en', 'ie10'], 'C5F053828FC8C1F14CCC18975ADE03D9' + ':16');
-    unflattenKeylistIntoAnswers(['en', 'ie8'], 'C5F053828FC8C1F14CCC18975ADE03D9' + ':17');
-    unflattenKeylistIntoAnswers(['en', 'ie9'], 'C5F053828FC8C1F14CCC18975ADE03D9' + ':18');
-    unflattenKeylistIntoAnswers(['en', 'safari'], 'C5F053828FC8C1F14CCC18975ADE03D9' + ':19');
-    unflattenKeylistIntoAnswers(['ar', 'ie8'], 'C5F053828FC8C1F14CCC18975ADE03D9' + ':2');
-    unflattenKeylistIntoAnswers(['es', 'gecko1_8'], 'C5F053828FC8C1F14CCC18975ADE03D9' + ':20');
-    unflattenKeylistIntoAnswers(['es', 'ie10'], 'C5F053828FC8C1F14CCC18975ADE03D9' + ':21');
-    unflattenKeylistIntoAnswers(['es', 'ie8'], 'C5F053828FC8C1F14CCC18975ADE03D9' + ':22');
-    unflattenKeylistIntoAnswers(['es', 'ie9'], 'C5F053828FC8C1F14CCC18975ADE03D9' + ':23');
-    unflattenKeylistIntoAnswers(['es', 'safari'], 'C5F053828FC8C1F14CCC18975ADE03D9' + ':24');
-    unflattenKeylistIntoAnswers(['pt', 'gecko1_8'], 'C5F053828FC8C1F14CCC18975ADE03D9' + ':25');
-    unflattenKeylistIntoAnswers(['pt', 'ie10'], 'C5F053828FC8C1F14CCC18975ADE03D9' + ':26');
-    unflattenKeylistIntoAnswers(['pt', 'ie8'], 'C5F053828FC8C1F14CCC18975ADE03D9' + ':27');
-    unflattenKeylistIntoAnswers(['pt', 'ie9'], 'C5F053828FC8C1F14CCC18975ADE03D9' + ':28');
-    unflattenKeylistIntoAnswers(['pt', 'safari'], 'C5F053828FC8C1F14CCC18975ADE03D9' + ':29');
-    unflattenKeylistIntoAnswers(['ar', 'ie9'], 'C5F053828FC8C1F14CCC18975ADE03D9' + ':3');
-    unflattenKeylistIntoAnswers(['ru', 'gecko1_8'], 'C5F053828FC8C1F14CCC18975ADE03D9' + ':30');
-    unflattenKeylistIntoAnswers(['ru', 'ie10'], 'C5F053828FC8C1F14CCC18975ADE03D9' + ':31');
-    unflattenKeylistIntoAnswers(['ru', 'ie8'], 'C5F053828FC8C1F14CCC18975ADE03D9' + ':32');
-    unflattenKeylistIntoAnswers(['ru', 'ie9'], 'C5F053828FC8C1F14CCC18975ADE03D9' + ':33');
-    unflattenKeylistIntoAnswers(['ru', 'safari'], 'C5F053828FC8C1F14CCC18975ADE03D9' + ':34');
-    unflattenKeylistIntoAnswers(['ar', 'safari'], 'C5F053828FC8C1F14CCC18975ADE03D9' + ':4');
-    unflattenKeylistIntoAnswers(['cn', 'gecko1_8'], 'C5F053828FC8C1F14CCC18975ADE03D9' + ':5');
-    unflattenKeylistIntoAnswers(['cn', 'ie10'], 'C5F053828FC8C1F14CCC18975ADE03D9' + ':6');
-    unflattenKeylistIntoAnswers(['cn', 'ie8'], 'C5F053828FC8C1F14CCC18975ADE03D9' + ':7');
-    unflattenKeylistIntoAnswers(['cn', 'ie9'], 'C5F053828FC8C1F14CCC18975ADE03D9' + ':8');
-    unflattenKeylistIntoAnswers(['cn', 'safari'], 'C5F053828FC8C1F14CCC18975ADE03D9' + ':9');
+    unflattenKeylistIntoAnswers(['ar', 'gecko1_8'], '1585F5D93E83890E82AB12C80429612B');
+    unflattenKeylistIntoAnswers(['ar', 'ie10'], '1585F5D93E83890E82AB12C80429612B' + ':1');
+    unflattenKeylistIntoAnswers(['default', 'gecko1_8'], '1585F5D93E83890E82AB12C80429612B' + ':10');
+    unflattenKeylistIntoAnswers(['default', 'ie10'], '1585F5D93E83890E82AB12C80429612B' + ':11');
+    unflattenKeylistIntoAnswers(['default', 'ie8'], '1585F5D93E83890E82AB12C80429612B' + ':12');
+    unflattenKeylistIntoAnswers(['default', 'ie9'], '1585F5D93E83890E82AB12C80429612B' + ':13');
+    unflattenKeylistIntoAnswers(['default', 'safari'], '1585F5D93E83890E82AB12C80429612B' + ':14');
+    unflattenKeylistIntoAnswers(['en', 'gecko1_8'], '1585F5D93E83890E82AB12C80429612B' + ':15');
+    unflattenKeylistIntoAnswers(['en', 'ie10'], '1585F5D93E83890E82AB12C80429612B' + ':16');
+    unflattenKeylistIntoAnswers(['en', 'ie8'], '1585F5D93E83890E82AB12C80429612B' + ':17');
+    unflattenKeylistIntoAnswers(['en', 'ie9'], '1585F5D93E83890E82AB12C80429612B' + ':18');
+    unflattenKeylistIntoAnswers(['en', 'safari'], '1585F5D93E83890E82AB12C80429612B' + ':19');
+    unflattenKeylistIntoAnswers(['ar', 'ie8'], '1585F5D93E83890E82AB12C80429612B' + ':2');
+    unflattenKeylistIntoAnswers(['es', 'gecko1_8'], '1585F5D93E83890E82AB12C80429612B' + ':20');
+    unflattenKeylistIntoAnswers(['es', 'ie10'], '1585F5D93E83890E82AB12C80429612B' + ':21');
+    unflattenKeylistIntoAnswers(['es', 'ie8'], '1585F5D93E83890E82AB12C80429612B' + ':22');
+    unflattenKeylistIntoAnswers(['es', 'ie9'], '1585F5D93E83890E82AB12C80429612B' + ':23');
+    unflattenKeylistIntoAnswers(['es', 'safari'], '1585F5D93E83890E82AB12C80429612B' + ':24');
+    unflattenKeylistIntoAnswers(['pt', 'gecko1_8'], '1585F5D93E83890E82AB12C80429612B' + ':25');
+    unflattenKeylistIntoAnswers(['pt', 'ie10'], '1585F5D93E83890E82AB12C80429612B' + ':26');
+    unflattenKeylistIntoAnswers(['pt', 'ie8'], '1585F5D93E83890E82AB12C80429612B' + ':27');
+    unflattenKeylistIntoAnswers(['pt', 'ie9'], '1585F5D93E83890E82AB12C80429612B' + ':28');
+    unflattenKeylistIntoAnswers(['pt', 'safari'], '1585F5D93E83890E82AB12C80429612B' + ':29');
+    unflattenKeylistIntoAnswers(['ar', 'ie9'], '1585F5D93E83890E82AB12C80429612B' + ':3');
+    unflattenKeylistIntoAnswers(['ru', 'gecko1_8'], '1585F5D93E83890E82AB12C80429612B' + ':30');
+    unflattenKeylistIntoAnswers(['ru', 'ie10'], '1585F5D93E83890E82AB12C80429612B' + ':31');
+    unflattenKeylistIntoAnswers(['ru', 'ie8'], '1585F5D93E83890E82AB12C80429612B' + ':32');
+    unflattenKeylistIntoAnswers(['ru', 'ie9'], '1585F5D93E83890E82AB12C80429612B' + ':33');
+    unflattenKeylistIntoAnswers(['ru', 'safari'], '1585F5D93E83890E82AB12C80429612B' + ':34');
+    unflattenKeylistIntoAnswers(['ar', 'safari'], '1585F5D93E83890E82AB12C80429612B' + ':4');
+    unflattenKeylistIntoAnswers(['cn', 'gecko1_8'], '1585F5D93E83890E82AB12C80429612B' + ':5');
+    unflattenKeylistIntoAnswers(['cn', 'ie10'], '1585F5D93E83890E82AB12C80429612B' + ':6');
+    unflattenKeylistIntoAnswers(['cn', 'ie8'], '1585F5D93E83890E82AB12C80429612B' + ':7');
+    unflattenKeylistIntoAnswers(['cn', 'ie9'], '1585F5D93E83890E82AB12C80429612B' + ':8');
+    unflattenKeylistIntoAnswers(['cn', 'safari'], '1585F5D93E83890E82AB12C80429612B' + ':9');
     strongName = answers[computePropValue('locale')][computePropValue('user.agent')];
     var idx = strongName.indexOf(':');
     if (idx != -1) {
@@ -322,7 +322,7 @@ function actor(){
 }
 
 actor();
-(function () {var $gwt_version = "2.7.0";var $wnd = window;var $doc = $wnd.document;var $moduleName, $moduleBase;var $stats = $wnd.__gwtStatsEvent ? function(a) {$wnd.__gwtStatsEvent(a)} : null;var $strongName = 'C5F053828FC8C1F14CCC18975ADE03D9';var $intern_0 = 2147483647, $intern_1 = {3:1, 20:1}, $intern_2 = {3:1, 15:1, 20:1}, $intern_3 = {3:1, 9:1}, $intern_4 = {3:1}, $intern_5 = 1000, $intern_6 = 65535, $intern_7 = 4194303, $intern_8 = 1048575, $intern_9 = 524288, $intern_10 = 4194304, $intern_11 = 17592186044416, $intern_12 = -9223372036854775808, $intern_13 = {554:1}, $intern_14 = 1024, $intern_15 = 65536, $intern_16 = 131072, $intern_17 = 1048576, $intern_18 = 16777216, $intern_19 = 67108864, $intern_20 = {5:1}, $intern_21 = 1876, $intern_22 = 1869, $intern_23 = 1847, $intern_24 = 1870, $intern_25 = 1849, $intern_26 = 1850, $intern_27 = 1873, $intern_28 = 1864, $intern_29 = 1023, $intern_30 = 1836, $intern_31 = {3:1, 47:1}, $intern_32 = 1834, $intern_33 = {12:1}, $intern_34 = {63:1}, $intern_35 = {4:1, 3:1}, $intern_36 = 1280, $intern_37 = {13:1, 3:1}, $intern_38 = 1536, $intern_39 = {25:1}, $intern_40 = 5.9604644775390625E-8, $intern_41 = {172:1}, $intern_42 = {3:1, 52:1, 91:1}, $intern_43 = {6:1, 3:1, 15:1, 20:1}, $intern_44 = {110:1, 3:1, 9:1}, $intern_45 = {128:1}, $intern_46 = 1792, $intern_47 = {32:1}, $intern_48 = 1.52587890625E-5, $intern_49 = 9.5367431640625E-7, $intern_50 = 2.220446049250313E-16, $intern_51 = {164:1}, $intern_52 = {90:1}, $intern_53 = {3:1, 324:1}, $intern_54 = 15525485, $intern_55 = 1831;
+(function () {var $gwt_version = "2.7.0";var $wnd = window;var $doc = $wnd.document;var $moduleName, $moduleBase;var $stats = $wnd.__gwtStatsEvent ? function(a) {$wnd.__gwtStatsEvent(a)} : null;var $strongName = '1585F5D93E83890E82AB12C80429612B';var $intern_0 = 2147483647, $intern_1 = {3:1, 20:1}, $intern_2 = {3:1, 15:1, 20:1}, $intern_3 = {3:1, 9:1}, $intern_4 = {3:1}, $intern_5 = 1000, $intern_6 = 65535, $intern_7 = 4194303, $intern_8 = 1048575, $intern_9 = 524288, $intern_10 = 4194304, $intern_11 = 17592186044416, $intern_12 = -9223372036854775808, $intern_13 = {554:1}, $intern_14 = 1024, $intern_15 = 65536, $intern_16 = 131072, $intern_17 = 1048576, $intern_18 = 16777216, $intern_19 = 67108864, $intern_20 = {5:1}, $intern_21 = 1876, $intern_22 = 1869, $intern_23 = 1847, $intern_24 = 1870, $intern_25 = 1849, $intern_26 = 1850, $intern_27 = 1873, $intern_28 = 1864, $intern_29 = 1023, $intern_30 = 1836, $intern_31 = {3:1, 47:1}, $intern_32 = 1834, $intern_33 = {12:1}, $intern_34 = {63:1}, $intern_35 = {4:1, 3:1}, $intern_36 = 1280, $intern_37 = {13:1, 3:1}, $intern_38 = 1536, $intern_39 = {25:1}, $intern_40 = 5.9604644775390625E-8, $intern_41 = {172:1}, $intern_42 = {3:1, 52:1, 91:1}, $intern_43 = {6:1, 3:1, 15:1, 20:1}, $intern_44 = {110:1, 3:1, 9:1}, $intern_45 = {128:1}, $intern_46 = 1792, $intern_47 = {32:1}, $intern_48 = 1.52587890625E-5, $intern_49 = 9.5367431640625E-7, $intern_50 = 2.220446049250313E-16, $intern_51 = {164:1}, $intern_52 = {90:1}, $intern_53 = {3:1, 324:1}, $intern_54 = 15525485, $intern_55 = 1831;
 var _, initFnList_0, prototypesByTypeId_0 = {}, permutationId = -1;
 function im_actor_core_js_providers_Assets(){
   switch (permutationId) {
@@ -30500,6 +30500,15 @@ _.apply_0 = function apply_2(e){
 }
 ;
 var Lim_actor_core_modules_calls_CallMasterActor$2_2_classLit = createForClass('im.actor.core.modules.calls', 'CallMasterActor/2', 1725, Ljava_lang_Object_2_classLit);
+function $doAnswer(this$static){
+  if (!this$static.isAnswered) {
+    this$static.isAnswered = true;
+    this$static.isConnected?$change(this$static.callVM.state, ($clinit_CallState() , IN_PROGRESS_2)):$change(this$static.callVM.state, ($clinit_CallState() , CONNECTING_3));
+    $sendSignalingMessage(this$static, this$static.masterNode.uid, this$static.masterNode.deviceId, new ApiAnswerCall);
+    $unsilencePeers(this$static);
+  }
+}
+
 function $onBusStarted(this$static){
   this$static.callVM = $spawnNewVM(this$static, this$static.callId, this$static.peer, false, new ArrayList, ($clinit_CallState() , CALLING));
   $change(this$static.callVM.isMuted, ($clinit_Boolean() , $clinit_Boolean() , FALSE));
@@ -30568,12 +30577,13 @@ function $onMembersChanged(this$static, allMembers){
 function CallSlaveActor(callId, context){
   CallActor.call(this, context);
   this.callId = callId;
+  this.isConnected = false;
+  this.isAnswered = false;
 }
 
 defineClass(1591, 691, {}, CallSlaveActor);
 _.doEndCall = function doEndCall_0(){
   $shutdown(this);
-  !!this.callVM && $change(this.callVM.state, ($clinit_CallState() , ENDED_2));
   !!this.masterNode && $sendSignalingMessage(this, this.masterNode.uid, this.masterNode.deviceId, new ApiRejectCall);
 }
 ;
@@ -30584,7 +30594,7 @@ _.onBusStopped = function onBusStopped_2(){
 }
 ;
 _.onReceive = function onReceive_7(message){
-  instanceOf(message, 500)?($change(this.callVM.state, ($clinit_CallState() , CONNECTING_3)) , $sendSignalingMessage(this, this.masterNode.uid, this.masterNode.deviceId, new ApiAnswerCall) , $unsilencePeers(this) , undefined):$onReceive_1(this, message);
+  instanceOf(message, 500)?$doAnswer(this):$onReceive_1(this, message);
 }
 ;
 _.onSignalingMessage = function onSignalingMessage_1(fromUid, fromDeviceId, signaling){
@@ -30598,7 +30608,13 @@ _.onSignalingMessage = function onSignalingMessage_1(fromUid, fromDeviceId, sign
 }
 ;
 _.onStreamAdded = function onStreamAdded_1(uid, deviceId, stream){
-  uid != this.context.authentication.myUid && maskUndefined(this.callVM.state.get_1()) === maskUndefined(($clinit_CallState() , CONNECTING_3)) && $change(this.callVM.state, ($clinit_CallState() , IN_PROGRESS_2));
+  if (uid == this.context.authentication.myUid) {
+    return;
+  }
+  if (!this.isConnected) {
+    this.isConnected = true;
+    this.isAnswered && $change(this.callVM.state, ($clinit_CallState() , IN_PROGRESS_2));
+  }
 }
 ;
 _.preStart = function preStart_5(){
@@ -30609,6 +30625,8 @@ _.preStart = function preStart_5(){
 }
 ;
 _.callId = {l:0, m:0, h:0};
+_.isAnswered = false;
+_.isConnected = false;
 var Lim_actor_core_modules_calls_CallSlaveActor_2_classLit = createForClass('im.actor.core.modules.calls', 'CallSlaveActor', 1591, Lim_actor_core_modules_calls_CallActor_2_classLit);
 function CallSlaveActor$1(this$0){
   this.this$01 = this$0;
