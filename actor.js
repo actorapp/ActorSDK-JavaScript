@@ -249,41 +249,41 @@ function actor(){
   processMetas();
   try {
     var strongName;
-    unflattenKeylistIntoAnswers(['ar', 'gecko1_8'], 'D08923D992ABFA50826496E6AF269000');
-    unflattenKeylistIntoAnswers(['ar', 'ie10'], 'D08923D992ABFA50826496E6AF269000' + ':1');
-    unflattenKeylistIntoAnswers(['default', 'gecko1_8'], 'D08923D992ABFA50826496E6AF269000' + ':10');
-    unflattenKeylistIntoAnswers(['default', 'ie10'], 'D08923D992ABFA50826496E6AF269000' + ':11');
-    unflattenKeylistIntoAnswers(['default', 'ie8'], 'D08923D992ABFA50826496E6AF269000' + ':12');
-    unflattenKeylistIntoAnswers(['default', 'ie9'], 'D08923D992ABFA50826496E6AF269000' + ':13');
-    unflattenKeylistIntoAnswers(['default', 'safari'], 'D08923D992ABFA50826496E6AF269000' + ':14');
-    unflattenKeylistIntoAnswers(['en', 'gecko1_8'], 'D08923D992ABFA50826496E6AF269000' + ':15');
-    unflattenKeylistIntoAnswers(['en', 'ie10'], 'D08923D992ABFA50826496E6AF269000' + ':16');
-    unflattenKeylistIntoAnswers(['en', 'ie8'], 'D08923D992ABFA50826496E6AF269000' + ':17');
-    unflattenKeylistIntoAnswers(['en', 'ie9'], 'D08923D992ABFA50826496E6AF269000' + ':18');
-    unflattenKeylistIntoAnswers(['en', 'safari'], 'D08923D992ABFA50826496E6AF269000' + ':19');
-    unflattenKeylistIntoAnswers(['ar', 'ie8'], 'D08923D992ABFA50826496E6AF269000' + ':2');
-    unflattenKeylistIntoAnswers(['es', 'gecko1_8'], 'D08923D992ABFA50826496E6AF269000' + ':20');
-    unflattenKeylistIntoAnswers(['es', 'ie10'], 'D08923D992ABFA50826496E6AF269000' + ':21');
-    unflattenKeylistIntoAnswers(['es', 'ie8'], 'D08923D992ABFA50826496E6AF269000' + ':22');
-    unflattenKeylistIntoAnswers(['es', 'ie9'], 'D08923D992ABFA50826496E6AF269000' + ':23');
-    unflattenKeylistIntoAnswers(['es', 'safari'], 'D08923D992ABFA50826496E6AF269000' + ':24');
-    unflattenKeylistIntoAnswers(['pt', 'gecko1_8'], 'D08923D992ABFA50826496E6AF269000' + ':25');
-    unflattenKeylistIntoAnswers(['pt', 'ie10'], 'D08923D992ABFA50826496E6AF269000' + ':26');
-    unflattenKeylistIntoAnswers(['pt', 'ie8'], 'D08923D992ABFA50826496E6AF269000' + ':27');
-    unflattenKeylistIntoAnswers(['pt', 'ie9'], 'D08923D992ABFA50826496E6AF269000' + ':28');
-    unflattenKeylistIntoAnswers(['pt', 'safari'], 'D08923D992ABFA50826496E6AF269000' + ':29');
-    unflattenKeylistIntoAnswers(['ar', 'ie9'], 'D08923D992ABFA50826496E6AF269000' + ':3');
-    unflattenKeylistIntoAnswers(['ru', 'gecko1_8'], 'D08923D992ABFA50826496E6AF269000' + ':30');
-    unflattenKeylistIntoAnswers(['ru', 'ie10'], 'D08923D992ABFA50826496E6AF269000' + ':31');
-    unflattenKeylistIntoAnswers(['ru', 'ie8'], 'D08923D992ABFA50826496E6AF269000' + ':32');
-    unflattenKeylistIntoAnswers(['ru', 'ie9'], 'D08923D992ABFA50826496E6AF269000' + ':33');
-    unflattenKeylistIntoAnswers(['ru', 'safari'], 'D08923D992ABFA50826496E6AF269000' + ':34');
-    unflattenKeylistIntoAnswers(['ar', 'safari'], 'D08923D992ABFA50826496E6AF269000' + ':4');
-    unflattenKeylistIntoAnswers(['cn', 'gecko1_8'], 'D08923D992ABFA50826496E6AF269000' + ':5');
-    unflattenKeylistIntoAnswers(['cn', 'ie10'], 'D08923D992ABFA50826496E6AF269000' + ':6');
-    unflattenKeylistIntoAnswers(['cn', 'ie8'], 'D08923D992ABFA50826496E6AF269000' + ':7');
-    unflattenKeylistIntoAnswers(['cn', 'ie9'], 'D08923D992ABFA50826496E6AF269000' + ':8');
-    unflattenKeylistIntoAnswers(['cn', 'safari'], 'D08923D992ABFA50826496E6AF269000' + ':9');
+    unflattenKeylistIntoAnswers(['ar', 'gecko1_8'], 'C869717F284D3FAFA14FC473533968C8');
+    unflattenKeylistIntoAnswers(['ar', 'ie10'], 'C869717F284D3FAFA14FC473533968C8' + ':1');
+    unflattenKeylistIntoAnswers(['default', 'gecko1_8'], 'C869717F284D3FAFA14FC473533968C8' + ':10');
+    unflattenKeylistIntoAnswers(['default', 'ie10'], 'C869717F284D3FAFA14FC473533968C8' + ':11');
+    unflattenKeylistIntoAnswers(['default', 'ie8'], 'C869717F284D3FAFA14FC473533968C8' + ':12');
+    unflattenKeylistIntoAnswers(['default', 'ie9'], 'C869717F284D3FAFA14FC473533968C8' + ':13');
+    unflattenKeylistIntoAnswers(['default', 'safari'], 'C869717F284D3FAFA14FC473533968C8' + ':14');
+    unflattenKeylistIntoAnswers(['en', 'gecko1_8'], 'C869717F284D3FAFA14FC473533968C8' + ':15');
+    unflattenKeylistIntoAnswers(['en', 'ie10'], 'C869717F284D3FAFA14FC473533968C8' + ':16');
+    unflattenKeylistIntoAnswers(['en', 'ie8'], 'C869717F284D3FAFA14FC473533968C8' + ':17');
+    unflattenKeylistIntoAnswers(['en', 'ie9'], 'C869717F284D3FAFA14FC473533968C8' + ':18');
+    unflattenKeylistIntoAnswers(['en', 'safari'], 'C869717F284D3FAFA14FC473533968C8' + ':19');
+    unflattenKeylistIntoAnswers(['ar', 'ie8'], 'C869717F284D3FAFA14FC473533968C8' + ':2');
+    unflattenKeylistIntoAnswers(['es', 'gecko1_8'], 'C869717F284D3FAFA14FC473533968C8' + ':20');
+    unflattenKeylistIntoAnswers(['es', 'ie10'], 'C869717F284D3FAFA14FC473533968C8' + ':21');
+    unflattenKeylistIntoAnswers(['es', 'ie8'], 'C869717F284D3FAFA14FC473533968C8' + ':22');
+    unflattenKeylistIntoAnswers(['es', 'ie9'], 'C869717F284D3FAFA14FC473533968C8' + ':23');
+    unflattenKeylistIntoAnswers(['es', 'safari'], 'C869717F284D3FAFA14FC473533968C8' + ':24');
+    unflattenKeylistIntoAnswers(['pt', 'gecko1_8'], 'C869717F284D3FAFA14FC473533968C8' + ':25');
+    unflattenKeylistIntoAnswers(['pt', 'ie10'], 'C869717F284D3FAFA14FC473533968C8' + ':26');
+    unflattenKeylistIntoAnswers(['pt', 'ie8'], 'C869717F284D3FAFA14FC473533968C8' + ':27');
+    unflattenKeylistIntoAnswers(['pt', 'ie9'], 'C869717F284D3FAFA14FC473533968C8' + ':28');
+    unflattenKeylistIntoAnswers(['pt', 'safari'], 'C869717F284D3FAFA14FC473533968C8' + ':29');
+    unflattenKeylistIntoAnswers(['ar', 'ie9'], 'C869717F284D3FAFA14FC473533968C8' + ':3');
+    unflattenKeylistIntoAnswers(['ru', 'gecko1_8'], 'C869717F284D3FAFA14FC473533968C8' + ':30');
+    unflattenKeylistIntoAnswers(['ru', 'ie10'], 'C869717F284D3FAFA14FC473533968C8' + ':31');
+    unflattenKeylistIntoAnswers(['ru', 'ie8'], 'C869717F284D3FAFA14FC473533968C8' + ':32');
+    unflattenKeylistIntoAnswers(['ru', 'ie9'], 'C869717F284D3FAFA14FC473533968C8' + ':33');
+    unflattenKeylistIntoAnswers(['ru', 'safari'], 'C869717F284D3FAFA14FC473533968C8' + ':34');
+    unflattenKeylistIntoAnswers(['ar', 'safari'], 'C869717F284D3FAFA14FC473533968C8' + ':4');
+    unflattenKeylistIntoAnswers(['cn', 'gecko1_8'], 'C869717F284D3FAFA14FC473533968C8' + ':5');
+    unflattenKeylistIntoAnswers(['cn', 'ie10'], 'C869717F284D3FAFA14FC473533968C8' + ':6');
+    unflattenKeylistIntoAnswers(['cn', 'ie8'], 'C869717F284D3FAFA14FC473533968C8' + ':7');
+    unflattenKeylistIntoAnswers(['cn', 'ie9'], 'C869717F284D3FAFA14FC473533968C8' + ':8');
+    unflattenKeylistIntoAnswers(['cn', 'safari'], 'C869717F284D3FAFA14FC473533968C8' + ':9');
     strongName = answers[computePropValue('locale')][computePropValue('user.agent')];
     var idx = strongName.indexOf(':');
     if (idx != -1) {
@@ -322,7 +322,7 @@ function actor(){
 }
 
 actor();
-(function () {var $gwt_version = "2.7.0";var $wnd = window;var $doc = $wnd.document;var $moduleName, $moduleBase;var $stats = $wnd.__gwtStatsEvent ? function(a) {$wnd.__gwtStatsEvent(a)} : null;var $strongName = 'D08923D992ABFA50826496E6AF269000';var $intern_0 = 2147483647, $intern_1 = {3:1, 22:1}, $intern_2 = {3:1, 15:1, 22:1}, $intern_3 = {3:1, 10:1}, $intern_4 = {3:1}, $intern_5 = 1000, $intern_6 = 65535, $intern_7 = 1900, $intern_8 = 4194303, $intern_9 = 1048575, $intern_10 = 524288, $intern_11 = 4194304, $intern_12 = 17592186044416, $intern_13 = -9223372036854775808, $intern_14 = {551:1}, $intern_15 = 1024, $intern_16 = 65536, $intern_17 = 131072, $intern_18 = 1048576, $intern_19 = 16777216, $intern_20 = 67108864, $intern_21 = {5:1}, $intern_22 = 1925, $intern_23 = 1918, $intern_24 = 1896, $intern_25 = 1919, $intern_26 = 1898, $intern_27 = 1899, $intern_28 = 1922, $intern_29 = 1913, $intern_30 = 1280, $intern_31 = 1023, $intern_32 = 1885, $intern_33 = {3:1, 46:1}, $intern_34 = 1882, $intern_35 = {11:1}, $intern_36 = {62:1}, $intern_37 = 1792, $intern_38 = {4:1, 3:1}, $intern_39 = {13:1, 3:1}, $intern_40 = {25:1}, $intern_41 = 5.9604644775390625E-8, $intern_42 = {167:1}, $intern_43 = {3:1, 51:1, 89:1}, $intern_44 = {6:1, 3:1, 15:1, 22:1}, $intern_45 = {103:1, 3:1, 10:1}, $intern_46 = {119:1}, $intern_47 = 1536, $intern_48 = {33:1}, $intern_49 = 1.52587890625E-5, $intern_50 = 9.5367431640625E-7, $intern_51 = 2.220446049250313E-16, $intern_52 = {159:1}, $intern_53 = {88:1}, $intern_54 = {3:1, 318:1}, $intern_55 = 15525485, $intern_56 = 1879;
+(function () {var $gwt_version = "2.7.0";var $wnd = window;var $doc = $wnd.document;var $moduleName, $moduleBase;var $stats = $wnd.__gwtStatsEvent ? function(a) {$wnd.__gwtStatsEvent(a)} : null;var $strongName = 'C869717F284D3FAFA14FC473533968C8';var $intern_0 = 2147483647, $intern_1 = {3:1, 22:1}, $intern_2 = {3:1, 15:1, 22:1}, $intern_3 = {3:1, 10:1}, $intern_4 = {3:1}, $intern_5 = 1000, $intern_6 = 65535, $intern_7 = 1900, $intern_8 = 4194303, $intern_9 = 1048575, $intern_10 = 524288, $intern_11 = 4194304, $intern_12 = 17592186044416, $intern_13 = -9223372036854775808, $intern_14 = {551:1}, $intern_15 = 1024, $intern_16 = 65536, $intern_17 = 131072, $intern_18 = 1048576, $intern_19 = 16777216, $intern_20 = 67108864, $intern_21 = {5:1}, $intern_22 = 1925, $intern_23 = 1918, $intern_24 = 1896, $intern_25 = 1919, $intern_26 = 1898, $intern_27 = 1899, $intern_28 = 1922, $intern_29 = 1913, $intern_30 = 1280, $intern_31 = 1023, $intern_32 = 1885, $intern_33 = {3:1, 46:1}, $intern_34 = 1882, $intern_35 = {11:1}, $intern_36 = {62:1}, $intern_37 = 1792, $intern_38 = {4:1, 3:1}, $intern_39 = {13:1, 3:1}, $intern_40 = {25:1}, $intern_41 = 5.9604644775390625E-8, $intern_42 = {167:1}, $intern_43 = {3:1, 51:1, 89:1}, $intern_44 = {6:1, 3:1, 15:1, 22:1}, $intern_45 = {103:1, 3:1, 10:1}, $intern_46 = {119:1}, $intern_47 = 1536, $intern_48 = {33:1}, $intern_49 = 1.52587890625E-5, $intern_50 = 9.5367431640625E-7, $intern_51 = 2.220446049250313E-16, $intern_52 = {159:1}, $intern_53 = {88:1}, $intern_54 = {3:1, 318:1}, $intern_55 = 15525485, $intern_56 = 1879;
 var _, initFnList_0, prototypesByTypeId_0 = {}, permutationId = -1;
 function im_actor_core_js_providers_Assets(){
   switch (permutationId) {
@@ -11426,8 +11426,9 @@ var Lim_actor_core_api_rpc_RequestDisposeEventBus_2_classLit = createForClass('i
 function RequestDoCall(){
 }
 
-function RequestDoCall_0(peer){
+function RequestDoCall_0(peer, timeout){
   this.peer = peer;
+  this.timeout = timeout;
 }
 
 defineClass(701, $intern_27, $intern_21, RequestDoCall, RequestDoCall_0);
@@ -11437,6 +11438,7 @@ _.getHeaderKey = function getHeaderKey_26(){
 ;
 _.parse_0 = function parse_156(values){
   this.peer = $getObj(values, 1, new ApiOutPeer);
+  this.timeout = valueOf_0($getLong_0(values, 2));
 }
 ;
 _.serialize = function serialize_142(writer){
@@ -11444,6 +11446,7 @@ _.serialize = function serialize_142(writer){
     throw new IOException;
   }
   $writeObject_0(writer, 1, this.peer);
+  !!this.timeout && $writeLong(writer, 2, this.timeout.value_0);
 }
 ;
 _.toString$ = function toString_142(){
@@ -30119,7 +30122,7 @@ _.postStop = function postStop_0(){
 ;
 _.preStart = function preStart_3(){
   this.callBus = new CallBusInt($actorOf_1(this.context_0.actorScope.actorSystem, this.path + '/bus', new AbsCallActor$1(this)));
-  this.isMaster?$done($failure($then(new Promise_1(new ModuleActor$4(this, new RequestDoCall_0($buidOutPeer(this, this.peer)))), new CallActor$1(this)), new CallActor$2(this)), this.context_0.actorScope.actorRef):$done($failure($then(new Promise_1(new ModuleActor$4(this, new RequestGetCallInfo_0(this.callId))), new CallActor$3(this)), new CallActor$4(this)), this.context_0.actorScope.actorRef);
+  this.isMaster?$done($failure($then(new Promise_1(new ModuleActor$4(this, new RequestDoCall_0($buidOutPeer(this, this.peer), valueOf_0({l:6000, m:0, h:0})))), new CallActor$1(this)), new CallActor$2(this)), this.context_0.actorScope.actorRef):$done($failure($then(new Promise_1(new ModuleActor$4(this, new RequestGetCallInfo_0(this.callId))), new CallActor$3(this)), new CallActor$4(this)), this.context_0.actorScope.actorRef);
 }
 ;
 _.callId = {l:0, m:0, h:0};
@@ -30640,7 +30643,7 @@ function $dispose(this$static){
 
 function $joinBus(this$static, busId){
   this$static.isProcessing = true;
-  $done($failure($then(new Promise_1(new ModuleActor$4(this$static, new RequestJoinEventBus_0(busId, valueOf_0({l:16000, m:0, h:0})))), new EventBusActor$1(this$static, busId)), new EventBusActor$2(this$static)), this$static.context_0.actorScope.actorRef);
+  $done($failure($then(new Promise_1(new ModuleActor$4(this$static, new RequestJoinEventBus_0(busId, valueOf_0({l:6000, m:0, h:0})))), new EventBusActor$1(this$static, busId)), new EventBusActor$2(this$static)), this$static.context_0.actorScope.actorRef);
 }
 
 function $onReceive_0(this$static, message){
@@ -30854,7 +30857,7 @@ _.onReceive = function onReceive_8(message){
   }
    else if (instanceOf(message, 537)) {
     joinMasterBus = message;
-    $connectBus(this, joinMasterBus.busId, {l:16000, m:0, h:0});
+    $connectBus(this, joinMasterBus.busId, {l:6000, m:0, h:0});
   }
    else 
     instanceOf(message, 308)?$send(this.peerCall, new PeerCallActor$OwnStarted):$onReceive_0(this, message);
@@ -32969,7 +32972,7 @@ function $apply_7(this$static){
 function EventBusActor$1(this$0, val$busId){
   this.this$01 = this$0;
   this.val$busId2 = val$busId;
-  this.val$timeout3 = {l:16000, m:0, h:0};
+  this.val$timeout3 = {l:6000, m:0, h:0};
 }
 
 defineClass(1749, 1, {}, EventBusActor$1);
