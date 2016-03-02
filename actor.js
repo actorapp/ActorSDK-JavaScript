@@ -249,41 +249,41 @@ function actor(){
   processMetas();
   try {
     var strongName;
-    unflattenKeylistIntoAnswers(['ar', 'gecko1_8'], '44ED9D64E55EA6E501EB0F56DA2C7621');
-    unflattenKeylistIntoAnswers(['ar', 'ie10'], '44ED9D64E55EA6E501EB0F56DA2C7621' + ':1');
-    unflattenKeylistIntoAnswers(['default', 'gecko1_8'], '44ED9D64E55EA6E501EB0F56DA2C7621' + ':10');
-    unflattenKeylistIntoAnswers(['default', 'ie10'], '44ED9D64E55EA6E501EB0F56DA2C7621' + ':11');
-    unflattenKeylistIntoAnswers(['default', 'ie8'], '44ED9D64E55EA6E501EB0F56DA2C7621' + ':12');
-    unflattenKeylistIntoAnswers(['default', 'ie9'], '44ED9D64E55EA6E501EB0F56DA2C7621' + ':13');
-    unflattenKeylistIntoAnswers(['default', 'safari'], '44ED9D64E55EA6E501EB0F56DA2C7621' + ':14');
-    unflattenKeylistIntoAnswers(['en', 'gecko1_8'], '44ED9D64E55EA6E501EB0F56DA2C7621' + ':15');
-    unflattenKeylistIntoAnswers(['en', 'ie10'], '44ED9D64E55EA6E501EB0F56DA2C7621' + ':16');
-    unflattenKeylistIntoAnswers(['en', 'ie8'], '44ED9D64E55EA6E501EB0F56DA2C7621' + ':17');
-    unflattenKeylistIntoAnswers(['en', 'ie9'], '44ED9D64E55EA6E501EB0F56DA2C7621' + ':18');
-    unflattenKeylistIntoAnswers(['en', 'safari'], '44ED9D64E55EA6E501EB0F56DA2C7621' + ':19');
-    unflattenKeylistIntoAnswers(['ar', 'ie8'], '44ED9D64E55EA6E501EB0F56DA2C7621' + ':2');
-    unflattenKeylistIntoAnswers(['es', 'gecko1_8'], '44ED9D64E55EA6E501EB0F56DA2C7621' + ':20');
-    unflattenKeylistIntoAnswers(['es', 'ie10'], '44ED9D64E55EA6E501EB0F56DA2C7621' + ':21');
-    unflattenKeylistIntoAnswers(['es', 'ie8'], '44ED9D64E55EA6E501EB0F56DA2C7621' + ':22');
-    unflattenKeylistIntoAnswers(['es', 'ie9'], '44ED9D64E55EA6E501EB0F56DA2C7621' + ':23');
-    unflattenKeylistIntoAnswers(['es', 'safari'], '44ED9D64E55EA6E501EB0F56DA2C7621' + ':24');
-    unflattenKeylistIntoAnswers(['pt', 'gecko1_8'], '44ED9D64E55EA6E501EB0F56DA2C7621' + ':25');
-    unflattenKeylistIntoAnswers(['pt', 'ie10'], '44ED9D64E55EA6E501EB0F56DA2C7621' + ':26');
-    unflattenKeylistIntoAnswers(['pt', 'ie8'], '44ED9D64E55EA6E501EB0F56DA2C7621' + ':27');
-    unflattenKeylistIntoAnswers(['pt', 'ie9'], '44ED9D64E55EA6E501EB0F56DA2C7621' + ':28');
-    unflattenKeylistIntoAnswers(['pt', 'safari'], '44ED9D64E55EA6E501EB0F56DA2C7621' + ':29');
-    unflattenKeylistIntoAnswers(['ar', 'ie9'], '44ED9D64E55EA6E501EB0F56DA2C7621' + ':3');
-    unflattenKeylistIntoAnswers(['ru', 'gecko1_8'], '44ED9D64E55EA6E501EB0F56DA2C7621' + ':30');
-    unflattenKeylistIntoAnswers(['ru', 'ie10'], '44ED9D64E55EA6E501EB0F56DA2C7621' + ':31');
-    unflattenKeylistIntoAnswers(['ru', 'ie8'], '44ED9D64E55EA6E501EB0F56DA2C7621' + ':32');
-    unflattenKeylistIntoAnswers(['ru', 'ie9'], '44ED9D64E55EA6E501EB0F56DA2C7621' + ':33');
-    unflattenKeylistIntoAnswers(['ru', 'safari'], '44ED9D64E55EA6E501EB0F56DA2C7621' + ':34');
-    unflattenKeylistIntoAnswers(['ar', 'safari'], '44ED9D64E55EA6E501EB0F56DA2C7621' + ':4');
-    unflattenKeylistIntoAnswers(['cn', 'gecko1_8'], '44ED9D64E55EA6E501EB0F56DA2C7621' + ':5');
-    unflattenKeylistIntoAnswers(['cn', 'ie10'], '44ED9D64E55EA6E501EB0F56DA2C7621' + ':6');
-    unflattenKeylistIntoAnswers(['cn', 'ie8'], '44ED9D64E55EA6E501EB0F56DA2C7621' + ':7');
-    unflattenKeylistIntoAnswers(['cn', 'ie9'], '44ED9D64E55EA6E501EB0F56DA2C7621' + ':8');
-    unflattenKeylistIntoAnswers(['cn', 'safari'], '44ED9D64E55EA6E501EB0F56DA2C7621' + ':9');
+    unflattenKeylistIntoAnswers(['ar', 'gecko1_8'], '4DC596D6425A693E8534429EA1A073AC');
+    unflattenKeylistIntoAnswers(['ar', 'ie10'], '4DC596D6425A693E8534429EA1A073AC' + ':1');
+    unflattenKeylistIntoAnswers(['default', 'gecko1_8'], '4DC596D6425A693E8534429EA1A073AC' + ':10');
+    unflattenKeylistIntoAnswers(['default', 'ie10'], '4DC596D6425A693E8534429EA1A073AC' + ':11');
+    unflattenKeylistIntoAnswers(['default', 'ie8'], '4DC596D6425A693E8534429EA1A073AC' + ':12');
+    unflattenKeylistIntoAnswers(['default', 'ie9'], '4DC596D6425A693E8534429EA1A073AC' + ':13');
+    unflattenKeylistIntoAnswers(['default', 'safari'], '4DC596D6425A693E8534429EA1A073AC' + ':14');
+    unflattenKeylistIntoAnswers(['en', 'gecko1_8'], '4DC596D6425A693E8534429EA1A073AC' + ':15');
+    unflattenKeylistIntoAnswers(['en', 'ie10'], '4DC596D6425A693E8534429EA1A073AC' + ':16');
+    unflattenKeylistIntoAnswers(['en', 'ie8'], '4DC596D6425A693E8534429EA1A073AC' + ':17');
+    unflattenKeylistIntoAnswers(['en', 'ie9'], '4DC596D6425A693E8534429EA1A073AC' + ':18');
+    unflattenKeylistIntoAnswers(['en', 'safari'], '4DC596D6425A693E8534429EA1A073AC' + ':19');
+    unflattenKeylistIntoAnswers(['ar', 'ie8'], '4DC596D6425A693E8534429EA1A073AC' + ':2');
+    unflattenKeylistIntoAnswers(['es', 'gecko1_8'], '4DC596D6425A693E8534429EA1A073AC' + ':20');
+    unflattenKeylistIntoAnswers(['es', 'ie10'], '4DC596D6425A693E8534429EA1A073AC' + ':21');
+    unflattenKeylistIntoAnswers(['es', 'ie8'], '4DC596D6425A693E8534429EA1A073AC' + ':22');
+    unflattenKeylistIntoAnswers(['es', 'ie9'], '4DC596D6425A693E8534429EA1A073AC' + ':23');
+    unflattenKeylistIntoAnswers(['es', 'safari'], '4DC596D6425A693E8534429EA1A073AC' + ':24');
+    unflattenKeylistIntoAnswers(['pt', 'gecko1_8'], '4DC596D6425A693E8534429EA1A073AC' + ':25');
+    unflattenKeylistIntoAnswers(['pt', 'ie10'], '4DC596D6425A693E8534429EA1A073AC' + ':26');
+    unflattenKeylistIntoAnswers(['pt', 'ie8'], '4DC596D6425A693E8534429EA1A073AC' + ':27');
+    unflattenKeylistIntoAnswers(['pt', 'ie9'], '4DC596D6425A693E8534429EA1A073AC' + ':28');
+    unflattenKeylistIntoAnswers(['pt', 'safari'], '4DC596D6425A693E8534429EA1A073AC' + ':29');
+    unflattenKeylistIntoAnswers(['ar', 'ie9'], '4DC596D6425A693E8534429EA1A073AC' + ':3');
+    unflattenKeylistIntoAnswers(['ru', 'gecko1_8'], '4DC596D6425A693E8534429EA1A073AC' + ':30');
+    unflattenKeylistIntoAnswers(['ru', 'ie10'], '4DC596D6425A693E8534429EA1A073AC' + ':31');
+    unflattenKeylistIntoAnswers(['ru', 'ie8'], '4DC596D6425A693E8534429EA1A073AC' + ':32');
+    unflattenKeylistIntoAnswers(['ru', 'ie9'], '4DC596D6425A693E8534429EA1A073AC' + ':33');
+    unflattenKeylistIntoAnswers(['ru', 'safari'], '4DC596D6425A693E8534429EA1A073AC' + ':34');
+    unflattenKeylistIntoAnswers(['ar', 'safari'], '4DC596D6425A693E8534429EA1A073AC' + ':4');
+    unflattenKeylistIntoAnswers(['cn', 'gecko1_8'], '4DC596D6425A693E8534429EA1A073AC' + ':5');
+    unflattenKeylistIntoAnswers(['cn', 'ie10'], '4DC596D6425A693E8534429EA1A073AC' + ':6');
+    unflattenKeylistIntoAnswers(['cn', 'ie8'], '4DC596D6425A693E8534429EA1A073AC' + ':7');
+    unflattenKeylistIntoAnswers(['cn', 'ie9'], '4DC596D6425A693E8534429EA1A073AC' + ':8');
+    unflattenKeylistIntoAnswers(['cn', 'safari'], '4DC596D6425A693E8534429EA1A073AC' + ':9');
     strongName = answers[computePropValue('locale')][computePropValue('user.agent')];
     var idx = strongName.indexOf(':');
     if (idx != -1) {
@@ -322,7 +322,7 @@ function actor(){
 }
 
 actor();
-(function () {var $gwt_version = "2.7.0";var $wnd = window;var $doc = $wnd.document;var $moduleName, $moduleBase;var $stats = $wnd.__gwtStatsEvent ? function(a) {$wnd.__gwtStatsEvent(a)} : null;var $strongName = '44ED9D64E55EA6E501EB0F56DA2C7621';var $intern_0 = 2147483647, $intern_1 = {3:1, 22:1}, $intern_2 = {3:1, 15:1, 22:1}, $intern_3 = {3:1, 10:1}, $intern_4 = 1900, $intern_5 = {3:1}, $intern_6 = 1000, $intern_7 = 65535, $intern_8 = 4194303, $intern_9 = 1048575, $intern_10 = 524288, $intern_11 = 4194304, $intern_12 = 17592186044416, $intern_13 = -9223372036854775808, $intern_14 = {556:1}, $intern_15 = 1024, $intern_16 = 65536, $intern_17 = 131072, $intern_18 = 1048576, $intern_19 = 16777216, $intern_20 = 67108864, $intern_21 = {5:1}, $intern_22 = 1930, $intern_23 = 1923, $intern_24 = 1901, $intern_25 = 1924, $intern_26 = 1903, $intern_27 = 1904, $intern_28 = 1927, $intern_29 = 1918, $intern_30 = 1023, $intern_31 = 1890, $intern_32 = {3:1, 46:1}, $intern_33 = 1887, $intern_34 = {11:1}, $intern_35 = {62:1}, $intern_36 = 1792, $intern_37 = 1280, $intern_38 = {4:1, 3:1}, $intern_39 = {13:1, 3:1}, $intern_40 = {25:1}, $intern_41 = 5.9604644775390625E-8, $intern_42 = {167:1}, $intern_43 = {3:1, 51:1, 89:1}, $intern_44 = {6:1, 3:1, 15:1, 22:1}, $intern_45 = {103:1, 3:1, 10:1}, $intern_46 = {119:1}, $intern_47 = 1536, $intern_48 = {33:1}, $intern_49 = 1.52587890625E-5, $intern_50 = 9.5367431640625E-7, $intern_51 = 2.220446049250313E-16, $intern_52 = {159:1}, $intern_53 = {88:1}, $intern_54 = {3:1, 319:1}, $intern_55 = 15525485, $intern_56 = 1884;
+(function () {var $gwt_version = "2.7.0";var $wnd = window;var $doc = $wnd.document;var $moduleName, $moduleBase;var $stats = $wnd.__gwtStatsEvent ? function(a) {$wnd.__gwtStatsEvent(a)} : null;var $strongName = '4DC596D6425A693E8534429EA1A073AC';var $intern_0 = 2147483647, $intern_1 = {3:1, 22:1}, $intern_2 = {3:1, 15:1, 22:1}, $intern_3 = {3:1, 10:1}, $intern_4 = 1900, $intern_5 = {3:1}, $intern_6 = 1000, $intern_7 = 65535, $intern_8 = 4194303, $intern_9 = 1048575, $intern_10 = 524288, $intern_11 = 4194304, $intern_12 = 17592186044416, $intern_13 = -9223372036854775808, $intern_14 = {556:1}, $intern_15 = 1024, $intern_16 = 65536, $intern_17 = 131072, $intern_18 = 1048576, $intern_19 = 16777216, $intern_20 = 67108864, $intern_21 = {5:1}, $intern_22 = 1930, $intern_23 = 1923, $intern_24 = 1901, $intern_25 = 1924, $intern_26 = 1903, $intern_27 = 1904, $intern_28 = 1927, $intern_29 = 1918, $intern_30 = 1023, $intern_31 = 1890, $intern_32 = {3:1, 46:1}, $intern_33 = 1887, $intern_34 = {11:1}, $intern_35 = {62:1}, $intern_36 = 1792, $intern_37 = 1280, $intern_38 = {4:1, 3:1}, $intern_39 = {13:1, 3:1}, $intern_40 = {25:1}, $intern_41 = 5.9604644775390625E-8, $intern_42 = {167:1}, $intern_43 = {3:1, 51:1, 89:1}, $intern_44 = {6:1, 3:1, 15:1, 22:1}, $intern_45 = {103:1, 3:1, 10:1}, $intern_46 = {119:1}, $intern_47 = 1536, $intern_48 = {33:1}, $intern_49 = 1.52587890625E-5, $intern_50 = 9.5367431640625E-7, $intern_51 = 2.220446049250313E-16, $intern_52 = {159:1}, $intern_53 = {88:1}, $intern_54 = {3:1, 319:1}, $intern_55 = 15525485, $intern_56 = 1884;
 var _, initFnList_0, prototypesByTypeId_0 = {}, permutationId = -1;
 function im_actor_core_js_providers_Assets(){
   switch (permutationId) {
@@ -4408,7 +4408,7 @@ function values_0(){
 defineClass(59, 17, {59:1, 3:1, 34:1, 17:1}, AuthState);
 var AUTH_CUSTOM, AUTH_EMAIL, AUTH_PHONE, AUTH_START, CODE_VALIDATION_CUSTOM, CODE_VALIDATION_EMAIL, CODE_VALIDATION_PHONE, COMPLETE_OAUTH, GET_OAUTH_PARAMS, LOGGED_IN, PASSWORD_VALIDATION, SIGN_UP;
 var Lim_actor_core_AuthState_2_classLit = createForEnum('im.actor.core', 'AuthState', 59, Ljava_lang_Enum_2_classLit, values_0);
-function Configuration(endpoints, notificationProvider, apiConfiguration, deviceCategory, platformType, minDelay, maxDelay, maxFailureCount, timeZone, preferredLanguages, customAppName, trustedKeys, enablePhoneBookImport, callsProvider, voiceCallsEnabled){
+function Configuration(endpoints, notificationProvider, apiConfiguration, deviceCategory, platformType, minDelay, maxDelay, maxFailureCount, timeZone, preferredLanguages, customAppName, trustedKeys, enablePhoneBookImport, callsProvider, voiceCallsEnabled, isEnabledGroupedChatList){
   this.endpoints = endpoints;
   this.enableContactsLogging = false;
   this.enableNetworkLogging = false;
@@ -4427,6 +4427,7 @@ function Configuration(endpoints, notificationProvider, apiConfiguration, device
   this.enablePhoneBookImport = enablePhoneBookImport;
   this.callsProvider = callsProvider;
   this.voiceCallsEnabled = voiceCallsEnabled;
+  this.isEnabledGroupedChatList = isEnabledGroupedChatList;
 }
 
 defineClass(988, 1, {}, Configuration);
@@ -4434,6 +4435,7 @@ _.enableContactsLogging = false;
 _.enableFilesLogging = false;
 _.enableNetworkLogging = false;
 _.enablePhoneBookImport = false;
+_.isEnabledGroupedChatList = false;
 _.maxDelay = 0;
 _.maxFailureCount = 0;
 _.minDelay = 0;
@@ -4494,7 +4496,7 @@ function $build(this$static){
     throw new RuntimeException_0('App Category not set');
   }
   this$static.trustedKeys.size_1() == 0 && ($clinit_Log() , warn($format(($clinit_JsLogProvider() , dateTimeFormat), new Date_0, null) + '[W] ' + 'ConfigurationBuilder' + ':' + 'No Trusted keys set. Using anonymous server authentication.'));
-  return new Configuration($toArray_0(this$static.endpoints, initDim(Lim_actor_runtime_mtproto_ConnectionEndpoint_2_classLit, $intern_3, 122, this$static.endpoints.size_1(), 0, 1)), this$static.notificationProvider, this$static.apiConfiguration, this$static.deviceCategory, this$static.platformType, this$static.minDelay, this$static.maxDelay, this$static.maxFailureCount, this$static.timeZone, $toArray_0(this$static.preferredLanguages, initDim(Ljava_lang_String_2_classLit, $intern_3, 2, this$static.preferredLanguages.size_1(), 4, 1)), this$static.customAppName, $toArray_0(this$static.trustedKeys, initDim(Lim_actor_core_network_TrustedKey_2_classLit, $intern_3, 2010, this$static.trustedKeys.size_1(), 0, 1)), this$static.isPhoneBookImportEnabled, this$static.callsProvider, this$static.voiceCallsEnabled);
+  return new Configuration($toArray_0(this$static.endpoints, initDim(Lim_actor_runtime_mtproto_ConnectionEndpoint_2_classLit, $intern_3, 122, this$static.endpoints.size_1(), 0, 1)), this$static.notificationProvider, this$static.apiConfiguration, this$static.deviceCategory, this$static.platformType, this$static.minDelay, this$static.maxDelay, this$static.maxFailureCount, this$static.timeZone, $toArray_0(this$static.preferredLanguages, initDim(Ljava_lang_String_2_classLit, $intern_3, 2, this$static.preferredLanguages.size_1(), 4, 1)), this$static.customAppName, $toArray_0(this$static.trustedKeys, initDim(Lim_actor_core_network_TrustedKey_2_classLit, $intern_3, 2010, this$static.trustedKeys.size_1(), 0, 1)), this$static.isPhoneBookImportEnabled, this$static.callsProvider, this$static.voiceCallsEnabled, this$static.isEnabledGroupedChatList);
 }
 
 function $setApiConfiguration(this$static, apiConfiguration){
@@ -4536,6 +4538,7 @@ function ConfigurationBuilder(){
 }
 
 defineClass(981, 1, {}, ConfigurationBuilder);
+_.isEnabledGroupedChatList = true;
 _.isPhoneBookImportEnabled = true;
 _.maxDelay = 15000;
 _.maxFailureCount = 50;
@@ -34610,7 +34613,7 @@ function $run_6(this$static){
   this$static.dialogsActor = $actorOf_0(($clinit_ActorSystem() , $clinit_ActorSystem() , mainSystem), new Props(null, new MessagesModule$1(this$static), null), 'actor/dialogs');
   this$static.dialogsHistoryActor = $actorOf_0((null , mainSystem), new Props(null, new MessagesModule$2(this$static), null), 'actor/dialogs/history');
   this$static.archivedDialogsActor = $actorOf_0((null , mainSystem), new Props(null, new MessagesModule$3(this$static), null), 'actor/dialogs/archived');
-  this$static.dialogsGroupedActor = $actorOf_0((null , mainSystem), new Props(null, new MessagesModule$4(this$static), null), 'actor/dialogs/grouped');
+  this$static.context.configuration.isEnabledGroupedChatList && (this$static.dialogsGroupedActor = $actorOf_0((null , mainSystem), new Props(null, new MessagesModule$4(this$static), null), 'actor/dialogs/grouped'));
   this$static.ownReadActor = $actorOf_0((null , mainSystem), new Props(null, new MessagesModule$5(this$static), null), 'actor/read/own');
   this$static.plainReadActor = $actorOf_0((null , mainSystem), $changeDispatcher(new Props(null, new MessagesModule$6(this$static), null), 'heavy'), 'actor/plain/read');
   this$static.plainReceiverActor = $actorOf_0((null , mainSystem), $changeDispatcher(new Props(null, new MessagesModule$7(this$static), null), 'heavy'), 'actor/plain/receive');
@@ -37938,7 +37941,7 @@ function $checkReadState(this$static, updateDialogs){
     $send_0(this$static.readerActor, new OwnReadActor$MessageRead(this$static.peer, this$static.inReadState));
     if (wasNotNull && updateDialogs) {
       this$static.isHiddenPeer || $send_0(this$static.dialogsActor, new DialogsActor$CounterChanged(this$static.peer, 0));
-      $send_0(this$static.dialogsGroupedActor, new GroupedDialogsActor$CounterChanged(this$static.peer, 0));
+      !!this$static.dialogsGroupedActor && $send_0(this$static.dialogsGroupedActor, new GroupedDialogsActor$CounterChanged(this$static.peer, 0));
     }
   }
 }
@@ -37981,7 +37984,7 @@ function $onInMessage_0(this$static, message){
     }
     this$static.isAppVisible && this$static.isConversationVisible && $checkReadState(this$static, false);
     this$static.isHiddenPeer || $send_0(this$static.dialogsActor, new DialogsActor$InMessage(this$static.peer, message, this$static.inPendingIndex.storage.items.map_0.size_1()));
-    $send_0(this$static.dialogsGroupedActor, new GroupedDialogsActor$CounterChanged(this$static.peer, this$static.inPendingIndex.storage.items.map_0.size_1()));
+    !!this$static.dialogsGroupedActor && $send_0(this$static.dialogsGroupedActor, new GroupedDialogsActor$CounterChanged(this$static.peer, this$static.inPendingIndex.storage.items.map_0.size_1()));
   }
 }
 
@@ -38015,7 +38018,7 @@ function $onInMessages(this$static, inMessages){
   this$static.isAppVisible && this$static.isConversationVisible && $checkReadState(this$static, false);
   if (topMessage) {
     this$static.isHiddenPeer || $send_0(this$static.dialogsActor, new DialogsActor$InMessage(this$static.peer, topMessage, this$static.inPendingIndex.storage.items.map_0.size_1()));
-    $send_0(this$static.dialogsGroupedActor, new GroupedDialogsActor$CounterChanged(this$static.peer, this$static.inPendingIndex.storage.items.map_0.size_1()));
+    !!this$static.dialogsGroupedActor && $send_0(this$static.dialogsGroupedActor, new GroupedDialogsActor$CounterChanged(this$static.peer, this$static.inPendingIndex.storage.items.map_0.size_1()));
   }
 }
 
@@ -38039,7 +38042,7 @@ function $onMessageError(this$static, rid){
     $addOrUpdateItem_2(this$static.messages, updatedMsg);
     instanceOf(updatedMsg.content_0, 36) && $addOrUpdateItem_2(this$static.docs, updatedMsg);
     this$static.isHiddenPeer || $send_0(this$static.dialogsActor, new DialogsActor$MessageStateChanged(this$static.peer, rid, ERROR));
-    $send_0(this$static.dialogsGroupedActor, new GroupedDialogsActor$CounterChanged(this$static.peer, this$static.inPendingIndex.storage.items.map_0.size_1()));
+    !!this$static.dialogsGroupedActor && $send_0(this$static.dialogsGroupedActor, new GroupedDialogsActor$CounterChanged(this$static.peer, this$static.inPendingIndex.storage.items.map_0.size_1()));
   }
 }
 
@@ -38092,7 +38095,7 @@ function $onMessageReadByMe(this$static, date){
   $putLong(this$static.context.preferences, this$static.IN_READ_STATE_NEW_PREF, this$static.inReadStateNew);
   $removeBeforeValue_0(this$static.inPendingIndex, date);
   this$static.isHiddenPeer || $send_0(this$static.dialogsActor, new DialogsActor$CounterChanged(this$static.peer, this$static.inPendingIndex.storage.items.map_0.size_1()));
-  $send_0(this$static.dialogsGroupedActor, new GroupedDialogsActor$CounterChanged(this$static.peer, this$static.inPendingIndex.storage.items.map_0.size_1()));
+  !!this$static.dialogsGroupedActor && $send_0(this$static.dialogsGroupedActor, new GroupedDialogsActor$CounterChanged(this$static.peer, this$static.inPendingIndex.storage.items.map_0.size_1()));
 }
 
 function $onMessageReceived(this$static, date){
@@ -38133,7 +38136,7 @@ function $onMessageSent(this$static, rid, date){
     instanceOf(updatedMsg.content_0, 36) && $addOrUpdateItem_2(this$static.docs, updatedMsg);
     if (!this$static.isHiddenPeer) {
       $send_0(this$static.dialogsActor, new DialogsActor$InMessage(this$static.peer, updatedMsg, this$static.inPendingIndex.storage.items.map_0.size_1()));
-      $send_0(this$static.dialogsGroupedActor, new GroupedDialogsActor$CounterChanged(this$static.peer, this$static.inPendingIndex.storage.items.map_0.size_1()));
+      !!this$static.dialogsGroupedActor && $send_0(this$static.dialogsGroupedActor, new GroupedDialogsActor$CounterChanged(this$static.peer, this$static.inPendingIndex.storage.items.map_0.size_1()));
     }
     state != ($clinit_MessageState() , READ_0) && $put_4(this$static.outPendingIndex, rid, date);
   }
@@ -38195,7 +38198,7 @@ _.preStart = function preStart_17(){
   this.docs = $getConversationDocsEngine(this.context.messages, this.peer);
   this.readerActor = this.context.messages.ownReadActor;
   this.dialogsActor = this.context.messages.dialogsActor;
-  this.dialogsGroupedActor = this.context.messages.dialogsGroupedActor;
+  this.context.configuration.isEnabledGroupedChatList && (this.dialogsGroupedActor = this.context.messages.dialogsGroupedActor);
   this.outPendingIndex = new IndexEngine(createIndex('out_pending_' + this.peer.peerType + '_' + this.peer.peerId));
   this.inPendingIndex = new IndexEngine(createIndex('in_pending_' + this.peer.peerType + '_' + this.peer.peerId));
   this.inReadState = $getLong_1(this.context.preferences, this.IN_READ_STATE_PREF, {l:0, m:0, h:0});
@@ -42189,7 +42192,7 @@ function $applyGroups_0(this$static, updated, forced){
      else if (forced) {
       upd = new Group_0(group);
       batch.array[batch.array.length] = upd;
-      (!equalsE(upd.avatar, saved.avatar) || !$equals_5(upd.title_0, saved.title_0)) && ($send_0(this$static.context.messages.dialogsActor, new DialogsActor$GroupChanged(upd)) , $send_0(this$static.context.messages.dialogsGroupedActor, new GroupedDialogsActor$PeerInformationChanged(group_0(upd.groupId))));
+      (!equalsE(upd.avatar, saved.avatar) || !$equals_5(upd.title_0, saved.title_0)) && ($send_0(this$static.context.messages.dialogsActor, new DialogsActor$GroupChanged(upd)) , this$static.context.configuration.isEnabledGroupedChatList && $send_0(this$static.context.messages.dialogsGroupedActor, new GroupedDialogsActor$PeerInformationChanged(group_0(upd.groupId))));
     }
   }
   batch.size_1() > 0 && $addOrUpdateItems_2(this$static.context.groups.groups, batch);
@@ -42214,7 +42217,7 @@ function $onAboutChanged(this$static, groupId, about){
       upd = (w = group.wrapped , res = new ApiGroup_0(w.id_0, w.accessHash, w.title_0, w.avatar, w.creatorUid, w.members, w.createDate, w.theme, about, w.isHidden, w.groupType, w.ext) , $setUnmappedObjects(res, w.unmappedObjects) , new Group_0(res));
       $addOrUpdateItem_3(this$static.context.groups.groups, upd);
       $send_0(this$static.context.messages.dialogsActor, new DialogsActor$GroupChanged(upd));
-      $send_0(this$static.context.messages.dialogsGroupedActor, new GroupedDialogsActor$PeerInformationChanged(group_0(upd.groupId)));
+      this$static.context.configuration.isEnabledGroupedChatList && $send_0(this$static.context.messages.dialogsGroupedActor, new GroupedDialogsActor$PeerInformationChanged(group_0(upd.groupId)));
     }
   }
 }
@@ -42226,7 +42229,7 @@ function $onAvatarChanged(this$static, groupId, rid, uid, avatar, date, isSilent
     upd = (w = group.wrapped , res = new ApiGroup_0(w.id_0, w.accessHash, w.title_0, avatar, w.creatorUid, w.members, w.createDate, w.theme, w.about, w.isHidden, w.groupType, w.ext) , $setUnmappedObjects(res, w.unmappedObjects) , new Group_0(res));
     $addOrUpdateItem_3(this$static.context.groups.groups, upd);
     $send_0(this$static.context.messages.dialogsActor, new DialogsActor$GroupChanged(upd));
-    $send_0(this$static.context.messages.dialogsGroupedActor, new GroupedDialogsActor$PeerInformationChanged(group_0(upd.groupId)));
+    this$static.context.configuration.isEnabledGroupedChatList && $send_0(this$static.context.messages.dialogsGroupedActor, new GroupedDialogsActor$PeerInformationChanged(group_0(upd.groupId)));
     if (!isSilent) {
       message = new Message_0(rid, date, date, uid, uid == this$static.context.authentication.myUid?($clinit_MessageState() , SENT_0):($clinit_MessageState() , UNKNOWN_1), ($clinit_AbsContent() , new ServiceGroupAvatarChanged(new ContentRemoteContainer(new ApiServiceMessage_0('Avatar changed', new ApiServiceExChangedAvatar_0(avatar))))), new ArrayList);
       $send_0($conversationActor(this$static, new Peer_0(($clinit_PeerType() , GROUP_0), group.groupId)), message);
@@ -42269,7 +42272,7 @@ function $onTitleChanged(this$static, groupId, rid, uid, title_0, date, isSilent
       upd = (w = group.wrapped , res = new ApiGroup_0(w.id_0, w.accessHash, title_0, w.avatar, w.creatorUid, w.members, w.createDate, w.theme, w.about, w.isHidden, w.groupType, w.ext) , $setUnmappedObjects(res, w.unmappedObjects) , new Group_0(res));
       $addOrUpdateItem_3(this$static.context.groups.groups, upd);
       $send_0(this$static.context.messages.dialogsActor, new DialogsActor$GroupChanged(upd));
-      $send_0(this$static.context.messages.dialogsGroupedActor, new GroupedDialogsActor$PeerInformationChanged(group_0(upd.groupId)));
+      this$static.context.configuration.isEnabledGroupedChatList && $send_0(this$static.context.messages.dialogsGroupedActor, new GroupedDialogsActor$PeerInformationChanged(group_0(upd.groupId)));
     }
     if (!isSilent) {
       message = new Message_0(rid, date, date, uid, uid == this$static.context.authentication.myUid?($clinit_MessageState() , SENT_0):($clinit_MessageState() , UNKNOWN_1), ($clinit_AbsContent() , new ServiceGroupTitleChanged(new ContentRemoteContainer(new ApiServiceMessage_0('Title changed', new ApiServiceExChangedTitle_0(title_0))))), new ArrayList);
@@ -42286,7 +42289,7 @@ function $onTopicChanged(this$static, groupId, topic){
       upd = (w = group.wrapped , res = new ApiGroup_0(w.id_0, w.accessHash, w.title_0, w.avatar, w.creatorUid, w.members, w.createDate, topic, w.about, w.isHidden, w.groupType, w.ext) , $setUnmappedObjects(res, w.unmappedObjects) , new Group_0(res));
       $addOrUpdateItem_3(this$static.context.groups.groups, upd);
       $send_0(this$static.context.messages.dialogsActor, new DialogsActor$GroupChanged(upd));
-      $send_0(this$static.context.messages.dialogsGroupedActor, new GroupedDialogsActor$PeerInformationChanged(group_0(upd.groupId)));
+      this$static.context.configuration.isEnabledGroupedChatList && $send_0(this$static.context.messages.dialogsGroupedActor, new GroupedDialogsActor$PeerInformationChanged(group_0(upd.groupId)));
     }
   }
 }
@@ -42356,7 +42359,7 @@ function $onChatDelete(this$static, _peer){
 }
 
 function $onChatGroupsChanged(this$static, groups){
-  $send_0(this$static.context.messages.dialogsGroupedActor, new GroupedDialogsActor$GroupedDialogsChanged(groups));
+  this$static.context.configuration.isEnabledGroupedChatList && $send_0(this$static.context.messages.dialogsGroupedActor, new GroupedDialogsActor$GroupedDialogsChanged(groups));
 }
 
 function $onCountersChanged_0(this$static, counters){
@@ -43417,6 +43420,7 @@ function $applyUsers(this$static, updated, forced){
       batch.array[batch.array.length] = upd;
       (!$equals_5(upd.localName == null?upd.name_0:upd.localName, saved.localName == null?saved.name_0:saved.localName) || !equalsE(upd.avatar, saved.avatar)) && $onUserDescChanged(this$static, upd);
     }
+    !!saved && neq(saved.accessHash, u.accessHash) && ($clinit_Log() , warn($format(($clinit_JsLogProvider() , dateTimeFormat), new Date_0, null) + '[W] ' + 'UsersProcessor' + ':' + "User's Access Hash changed!"));
   }
   batch.size_1() > 0 && $addOrUpdateItems_2(this$static.context.users.users, batch);
 }
@@ -43456,7 +43460,7 @@ function $onUserAvatarChanged(this$static, uid, avatar){
 
 function $onUserDescChanged(this$static, u){
   $send_0(this$static.context.messages.dialogsActor, new DialogsActor$UserChanged(u));
-  $send_0(this$static.context.messages.dialogsGroupedActor, new GroupedDialogsActor$PeerInformationChanged(user_0(u.uid)));
+  this$static.context.configuration.isEnabledGroupedChatList && $send_0(this$static.context.messages.dialogsGroupedActor, new GroupedDialogsActor$PeerInformationChanged(user_0(u.uid)));
   $send_0(this$static.context.contacts.contactSyncActor, new ContactsSyncActor$UserChanged(u));
 }
 
