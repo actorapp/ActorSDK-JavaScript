@@ -249,41 +249,41 @@ function actor(){
   processMetas();
   try {
     var strongName;
-    unflattenKeylistIntoAnswers(['ar', 'gecko1_8'], '00A9DEFBC54304D441E32A9F589A496D');
-    unflattenKeylistIntoAnswers(['ar', 'ie10'], '00A9DEFBC54304D441E32A9F589A496D' + ':1');
-    unflattenKeylistIntoAnswers(['default', 'gecko1_8'], '00A9DEFBC54304D441E32A9F589A496D' + ':10');
-    unflattenKeylistIntoAnswers(['default', 'ie10'], '00A9DEFBC54304D441E32A9F589A496D' + ':11');
-    unflattenKeylistIntoAnswers(['default', 'ie8'], '00A9DEFBC54304D441E32A9F589A496D' + ':12');
-    unflattenKeylistIntoAnswers(['default', 'ie9'], '00A9DEFBC54304D441E32A9F589A496D' + ':13');
-    unflattenKeylistIntoAnswers(['default', 'safari'], '00A9DEFBC54304D441E32A9F589A496D' + ':14');
-    unflattenKeylistIntoAnswers(['en', 'gecko1_8'], '00A9DEFBC54304D441E32A9F589A496D' + ':15');
-    unflattenKeylistIntoAnswers(['en', 'ie10'], '00A9DEFBC54304D441E32A9F589A496D' + ':16');
-    unflattenKeylistIntoAnswers(['en', 'ie8'], '00A9DEFBC54304D441E32A9F589A496D' + ':17');
-    unflattenKeylistIntoAnswers(['en', 'ie9'], '00A9DEFBC54304D441E32A9F589A496D' + ':18');
-    unflattenKeylistIntoAnswers(['en', 'safari'], '00A9DEFBC54304D441E32A9F589A496D' + ':19');
-    unflattenKeylistIntoAnswers(['ar', 'ie8'], '00A9DEFBC54304D441E32A9F589A496D' + ':2');
-    unflattenKeylistIntoAnswers(['es', 'gecko1_8'], '00A9DEFBC54304D441E32A9F589A496D' + ':20');
-    unflattenKeylistIntoAnswers(['es', 'ie10'], '00A9DEFBC54304D441E32A9F589A496D' + ':21');
-    unflattenKeylistIntoAnswers(['es', 'ie8'], '00A9DEFBC54304D441E32A9F589A496D' + ':22');
-    unflattenKeylistIntoAnswers(['es', 'ie9'], '00A9DEFBC54304D441E32A9F589A496D' + ':23');
-    unflattenKeylistIntoAnswers(['es', 'safari'], '00A9DEFBC54304D441E32A9F589A496D' + ':24');
-    unflattenKeylistIntoAnswers(['pt', 'gecko1_8'], '00A9DEFBC54304D441E32A9F589A496D' + ':25');
-    unflattenKeylistIntoAnswers(['pt', 'ie10'], '00A9DEFBC54304D441E32A9F589A496D' + ':26');
-    unflattenKeylistIntoAnswers(['pt', 'ie8'], '00A9DEFBC54304D441E32A9F589A496D' + ':27');
-    unflattenKeylistIntoAnswers(['pt', 'ie9'], '00A9DEFBC54304D441E32A9F589A496D' + ':28');
-    unflattenKeylistIntoAnswers(['pt', 'safari'], '00A9DEFBC54304D441E32A9F589A496D' + ':29');
-    unflattenKeylistIntoAnswers(['ar', 'ie9'], '00A9DEFBC54304D441E32A9F589A496D' + ':3');
-    unflattenKeylistIntoAnswers(['ru', 'gecko1_8'], '00A9DEFBC54304D441E32A9F589A496D' + ':30');
-    unflattenKeylistIntoAnswers(['ru', 'ie10'], '00A9DEFBC54304D441E32A9F589A496D' + ':31');
-    unflattenKeylistIntoAnswers(['ru', 'ie8'], '00A9DEFBC54304D441E32A9F589A496D' + ':32');
-    unflattenKeylistIntoAnswers(['ru', 'ie9'], '00A9DEFBC54304D441E32A9F589A496D' + ':33');
-    unflattenKeylistIntoAnswers(['ru', 'safari'], '00A9DEFBC54304D441E32A9F589A496D' + ':34');
-    unflattenKeylistIntoAnswers(['ar', 'safari'], '00A9DEFBC54304D441E32A9F589A496D' + ':4');
-    unflattenKeylistIntoAnswers(['cn', 'gecko1_8'], '00A9DEFBC54304D441E32A9F589A496D' + ':5');
-    unflattenKeylistIntoAnswers(['cn', 'ie10'], '00A9DEFBC54304D441E32A9F589A496D' + ':6');
-    unflattenKeylistIntoAnswers(['cn', 'ie8'], '00A9DEFBC54304D441E32A9F589A496D' + ':7');
-    unflattenKeylistIntoAnswers(['cn', 'ie9'], '00A9DEFBC54304D441E32A9F589A496D' + ':8');
-    unflattenKeylistIntoAnswers(['cn', 'safari'], '00A9DEFBC54304D441E32A9F589A496D' + ':9');
+    unflattenKeylistIntoAnswers(['ar', 'gecko1_8'], 'C0D7FCC2D49F219AB5C12AD2C406D0AC');
+    unflattenKeylistIntoAnswers(['ar', 'ie10'], 'C0D7FCC2D49F219AB5C12AD2C406D0AC' + ':1');
+    unflattenKeylistIntoAnswers(['default', 'gecko1_8'], 'C0D7FCC2D49F219AB5C12AD2C406D0AC' + ':10');
+    unflattenKeylistIntoAnswers(['default', 'ie10'], 'C0D7FCC2D49F219AB5C12AD2C406D0AC' + ':11');
+    unflattenKeylistIntoAnswers(['default', 'ie8'], 'C0D7FCC2D49F219AB5C12AD2C406D0AC' + ':12');
+    unflattenKeylistIntoAnswers(['default', 'ie9'], 'C0D7FCC2D49F219AB5C12AD2C406D0AC' + ':13');
+    unflattenKeylistIntoAnswers(['default', 'safari'], 'C0D7FCC2D49F219AB5C12AD2C406D0AC' + ':14');
+    unflattenKeylistIntoAnswers(['en', 'gecko1_8'], 'C0D7FCC2D49F219AB5C12AD2C406D0AC' + ':15');
+    unflattenKeylistIntoAnswers(['en', 'ie10'], 'C0D7FCC2D49F219AB5C12AD2C406D0AC' + ':16');
+    unflattenKeylistIntoAnswers(['en', 'ie8'], 'C0D7FCC2D49F219AB5C12AD2C406D0AC' + ':17');
+    unflattenKeylistIntoAnswers(['en', 'ie9'], 'C0D7FCC2D49F219AB5C12AD2C406D0AC' + ':18');
+    unflattenKeylistIntoAnswers(['en', 'safari'], 'C0D7FCC2D49F219AB5C12AD2C406D0AC' + ':19');
+    unflattenKeylistIntoAnswers(['ar', 'ie8'], 'C0D7FCC2D49F219AB5C12AD2C406D0AC' + ':2');
+    unflattenKeylistIntoAnswers(['es', 'gecko1_8'], 'C0D7FCC2D49F219AB5C12AD2C406D0AC' + ':20');
+    unflattenKeylistIntoAnswers(['es', 'ie10'], 'C0D7FCC2D49F219AB5C12AD2C406D0AC' + ':21');
+    unflattenKeylistIntoAnswers(['es', 'ie8'], 'C0D7FCC2D49F219AB5C12AD2C406D0AC' + ':22');
+    unflattenKeylistIntoAnswers(['es', 'ie9'], 'C0D7FCC2D49F219AB5C12AD2C406D0AC' + ':23');
+    unflattenKeylistIntoAnswers(['es', 'safari'], 'C0D7FCC2D49F219AB5C12AD2C406D0AC' + ':24');
+    unflattenKeylistIntoAnswers(['pt', 'gecko1_8'], 'C0D7FCC2D49F219AB5C12AD2C406D0AC' + ':25');
+    unflattenKeylistIntoAnswers(['pt', 'ie10'], 'C0D7FCC2D49F219AB5C12AD2C406D0AC' + ':26');
+    unflattenKeylistIntoAnswers(['pt', 'ie8'], 'C0D7FCC2D49F219AB5C12AD2C406D0AC' + ':27');
+    unflattenKeylistIntoAnswers(['pt', 'ie9'], 'C0D7FCC2D49F219AB5C12AD2C406D0AC' + ':28');
+    unflattenKeylistIntoAnswers(['pt', 'safari'], 'C0D7FCC2D49F219AB5C12AD2C406D0AC' + ':29');
+    unflattenKeylistIntoAnswers(['ar', 'ie9'], 'C0D7FCC2D49F219AB5C12AD2C406D0AC' + ':3');
+    unflattenKeylistIntoAnswers(['ru', 'gecko1_8'], 'C0D7FCC2D49F219AB5C12AD2C406D0AC' + ':30');
+    unflattenKeylistIntoAnswers(['ru', 'ie10'], 'C0D7FCC2D49F219AB5C12AD2C406D0AC' + ':31');
+    unflattenKeylistIntoAnswers(['ru', 'ie8'], 'C0D7FCC2D49F219AB5C12AD2C406D0AC' + ':32');
+    unflattenKeylistIntoAnswers(['ru', 'ie9'], 'C0D7FCC2D49F219AB5C12AD2C406D0AC' + ':33');
+    unflattenKeylistIntoAnswers(['ru', 'safari'], 'C0D7FCC2D49F219AB5C12AD2C406D0AC' + ':34');
+    unflattenKeylistIntoAnswers(['ar', 'safari'], 'C0D7FCC2D49F219AB5C12AD2C406D0AC' + ':4');
+    unflattenKeylistIntoAnswers(['cn', 'gecko1_8'], 'C0D7FCC2D49F219AB5C12AD2C406D0AC' + ':5');
+    unflattenKeylistIntoAnswers(['cn', 'ie10'], 'C0D7FCC2D49F219AB5C12AD2C406D0AC' + ':6');
+    unflattenKeylistIntoAnswers(['cn', 'ie8'], 'C0D7FCC2D49F219AB5C12AD2C406D0AC' + ':7');
+    unflattenKeylistIntoAnswers(['cn', 'ie9'], 'C0D7FCC2D49F219AB5C12AD2C406D0AC' + ':8');
+    unflattenKeylistIntoAnswers(['cn', 'safari'], 'C0D7FCC2D49F219AB5C12AD2C406D0AC' + ':9');
     strongName = answers[computePropValue('locale')][computePropValue('user.agent')];
     var idx = strongName.indexOf(':');
     if (idx != -1) {
@@ -322,7 +322,7 @@ function actor(){
 }
 
 actor();
-(function () {var $gwt_version = "2.7.0";var $wnd = window;var $doc = $wnd.document;var $moduleName, $moduleBase;var $stats = $wnd.__gwtStatsEvent ? function(a) {$wnd.__gwtStatsEvent(a)} : null;var $strongName = '00A9DEFBC54304D441E32A9F589A496D';var $intern_0 = 2147483647, $intern_1 = {3:1, 22:1}, $intern_2 = {3:1, 15:1, 22:1}, $intern_3 = {3:1, 10:1}, $intern_4 = 1900, $intern_5 = {3:1}, $intern_6 = 1000, $intern_7 = 65535, $intern_8 = 4194303, $intern_9 = 1048575, $intern_10 = 524288, $intern_11 = 4194304, $intern_12 = 17592186044416, $intern_13 = -9223372036854775808, $intern_14 = {557:1}, $intern_15 = 1024, $intern_16 = 65536, $intern_17 = 131072, $intern_18 = 1048576, $intern_19 = 16777216, $intern_20 = 67108864, $intern_21 = {5:1}, $intern_22 = 1932, $intern_23 = 1924, $intern_24 = 1902, $intern_25 = 1925, $intern_26 = 1906, $intern_27 = 1907, $intern_28 = 1927, $intern_29 = 1919, $intern_30 = 1023, $intern_31 = 1897, $intern_32 = {3:1, 46:1}, $intern_33 = 1888, $intern_34 = {11:1}, $intern_35 = {63:1}, $intern_36 = 1792, $intern_37 = 1280, $intern_38 = {4:1, 3:1}, $intern_39 = {13:1, 3:1}, $intern_40 = {25:1}, $intern_41 = 5.9604644775390625E-8, $intern_42 = {167:1}, $intern_43 = {3:1, 51:1, 90:1}, $intern_44 = {6:1, 3:1, 15:1, 22:1}, $intern_45 = {104:1, 3:1, 10:1}, $intern_46 = {120:1}, $intern_47 = 1536, $intern_48 = {32:1}, $intern_49 = 1.52587890625E-5, $intern_50 = 9.5367431640625E-7, $intern_51 = 2.220446049250313E-16, $intern_52 = {160:1}, $intern_53 = {89:1}, $intern_54 = {3:1, 320:1}, $intern_55 = 15525485, $intern_56 = 1885;
+(function () {var $gwt_version = "2.7.0";var $wnd = window;var $doc = $wnd.document;var $moduleName, $moduleBase;var $stats = $wnd.__gwtStatsEvent ? function(a) {$wnd.__gwtStatsEvent(a)} : null;var $strongName = 'C0D7FCC2D49F219AB5C12AD2C406D0AC';var $intern_0 = 2147483647, $intern_1 = {3:1, 22:1}, $intern_2 = {3:1, 15:1, 22:1}, $intern_3 = {3:1, 10:1}, $intern_4 = 1900, $intern_5 = {3:1}, $intern_6 = 1000, $intern_7 = 65535, $intern_8 = 4194303, $intern_9 = 1048575, $intern_10 = 524288, $intern_11 = 4194304, $intern_12 = 17592186044416, $intern_13 = -9223372036854775808, $intern_14 = {557:1}, $intern_15 = 1024, $intern_16 = 65536, $intern_17 = 131072, $intern_18 = 1048576, $intern_19 = 16777216, $intern_20 = 67108864, $intern_21 = {5:1}, $intern_22 = 1932, $intern_23 = 1924, $intern_24 = 1902, $intern_25 = 1925, $intern_26 = 1906, $intern_27 = 1907, $intern_28 = 1927, $intern_29 = 1919, $intern_30 = 1023, $intern_31 = 1897, $intern_32 = {3:1, 46:1}, $intern_33 = 1888, $intern_34 = {11:1}, $intern_35 = {63:1}, $intern_36 = 1792, $intern_37 = 1280, $intern_38 = {4:1, 3:1}, $intern_39 = {13:1, 3:1}, $intern_40 = {25:1}, $intern_41 = 5.9604644775390625E-8, $intern_42 = {167:1}, $intern_43 = {3:1, 51:1, 90:1}, $intern_44 = {6:1, 3:1, 15:1, 22:1}, $intern_45 = {104:1, 3:1, 10:1}, $intern_46 = {120:1}, $intern_47 = 1536, $intern_48 = {32:1}, $intern_49 = 1.52587890625E-5, $intern_50 = 9.5367431640625E-7, $intern_51 = 2.220446049250313E-16, $intern_52 = {160:1}, $intern_53 = {89:1}, $intern_54 = {3:1, 320:1}, $intern_55 = 15525485, $intern_56 = 1885;
 var _, initFnList_0, prototypesByTypeId_0 = {}, permutationId = -1;
 function im_actor_core_js_providers_Assets(){
   switch (permutationId) {
@@ -31438,6 +31438,7 @@ _.onReceive = function onReceive_10(message){
 ;
 _.postStop = function postStop_4(){
   if (this.peerConnection_0) {
+    $removeOwnStream(this.peerConnection_0, this.stream_0);
     $close_0(this.peerConnection_0);
     this.peerConnection_0 = null;
   }
@@ -55984,6 +55985,10 @@ function $createOffer(this$static, callback){
   , sdpConstraints);
 }
 
+function $removeStream(this$static, stream){
+  this$static.peerConnection.removeStream(stream);
+}
+
 function $setListener(this$static, listener){
   this$static.peerConnection.onicecandidate = function(candidate){
     candidate.candidate != null && listener.onIceCandidate(candidate.candidate);
@@ -56125,6 +56130,10 @@ function $close_0(this$static){
     $close(s);
   }
   this$static.streams.clear_0();
+}
+
+function $removeOwnStream(this$static, stream){
+  !!stream && $removeStream(this$static.peerConnection_0, stream.stream_0);
 }
 
 function PeerConnection(peerConnection){
