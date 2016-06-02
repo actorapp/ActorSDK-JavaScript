@@ -1,6 +1,6 @@
 {
   "name": "actor-js",
-  "version": "1.0.171",
+  "version": "1.0.172",
   "description": "Actor SDK for building messaging on top of Actor Messenger platform",
   "main": "module.js",
   "scripts": {
